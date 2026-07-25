@@ -1,0 +1,172 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conversion Calculator Plus — unit, currency and crypto converter for iPhone and iPad</title>
+<meta name="description" content="Conversion Calculator Plus converts 685 units across 72 categories, plus live rates for 160 world currencies, 126 cryptocurrencies and the four precious metals. iPhone and iPad, 13 languages.">
+
+<style>
+  :root {
+    --ground:#FFFFFF; --surface:#F5F7FA; --edge:#E1E7EF;
+    --text:#0F1621; --muted:#5A6779; --accent:#D8143A; --blue:#1B4FD8;
+    --radius:10px; --measure:66ch; color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --ground:#0E1218; --surface:#171D26; --edge:#28313E;
+            --text:#E9EEF5; --muted:#95A2B4; --accent:#FF3E5F; --blue:#5B92F5;
+            color-scheme: dark; }
+  }
+  :root[data-theme="dark"] { --ground:#0E1218; --surface:#171D26; --edge:#28313E;
+    --text:#E9EEF5; --muted:#95A2B4; --accent:#FF3E5F; --blue:#5B92F5; color-scheme: dark; }
+  :root[data-theme="light"] { --ground:#FFFFFF; --surface:#F5F7FA; --edge:#E1E7EF;
+    --text:#0F1621; --muted:#5A6779; --accent:#D8143A; --blue:#1B4FD8; color-scheme: light; }
+
+  body { margin:0; background:var(--ground); color:var(--text);
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size:17px; line-height:1.65; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:720px; margin:0 auto; padding:0 24px 96px; }
+  header { padding:72px 0 0; }
+  .eyebrow { font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); margin:0 0 20px; }
+  h1 { font-size:clamp(34px,7vw,54px); line-height:1.04; letter-spacing:-.033em;
+       font-weight:800; margin:0 0 20px; text-wrap:balance; }
+  .lede { font-size:clamp(18px,2.4vw,21px); color:var(--muted); max-width:var(--measure);
+          margin:0 0 36px; text-wrap:pretty; }
+  .cta { display:inline-flex; align-items:center; gap:10px; background:var(--accent); color:#fff;
+         text-decoration:none; font-weight:650; padding:13px 22px; border-radius:var(--radius);
+         transition:transform .12s ease, filter .12s ease; }
+  .cta:hover { filter:brightness(1.08); }
+  .cta:active { transform:translateY(1px); }
+
+  .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(128px,1fr)); gap:1px;
+           background:var(--edge); border:1px solid var(--edge); border-radius:var(--radius);
+           overflow:hidden; margin:56px 0 0; }
+  .stat { background:var(--surface); padding:20px 18px; }
+  .stat b { display:block; font-size:30px; font-weight:750; letter-spacing:-.02em; font-variant-numeric:tabular-nums; }
+  .stat span { font-size:13px; color:var(--muted); }
+
+  section { padding:56px 0 0; }
+  h2 { font-size:13px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted);
+       font-weight:650; margin:0 0 18px; padding-top:32px; border-top:1px solid var(--edge); }
+  h3 { font-size:18px; margin:0 0 6px; letter-spacing:-.01em; }
+  p { max-width:var(--measure); margin:0 0 18px; }
+  .features { display:grid; gap:26px; }
+  .features p { margin:0; color:var(--muted); }
+  .cats { columns:2; column-gap:28px; padding:0; margin:0; list-style:none; color:var(--muted); font-size:15.5px; }
+  .cats li { padding:3px 0; break-inside:avoid; }
+  @media (max-width:520px){ .cats{columns:1;} }
+  a { color:var(--blue); }
+  a:focus-visible, .cta:focus-visible { outline:2px solid var(--accent); outline-offset:3px; border-radius:4px; }
+  footer { margin-top:72px; padding-top:28px; border-top:1px solid var(--edge); color:var(--muted);
+           font-size:14px; display:flex; flex-wrap:wrap; gap:8px 22px; }
+  @media (prefers-reduced-motion: reduce){ *{transition:none !important;} }
+</style>
+
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">iPhone &amp; iPad</p>
+    <h1>Conversion Calculator Plus</h1>
+    <p class="lede">
+      Every unit you need in one converter — with live currency, cryptocurrency
+      and precious-metal rates, and a keypad built for fast entry.
+    </p>
+    <a class="cta" href="https://apps.apple.com/us/app/id1113920724">Download on the App&nbsp;Store</a>
+
+    <div class="stats">
+      <div class="stat"><b>72</b><span>categories</span></div>
+      <div class="stat"><b>685</b><span>units</span></div>
+      <div class="stat"><b>160</b><span>currencies</span></div>
+      <div class="stat"><b>126</b><span>cryptocurrencies</span></div>
+      <div class="stat"><b>13</b><span>languages</span></div>
+    </div>
+  </header>
+
+  <section>
+    <h2>What it does</h2>
+    <div class="features">
+      <div>
+        <h3>Money, crypto and metals, live</h3>
+        <p>
+          Exchange rates for 160 world currencies, 126 cryptocurrencies, and gold,
+          silver, platinum and palladium — with real coin logos and metal badges.
+        </p>
+      </div>
+      <div>
+        <h3>Two ways to work</h3>
+        <p>
+          A simple single converter, or a carousel that keeps several units on
+          screen at once so you can read them all off together.
+        </p>
+      </div>
+      <div>
+        <h3>Search every category at once</h3>
+        <p>
+          One field searches all 685 units. Each result is tagged with the section
+          it came from, so the same unit name in two places is never ambiguous.
+        </p>
+      </div>
+      <div>
+        <h3>Specialist units, not just the basics</h3>
+        <p>
+          Running pace, shoe and ring sizes, blood sugar, fuel economy, torque,
+          radiation and luminance — alongside length, weight and temperature.
+        </p>
+      </div>
+      <div>
+        <h3>Reads correctly in your language</h3>
+        <p>
+          Fully localized in 13 languages, including right-to-left layout for
+          Arabic, with numbers formatted to your region's conventions.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Categories</h2>
+    <ul class="cats">
+      <li>Length, area, volume</li>
+      <li>Weight and mass</li>
+      <li>Temperature</li>
+      <li>Speed and running pace</li>
+      <li>Time</li>
+      <li>Pressure</li>
+      <li>Power and energy</li>
+      <li>Torque and force</li>
+      <li>Data and storage</li>
+      <li>Fuel economy</li>
+      <li>Shoe and ring sizes</li>
+      <li>Blood sugar</li>
+      <li>Angles</li>
+      <li>Luminance and radiation</li>
+      <li>Electrical units</li>
+      <li>Currency, crypto, metals</li>
+    </ul>
+    <p style="margin-top:22px;color:var(--muted);font-size:15px">…and 56 more.</p>
+  </section>
+
+  <section id="support">
+    <h2>Support</h2>
+    <p>
+      Questions, bug reports, and requests for new units or categories are all
+      welcome — most of the unit list exists because someone asked for it.
+    </p>
+    <p>
+      Email <a href="mailto:strikespark.feedback@gmail.com">strikespark.feedback@gmail.com</a>.
+      Please include your device, your iOS version, and the language the app is
+      running in. For a conversion that looks wrong, the two units and the number
+      you typed are usually enough to reproduce it.
+    </p>
+    <p>
+      For anything about a subscription — restoring, cancelling, or a refund —
+      purchases are handled by Apple, so you can manage them in
+      <strong>Settings → your name → Subscriptions</strong> on your device.
+    </p>
+  </section>
+
+  <footer>
+    <span>© 2026 strikespark</span>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="https://apps.apple.com/us/app/id1113920724">App Store</a>
+    <a href="mailto:strikespark.feedback@gmail.com">Contact</a>
+  </footer>
+
+</div>
