@@ -97,9 +97,9 @@ screenshot exports.
 
 Google Search Console uses the URL-prefix property
 `https://developer-yl.github.io/convert-units-plus/`. Its public verification
-meta tag is generated on the English home page by `scripts/build_site.py`;
-keep it after verification so ownership remains valid. It is a public
-ownership token, not an API credential. Submit `sitemap.xml` in Search Console
+meta tag and Bing Webmaster Tools’ `msvalidate.01` tag are generated on the English home page by `scripts/build_site.py`;
+keep them after verification so ownership remains valid. These are public
+ownership tokens, not API credentials. Submit `sitemap.xml` in Search Console
 and Bing Webmaster Tools after ownership verification. Submission requests
 discovery; it does not guarantee indexing or search placement. Do not use the
 retired anonymous Google/Bing sitemap ping endpoints.
