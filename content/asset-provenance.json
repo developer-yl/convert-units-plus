@@ -1,0 +1,34 @@
+[
+  {
+    "file": "assets/app-icon.png",
+    "source": "WhiteIcons.xcassets/WhiteAppIcon.appiconset/light.png",
+    "sha256": "064aab5490c3da517b95dff0deb789a06927807b23bb71205f661829cfa19ab7",
+    "pixelsUnchanged": true,
+    "kind": "app_icon",
+    "note": "App screen image; no invented device frame."
+  },
+  {
+    "file": "assets/simple-mode.png",
+    "source": "output/search-results-cobalt-currency-continuation-2026-10-13/assets/iphone18pro-ultra-simple.png",
+    "sha256": "9f0dc091ea4cc8e219ba5f65af66ecb6d90086cf89b4fec1b2e706409c13d1a5",
+    "pixelsUnchanged": true,
+    "kind": "genuine_app_screenshot",
+    "note": "App screen image; no invented device frame."
+  },
+  {
+    "file": "assets/currency-plus.png",
+    "source": "output/cobalt30-local-country-native-2026-10-15/en-US/layer-iphone18pro-currency.png",
+    "sha256": "1817dbc17b2a695e28d9ec72cacb234ed6513cadddda22a9225dd9655f1a68bf",
+    "pixelsUnchanged": true,
+    "kind": "genuine_app_screenshot",
+    "note": "App screen image; no invented device frame."
+  },
+  {
+    "file": "assets/currency-history.png",
+    "source": "output/cobalt30-local-country-native-2026-10-15/en-US/layer-iphone18pro-history.png",
+    "sha256": "8bba551dfbb16742cd6b1513516e06513c51311d5ef8b65b0bd77f2b5f172977",
+    "pixelsUnchanged": true,
+    "kind": "genuine_app_screenshot",
+    "note": "App screen image; no invented device frame."
+  }
+]

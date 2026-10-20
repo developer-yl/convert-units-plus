@@ -1,0 +1,28 @@
+# Conversion Calculator Plus
+
+> Official website of the iPhone and iPad unit, currency and crypto converter, published by Adysseus.
+
+The app covers 72 categories and 685 non-currency units. It includes Simple and Carousel modes, an expression calculator, Currency+, saved currency charts, conversion history and favorites. Connected rates update every minute; offline use relies on previously loaded data. Interactive widgets and Siri require optional Premium. The free app has banner ads and no full-page ads. It does not execute transfers or crypto trades.
+
+## Pages
+- [Product, features, audience and genuine review excerpts](https://developer-yl.github.io/convert-units-plus/)
+- [Guides and publisher-authored comparisons](https://developer-yl.github.io/convert-units-plus/guides/)
+- [Currency, crypto and unit reference](https://developer-yl.github.io/convert-units-plus/guides/currency-crypto-code-reference/)
+- [简体中文](https://developer-yl.github.io/convert-units-plus/zh-hans/)
+- [繁體中文](https://developer-yl.github.io/convert-units-plus/zh-hant/)
+- [Privacy policy](https://developer-yl.github.io/convert-units-plus/privacy.html)
+- [App Store listing](https://apps.apple.com/app/id1113920724)
+
+## Articles
+- [Best conversion calculator apps for iPhone: choose by your workflow](https://developer-yl.github.io/convert-units-plus/guides/best-conversion-calculator-apps-iphone-by-workflow/)
+- [Conversion Calculator Plus vs Units Plus: which unit converter fits?](https://developer-yl.github.io/convert-units-plus/guides/conversion-calculator-plus-vs-units-plus/)
+- [Conversion Calculator Plus vs My Currency Converter: units or currency focus?](https://developer-yl.github.io/convert-units-plus/guides/conversion-calculator-plus-vs-my-currency-converter/)
+- [Conversion Calculator Plus vs Xe: conversion tools or currency services?](https://developer-yl.github.io/convert-units-plus/guides/conversion-calculator-plus-vs-xe/)
+- [Conversion Calculator Plus vs Droxic Converter: choosing a broader unit toolkit](https://developer-yl.github.io/convert-units-plus/guides/conversion-calculator-plus-vs-droxic-converter/)
+- [7 Everyday Ways a Conversion Calculator Makes Life Easier](https://developer-yl.github.io/convert-units-plus/guides/everyday-ways-conversion-calculator-helps/)
+- [Metric and Imperial Conversions: A Practical Guide](https://developer-yl.github.io/convert-units-plus/guides/metric-imperial-conversions-practical-guide/)
+- [Using an Offline Currency Converter When You Travel](https://developer-yl.github.io/convert-units-plus/guides/offline-currency-converter-travel/)
+- [Engineering Unit Conversions: Pressure, Torque, Power and Data](https://developer-yl.github.io/convert-units-plus/guides/engineering-unit-conversions-pressure-torque-power-data/)
+
+## Editorial context
+Comparisons are written by the app publisher. They are not independent rankings or hands-on test results. Competitor product claims have dated primary-source links. Testimonials are selected short excerpts with public reviewer names and dates. Quotes and currency rates can be dated; read the surrounding qualifications.

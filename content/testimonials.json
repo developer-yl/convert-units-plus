@@ -1,0 +1,32 @@
+[
+  {
+    "quote": "Great for traveling and even baking!",
+    "author": "BuckyBee",
+    "rating": 5,
+    "country": "United States",
+    "date": "2024-09-23",
+    "dateLabel": "September 2024",
+    "reviewId": "00000042-6514-d402-bcca-6f6d00000000",
+    "sourceURL": "https://apps.apple.com/us/app/id1113920724?see-all=reviews&platform=iphone"
+  },
+  {
+    "quote": "Use it everyday and enjoy how easy it is",
+    "author": "Triggs120",
+    "rating": 5,
+    "country": "Canada",
+    "date": "2026-03-18",
+    "dateLabel": "March 2026",
+    "reviewId": "00000042-6514-d403-3a34-7db700000000",
+    "sourceURL": "https://apps.apple.com/ca/app/id1113920724?see-all=reviews&platform=iphone"
+  },
+  {
+    "quote": "Been very useful for many projects",
+    "author": "traedevil",
+    "rating": 5,
+    "country": "United States",
+    "date": "2026-05-11",
+    "dateLabel": "May 2026",
+    "reviewId": "00000042-6514-d403-45a5-6d4900000000",
+    "sourceURL": "https://apps.apple.com/us/app/id1113920724?see-all=reviews&platform=iphone"
+  }
+]

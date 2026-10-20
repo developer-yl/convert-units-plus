@@ -1,0 +1,220 @@
+{
+    "research_metadata": {
+        "access_date": "2026-10-20",
+        "scope": "Publisher-authored App Store listings and developer websites only; claims are paraphrased.",
+        "ranking_caveat": "The supplied US and Mexico search observations describe web search results on 2026-10-20, not native App Store charts, editorial rankings, or an objective best-app ranking. Do not present them as native iPhone rank or proof of being #1.",
+        "observed_web_search_results": [
+            {
+                "market": "US",
+                "queries": [
+                    "unit converter",
+                    "conversion calculator"
+                ],
+                "observed_app": "Unit Converter - Best Unit App",
+                "app_id": "623691968"
+            },
+            {
+                "market": "US",
+                "queries": [
+                    "currency converter",
+                    "money converter"
+                ],
+                "observed_app": "My Currency Converter & Rates",
+                "app_id": "549019596"
+            },
+            {
+                "market": "Mexico",
+                "query": "converter",
+                "observed_app": "Convertidor Lite / Converter: Units & Currencies",
+                "app_id": "611682160"
+            }
+        ]
+    },
+    "apps": [
+        {
+            "name": "Unit Converter - Best Unit App",
+            "app_id": "623691968",
+            "publisher": "Alan Mrvica",
+            "direct_urls": {
+                "us_app_store": "https://apps.apple.com/us/app/unit-converter-best-unit-app/id623691968",
+                "publisher_site": "https://unitsplusconverter.com/apps/"
+            },
+            "platforms_explicitly_listed": [
+                "iPhone",
+                "iPad"
+            ],
+            "claims": [
+                {
+                    "claim": "The listing describes a broad unit converter with 20 categories, including angle, area, currency, computer data, network speed, energy, force, fuel mileage, length, clothing sizes, pressure, speed, temperature, time, torque, volume, and weight/mass.",
+                    "source_url": "https://apps.apple.com/us/app/unit-converter-best-unit-app/id623691968"
+                },
+                {
+                    "claim": "The listing says it supports 155 world currencies and downloads exchange rates once per day when the app is opened; it explicitly says an internet connection is required for currency-rate downloads.",
+                    "source_url": "https://apps.apple.com/us/app/unit-converter-best-unit-app/id623691968"
+                },
+                {
+                    "claim": "The App Store labels it Free with In-App Purchases. Its version-history description says search, favorites, fractions, compound units, a calculator, and dark/light mode were added.",
+                    "source_url": "https://apps.apple.com/us/app/unit-converter-best-unit-app/id623691968"
+                }
+            ],
+            "known_limitations": [
+                "Do not infer offline currency conversion from the listing; it says currency-rate downloads require internet."
+            ],
+            "source_notes": "Publisher site is listed by the App Store, but the sourced feature claims above come from the current App Store description/version history."
+        },
+        {
+            "name": "My Currency Converter & Rates",
+            "app_id": "549019596",
+            "publisher": "JRustonApps B.V.",
+            "direct_urls": {
+                "us_app_store": "https://apps.apple.com/us/app/my-currency-converter-rates/id549019596"
+            },
+            "platforms_explicitly_listed": [
+                "iPhone",
+                "iPad"
+            ],
+            "claims": [
+                {
+                    "claim": "The listing focuses on currency conversion and describes support for 150+ fiat currencies plus Bitcoin, Litecoin, and Dogecoin.",
+                    "source_url": "https://apps.apple.com/us/app/my-currency-converter-rates/id549019596"
+                },
+                {
+                    "claim": "The listing says rates update automatically, users can invert the pair, conversion updates while typing, and the current exchange rate can be viewed.",
+                    "source_url": "https://apps.apple.com/us/app/my-currency-converter-rates/id549019596"
+                },
+                {
+                    "claim": "The description explicitly says the app can show currency value without an internet connection. A user review on the same App Store listing says offline use is fully functional; treat the review as user testimony, not a publisher guarantee of rate freshness.",
+                    "source_url": "https://apps.apple.com/us/app/my-currency-converter-rates/id549019596"
+                },
+                {
+                    "claim": "The listing labels the app Free and says this version is ad-supported.",
+                    "source_url": "https://apps.apple.com/us/app/my-currency-converter-rates/id549019596"
+                }
+            ],
+            "known_limitations": [
+                "The listing does not specify how often rates refresh or which rate data remains available offline; do not claim a freshness interval."
+            ],
+            "source_notes": "Avoid relying on reviews for feature comparisons except as clearly labeled user testimony."
+        },
+        {
+            "name": "Converter: Units & Currencies (also observed localized as Convertidor Lite)",
+            "app_id": "611682160",
+            "publisher": "Droxic OOD",
+            "direct_urls": {
+                "us_app_store": "https://apps.apple.com/us/app/converter-units-currencies/id611682160",
+                "developer_site_linked_by_app_store": "https://www.calconvert.com"
+            },
+            "platforms_explicitly_listed": [
+                "iPhone",
+                "iPad"
+            ],
+            "claims": [
+                {
+                    "claim": "The listing describes 25+ categories and 450+ units, including scientific, everyday, cooking, measurement, and currency categories.",
+                    "source_url": "https://apps.apple.com/us/app/converter-units-currencies/id611682160"
+                },
+                {
+                    "claim": "The listing says it supports 150+ currencies and 24 languages.",
+                    "source_url": "https://apps.apple.com/us/app/converter-units-currencies/id611682160"
+                },
+                {
+                    "claim": "The App Store lists it as Free and says it is designed for iPad as well as supporting iPhone; the listed compatibility requirement is iOS 10.0 or later.",
+                    "source_url": "https://apps.apple.com/us/app/converter-units-currencies/id611682160"
+                }
+            ],
+            "known_limitations": [
+                "The listing's visible feature description does not specify currency update cadence, offline behavior, charts, widgets, or a calculator. Silence is not evidence that a feature is absent."
+            ],
+            "source_notes": "The current App Store version history shown is old (last displayed release in 2019); feature counts reflect the live listing text, not an independent test."
+        },
+        {
+            "name": "Xe Money Transfer & Currency",
+            "app_id": "315241195",
+            "publisher": "XE.com Inc.",
+            "direct_urls": {
+                "us_app_store": "https://apps.apple.com/us/app/xe-money-transfer-currency/id315241195",
+                "publisher_rate_alerts_page": "https://www.xe.com/ratealerts/",
+                "publisher_app_page": "https://www.xe.com/en-us/app/android/"
+            },
+            "platforms_explicitly_listed": [
+                "iPhone",
+                "iPad"
+            ],
+            "claims": [
+                {
+                    "claim": "The App Store positions Xe as a currency converter, live exchange-rate tracker, and international money-transfer app; it describes transfers to 190+ countries in 130+ currencies, with availability varying by region and eligibility.",
+                    "source_url": "https://apps.apple.com/us/app/xe-money-transfer-currency/id315241195"
+                },
+                {
+                    "claim": "The App Store listing documents live rates, conversion, real-time FX movement tracking, and rate alerts. Xe's publisher FAQ says setting an in-app Rate Alert requires registration and email verification.",
+                    "source_url": "https://apps.apple.com/us/app/xe-money-transfer-currency/id315241195",
+                    "additional_source_url": "https://www.xe.com/faq/topic/getting-started/"
+                },
+                {
+                    "claim": "The App Store version history says the currency-converter home-screen widget returned with live mid-market rates and later updates mention improved exchange-rate charts.",
+                    "source_url": "https://apps.apple.com/us/app/xe-money-transfer-currency/id315241195"
+                },
+                {
+                    "claim": "The App Store labels Xe Free. The publisher's iOS/Android product page also describes live rates, rate alerts, and viewing historical data; use the App Store as the source for iPhone-specific claims.",
+                    "source_url": "https://apps.apple.com/us/app/xe-money-transfer-currency/id315241195",
+                    "additional_source_url": "https://www.xe.com/en-us/app/android/"
+                }
+            ],
+            "known_limitations": [
+                "Position Xe as a currency-market and transfer option, not a general measurement-unit converter.",
+                "Transfer destinations, payment methods, fees, availability, and account services vary by region and eligibility.",
+                "Do not claim offline behavior; it is not specified in the listing."
+            ],
+            "source_notes": "Keep comparisons focused on the published feature set; do not assert that Xe lacks general-unit conversion solely because the App Store copy centers on currencies and transfers."
+        }
+    ],
+    "our_app_claims_supplied_for_comparison": {
+        "name": "Conversion Calculator Plus",
+        "app_id": "1113920724",
+        "claims": [
+            "72 categories and 685 non-currency units",
+            "Currency, cryptocurrency, and precious-metals conversions; rate refreshes every minute while connected",
+            "Saved rates and charts usable offline",
+            "Currency+; Simple and Carousel modes; automatic conversion history; favorites; expression calculator",
+            "Siri and interactive widgets require Premium",
+            "Free version includes banner ads; no full-page ads"
+        ],
+        "verification_note": "These are product-owner supplied claims from the research brief. Reconfirm against the current app/listing before publishing exact numbers or availability claims."
+    },
+    "publisher_authored_comparison_framing": {
+        "recommended_intro": "The right converter depends on what you convert most: broad measurement coverage, quick travel currency checks, or currency tracking and transfers.",
+        "selection_suggestions": [
+            {
+                "use_case": "A single app for frequent unit conversions plus currencies and calculator-style input",
+                "suggested_pick": "Conversion Calculator Plus",
+                "reason": "The supplied product facts combine 72 categories, 685 non-currency units, currency/crypto/metals, history, favorites, and an expression calculator."
+            },
+            {
+                "use_case": "A large catalog of measurement categories and languages",
+                "suggested_pick": "Converter: Units & Currencies",
+                "reason": "Its listing claims 25+ categories, 450+ units, 150+ currencies, and 24 languages."
+            },
+            {
+                "use_case": "Straightforward travel currency conversion with offline use described",
+                "suggested_pick": "My Currency Converter & Rates",
+                "reason": "Its listing centers on pair conversion, auto-updating rates, and use without internet; it also includes major cryptocurrencies."
+            },
+            {
+                "use_case": "A broad unit-and-currency app with built-in calculator features",
+                "suggested_pick": "Unit Converter - Best Unit App",
+                "reason": "Its listing describes 20 unit categories, daily currency-rate downloads, favorites, fractions, compound units, and calculator features."
+            },
+            {
+                "use_case": "Currency market monitoring, alerts, and international transfers",
+                "suggested_pick": "Xe Money Transfer & Currency",
+                "reason": "Its App Store listing emphasizes live FX rates, alerts, exchange-rate charts, a currency widget, and transfers."
+            }
+        ],
+        "editorial_guardrails": [
+            "Describe these as editorial picks by use case, not an objective or independently tested #1 ranking.",
+            "Avoid saying a competitor lacks an unmentioned feature; state only documented features and explain where its listing is silent.",
+            "Avoid the phrase 'App Store top-ranked' based on web search results. If mentioning search visibility, identify the search engine, query, market, and observation date, and explain that it is not App Store chart ranking.",
+            "Before publication, recheck live App Store descriptions, price labels, compatibility, and any time-sensitive rate-update claims."
+        ]
+    }
+}

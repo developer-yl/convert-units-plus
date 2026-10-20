@@ -1,0 +1,3886 @@
+{
+  "sourceMetadata": "App Store Connect live 3.1 metadata snapshot checked 20 October 2026",
+  "policySource": "App ASO research: ten targeted locale records",
+  "catalogSource": "CurrencyKit CurrencyCatalog.standard",
+  "targetLocales": [
+    "en-US",
+    "ar-SA",
+    "zh-Hans",
+    "zh-Hant",
+    "fr-FR",
+    "ko",
+    "pt-BR",
+    "ru",
+    "es-MX",
+    "vi"
+  ],
+  "localeRecords": [
+    {
+      "locale": "en-US",
+      "title": "Conversion Calculator Plus",
+      "subtitle": "Unit Money Currency Converter",
+      "keywords": "dollar,pound,travel,offline,GBP,fuel,CAD,USD,euro,exchange,rate,forex,Gold,SOL,metric,bitcoin,crypto",
+      "keywordPhrases": [
+        "dollar",
+        "pound",
+        "travel",
+        "offline",
+        "GBP",
+        "fuel",
+        "CAD",
+        "USD",
+        "euro",
+        "exchange",
+        "rate",
+        "forex",
+        "Gold",
+        "SOL",
+        "metric",
+        "bitcoin",
+        "crypto"
+      ],
+      "phraseInventory": [
+        "Conversion Calculator Plus",
+        "Unit Money Currency Converter"
+      ],
+      "uniqueTokens": [
+        "Conversion",
+        "Calculator",
+        "Plus",
+        "Unit",
+        "Money",
+        "Currency",
+        "Converter",
+        "dollar",
+        "pound",
+        "travel",
+        "offline",
+        "GBP",
+        "fuel",
+        "CAD",
+        "USD",
+        "euro",
+        "exchange",
+        "rate",
+        "forex",
+        "Gold",
+        "SOL",
+        "metric",
+        "bitcoin",
+        "crypto"
+      ],
+      "suggestedTopicGroups": {
+        "currency": [
+          "Money",
+          "Currency",
+          "dollar",
+          "pound",
+          "euro",
+          "exchange",
+          "rate",
+          "forex"
+        ],
+        "crypto": [
+          "SOL",
+          "bitcoin",
+          "crypto"
+        ],
+        "metals": [
+          "Gold"
+        ],
+        "units": [
+          "Conversion",
+          "Unit",
+          "Converter",
+          "fuel",
+          "metric"
+        ],
+        "other": [
+          "Calculator",
+          "travel",
+          "offline"
+        ],
+        "unmapped": [
+          "Plus",
+          "GBP",
+          "CAD",
+          "USD"
+        ]
+      },
+      "catalogCodeMappings": [
+        {
+          "code": "GBP",
+          "kind": "fiat",
+          "englishName": "Britain/UK/England Pound",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "CAD",
+          "kind": "fiat",
+          "englishName": "Canadian Dollars",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "USD",
+          "kind": "fiat",
+          "englishName": "US Dollars",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "SOL",
+          "kind": "crypto",
+          "englishName": "Solana",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        }
+      ]
+    },
+    {
+      "locale": "ar-SA",
+      "title": "Converter",
+      "subtitle": "peso yen INR fluid temperature",
+      "keywords": "BCH,NZD,SAR,Litecoin,Swiss franc,AOA,ARS,AZN,BAM,BBD,BHD,BIF,BMD,BND,BOB,BSD,BTN,BYN,BZD,CLP,celsius",
+      "keywordPhrases": [
+        "BCH",
+        "NZD",
+        "SAR",
+        "Litecoin",
+        "Swiss franc",
+        "AOA",
+        "ARS",
+        "AZN",
+        "BAM",
+        "BBD",
+        "BHD",
+        "BIF",
+        "BMD",
+        "BND",
+        "BOB",
+        "BSD",
+        "BTN",
+        "BYN",
+        "BZD",
+        "CLP",
+        "celsius"
+      ],
+      "phraseInventory": [
+        "Converter",
+        "peso yen INR fluid temperature",
+        "Swiss franc"
+      ],
+      "uniqueTokens": [
+        "Converter",
+        "peso",
+        "yen",
+        "INR",
+        "fluid",
+        "temperature",
+        "BCH",
+        "NZD",
+        "SAR",
+        "Litecoin",
+        "Swiss",
+        "franc",
+        "AOA",
+        "ARS",
+        "AZN",
+        "BAM",
+        "BBD",
+        "BHD",
+        "BIF",
+        "BMD",
+        "BND",
+        "BOB",
+        "BSD",
+        "BTN",
+        "BYN",
+        "BZD",
+        "CLP",
+        "celsius"
+      ],
+      "suggestedTopicGroups": {
+        "currency": [
+          "peso",
+          "yen",
+          "franc"
+        ],
+        "crypto": [
+          "BCH",
+          "Litecoin"
+        ],
+        "metals": [],
+        "units": [
+          "Converter",
+          "temperature",
+          "celsius"
+        ],
+        "other": [],
+        "unmapped": [
+          "INR",
+          "fluid",
+          "NZD",
+          "SAR",
+          "Swiss",
+          "AOA",
+          "ARS",
+          "AZN",
+          "BAM",
+          "BBD",
+          "BHD",
+          "BIF",
+          "BMD",
+          "BND",
+          "BOB",
+          "BSD",
+          "BTN",
+          "BYN",
+          "BZD",
+          "CLP"
+        ]
+      },
+      "catalogCodeMappings": [
+        {
+          "code": "INR",
+          "kind": "fiat",
+          "englishName": "Indian Rupee",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "BCH",
+          "kind": "crypto",
+          "englishName": "Bitcoin Cash",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "NZD",
+          "kind": "fiat",
+          "englishName": "New Zealand Dollars",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "SAR",
+          "kind": "fiat",
+          "englishName": "Saudi Riyal",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "AOA",
+          "kind": "fiat",
+          "englishName": "Angolan Kwanza",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "ARS",
+          "kind": "fiat",
+          "englishName": "Argentine Peso",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "AZN",
+          "kind": "fiat",
+          "englishName": "Azerbaijani Manat",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "BAM",
+          "kind": "fiat",
+          "englishName": "Bosnia-Herzegovina Convertible Mark",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "BBD",
+          "kind": "fiat",
+          "englishName": "Barbados Dollar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "BHD",
+          "kind": "fiat",
+          "englishName": "Bahraini Dinar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "BIF",
+          "kind": "fiat",
+          "englishName": "Burundi Franc",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "BMD",
+          "kind": "fiat",
+          "englishName": "Bermuda Dollar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "BND",
+          "kind": "fiat",
+          "englishName": "Brunei Dollar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "BOB",
+          "kind": "fiat",
+          "englishName": "Bolivian Boliviano",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "BSD",
+          "kind": "fiat",
+          "englishName": "Bahamian Dollar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "BTN",
+          "kind": "fiat",
+          "englishName": "Bhutanese Ngultrum",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "BYN",
+          "kind": "fiat",
+          "englishName": "Belarusian Ruble",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "BZD",
+          "kind": "fiat",
+          "englishName": "Belize Dollar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "CLP",
+          "kind": "fiat",
+          "englishName": "Chilean Peso",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        }
+      ]
+    },
+    {
+      "locale": "zh-Hans",
+      "title": "汇率转换 实时汇率换算 货币汇率 汇率计算器 单位换算 离线",
+      "subtitle": "货币转换器，旅游购物，出境留学，公制换算、英制换算，日常计算",
+      "keywords": "美元,英镑,欧元,日元,人民币,外汇,数据存储,长度,重量,温度,面积,体积,速度,压力,能量,燃油,鞋码,烹饪,配速,电流,热量,厘米,公斤,磅,时间,功率,扭矩,CNY,usd,rmb,twd",
+      "keywordPhrases": [
+        "美元",
+        "英镑",
+        "欧元",
+        "日元",
+        "人民币",
+        "外汇",
+        "数据存储",
+        "长度",
+        "重量",
+        "温度",
+        "面积",
+        "体积",
+        "速度",
+        "压力",
+        "能量",
+        "燃油",
+        "鞋码",
+        "烹饪",
+        "配速",
+        "电流",
+        "热量",
+        "厘米",
+        "公斤",
+        "磅",
+        "时间",
+        "功率",
+        "扭矩",
+        "CNY",
+        "usd",
+        "rmb",
+        "twd"
+      ],
+      "phraseInventory": [
+        "汇率转换 实时汇率换算 货币汇率 汇率计算器 单位换算 离线",
+        "货币转换器，旅游购物，出境留学，公制换算、英制换算，日常计算"
+      ],
+      "uniqueTokens": [
+        "汇率转换",
+        "实时汇率换算",
+        "货币汇率",
+        "汇率计算器",
+        "单位换算",
+        "离线",
+        "货币转换器",
+        "旅游购物",
+        "出境留学",
+        "公制换算",
+        "英制换算",
+        "日常计算",
+        "美元",
+        "英镑",
+        "欧元",
+        "日元",
+        "人民币",
+        "外汇",
+        "数据存储",
+        "长度",
+        "重量",
+        "温度",
+        "面积",
+        "体积",
+        "速度",
+        "压力",
+        "能量",
+        "燃油",
+        "鞋码",
+        "烹饪",
+        "配速",
+        "电流",
+        "热量",
+        "厘米",
+        "公斤",
+        "磅",
+        "时间",
+        "功率",
+        "扭矩",
+        "CNY",
+        "usd",
+        "rmb",
+        "twd"
+      ],
+      "suggestedTopicGroups": {
+        "currency": [
+          "rmb"
+        ],
+        "crypto": [],
+        "metals": [],
+        "units": [],
+        "other": [],
+        "unmapped": [
+          "汇率转换",
+          "实时汇率换算",
+          "货币汇率",
+          "汇率计算器",
+          "单位换算",
+          "离线",
+          "货币转换器",
+          "旅游购物",
+          "出境留学",
+          "公制换算",
+          "英制换算",
+          "日常计算",
+          "美元",
+          "英镑",
+          "欧元",
+          "日元",
+          "人民币",
+          "外汇",
+          "数据存储",
+          "长度",
+          "重量",
+          "温度",
+          "面积",
+          "体积",
+          "速度",
+          "压力",
+          "能量",
+          "燃油",
+          "鞋码",
+          "烹饪",
+          "配速",
+          "电流",
+          "热量",
+          "厘米",
+          "公斤",
+          "磅",
+          "时间",
+          "功率",
+          "扭矩",
+          "CNY",
+          "usd",
+          "twd"
+        ]
+      },
+      "catalogCodeMappings": [
+        {
+          "code": "CNY",
+          "kind": "fiat",
+          "englishName": "Chinese (China)Yuan Renminbi",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "USD",
+          "kind": "fiat",
+          "englishName": "US Dollars",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "TWD",
+          "kind": "fiat",
+          "englishName": "Taiwan Dollar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        }
+      ]
+    },
+    {
+      "locale": "zh-Hant",
+      "title": "匯率轉換 即時匯率換算 貨幣匯率 匯率計算器 單位換算 離線",
+      "subtitle": "convert Stellar imperial pace",
+      "keywords": "Chainlink,KES,MKD,OMR,USDT,Dogecoin,inch,meter,liter,gallon,fahrenheit,ounce,tablespoon,teaspoon,TWD",
+      "keywordPhrases": [
+        "Chainlink",
+        "KES",
+        "MKD",
+        "OMR",
+        "USDT",
+        "Dogecoin",
+        "inch",
+        "meter",
+        "liter",
+        "gallon",
+        "fahrenheit",
+        "ounce",
+        "tablespoon",
+        "teaspoon",
+        "TWD"
+      ],
+      "phraseInventory": [
+        "匯率轉換 即時匯率換算 貨幣匯率 匯率計算器 單位換算 離線",
+        "convert Stellar imperial pace"
+      ],
+      "uniqueTokens": [
+        "匯率轉換",
+        "即時匯率換算",
+        "貨幣匯率",
+        "匯率計算器",
+        "單位換算",
+        "離線",
+        "convert",
+        "Stellar",
+        "imperial",
+        "pace",
+        "Chainlink",
+        "KES",
+        "MKD",
+        "OMR",
+        "USDT",
+        "Dogecoin",
+        "inch",
+        "meter",
+        "liter",
+        "gallon",
+        "fahrenheit",
+        "ounce",
+        "tablespoon",
+        "teaspoon",
+        "TWD"
+      ],
+      "suggestedTopicGroups": {
+        "currency": [],
+        "crypto": [
+          "Stellar",
+          "Chainlink",
+          "USDT",
+          "Dogecoin"
+        ],
+        "metals": [],
+        "units": [
+          "convert",
+          "imperial",
+          "pace",
+          "inch",
+          "meter",
+          "liter",
+          "gallon",
+          "fahrenheit",
+          "ounce",
+          "tablespoon",
+          "teaspoon"
+        ],
+        "other": [],
+        "unmapped": [
+          "匯率轉換",
+          "即時匯率換算",
+          "貨幣匯率",
+          "匯率計算器",
+          "單位換算",
+          "離線",
+          "KES",
+          "MKD",
+          "OMR",
+          "TWD"
+        ]
+      },
+      "catalogCodeMappings": [
+        {
+          "code": "KES",
+          "kind": "fiat",
+          "englishName": "Kenyan Shilling",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "MKD",
+          "kind": "fiat",
+          "englishName": "Macedonian Denar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "OMR",
+          "kind": "fiat",
+          "englishName": "Omani Rial",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "USDT",
+          "kind": "crypto",
+          "englishName": "Tether",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "TWD",
+          "kind": "fiat",
+          "englishName": "Taiwan Dollar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        }
+      ]
+    },
+    {
+      "locale": "fr-FR",
+      "title": "Converter",
+      "subtitle": "Avalanche EUR PHP AED LINK DOT",
+      "keywords": "COP,CRC,CUP,CVE,CZK,DJF,DKK,DOP,EGP,ERN,ETB,FJD,FKP,GEL,GIP,GMD,GNF,GTQ,GYD,HNL,HTG,HUF,IQD,NGN,baht",
+      "keywordPhrases": [
+        "COP",
+        "CRC",
+        "CUP",
+        "CVE",
+        "CZK",
+        "DJF",
+        "DKK",
+        "DOP",
+        "EGP",
+        "ERN",
+        "ETB",
+        "FJD",
+        "FKP",
+        "GEL",
+        "GIP",
+        "GMD",
+        "GNF",
+        "GTQ",
+        "GYD",
+        "HNL",
+        "HTG",
+        "HUF",
+        "IQD",
+        "NGN",
+        "baht"
+      ],
+      "phraseInventory": [
+        "Converter",
+        "Avalanche EUR PHP AED LINK DOT"
+      ],
+      "uniqueTokens": [
+        "Converter",
+        "Avalanche",
+        "EUR",
+        "PHP",
+        "AED",
+        "LINK",
+        "DOT",
+        "COP",
+        "CRC",
+        "CUP",
+        "CVE",
+        "CZK",
+        "DJF",
+        "DKK",
+        "DOP",
+        "EGP",
+        "ERN",
+        "ETB",
+        "FJD",
+        "FKP",
+        "GEL",
+        "GIP",
+        "GMD",
+        "GNF",
+        "GTQ",
+        "GYD",
+        "HNL",
+        "HTG",
+        "HUF",
+        "IQD",
+        "NGN",
+        "baht"
+      ],
+      "suggestedTopicGroups": {
+        "currency": [
+          "baht"
+        ],
+        "crypto": [
+          "Avalanche",
+          "LINK",
+          "DOT"
+        ],
+        "metals": [],
+        "units": [
+          "Converter"
+        ],
+        "other": [],
+        "unmapped": [
+          "EUR",
+          "PHP",
+          "AED",
+          "COP",
+          "CRC",
+          "CUP",
+          "CVE",
+          "CZK",
+          "DJF",
+          "DKK",
+          "DOP",
+          "EGP",
+          "ERN",
+          "ETB",
+          "FJD",
+          "FKP",
+          "GEL",
+          "GIP",
+          "GMD",
+          "GNF",
+          "GTQ",
+          "GYD",
+          "HNL",
+          "HTG",
+          "HUF",
+          "IQD",
+          "NGN"
+        ]
+      },
+      "catalogCodeMappings": [
+        {
+          "code": "EUR",
+          "kind": "fiat",
+          "englishName": "Euro",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "PHP",
+          "kind": "fiat",
+          "englishName": "Philippine Peso",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "AED",
+          "kind": "fiat",
+          "englishName": "UAE Dirham",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "LINK",
+          "kind": "crypto",
+          "englishName": "Chainlink",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "DOT",
+          "kind": "crypto",
+          "englishName": "Polkadot",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "COP",
+          "kind": "fiat",
+          "englishName": "Colombian Peso",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "CRC",
+          "kind": "fiat",
+          "englishName": "Costa Rica Colon",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "CUP",
+          "kind": "fiat",
+          "englishName": "Cuban Peso",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "CVE",
+          "kind": "fiat",
+          "englishName": "Cape Verde Escudo",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "CZK",
+          "kind": "fiat",
+          "englishName": "Czech Koruna",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "DJF",
+          "kind": "fiat",
+          "englishName": "Djibouti Franc",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "DKK",
+          "kind": "fiat",
+          "englishName": "Denmark Kroner",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "DOP",
+          "kind": "fiat",
+          "englishName": "Dominican Peso",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "EGP",
+          "kind": "fiat",
+          "englishName": "Egyptian Pound",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "ERN",
+          "kind": "fiat",
+          "englishName": "Eritrea Nakfa",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "ETB",
+          "kind": "fiat",
+          "englishName": "Ethiopian Birr",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "FJD",
+          "kind": "fiat",
+          "englishName": "Fiji Dollar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "FKP",
+          "kind": "fiat",
+          "englishName": "Falkland Islands Pound",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "GEL",
+          "kind": "fiat",
+          "englishName": "Georgian lari",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "GIP",
+          "kind": "fiat",
+          "englishName": "Gibraltar Pound",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "GMD",
+          "kind": "fiat",
+          "englishName": "Gambian Dalasi",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "GNF",
+          "kind": "fiat",
+          "englishName": "Guinea Franc",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "GTQ",
+          "kind": "fiat",
+          "englishName": "Guatemala Quetzal",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "GYD",
+          "kind": "fiat",
+          "englishName": "Guyana Dollar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "HNL",
+          "kind": "fiat",
+          "englishName": "Honduras Lempira",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "HTG",
+          "kind": "fiat",
+          "englishName": "Haiti Gourde",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "HUF",
+          "kind": "fiat",
+          "englishName": "Hungarian Forint",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "IQD",
+          "kind": "fiat",
+          "englishName": "Iraqi Dinar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "NGN",
+          "kind": "fiat",
+          "englishName": "Nigerian Naira",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        }
+      ]
+    },
+    {
+      "locale": "ko",
+      "title": "Currency Converter",
+      "subtitle": "ADA Solana dong rand ZAR quart",
+      "keywords": "KRW,ISK,JMD,JOD,KGS,KHR,KMF,KPW,KWD,KYD,KZT,LAK,LBP,LKR,LRD,LSL,LYD,MAD,MDL,MGA,MMK,MNT,MRU,TRX,mile",
+      "keywordPhrases": [
+        "KRW",
+        "ISK",
+        "JMD",
+        "JOD",
+        "KGS",
+        "KHR",
+        "KMF",
+        "KPW",
+        "KWD",
+        "KYD",
+        "KZT",
+        "LAK",
+        "LBP",
+        "LKR",
+        "LRD",
+        "LSL",
+        "LYD",
+        "MAD",
+        "MDL",
+        "MGA",
+        "MMK",
+        "MNT",
+        "MRU",
+        "TRX",
+        "mile"
+      ],
+      "phraseInventory": [
+        "Currency Converter",
+        "ADA Solana dong rand ZAR quart"
+      ],
+      "uniqueTokens": [
+        "Currency",
+        "Converter",
+        "ADA",
+        "Solana",
+        "dong",
+        "rand",
+        "ZAR",
+        "quart",
+        "KRW",
+        "ISK",
+        "JMD",
+        "JOD",
+        "KGS",
+        "KHR",
+        "KMF",
+        "KPW",
+        "KWD",
+        "KYD",
+        "KZT",
+        "LAK",
+        "LBP",
+        "LKR",
+        "LRD",
+        "LSL",
+        "LYD",
+        "MAD",
+        "MDL",
+        "MGA",
+        "MMK",
+        "MNT",
+        "MRU",
+        "TRX",
+        "mile"
+      ],
+      "suggestedTopicGroups": {
+        "currency": [
+          "Currency",
+          "rand"
+        ],
+        "crypto": [
+          "ADA",
+          "Solana",
+          "TRX"
+        ],
+        "metals": [],
+        "units": [
+          "Converter",
+          "quart",
+          "mile"
+        ],
+        "other": [],
+        "unmapped": [
+          "dong",
+          "ZAR",
+          "KRW",
+          "ISK",
+          "JMD",
+          "JOD",
+          "KGS",
+          "KHR",
+          "KMF",
+          "KPW",
+          "KWD",
+          "KYD",
+          "KZT",
+          "LAK",
+          "LBP",
+          "LKR",
+          "LRD",
+          "LSL",
+          "LYD",
+          "MAD",
+          "MDL",
+          "MGA",
+          "MMK",
+          "MNT",
+          "MRU"
+        ]
+      },
+      "catalogCodeMappings": [
+        {
+          "code": "ADA",
+          "kind": "crypto",
+          "englishName": "Cardano",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "ZAR",
+          "kind": "fiat",
+          "englishName": "South African Rand",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "KRW",
+          "kind": "fiat",
+          "englishName": "South Korean Won",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "ISK",
+          "kind": "fiat",
+          "englishName": "Iceland Krona",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "JMD",
+          "kind": "fiat",
+          "englishName": "Jamaican Dollar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "JOD",
+          "kind": "fiat",
+          "englishName": "Jordanian Dinar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "KGS",
+          "kind": "fiat",
+          "englishName": "Kyrgystani Som",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "KHR",
+          "kind": "fiat",
+          "englishName": "Cambodia Riel",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "KMF",
+          "kind": "fiat",
+          "englishName": "Comoros Franc",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "KPW",
+          "kind": "fiat",
+          "englishName": "North Korean Won",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "KWD",
+          "kind": "fiat",
+          "englishName": "Kuwaiti Dinar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "KYD",
+          "kind": "fiat",
+          "englishName": "Cayman Islands Dollar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "KZT",
+          "kind": "fiat",
+          "englishName": "Kazakhstan Tenge",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "LAK",
+          "kind": "fiat",
+          "englishName": "Lao Kip",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "LBP",
+          "kind": "fiat",
+          "englishName": "Lebanese Pound",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "LKR",
+          "kind": "fiat",
+          "englishName": "Sri Lanka Rupee",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "LRD",
+          "kind": "fiat",
+          "englishName": "Liberian Dollar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "LSL",
+          "kind": "fiat",
+          "englishName": "Lesotho Loti",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "LYD",
+          "kind": "fiat",
+          "englishName": "Libyan Dinar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "MAD",
+          "kind": "fiat",
+          "englishName": "Moroccan Dirham",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "MDL",
+          "kind": "fiat",
+          "englishName": "Moldovan Leu",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "MGA",
+          "kind": "fiat",
+          "englishName": "Malagasy Ariary",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "MMK",
+          "kind": "fiat",
+          "englishName": "Myanmar Kyat",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "MNT",
+          "kind": "fiat",
+          "englishName": "Mongolian Tugrik",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "MRU",
+          "kind": "fiat",
+          "englishName": "Mauritanian Ouguiya",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "TRX",
+          "kind": "crypto",
+          "englishName": "TRON",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        }
+      ]
+    },
+    {
+      "locale": "pt-BR",
+      "title": "Converter",
+      "subtitle": "yuan cryptocurrency ETH feet",
+      "keywords": "MUR,MVR,MWK,MZN,NAD,NIO,NPR,PAB,PGK,PYG,QAR,RON,RSD,RWF,BRL,SBD,SCR,SDG,SHP,SLE,SOS,SRD,XCD,kilogram",
+      "keywordPhrases": [
+        "MUR",
+        "MVR",
+        "MWK",
+        "MZN",
+        "NAD",
+        "NIO",
+        "NPR",
+        "PAB",
+        "PGK",
+        "PYG",
+        "QAR",
+        "RON",
+        "RSD",
+        "RWF",
+        "BRL",
+        "SBD",
+        "SCR",
+        "SDG",
+        "SHP",
+        "SLE",
+        "SOS",
+        "SRD",
+        "XCD",
+        "kilogram"
+      ],
+      "phraseInventory": [
+        "Converter",
+        "yuan cryptocurrency ETH feet"
+      ],
+      "uniqueTokens": [
+        "Converter",
+        "yuan",
+        "cryptocurrency",
+        "ETH",
+        "feet",
+        "MUR",
+        "MVR",
+        "MWK",
+        "MZN",
+        "NAD",
+        "NIO",
+        "NPR",
+        "PAB",
+        "PGK",
+        "PYG",
+        "QAR",
+        "RON",
+        "RSD",
+        "RWF",
+        "BRL",
+        "SBD",
+        "SCR",
+        "SDG",
+        "SHP",
+        "SLE",
+        "SOS",
+        "SRD",
+        "XCD",
+        "kilogram"
+      ],
+      "suggestedTopicGroups": {
+        "currency": [
+          "yuan"
+        ],
+        "crypto": [
+          "cryptocurrency",
+          "ETH"
+        ],
+        "metals": [],
+        "units": [
+          "Converter",
+          "feet",
+          "kilogram"
+        ],
+        "other": [],
+        "unmapped": [
+          "MUR",
+          "MVR",
+          "MWK",
+          "MZN",
+          "NAD",
+          "NIO",
+          "NPR",
+          "PAB",
+          "PGK",
+          "PYG",
+          "QAR",
+          "RON",
+          "RSD",
+          "RWF",
+          "BRL",
+          "SBD",
+          "SCR",
+          "SDG",
+          "SHP",
+          "SLE",
+          "SOS",
+          "SRD",
+          "XCD"
+        ]
+      },
+      "catalogCodeMappings": [
+        {
+          "code": "ETH",
+          "kind": "crypto",
+          "englishName": "Ethereum",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "MUR",
+          "kind": "fiat",
+          "englishName": "Mauritius Rupee",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "MVR",
+          "kind": "fiat",
+          "englishName": "Maldives Rufiyaa",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "MWK",
+          "kind": "fiat",
+          "englishName": "Malawi Kwacha",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "MZN",
+          "kind": "fiat",
+          "englishName": "Mozambique New Metical",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "NAD",
+          "kind": "fiat",
+          "englishName": "Namibian Dollar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "NIO",
+          "kind": "fiat",
+          "englishName": "Nicaragua Cordoba",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "NPR",
+          "kind": "fiat",
+          "englishName": "Nepalese Rupee",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "PAB",
+          "kind": "fiat",
+          "englishName": "Panama Balboa",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "PGK",
+          "kind": "fiat",
+          "englishName": "Papua New Guinea Kina",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "PYG",
+          "kind": "fiat",
+          "englishName": "Paraguayan Guarani",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "QAR",
+          "kind": "fiat",
+          "englishName": "Qatar Rial",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "RON",
+          "kind": "fiat",
+          "englishName": "Romanian Leu",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "RSD",
+          "kind": "fiat",
+          "englishName": "Serbian Dinar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "RWF",
+          "kind": "fiat",
+          "englishName": "Rwanda Franc",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "BRL",
+          "kind": "fiat",
+          "englishName": "Brazilian Real",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "SBD",
+          "kind": "fiat",
+          "englishName": "Solomon Islands Dollar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "SCR",
+          "kind": "fiat",
+          "englishName": "Seychelles Rupee",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "SDG",
+          "kind": "fiat",
+          "englishName": "Sudanese Pound",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "SHP",
+          "kind": "fiat",
+          "englishName": "St Helena Pound",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "SLE",
+          "kind": "fiat",
+          "englishName": "Sierra Leonean Leone",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "SOS",
+          "kind": "fiat",
+          "englishName": "Somali Shilling",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "SRD",
+          "kind": "fiat",
+          "englishName": "Suriname Dollar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "XCD",
+          "kind": "fiat",
+          "englishName": "East Caribbean Dollar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        }
+      ]
+    },
+    {
+      "locale": "ru",
+      "title": "Real Silver Ethereum Cash BTC",
+      "subtitle": "riyal ATOM kiwi BNB Cosmos RUB",
+      "keywords": "THB,AWG,GHS,PEN,DOGE,DAI,rupee,ether,STN,naira,SUI,IRR,LTC,stablecoin,CRO,IDR,dinar,lira,PKR,mpg",
+      "keywordPhrases": [
+        "THB",
+        "AWG",
+        "GHS",
+        "PEN",
+        "DOGE",
+        "DAI",
+        "rupee",
+        "ether",
+        "STN",
+        "naira",
+        "SUI",
+        "IRR",
+        "LTC",
+        "stablecoin",
+        "CRO",
+        "IDR",
+        "dinar",
+        "lira",
+        "PKR",
+        "mpg"
+      ],
+      "phraseInventory": [
+        "Real Silver Ethereum Cash BTC",
+        "riyal ATOM kiwi BNB Cosmos RUB"
+      ],
+      "uniqueTokens": [
+        "Real",
+        "Silver",
+        "Ethereum",
+        "Cash",
+        "BTC",
+        "riyal",
+        "ATOM",
+        "kiwi",
+        "BNB",
+        "Cosmos",
+        "RUB",
+        "THB",
+        "AWG",
+        "GHS",
+        "PEN",
+        "DOGE",
+        "DAI",
+        "rupee",
+        "ether",
+        "STN",
+        "naira",
+        "SUI",
+        "IRR",
+        "LTC",
+        "stablecoin",
+        "CRO",
+        "IDR",
+        "dinar",
+        "lira",
+        "PKR",
+        "mpg"
+      ],
+      "suggestedTopicGroups": {
+        "currency": [
+          "Cash",
+          "riyal",
+          "kiwi",
+          "rupee",
+          "dinar",
+          "lira"
+        ],
+        "crypto": [
+          "Ethereum",
+          "BTC",
+          "ATOM",
+          "BNB",
+          "Cosmos",
+          "DOGE",
+          "DAI",
+          "ether",
+          "SUI",
+          "LTC",
+          "stablecoin",
+          "CRO"
+        ],
+        "metals": [
+          "Silver"
+        ],
+        "units": [
+          "mpg"
+        ],
+        "other": [],
+        "unmapped": [
+          "Real",
+          "RUB",
+          "THB",
+          "AWG",
+          "GHS",
+          "PEN",
+          "STN",
+          "naira",
+          "IRR",
+          "IDR",
+          "PKR"
+        ]
+      },
+      "catalogCodeMappings": [
+        {
+          "code": "BTC",
+          "kind": "crypto",
+          "englishName": "Bitcoin",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "ATOM",
+          "kind": "crypto",
+          "englishName": "Cosmos",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "BNB",
+          "kind": "crypto",
+          "englishName": "BNB",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "RUB",
+          "kind": "fiat",
+          "englishName": "Russian Rouble",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "THB",
+          "kind": "fiat",
+          "englishName": "Thai Baht",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "AWG",
+          "kind": "fiat",
+          "englishName": "Aruba Florin",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "GHS",
+          "kind": "fiat",
+          "englishName": "Ghanaian cedi",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "PEN",
+          "kind": "fiat",
+          "englishName": "Peruvian Nuevo Sol",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "DOGE",
+          "kind": "crypto",
+          "englishName": "Dogecoin",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "DAI",
+          "kind": "crypto",
+          "englishName": "Dai",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "STN",
+          "kind": "fiat",
+          "englishName": "Sao Tome Dobra",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "SUI",
+          "kind": "crypto",
+          "englishName": "Sui",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "IRR",
+          "kind": "fiat",
+          "englishName": "Iran Rial",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "LTC",
+          "kind": "crypto",
+          "englishName": "Litecoin",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "CRO",
+          "kind": "crypto",
+          "englishName": "Cronos",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "IDR",
+          "kind": "fiat",
+          "englishName": "Indonesian Rupiah",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "PKR",
+          "kind": "fiat",
+          "englishName": "Pakistan Rupee",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        }
+      ]
+    },
+    {
+      "locale": "es-MX",
+      "title": "Converter",
+      "subtitle": "Tether won TRY sterling POL FX",
+      "keywords": "AAVE,MXN,ILS,NOK,PLN,USDC,quid,HKD,SGD,MYR,rupiah,SEK,Cardano,dirham,AFN,ALL,AMD,DZD,UNI,YER,pint",
+      "keywordPhrases": [
+        "AAVE",
+        "MXN",
+        "ILS",
+        "NOK",
+        "PLN",
+        "USDC",
+        "quid",
+        "HKD",
+        "SGD",
+        "MYR",
+        "rupiah",
+        "SEK",
+        "Cardano",
+        "dirham",
+        "AFN",
+        "ALL",
+        "AMD",
+        "DZD",
+        "UNI",
+        "YER",
+        "pint"
+      ],
+      "phraseInventory": [
+        "Converter",
+        "Tether won TRY sterling POL FX"
+      ],
+      "uniqueTokens": [
+        "Converter",
+        "Tether",
+        "won",
+        "TRY",
+        "sterling",
+        "POL",
+        "FX",
+        "AAVE",
+        "MXN",
+        "ILS",
+        "NOK",
+        "PLN",
+        "USDC",
+        "quid",
+        "HKD",
+        "SGD",
+        "MYR",
+        "rupiah",
+        "SEK",
+        "Cardano",
+        "dirham",
+        "AFN",
+        "ALL",
+        "AMD",
+        "DZD",
+        "UNI",
+        "YER",
+        "pint"
+      ],
+      "suggestedTopicGroups": {
+        "currency": [
+          "won",
+          "sterling",
+          "FX",
+          "quid",
+          "rupiah",
+          "dirham"
+        ],
+        "crypto": [
+          "Tether",
+          "POL",
+          "AAVE",
+          "USDC",
+          "Cardano",
+          "UNI"
+        ],
+        "metals": [],
+        "units": [
+          "Converter",
+          "pint"
+        ],
+        "other": [],
+        "unmapped": [
+          "TRY",
+          "MXN",
+          "ILS",
+          "NOK",
+          "PLN",
+          "HKD",
+          "SGD",
+          "MYR",
+          "SEK",
+          "AFN",
+          "ALL",
+          "AMD",
+          "DZD",
+          "YER"
+        ]
+      },
+      "catalogCodeMappings": [
+        {
+          "code": "TRY",
+          "kind": "fiat",
+          "englishName": "Turkish Lira",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "POL",
+          "kind": "crypto",
+          "englishName": "Polygon",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "AAVE",
+          "kind": "crypto",
+          "englishName": "Aave",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "MXN",
+          "kind": "fiat",
+          "englishName": "Mexico Peso",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "ILS",
+          "kind": "fiat",
+          "englishName": "Israeli Shekel",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "NOK",
+          "kind": "fiat",
+          "englishName": "Norway Kroner",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "PLN",
+          "kind": "fiat",
+          "englishName": "Polish New Zloty",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "USDC",
+          "kind": "crypto",
+          "englishName": "USD Coin",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "HKD",
+          "kind": "fiat",
+          "englishName": "Hong Kong Dollars",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "SGD",
+          "kind": "fiat",
+          "englishName": "Singapore Dollars",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "MYR",
+          "kind": "fiat",
+          "englishName": "Malaysian Ringgit",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "SEK",
+          "kind": "fiat",
+          "englishName": "Sweden Kronor",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "AFN",
+          "kind": "fiat",
+          "englishName": "Afghan afghani",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "ALL",
+          "kind": "fiat",
+          "englishName": "Albanian Lek",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "AMD",
+          "kind": "fiat",
+          "englishName": "Armenian dram",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "DZD",
+          "kind": "fiat",
+          "englishName": "Algerian Dinar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "UNI",
+          "kind": "crypto",
+          "englishName": "Uniswap",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "YER",
+          "kind": "fiat",
+          "englishName": "Yemen Riyal",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        }
+      ]
+    },
+    {
+      "locale": "vi",
+      "title": "Converter",
+      "subtitle": "XRP AUD Aussie CHF JPY Polygon",
+      "keywords": "CDF,VND,SYP,SZL,TJS,TMT,TND,TOP,TTD,TZS,UAH,UGX,UYU,UZS,VES,VUV,WST,XAF,XCG,XDR,XOF,XPF,ZMW,ZWG,yard",
+      "keywordPhrases": [
+        "CDF",
+        "VND",
+        "SYP",
+        "SZL",
+        "TJS",
+        "TMT",
+        "TND",
+        "TOP",
+        "TTD",
+        "TZS",
+        "UAH",
+        "UGX",
+        "UYU",
+        "UZS",
+        "VES",
+        "VUV",
+        "WST",
+        "XAF",
+        "XCG",
+        "XDR",
+        "XOF",
+        "XPF",
+        "ZMW",
+        "ZWG",
+        "yard"
+      ],
+      "phraseInventory": [
+        "Converter",
+        "XRP AUD Aussie CHF JPY Polygon"
+      ],
+      "uniqueTokens": [
+        "Converter",
+        "XRP",
+        "AUD",
+        "Aussie",
+        "CHF",
+        "JPY",
+        "Polygon",
+        "CDF",
+        "VND",
+        "SYP",
+        "SZL",
+        "TJS",
+        "TMT",
+        "TND",
+        "TOP",
+        "TTD",
+        "TZS",
+        "UAH",
+        "UGX",
+        "UYU",
+        "UZS",
+        "VES",
+        "VUV",
+        "WST",
+        "XAF",
+        "XCG",
+        "XDR",
+        "XOF",
+        "XPF",
+        "ZMW",
+        "ZWG",
+        "yard"
+      ],
+      "suggestedTopicGroups": {
+        "currency": [
+          "Aussie"
+        ],
+        "crypto": [
+          "XRP",
+          "Polygon"
+        ],
+        "metals": [],
+        "units": [
+          "Converter",
+          "yard"
+        ],
+        "other": [],
+        "unmapped": [
+          "AUD",
+          "CHF",
+          "JPY",
+          "CDF",
+          "VND",
+          "SYP",
+          "SZL",
+          "TJS",
+          "TMT",
+          "TND",
+          "TOP",
+          "TTD",
+          "TZS",
+          "UAH",
+          "UGX",
+          "UYU",
+          "UZS",
+          "VES",
+          "VUV",
+          "WST",
+          "XAF",
+          "XCG",
+          "XDR",
+          "XOF",
+          "XPF",
+          "ZMW",
+          "ZWG"
+        ]
+      },
+      "catalogCodeMappings": [
+        {
+          "code": "XRP",
+          "kind": "crypto",
+          "englishName": "XRP",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "AUD",
+          "kind": "fiat",
+          "englishName": "Australian Dollars",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "CHF",
+          "kind": "fiat",
+          "englishName": "Swiss Francs",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "JPY",
+          "kind": "fiat",
+          "englishName": "Japanese Yen",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "CDF",
+          "kind": "fiat",
+          "englishName": "Congolese Franc",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "VND",
+          "kind": "fiat",
+          "englishName": "Vietnam Dong",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "SYP",
+          "kind": "fiat",
+          "englishName": "Syrian Pound",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "SZL",
+          "kind": "fiat",
+          "englishName": "Swaziland Lilageni",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "TJS",
+          "kind": "fiat",
+          "englishName": "Tajikistani Somoni",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "TMT",
+          "kind": "fiat",
+          "englishName": "Turkmenistani Manat",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "TND",
+          "kind": "fiat",
+          "englishName": "Tunisian Dinar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "TOP",
+          "kind": "fiat",
+          "englishName": "Tonga Pa'ang",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "TTD",
+          "kind": "fiat",
+          "englishName": "Trinidad  Tobago Dollar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "TZS",
+          "kind": "fiat",
+          "englishName": "Tanzanian Shilling",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "UAH",
+          "kind": "fiat",
+          "englishName": "Ukrainian Hryvnia",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "UGX",
+          "kind": "fiat",
+          "englishName": "Ugandan Shilling",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "UYU",
+          "kind": "fiat",
+          "englishName": "Uruguayan New Peso",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "UZS",
+          "kind": "fiat",
+          "englishName": "Uzbekistani Som",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "VES",
+          "kind": "fiat",
+          "englishName": "Venezuelan Bolivar",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "VUV",
+          "kind": "fiat",
+          "englishName": "Vanuatu Vatu",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "WST",
+          "kind": "fiat",
+          "englishName": "Samoa Tala",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "XAF",
+          "kind": "fiat",
+          "englishName": "Central African CFA Franc",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "XCG",
+          "kind": "fiat",
+          "englishName": "Caribbean Guilder",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "XDR",
+          "kind": "fiat",
+          "englishName": "Special Drawing Rights",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "XOF",
+          "kind": "fiat",
+          "englishName": "West African CFA Franc",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "XPF",
+          "kind": "fiat",
+          "englishName": "Pacific Franc",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "ZMW",
+          "kind": "fiat",
+          "englishName": "Zambian Kwacha",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        },
+        {
+          "code": "ZWG",
+          "kind": "fiat",
+          "englishName": "Zimbabwe Gold (ZiG)",
+          "source": "CurrencyKit CurrencyCatalog.standard"
+        }
+      ]
+    }
+  ],
+  "uniquePhraseInventory": [
+    "Conversion Calculator Plus",
+    "Unit Money Currency Converter",
+    "Converter",
+    "peso yen INR fluid temperature",
+    "Swiss franc",
+    "汇率转换 实时汇率换算 货币汇率 汇率计算器 单位换算 离线",
+    "货币转换器，旅游购物，出境留学，公制换算、英制换算，日常计算",
+    "匯率轉換 即時匯率換算 貨幣匯率 匯率計算器 單位換算 離線",
+    "convert Stellar imperial pace",
+    "Avalanche EUR PHP AED LINK DOT",
+    "Currency Converter",
+    "ADA Solana dong rand ZAR quart",
+    "yuan cryptocurrency ETH feet",
+    "Real Silver Ethereum Cash BTC",
+    "riyal ATOM kiwi BNB Cosmos RUB",
+    "Tether won TRY sterling POL FX",
+    "XRP AUD Aussie CHF JPY Polygon"
+  ],
+  "uniqueTokenInventory": [
+    "Conversion",
+    "Calculator",
+    "Plus",
+    "Unit",
+    "Money",
+    "Currency",
+    "Converter",
+    "dollar",
+    "pound",
+    "travel",
+    "offline",
+    "GBP",
+    "fuel",
+    "CAD",
+    "USD",
+    "euro",
+    "exchange",
+    "rate",
+    "forex",
+    "Gold",
+    "SOL",
+    "metric",
+    "bitcoin",
+    "crypto",
+    "peso",
+    "yen",
+    "INR",
+    "fluid",
+    "temperature",
+    "BCH",
+    "NZD",
+    "SAR",
+    "Litecoin",
+    "Swiss",
+    "franc",
+    "AOA",
+    "ARS",
+    "AZN",
+    "BAM",
+    "BBD",
+    "BHD",
+    "BIF",
+    "BMD",
+    "BND",
+    "BOB",
+    "BSD",
+    "BTN",
+    "BYN",
+    "BZD",
+    "CLP",
+    "celsius",
+    "汇率转换",
+    "实时汇率换算",
+    "货币汇率",
+    "汇率计算器",
+    "单位换算",
+    "离线",
+    "货币转换器",
+    "旅游购物",
+    "出境留学",
+    "公制换算",
+    "英制换算",
+    "日常计算",
+    "美元",
+    "英镑",
+    "欧元",
+    "日元",
+    "人民币",
+    "外汇",
+    "数据存储",
+    "长度",
+    "重量",
+    "温度",
+    "面积",
+    "体积",
+    "速度",
+    "压力",
+    "能量",
+    "燃油",
+    "鞋码",
+    "烹饪",
+    "配速",
+    "电流",
+    "热量",
+    "厘米",
+    "公斤",
+    "磅",
+    "时间",
+    "功率",
+    "扭矩",
+    "CNY",
+    "usd",
+    "rmb",
+    "twd",
+    "匯率轉換",
+    "即時匯率換算",
+    "貨幣匯率",
+    "匯率計算器",
+    "單位換算",
+    "離線",
+    "convert",
+    "Stellar",
+    "imperial",
+    "pace",
+    "Chainlink",
+    "KES",
+    "MKD",
+    "OMR",
+    "USDT",
+    "Dogecoin",
+    "inch",
+    "meter",
+    "liter",
+    "gallon",
+    "fahrenheit",
+    "ounce",
+    "tablespoon",
+    "teaspoon",
+    "TWD",
+    "Avalanche",
+    "EUR",
+    "PHP",
+    "AED",
+    "LINK",
+    "DOT",
+    "COP",
+    "CRC",
+    "CUP",
+    "CVE",
+    "CZK",
+    "DJF",
+    "DKK",
+    "DOP",
+    "EGP",
+    "ERN",
+    "ETB",
+    "FJD",
+    "FKP",
+    "GEL",
+    "GIP",
+    "GMD",
+    "GNF",
+    "GTQ",
+    "GYD",
+    "HNL",
+    "HTG",
+    "HUF",
+    "IQD",
+    "NGN",
+    "baht",
+    "ADA",
+    "Solana",
+    "dong",
+    "rand",
+    "ZAR",
+    "quart",
+    "KRW",
+    "ISK",
+    "JMD",
+    "JOD",
+    "KGS",
+    "KHR",
+    "KMF",
+    "KPW",
+    "KWD",
+    "KYD",
+    "KZT",
+    "LAK",
+    "LBP",
+    "LKR",
+    "LRD",
+    "LSL",
+    "LYD",
+    "MAD",
+    "MDL",
+    "MGA",
+    "MMK",
+    "MNT",
+    "MRU",
+    "TRX",
+    "mile",
+    "yuan",
+    "cryptocurrency",
+    "ETH",
+    "feet",
+    "MUR",
+    "MVR",
+    "MWK",
+    "MZN",
+    "NAD",
+    "NIO",
+    "NPR",
+    "PAB",
+    "PGK",
+    "PYG",
+    "QAR",
+    "RON",
+    "RSD",
+    "RWF",
+    "BRL",
+    "SBD",
+    "SCR",
+    "SDG",
+    "SHP",
+    "SLE",
+    "SOS",
+    "SRD",
+    "XCD",
+    "kilogram",
+    "Real",
+    "Silver",
+    "Ethereum",
+    "Cash",
+    "BTC",
+    "riyal",
+    "ATOM",
+    "kiwi",
+    "BNB",
+    "Cosmos",
+    "RUB",
+    "THB",
+    "AWG",
+    "GHS",
+    "PEN",
+    "DOGE",
+    "DAI",
+    "rupee",
+    "ether",
+    "STN",
+    "naira",
+    "SUI",
+    "IRR",
+    "LTC",
+    "stablecoin",
+    "CRO",
+    "IDR",
+    "dinar",
+    "lira",
+    "PKR",
+    "mpg",
+    "Tether",
+    "won",
+    "TRY",
+    "sterling",
+    "POL",
+    "FX",
+    "AAVE",
+    "MXN",
+    "ILS",
+    "NOK",
+    "PLN",
+    "USDC",
+    "quid",
+    "HKD",
+    "SGD",
+    "MYR",
+    "rupiah",
+    "SEK",
+    "Cardano",
+    "dirham",
+    "AFN",
+    "ALL",
+    "AMD",
+    "DZD",
+    "UNI",
+    "YER",
+    "pint",
+    "XRP",
+    "AUD",
+    "Aussie",
+    "CHF",
+    "JPY",
+    "Polygon",
+    "CDF",
+    "VND",
+    "SYP",
+    "SZL",
+    "TJS",
+    "TMT",
+    "TND",
+    "TOP",
+    "TTD",
+    "TZS",
+    "UAH",
+    "UGX",
+    "UYU",
+    "UZS",
+    "VES",
+    "VUV",
+    "WST",
+    "XAF",
+    "XCG",
+    "XDR",
+    "XOF",
+    "XPF",
+    "ZMW",
+    "ZWG",
+    "yard"
+  ],
+  "catalogCodeNameMappings": [
+    {
+      "term": "GBP",
+      "code": "GBP",
+      "kind": "fiat",
+      "englishName": "Britain/UK/England Pound",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "CAD",
+      "code": "CAD",
+      "kind": "fiat",
+      "englishName": "Canadian Dollars",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "USD",
+      "code": "USD",
+      "kind": "fiat",
+      "englishName": "US Dollars",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "SOL",
+      "code": "SOL",
+      "kind": "crypto",
+      "englishName": "Solana",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "INR",
+      "code": "INR",
+      "kind": "fiat",
+      "englishName": "Indian Rupee",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "NZD",
+      "code": "NZD",
+      "kind": "fiat",
+      "englishName": "New Zealand Dollars",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "SAR",
+      "code": "SAR",
+      "kind": "fiat",
+      "englishName": "Saudi Riyal",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "AOA",
+      "code": "AOA",
+      "kind": "fiat",
+      "englishName": "Angolan Kwanza",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "ARS",
+      "code": "ARS",
+      "kind": "fiat",
+      "englishName": "Argentine Peso",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "AZN",
+      "code": "AZN",
+      "kind": "fiat",
+      "englishName": "Azerbaijani Manat",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "BAM",
+      "code": "BAM",
+      "kind": "fiat",
+      "englishName": "Bosnia-Herzegovina Convertible Mark",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "BBD",
+      "code": "BBD",
+      "kind": "fiat",
+      "englishName": "Barbados Dollar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "BHD",
+      "code": "BHD",
+      "kind": "fiat",
+      "englishName": "Bahraini Dinar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "BIF",
+      "code": "BIF",
+      "kind": "fiat",
+      "englishName": "Burundi Franc",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "BMD",
+      "code": "BMD",
+      "kind": "fiat",
+      "englishName": "Bermuda Dollar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "BND",
+      "code": "BND",
+      "kind": "fiat",
+      "englishName": "Brunei Dollar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "BOB",
+      "code": "BOB",
+      "kind": "fiat",
+      "englishName": "Bolivian Boliviano",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "BSD",
+      "code": "BSD",
+      "kind": "fiat",
+      "englishName": "Bahamian Dollar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "BTN",
+      "code": "BTN",
+      "kind": "fiat",
+      "englishName": "Bhutanese Ngultrum",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "BYN",
+      "code": "BYN",
+      "kind": "fiat",
+      "englishName": "Belarusian Ruble",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "BZD",
+      "code": "BZD",
+      "kind": "fiat",
+      "englishName": "Belize Dollar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "CLP",
+      "code": "CLP",
+      "kind": "fiat",
+      "englishName": "Chilean Peso",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "CNY",
+      "code": "CNY",
+      "kind": "fiat",
+      "englishName": "Chinese (China)Yuan Renminbi",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "twd",
+      "code": "TWD",
+      "kind": "fiat",
+      "englishName": "Taiwan Dollar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "KES",
+      "code": "KES",
+      "kind": "fiat",
+      "englishName": "Kenyan Shilling",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "MKD",
+      "code": "MKD",
+      "kind": "fiat",
+      "englishName": "Macedonian Denar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "OMR",
+      "code": "OMR",
+      "kind": "fiat",
+      "englishName": "Omani Rial",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "USDT",
+      "code": "USDT",
+      "kind": "crypto",
+      "englishName": "Tether",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "EUR",
+      "code": "EUR",
+      "kind": "fiat",
+      "englishName": "Euro",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "PHP",
+      "code": "PHP",
+      "kind": "fiat",
+      "englishName": "Philippine Peso",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "AED",
+      "code": "AED",
+      "kind": "fiat",
+      "englishName": "UAE Dirham",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "LINK",
+      "code": "LINK",
+      "kind": "crypto",
+      "englishName": "Chainlink",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "DOT",
+      "code": "DOT",
+      "kind": "crypto",
+      "englishName": "Polkadot",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "COP",
+      "code": "COP",
+      "kind": "fiat",
+      "englishName": "Colombian Peso",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "CRC",
+      "code": "CRC",
+      "kind": "fiat",
+      "englishName": "Costa Rica Colon",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "CUP",
+      "code": "CUP",
+      "kind": "fiat",
+      "englishName": "Cuban Peso",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "CVE",
+      "code": "CVE",
+      "kind": "fiat",
+      "englishName": "Cape Verde Escudo",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "CZK",
+      "code": "CZK",
+      "kind": "fiat",
+      "englishName": "Czech Koruna",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "DJF",
+      "code": "DJF",
+      "kind": "fiat",
+      "englishName": "Djibouti Franc",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "DKK",
+      "code": "DKK",
+      "kind": "fiat",
+      "englishName": "Denmark Kroner",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "DOP",
+      "code": "DOP",
+      "kind": "fiat",
+      "englishName": "Dominican Peso",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "EGP",
+      "code": "EGP",
+      "kind": "fiat",
+      "englishName": "Egyptian Pound",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "ERN",
+      "code": "ERN",
+      "kind": "fiat",
+      "englishName": "Eritrea Nakfa",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "ETB",
+      "code": "ETB",
+      "kind": "fiat",
+      "englishName": "Ethiopian Birr",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "FJD",
+      "code": "FJD",
+      "kind": "fiat",
+      "englishName": "Fiji Dollar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "FKP",
+      "code": "FKP",
+      "kind": "fiat",
+      "englishName": "Falkland Islands Pound",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "GEL",
+      "code": "GEL",
+      "kind": "fiat",
+      "englishName": "Georgian lari",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "GIP",
+      "code": "GIP",
+      "kind": "fiat",
+      "englishName": "Gibraltar Pound",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "GMD",
+      "code": "GMD",
+      "kind": "fiat",
+      "englishName": "Gambian Dalasi",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "GNF",
+      "code": "GNF",
+      "kind": "fiat",
+      "englishName": "Guinea Franc",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "GTQ",
+      "code": "GTQ",
+      "kind": "fiat",
+      "englishName": "Guatemala Quetzal",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "GYD",
+      "code": "GYD",
+      "kind": "fiat",
+      "englishName": "Guyana Dollar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "HNL",
+      "code": "HNL",
+      "kind": "fiat",
+      "englishName": "Honduras Lempira",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "HTG",
+      "code": "HTG",
+      "kind": "fiat",
+      "englishName": "Haiti Gourde",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "HUF",
+      "code": "HUF",
+      "kind": "fiat",
+      "englishName": "Hungarian Forint",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "IQD",
+      "code": "IQD",
+      "kind": "fiat",
+      "englishName": "Iraqi Dinar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "NGN",
+      "code": "NGN",
+      "kind": "fiat",
+      "englishName": "Nigerian Naira",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "ADA",
+      "code": "ADA",
+      "kind": "crypto",
+      "englishName": "Cardano",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "ZAR",
+      "code": "ZAR",
+      "kind": "fiat",
+      "englishName": "South African Rand",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "KRW",
+      "code": "KRW",
+      "kind": "fiat",
+      "englishName": "South Korean Won",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "ISK",
+      "code": "ISK",
+      "kind": "fiat",
+      "englishName": "Iceland Krona",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "JMD",
+      "code": "JMD",
+      "kind": "fiat",
+      "englishName": "Jamaican Dollar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "JOD",
+      "code": "JOD",
+      "kind": "fiat",
+      "englishName": "Jordanian Dinar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "KGS",
+      "code": "KGS",
+      "kind": "fiat",
+      "englishName": "Kyrgystani Som",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "KHR",
+      "code": "KHR",
+      "kind": "fiat",
+      "englishName": "Cambodia Riel",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "KMF",
+      "code": "KMF",
+      "kind": "fiat",
+      "englishName": "Comoros Franc",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "KPW",
+      "code": "KPW",
+      "kind": "fiat",
+      "englishName": "North Korean Won",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "KWD",
+      "code": "KWD",
+      "kind": "fiat",
+      "englishName": "Kuwaiti Dinar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "KYD",
+      "code": "KYD",
+      "kind": "fiat",
+      "englishName": "Cayman Islands Dollar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "KZT",
+      "code": "KZT",
+      "kind": "fiat",
+      "englishName": "Kazakhstan Tenge",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "LAK",
+      "code": "LAK",
+      "kind": "fiat",
+      "englishName": "Lao Kip",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "LBP",
+      "code": "LBP",
+      "kind": "fiat",
+      "englishName": "Lebanese Pound",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "LKR",
+      "code": "LKR",
+      "kind": "fiat",
+      "englishName": "Sri Lanka Rupee",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "LRD",
+      "code": "LRD",
+      "kind": "fiat",
+      "englishName": "Liberian Dollar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "LSL",
+      "code": "LSL",
+      "kind": "fiat",
+      "englishName": "Lesotho Loti",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "LYD",
+      "code": "LYD",
+      "kind": "fiat",
+      "englishName": "Libyan Dinar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "MAD",
+      "code": "MAD",
+      "kind": "fiat",
+      "englishName": "Moroccan Dirham",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "MDL",
+      "code": "MDL",
+      "kind": "fiat",
+      "englishName": "Moldovan Leu",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "MGA",
+      "code": "MGA",
+      "kind": "fiat",
+      "englishName": "Malagasy Ariary",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "MMK",
+      "code": "MMK",
+      "kind": "fiat",
+      "englishName": "Myanmar Kyat",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "MNT",
+      "code": "MNT",
+      "kind": "fiat",
+      "englishName": "Mongolian Tugrik",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "MRU",
+      "code": "MRU",
+      "kind": "fiat",
+      "englishName": "Mauritanian Ouguiya",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "TRX",
+      "code": "TRX",
+      "kind": "crypto",
+      "englishName": "TRON",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "ETH",
+      "code": "ETH",
+      "kind": "crypto",
+      "englishName": "Ethereum",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "MUR",
+      "code": "MUR",
+      "kind": "fiat",
+      "englishName": "Mauritius Rupee",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "MVR",
+      "code": "MVR",
+      "kind": "fiat",
+      "englishName": "Maldives Rufiyaa",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "MWK",
+      "code": "MWK",
+      "kind": "fiat",
+      "englishName": "Malawi Kwacha",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "MZN",
+      "code": "MZN",
+      "kind": "fiat",
+      "englishName": "Mozambique New Metical",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "NAD",
+      "code": "NAD",
+      "kind": "fiat",
+      "englishName": "Namibian Dollar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "NIO",
+      "code": "NIO",
+      "kind": "fiat",
+      "englishName": "Nicaragua Cordoba",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "NPR",
+      "code": "NPR",
+      "kind": "fiat",
+      "englishName": "Nepalese Rupee",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "PAB",
+      "code": "PAB",
+      "kind": "fiat",
+      "englishName": "Panama Balboa",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "PGK",
+      "code": "PGK",
+      "kind": "fiat",
+      "englishName": "Papua New Guinea Kina",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "PYG",
+      "code": "PYG",
+      "kind": "fiat",
+      "englishName": "Paraguayan Guarani",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "QAR",
+      "code": "QAR",
+      "kind": "fiat",
+      "englishName": "Qatar Rial",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "RON",
+      "code": "RON",
+      "kind": "fiat",
+      "englishName": "Romanian Leu",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "RSD",
+      "code": "RSD",
+      "kind": "fiat",
+      "englishName": "Serbian Dinar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "RWF",
+      "code": "RWF",
+      "kind": "fiat",
+      "englishName": "Rwanda Franc",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "BRL",
+      "code": "BRL",
+      "kind": "fiat",
+      "englishName": "Brazilian Real",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "SBD",
+      "code": "SBD",
+      "kind": "fiat",
+      "englishName": "Solomon Islands Dollar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "SCR",
+      "code": "SCR",
+      "kind": "fiat",
+      "englishName": "Seychelles Rupee",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "SDG",
+      "code": "SDG",
+      "kind": "fiat",
+      "englishName": "Sudanese Pound",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "SHP",
+      "code": "SHP",
+      "kind": "fiat",
+      "englishName": "St Helena Pound",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "SLE",
+      "code": "SLE",
+      "kind": "fiat",
+      "englishName": "Sierra Leonean Leone",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "SOS",
+      "code": "SOS",
+      "kind": "fiat",
+      "englishName": "Somali Shilling",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "SRD",
+      "code": "SRD",
+      "kind": "fiat",
+      "englishName": "Suriname Dollar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "XCD",
+      "code": "XCD",
+      "kind": "fiat",
+      "englishName": "East Caribbean Dollar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "BTC",
+      "code": "BTC",
+      "kind": "crypto",
+      "englishName": "Bitcoin",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "ATOM",
+      "code": "ATOM",
+      "kind": "crypto",
+      "englishName": "Cosmos",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "BNB",
+      "code": "BNB",
+      "kind": "crypto",
+      "englishName": "BNB",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "RUB",
+      "code": "RUB",
+      "kind": "fiat",
+      "englishName": "Russian Rouble",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "THB",
+      "code": "THB",
+      "kind": "fiat",
+      "englishName": "Thai Baht",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "AWG",
+      "code": "AWG",
+      "kind": "fiat",
+      "englishName": "Aruba Florin",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "GHS",
+      "code": "GHS",
+      "kind": "fiat",
+      "englishName": "Ghanaian cedi",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "PEN",
+      "code": "PEN",
+      "kind": "fiat",
+      "englishName": "Peruvian Nuevo Sol",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "DOGE",
+      "code": "DOGE",
+      "kind": "crypto",
+      "englishName": "Dogecoin",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "DAI",
+      "code": "DAI",
+      "kind": "crypto",
+      "englishName": "Dai",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "STN",
+      "code": "STN",
+      "kind": "fiat",
+      "englishName": "Sao Tome Dobra",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "SUI",
+      "code": "SUI",
+      "kind": "crypto",
+      "englishName": "Sui",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "IRR",
+      "code": "IRR",
+      "kind": "fiat",
+      "englishName": "Iran Rial",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "LTC",
+      "code": "LTC",
+      "kind": "crypto",
+      "englishName": "Litecoin",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "CRO",
+      "code": "CRO",
+      "kind": "crypto",
+      "englishName": "Cronos",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "IDR",
+      "code": "IDR",
+      "kind": "fiat",
+      "englishName": "Indonesian Rupiah",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "PKR",
+      "code": "PKR",
+      "kind": "fiat",
+      "englishName": "Pakistan Rupee",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "TRY",
+      "code": "TRY",
+      "kind": "fiat",
+      "englishName": "Turkish Lira",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "POL",
+      "code": "POL",
+      "kind": "crypto",
+      "englishName": "Polygon",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "AAVE",
+      "code": "AAVE",
+      "kind": "crypto",
+      "englishName": "Aave",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "MXN",
+      "code": "MXN",
+      "kind": "fiat",
+      "englishName": "Mexico Peso",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "ILS",
+      "code": "ILS",
+      "kind": "fiat",
+      "englishName": "Israeli Shekel",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "NOK",
+      "code": "NOK",
+      "kind": "fiat",
+      "englishName": "Norway Kroner",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "PLN",
+      "code": "PLN",
+      "kind": "fiat",
+      "englishName": "Polish New Zloty",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "USDC",
+      "code": "USDC",
+      "kind": "crypto",
+      "englishName": "USD Coin",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "HKD",
+      "code": "HKD",
+      "kind": "fiat",
+      "englishName": "Hong Kong Dollars",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "SGD",
+      "code": "SGD",
+      "kind": "fiat",
+      "englishName": "Singapore Dollars",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "MYR",
+      "code": "MYR",
+      "kind": "fiat",
+      "englishName": "Malaysian Ringgit",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "SEK",
+      "code": "SEK",
+      "kind": "fiat",
+      "englishName": "Sweden Kronor",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "AFN",
+      "code": "AFN",
+      "kind": "fiat",
+      "englishName": "Afghan afghani",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "ALL",
+      "code": "ALL",
+      "kind": "fiat",
+      "englishName": "Albanian Lek",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "AMD",
+      "code": "AMD",
+      "kind": "fiat",
+      "englishName": "Armenian dram",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "DZD",
+      "code": "DZD",
+      "kind": "fiat",
+      "englishName": "Algerian Dinar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "UNI",
+      "code": "UNI",
+      "kind": "crypto",
+      "englishName": "Uniswap",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "YER",
+      "code": "YER",
+      "kind": "fiat",
+      "englishName": "Yemen Riyal",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "XRP",
+      "code": "XRP",
+      "kind": "crypto",
+      "englishName": "XRP",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "AUD",
+      "code": "AUD",
+      "kind": "fiat",
+      "englishName": "Australian Dollars",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "CHF",
+      "code": "CHF",
+      "kind": "fiat",
+      "englishName": "Swiss Francs",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "JPY",
+      "code": "JPY",
+      "kind": "fiat",
+      "englishName": "Japanese Yen",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "CDF",
+      "code": "CDF",
+      "kind": "fiat",
+      "englishName": "Congolese Franc",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "VND",
+      "code": "VND",
+      "kind": "fiat",
+      "englishName": "Vietnam Dong",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "SYP",
+      "code": "SYP",
+      "kind": "fiat",
+      "englishName": "Syrian Pound",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "SZL",
+      "code": "SZL",
+      "kind": "fiat",
+      "englishName": "Swaziland Lilageni",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "TJS",
+      "code": "TJS",
+      "kind": "fiat",
+      "englishName": "Tajikistani Somoni",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "TMT",
+      "code": "TMT",
+      "kind": "fiat",
+      "englishName": "Turkmenistani Manat",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "TND",
+      "code": "TND",
+      "kind": "fiat",
+      "englishName": "Tunisian Dinar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "TOP",
+      "code": "TOP",
+      "kind": "fiat",
+      "englishName": "Tonga Pa'ang",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "TTD",
+      "code": "TTD",
+      "kind": "fiat",
+      "englishName": "Trinidad  Tobago Dollar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "TZS",
+      "code": "TZS",
+      "kind": "fiat",
+      "englishName": "Tanzanian Shilling",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "UAH",
+      "code": "UAH",
+      "kind": "fiat",
+      "englishName": "Ukrainian Hryvnia",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "UGX",
+      "code": "UGX",
+      "kind": "fiat",
+      "englishName": "Ugandan Shilling",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "UYU",
+      "code": "UYU",
+      "kind": "fiat",
+      "englishName": "Uruguayan New Peso",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "UZS",
+      "code": "UZS",
+      "kind": "fiat",
+      "englishName": "Uzbekistani Som",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "VES",
+      "code": "VES",
+      "kind": "fiat",
+      "englishName": "Venezuelan Bolivar",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "VUV",
+      "code": "VUV",
+      "kind": "fiat",
+      "englishName": "Vanuatu Vatu",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "WST",
+      "code": "WST",
+      "kind": "fiat",
+      "englishName": "Samoa Tala",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "XAF",
+      "code": "XAF",
+      "kind": "fiat",
+      "englishName": "Central African CFA Franc",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "XCG",
+      "code": "XCG",
+      "kind": "fiat",
+      "englishName": "Caribbean Guilder",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "XDR",
+      "code": "XDR",
+      "kind": "fiat",
+      "englishName": "Special Drawing Rights",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "XOF",
+      "code": "XOF",
+      "kind": "fiat",
+      "englishName": "West African CFA Franc",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "XPF",
+      "code": "XPF",
+      "kind": "fiat",
+      "englishName": "Pacific Franc",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "ZMW",
+      "code": "ZMW",
+      "kind": "fiat",
+      "englishName": "Zambian Kwacha",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "ZWG",
+      "code": "ZWG",
+      "kind": "fiat",
+      "englishName": "Zimbabwe Gold (ZiG)",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    },
+    {
+      "term": "BCH",
+      "code": "BCH",
+      "kind": "crypto",
+      "englishName": "Bitcoin Cash",
+      "source": "CurrencyKit CurrencyCatalog.standard"
+    }
+  ],
+  "reviewFlags": [
+    {
+      "locale": "ar-SA",
+      "terms": "English words, tickers, and codes dominate localized listing fields",
+      "note": "Treat each literal token as intended search coverage; infer localized prose only from explicit translations and avoid claiming feature coverage beyond supported app behavior."
+    },
+    {
+      "locale": "fr-FR",
+      "terms": "English words, tickers, and codes dominate localized listing fields",
+      "note": "Treat each literal token as intended search coverage; infer localized prose only from explicit translations and avoid claiming feature coverage beyond supported app behavior."
+    },
+    {
+      "locale": "ko",
+      "terms": "English words, tickers, and codes dominate localized listing fields",
+      "note": "Treat each literal token as intended search coverage; infer localized prose only from explicit translations and avoid claiming feature coverage beyond supported app behavior."
+    },
+    {
+      "locale": "pt-BR",
+      "terms": "English words, tickers, and codes dominate localized listing fields",
+      "note": "Treat each literal token as intended search coverage; infer localized prose only from explicit translations and avoid claiming feature coverage beyond supported app behavior."
+    },
+    {
+      "locale": "ru",
+      "terms": "English words, tickers, and codes dominate localized listing fields",
+      "note": "Treat each literal token as intended search coverage; infer localized prose only from explicit translations and avoid claiming feature coverage beyond supported app behavior."
+    },
+    {
+      "locale": "es-MX",
+      "terms": "English words, tickers, and codes dominate localized listing fields",
+      "note": "Treat each literal token as intended search coverage; infer localized prose only from explicit translations and avoid claiming feature coverage beyond supported app behavior."
+    },
+    {
+      "locale": "vi",
+      "terms": "English words, tickers, and codes dominate localized listing fields",
+      "note": "Treat each literal token as intended search coverage; infer localized prose only from explicit translations and avoid claiming feature coverage beyond supported app behavior."
+    },
+    {
+      "locale": "ar-SA",
+      "terms": [
+        "fluid",
+        "temperature",
+        "celsius"
+      ],
+      "note": "Unit terms appear in subtitle/keywords; include only if supported unit categories exist (temperature is supported; fluid is not a standard category label)."
+    },
+    {
+      "locale": "zh-Hant",
+      "terms": [
+        "imperial",
+        "pace",
+        "inch",
+        "meter",
+        "liter",
+        "gallon",
+        "fahrenheit",
+        "ounce",
+        "tablespoon",
+        "teaspoon"
+      ],
+      "note": "English unit terms; should be represented with readable unit-conversion copy if site has corresponding coverage."
+    },
+    {
+      "locale": "zh-Hans",
+      "terms": [
+        "数据存储",
+        "燃油",
+        "配速",
+        "电流",
+        "热量",
+        "扭矩"
+      ],
+      "note": "Local-language unit concepts; website copy needs accurate localized terms."
+    },
+    {
+      "locale": "ru",
+      "terms": [
+        "mpg"
+      ],
+      "note": "Abbreviation may mean miles per gallon; confirm it aligns with supported fuel-efficiency units before including."
+    },
+    {
+      "locale": "es-MX",
+      "terms": [
+        "pint"
+      ],
+      "note": "English unit term; avoid implying regional Spanish copy unless actually localized."
+    },
+    {
+      "locale": "pt-BR",
+      "terms": [
+        "MUR",
+        "MVR",
+        "MWK",
+        "MZN",
+        "NAD",
+        "NIO",
+        "NPR",
+        "PAB",
+        "PGK",
+        "PYG",
+        "QAR",
+        "RON",
+        "RSD",
+        "RWF",
+        "BRL",
+        "SBD",
+        "SCR",
+        "SDG",
+        "SHP",
+        "SLE",
+        "SOS",
+        "SRD",
+        "XCD",
+        "kilogram"
+      ],
+      "note": "Currency-code tokens are mappable from app catalog; “kilogram” is an English unit term."
+    },
+    {
+      "locale": "vi",
+      "terms": [
+        "yard"
+      ],
+      "note": "English unit term."
+    },
+    {
+      "locale": "ko",
+      "terms": [
+        "quart"
+      ],
+      "note": "English unit term."
+    },
+    {
+      "locale": "ru",
+      "terms": [
+        "DAI",
+        "SUI",
+        "CRO",
+        "ATOM",
+        "BNB",
+        "Cosmos",
+        "Ethereum",
+        "BTC",
+        "stablecoin"
+      ],
+      "note": "Crypto names/codes should be checked against the current catalog. DAI, SUI, CRO, BTC, ETH, ATOM, BNB are catalog-supported; “Cosmos” is an asset name alias, “stablecoin” is a class, and ensure website copy reflects actual rate/conversion availability."
+    },
+    {
+      "locale": "ru",
+      "terms": [
+        "Real",
+        "Silver",
+        "Cash"
+      ],
+      "note": "The title concatenates several English tokens. “Silver” is a precious metal term, but “Real” and “Cash” are ambiguous outside context; do not treat the whole title as a single supported-product claim."
+    },
+    {
+      "locale": "ar-SA",
+      "terms": [
+        "pound"
+      ],
+      "note": "“Pound” may mean GBP or a unit of mass. Use context-specific wording when covering it on the website."
+    },
+    {
+      "locale": "zh-Hant",
+      "terms": [
+        "ounce"
+      ],
+      "note": "“Ounce” can mean a mass unit or be read in precious-metal context; state the intended conversion context."
+    },
+    {
+      "locale": "es-MX",
+      "terms": [
+        "POL"
+      ],
+      "note": "POL maps to Polygon in the catalog. Treat as the token ticker in this metadata rather than a generic acronym."
+    },
+    {
+      "locale": "fr-FR",
+      "terms": [
+        "Avalanche"
+      ],
+      "note": "Avalanche maps to AVAX in the catalog. The keyword is an asset name, though the local keyword list does not include its ticker."
+    }
+  ],
+  "currencyCatalogPolicy": {
+    "source": "CurrencyKit CurrencyCatalog.standard, consumed app-side via CurrencyCatalog.standard",
+    "retiredCodes": [
+      "SSP"
+    ],
+    "mappingNote": "Mapped codes use the catalog englishName and kind. SSP is excluded because ConversionKit CurrencyUnits.retiredCodes and the app NetworkHelper reject it for current conversion rates.",
+    "sourceFiles": [
+      "/Users/tyl/Documents/Work/Projects/iOSApps/Packages/CurrencyKit/Sources/CurrencyKit/CurrencyCatalog.swift",
+      "/Users/tyl/Documents/Work/Projects/iOSApps/Packages/ConversionKit/Sources/ConversionKit/Units/CurrencyUnits+extension.swift",
+      "/Users/tyl/Documents/Work/Projects/iOSApps/Apps/Convert_Units_Projects/ConvertUnitsWhite/ConvertUnitsWhite/NetworkCalls.swift"
+    ]
+  }
+}
