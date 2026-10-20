@@ -92,3 +92,20 @@ commit and verify public home, guide, sitemap, asset and Chinese-page responses.
 The generated files and sources are small; do not delete the native app's raw
 capture inputs or confuse this website's four assets with disposable App Store
 screenshot exports.
+
+## Search-engine ownership and sitemap submissions
+
+Google Search Console uses the URL-prefix property
+`https://developer-yl.github.io/convert-units-plus/`. Its public verification
+meta tag is generated on the English home page by `scripts/build_site.py`;
+keep it after verification so ownership remains valid. It is a public
+ownership token, not an API credential. Submit `sitemap.xml` in Search Console
+and Bing Webmaster Tools after ownership verification. Submission requests
+discovery; it does not guarantee indexing or search placement. Do not use the
+retired anonymous Google/Bing sitemap ping endpoints.
+
+The home-page callout and comparison articles emphasize connected rate
+refreshes every minute. The Units Plus listing documents a daily download
+when opened. Other compared apps do not specify an interval in the reviewed
+sources; do not infer that their updates are slower. Recheck linked publisher
+sources before changing those comparisons.
