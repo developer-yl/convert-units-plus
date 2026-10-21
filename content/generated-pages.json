@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20",
+  "generatedAt": "2026-10-22",
   "pages": [
     {
       "path": "index.html",
@@ -9,6 +9,11 @@
     {
       "path": "guides/index.html",
       "url": "https://developer-yl.github.io/convert-units-plus/guides/",
+      "language": "en"
+    },
+    {
+      "path": "guides/currency-plus-history-charts-guide/index.html",
+      "url": "https://developer-yl.github.io/convert-units-plus/guides/currency-plus-history-charts-guide/",
       "language": "en"
     },
     {

@@ -2,7 +2,7 @@
 
 > Official website of the iPhone and iPad unit, currency and crypto converter, published by Adysseus.
 
-The app covers 72 categories and 685 non-currency units. It includes Simple and Carousel modes, an expression calculator, Currency+, saved currency charts, conversion history and favorites. Connected rates update every minute; offline use relies on previously loaded data. Interactive widgets and Siri require optional Premium. The free app has banner ads and no full-page ads. It does not execute transfers or crypto trades.
+The app covers 72 categories and 685 non-currency units. It includes Simple and Carousel modes, an expression calculator, Currency+, saved currency charts, conversion history and favorites. Currency+ refreshes rates every minute while its rates page is open, the app is active and it is connected; offline use relies on previously loaded data. Currency History offers 1-day through all-available-history charts, point inspection and range extrema. Coming in 3.1.2: pinch zoom on both axes, two-finger panning and double-tap reset; one finger still selects readings. Interactive widgets and Siri require optional Premium. The free app has banner ads and no full-page ads. It does not execute transfers or crypto trades.
 
 ## Pages
 - [Product, features, audience and genuine review excerpts](https://developer-yl.github.io/convert-units-plus/)
@@ -14,6 +14,7 @@ The app covers 72 categories and 685 non-currency units. It includes Simple and 
 - [App Store listing](https://apps.apple.com/app/id1113920724)
 
 ## Articles
+- [Currency+ and Currency History: Rates, Charts, Zoom and Pan](https://developer-yl.github.io/convert-units-plus/guides/currency-plus-history-charts-guide/)
 - [Best conversion calculator apps for iPhone: choose by your workflow](https://developer-yl.github.io/convert-units-plus/guides/best-conversion-calculator-apps-iphone-by-workflow/)
 - [Conversion Calculator Plus vs Units Plus: which unit converter fits?](https://developer-yl.github.io/convert-units-plus/guides/conversion-calculator-plus-vs-units-plus/)
 - [Conversion Calculator Plus vs My Currency Converter: units or currency focus?](https://developer-yl.github.io/convert-units-plus/guides/conversion-calculator-plus-vs-my-currency-converter/)

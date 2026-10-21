@@ -10,8 +10,8 @@ server, tracking script or external font is required.
 
 - `scripts/build_site.py`: shared page template, homepage, code reference and
   Simplified/Traditional Chinese pages. Standard Python 3 only.
-- `content/articles.json`: nine original articles: one editorial best-app list,
-  four competitor comparisons and four educational guides. Each has a headline,
+- `content/articles.json`: ten original articles: one editorial best-app list,
+  four competitor comparisons and five educational guides. Each has a headline,
   description, body HTML, primary-source citations and related slugs.
 - `content/testimonials.json`: three short genuine App Store review excerpts,
   with public nickname, date, territory, rating, source link and record ID.
@@ -109,3 +109,17 @@ refreshes every minute. The Units Plus listing documents a daily download
 when opened. Other compared apps do not specify an interval in the reviewed
 sources; do not infer that their updates are slower. Recheck linked publisher
 sources before changing those comparisons.
+
+## Currency+ and chart guide update — 22 October 2026
+
+The homepage now explains multi-currency inputs, expressions, minute refreshes,
+chart ranges, point readouts and offline prerequisites. A dedicated Currency+
+and Currency History guide and Chinese summaries describe the controls.
+The public US App Store lookup still returned 3.1.1 during this update, so
+pinch zoom on both axes, two-finger pan and double-tap reset are explicitly
+marked as coming in 3.1.2. Remove that availability note after verifying release.
+A refresh checks for the latest available rate; it does not promise a changed
+quote from every provider each minute. Source behavior and gestures were checked
+against the app’s build 3 implementation and simulator verification.
+Existing screenshots are unchanged first-party captures from the earlier layout.
+Per-article publication/update/check dates preserve older comparison provenance.

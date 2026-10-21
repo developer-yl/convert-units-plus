@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "htmlPages": 15,
-  "articles": 9,
+  "htmlPages": 16,
+  "articles": 10,
   "keywordTokensCovered": 298,
   "missingKeywords": [],
   "coverageByLocale": {
@@ -50,6 +50,6 @@
   "jsonLdValid": true,
   "genuineAssetHashesValid": true,
   "testimonials": 3,
-  "sitemapEntries": 15,
+  "sitemapEntries": 16,
   "privacyPolicyPreserved": true
 }
