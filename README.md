@@ -106,8 +106,10 @@ retired anonymous Google/Bing sitemap ping endpoints.
 
 The home-page callout and comparison articles emphasize connected rate
 refreshes every minute. The Units Plus listing documents a daily download
-when opened. Other compared apps do not specify an interval in the reviewed
-sources; do not infer that their updates are slower. Recheck linked publisher
+when opened. The expanded US storefront comparison also documents hourly updates for Currency
+converter calculator! and GlobeConvert, and six-hour automatic updates (or manual
+refresh) for Converter+. The remaining seven do not specify a numeric interval
+in the reviewed descriptions; do not infer that their updates are slower. Recheck linked publisher
 sources before changing those comparisons.
 
 ## Currency+ and chart guide update — 22 October 2026
@@ -164,3 +166,35 @@ For future changes, recheck relevant publisher sources before advancing a fact's
 check date. Consider direct device testing for unverified rival features and
 manual Search Console/Bing sitemap submission after publication. No recurring
 research task was scheduled.
+
+## Review evidence and rate-refresh prominence — 26 October 2026
+
+The homepage and comparison now lead with the one-minute active Currency+
+schedule versus four named rivals with publisher-documented slower automatic
+schedules. All seven unknown intervals remain unknown; refresh frequency is
+not used as an accuracy or provider-observation-age claim.
+
+`content/us-storefront-comparison.json` schema version 2 also stores curated
+review evidence. Up to 50 latest written US reviews were retrieved per app:
+500 entries across ten populated feeds, with no written entries returned for
+Units - Conversion Calculator. Seventeen selected 1–3-star examples are
+paraphrased with IDs, ratings, versions, raw timestamps and dates displayed in
+Asia/Singapore. The sample is qualitative and intentionally examines concerns;
+it is not a representative satisfaction measure or comparative complaint rate.
+
+The new `guides/converter-app-review-complaints-and-alternatives/` article and
+generated `data/competitor-reviews.json` and `reference/competitor-reviews.md`
+carry the same contextual limits. Raw review dumps remain outside the site.
+The RSS feeds omit developer replies; visible App Store replies and current
+release notes were checked separately. Contextual replies are distinguished
+from responses to the selected reviews. Older resolved purchase/decimal/ad-music
+issues are excluded as current defect claims. Recent subjective complaints are
+still user reports, not reproduced current behavior. No allegations of malware,
+fraud, data theft or illicit ad content are republished. No third-party review
+scores or fabricated aggregate-review markup were added.
+
+Our no-full-page-ad policy is the strongest direct response to full-screen
+interruption complaints. Our free app still has banners. Category access,
+favorites/search, expressions and light/dark appearance are described as
+documented alternatives without claiming universal usability, accuracy or
+privacy superiority. A zero-entry feed supplies no adverse inference.

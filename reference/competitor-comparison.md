@@ -19,6 +19,7 @@ Publisher: Adysseus. App ID: 1113920724. Checked: 2026-10-26.
 - iPhone and iPad support. Siri action availability depends on the device Siri language.
 - Free version has banner ads and no full-page ads. Optional annual Premium removes banners and unlocks interactive Home Screen widgets and Siri conversions.
 - The app compares amounts and converts units; it does not execute transfers or cryptocurrency trades.
+- Light and dark appearance are supported.
 
 Source: https://apps.apple.com/us/app/conversion-calculator-plus/id1113920724
 Behavior and prerequisites: https://developer-yl.github.io/convert-units-plus/guides/currency-plus-history-charts-guide/
@@ -42,6 +43,14 @@ Tradeoffs and unknowns: Category groupings differ. Units Plus already has calcul
 
 Source: https://apps.apple.com/us/app/unit-converter-best-unit-app/id623691968
 
+reportedConcern: Selected October 2026 reviews of version 10.2 report full-screen ads or advertising obstructing input.
+
+ourDocumentedResponse: Conversion Calculator Plus documents no full-page ads; the free version uses banners. This directly addresses the full-screen interruption concern. Premium removes banners.
+
+limitations: These reports describe selected sessions. Overall ad frequency and present-day input layout have not been independently measured.
+
+developerAndReleaseContext: The selected review version matches the current listing. No response to these selected reviews was available in the reviewed feed; current resolution is unknown.
+
 ### Currency converter calculator!
 
 Publisher: Aleksei Mezhevikin. App ID: 1457309557. Checked: 2026-10-26.
@@ -55,6 +64,14 @@ Comparison conclusion: Our active Currency+ checks are more frequent than its st
 Tradeoffs and unknowns: Custom exchange rates are an explicit rival capability. We have not established a custom-rate advantage or a quote-accuracy advantage for our app.
 
 Source: https://apps.apple.com/us/app/currency-converter-calculator/id1457309557
+
+reportedConcern: Selected August and October 2026 reviewers report screen-blocking or full-screen ads.
+
+ourDocumentedResponse: Our app documents banner-only advertising with no full-page ads, plus one-minute active Currency+ checks versus this rival’s published hourly schedule.
+
+limitations: The selected reviews precede current version 3.1.10. Its release notes say bug fixes without identifying these complaints; current reproduction is unknown.
+
+developerAndReleaseContext: Older highlighted App Store reviews about purchase restoration and a 2024 currency-selection problem include resolution reports or a developer fix. Those are excluded as evidence of current defects.
 
 ### Unit Converter - Convert all
 
@@ -70,6 +87,14 @@ Tradeoffs and unknowns: The rival already documents a calculator, offline conver
 
 Source: https://apps.apple.com/us/app/unit-converter-convert-all/id417794697
 
+reportedConcern: October 2026 reviewers describe ads interrupting first use and difficulty with fractional input or paid conversion access.
+
+ourDocumentedResponse: Our no-full-page-ad policy addresses interruption. Our supported expression input can calculate 1 ÷ 8 before conversion; ordinary measurement categories are not listed as Premium requirements.
+
+limitations: The rival itself advertises an expression calculator. A reviewer’s fraction-entry difficulty is not proof it cannot calculate division or that our input is uniquely capable.
+
+developerAndReleaseContext: An older 2017 decimal-key complaint has a developer reply saying it was fixed; a 2018 purchase-restoration complaint was also resolved. Neither is used as a current defect claim.
+
 ### My Currency Converter & Rates
 
 Publisher: JRustonApps B.V.. App ID: 549019596. Checked: 2026-10-26.
@@ -83,6 +108,14 @@ Comparison conclusion: Our app positively documents engineering and everyday mea
 Tradeoffs and unknowns: Its listing already promises offline currency use. Measurement tools and a numeric update interval are not verified from that description; silence does not establish absence.
 
 Source: https://apps.apple.com/us/app/my-currency-converter-rates/id549019596
+
+reportedConcern: One September 2026 reviewer criticized navigation effort on version 26.5.1.
+
+ourDocumentedResponse: Currency+ compares several currencies together, and favorites and conversion history support repeat work. These are concrete workflow options for users who dislike repeated setup.
+
+limitations: This is a subjective report, not a tap-count benchmark or proof our app is universally easier. Other sampled and highlighted reviews praise this rival’s simplicity.
+
+developerAndReleaseContext: Current version 26.6.2 release notes explicitly mention design improvements, so the older navigation concern may have changed. Current resolution was not tested.
 
 ### Convert Any Unit Lite
 
@@ -98,6 +131,14 @@ Tradeoffs and unknowns: We do not claim the largest unit catalog. Its fractions 
 
 Source: https://apps.apple.com/us/app/convert-any-unit-lite/id478222820
 
+reportedConcern: Selected July and September 2026 reviews of version 6.8 report intrusive ads interrupting conversion or unit selection.
+
+ourDocumentedResponse: Our published no-full-page-ad policy offers a concrete alternative to full-screen interruptions. Premium removes our banner ads.
+
+limitations: Our free version still has banners. These individual reports do not establish an overall failure rate or the behavior of every rival session.
+
+developerAndReleaseContext: The selected reviews match current version 6.8. A separate older developer reply says the Lite rebranding retained the same app; that does not resolve the selected ad reports. Current reproduction is unknown.
+
 ### Metric Conversion tool
 
 Publisher: Wight Hat Ltd. App ID: 1439430070. Checked: 2026-10-26.
@@ -111,6 +152,14 @@ Comparison conclusion: A workflow distinction is supported by our product facts.
 Tradeoffs and unknowns: Its conversion-pair count is not comparable with our unit count. Chart, Siri and interactive-widget support and a numeric rate interval are not verified from this description.
 
 Source: https://apps.apple.com/us/app/metric-conversion-tool/id1439430070
+
+reportedConcern: Selected October 2026 reviews criticize advertising, including a report against current version 3.0.0.
+
+ourDocumentedResponse: Our documented policy limits the free app to banner ads, with no full-page ads. Premium removes banners. This establishes our policy, not a measured ad-quality advantage.
+
+limitations: The selected reports establish dissatisfaction with advertising, but do not identify every ad’s format. Our free app also contains banners.
+
+developerAndReleaseContext: A March 2025 developer response says an earlier ad-quality and music problem was addressed in an update. That historical complaint is not presented as an unresolved current issue.
 
 ### Units - Conversion Calculator
 
@@ -126,6 +175,14 @@ Tradeoffs and unknowns: The rival already has history and favorites and explicit
 
 Source: https://apps.apple.com/us/app/units-conversion-calculator/id6761082020
 
+reportedConcern: No written review entries were returned by the selected US feed.
+
+ourDocumentedResponse: Our published category count and Currency+ workflow can still be compared using product descriptions; no review-based weakness is established.
+
+limitations: No written entries in this feed does not mean no ratings, no reviews elsewhere or no defects. The rival advertises no ads, so we do not claim an advertising advantage.
+
+developerAndReleaseContext: No review-based inference is made.
+
 ### GlobeConvert Currency & Units
 
 Publisher: Ievgenii Lebid. App ID: 334851202. Checked: 2026-10-26.
@@ -139,6 +196,14 @@ Comparison conclusion: Our documented active Currency+ schedule checks more ofte
 Tradeoffs and unknowns: We do not use the inconsistent unit totals to calculate a catalog advantage. A shorter request interval does not prove newer underlying observations or greater accuracy.
 
 Source: https://apps.apple.com/us/app/globeconvert-currency-units/id334851202
+
+reportedConcern: Selected August and October 2026 reviews of version 2.2.8 criticize lengthy or recurring ads.
+
+ourDocumentedResponse: Our app documents no full-page ads. Currency+ also checks rates every minute while active and connected, versus GlobeConvert’s stated hourly updates.
+
+limitations: The reports do not establish which actions triggered each ad. Both products offer saved-rate offline use and an ad-free paid option.
+
+developerAndReleaseContext: In a separate 2024 App Store reply, the developer says ads appear for extra functionality and not ordinary conversion. That narrower scope is preserved alongside the later user complaints; current reproduction was not tested.
 
 ### Conversion Calculator Units
 
@@ -154,6 +219,14 @@ Tradeoffs and unknowns: Customization and favorites are already rival features. 
 
 Source: https://apps.apple.com/us/app/conversion-calculator-units/id727632233
 
+reportedConcern: Selected 2025–2026 reviews report navigation difficulty and ad interruptions on older versions.
+
+ourDocumentedResponse: Our app offers category/unit search, favorites and a choice of Simple or Carousel, plus no full-page ads. These are documented alternatives for those needs.
+
+limitations: The cited reviews concern versions 1.8 and 1.7.2, not current 1.9; their complaints must not be presented as confirmed current defects.
+
+developerAndReleaseContext: Version 1.9 release notes mention stability, performance and user-experience improvements. Whether the selected issues remain is unknown.
+
 ### Unit Converter - Pro Units App
 
 Publisher: Tue Nguyen Minh. App ID: 1139120257. Checked: 2026-10-26.
@@ -167,6 +240,14 @@ Comparison conclusion: Our published catalog covers more categories, and the rev
 Tradeoffs and unknowns: The rival supports custom unit lists. A numeric currency-update interval is not specified, so no comparative refresh-speed claim is made.
 
 Source: https://apps.apple.com/us/app/unit-converter-pro-units-app/id1139120257
+
+reportedConcern: A 2023 reviewer objected to paid feature access; the current listing independently confirms that only four categories are unlocked by default.
+
+ourDocumentedResponse: Our ordinary measurement categories are not listed as Premium-gated. Premium is described as removing banners and unlocking interactive widgets and Siri.
+
+limitations: The review is historical, but the four-category free-tier restriction is a current publisher-documented fact. We do not infer unresolved purchase-restoration bugs.
+
+developerAndReleaseContext: Current version 2.1.3 was checked. The comparison relies on its current description for the free-tier restriction, not solely on the older review.
 
 ### Converter+ (Units, Currencies)
 
@@ -182,3 +263,12 @@ Tradeoffs and unknowns: The rival advertises more supplied categories, custom te
 
 Source: https://apps.apple.com/us/app/converter-units-currencies/id370146222
 
+reportedConcern: An August 2026 reviewer of current version 3.6 requested dark mode.
+
+ourDocumentedResponse: Our app explicitly supports light and dark appearance and one-minute active Currency+ checks, compared with the rival’s stated six-hour automatic schedule or manual refresh.
+
+limitations: A feature request is not independent proof that dark mode is absent. Current rival dark-mode behavior has not been independently tested.
+
+developerAndReleaseContext: The current listing remains version 3.6. We report the dark-mode request as user feedback and use the published refresh interval for the rate comparison.
+
+Selected review metadata and sources: https://developer-yl.github.io/convert-units-plus/reference/competitor-reviews.md

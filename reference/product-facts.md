@@ -11,6 +11,7 @@ Publisher: Adysseus. App ID: 1113920724. Checked: 2026-10-26.
 - iPhone and iPad support. Siri action availability depends on the device Siri language.
 - Free version has banner ads and no full-page ads. Optional annual Premium removes banners and unlocks interactive Home Screen widgets and Siri conversions.
 - The app compares amounts and converts units; it does not execute transfers or cryptocurrency trades.
+- Light and dark appearance are supported.
 
 Source: https://apps.apple.com/us/app/conversion-calculator-plus/id1113920724
 Behavior and prerequisites: https://developer-yl.github.io/convert-units-plus/guides/currency-plus-history-charts-guide/

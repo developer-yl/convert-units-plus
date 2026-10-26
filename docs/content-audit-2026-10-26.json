@@ -1,9 +1,12 @@
 {
   "passed": true,
   "checkedOn": "2026-10-26",
-  "htmlPages": 18,
-  "articles": 12,
+  "htmlPages": 19,
+  "articles": 13,
   "competitors": 11,
+  "selectedReviewExamples": 17,
+  "writtenReviewRecordsReturned": 500,
+  "reviewSourcesAndContextAgree": true,
   "comparisonFormatsAgree": true,
   "allCompetitorsHaveSourcesAndCaveats": true,
   "keywordTokensCovered": 298,
@@ -54,6 +57,6 @@
   "jsonLdValid": true,
   "genuineAssetHashesValid": true,
   "testimonials": 3,
-  "sitemapEntries": 18,
+  "sitemapEntries": 19,
   "privacyPolicyPreserved": true
 }

@@ -15,6 +15,7 @@ The app covers 72 categories and 685 non-currency units. It includes Simple and 
 
 ## Articles
 - [Conversion Calculator Plus vs 11 US App Store competitors](https://developer-yl.github.io/convert-units-plus/guides/us-app-store-conversion-calculator-comparison/)
+- [Converter app review complaints: documented alternatives and context](https://developer-yl.github.io/convert-units-plus/guides/converter-app-review-complaints-and-alternatives/)
 - [Conversion Calculator Plus: product facts and requirements](https://developer-yl.github.io/convert-units-plus/guides/conversion-calculator-plus-product-facts/)
 - [Currency+ and Currency History: Rates, Charts, Zoom and Pan](https://developer-yl.github.io/convert-units-plus/guides/currency-plus-history-charts-guide/)
 - [Best conversion calculator apps for iPhone: choose by your workflow](https://developer-yl.github.io/convert-units-plus/guides/best-conversion-calculator-apps-iphone-by-workflow/)
@@ -32,8 +33,13 @@ The app covers 72 categories and 685 non-currency units. It includes Simple and 
 - [Comparison facts as JSON](https://developer-yl.github.io/convert-units-plus/data/competitor-comparison.json)
 - [Comparison as Markdown](https://developer-yl.github.io/convert-units-plus/reference/competitor-comparison.md)
 - [Product facts as Markdown](https://developer-yl.github.io/convert-units-plus/reference/product-facts.md)
+- [Review evidence as JSON](https://developer-yl.github.io/convert-units-plus/data/competitor-reviews.json)
+- [Review evidence as Markdown](https://developer-yl.github.io/convert-units-plus/reference/competitor-reviews.md)
 
 The 11-competitor table follows Apple's public US iPhone storefront search for “conversion calculator”, observed on 2026-10-26. Missing listing details are unverified, not absent. Currency checks are not accuracy benchmarks. Unit totals, category totals and conversion-pair counts are different measures. The matching structured records preserve source URLs and these qualifications.
+
+## Review evidence
+The review article uses 17 selected, paraphrased critical examples from 500 written US review records returned across the 11 apps. User reports are not independently reproduced defects. Dates, app versions, source IDs, current releases and contextual developer replies accompany the examples. Samples have different time windows and are not a basis for complaint-rate rankings. One feed returned no written entries and supplies no negative review inference.
 
 ## Editorial context
 Comparisons are written by the app publisher. They are not independent rankings or hands-on test results. Competitor product claims have dated primary-source links. Testimonials are selected short excerpts with public reviewer names and dates. Quotes and currency rates can be dated; read the surrounding qualifications.

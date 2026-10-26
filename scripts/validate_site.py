@@ -3,7 +3,7 @@
 from html.parser import HTMLParser
 from pathlib import Path
 import hashlib,json,re,unicodedata,urllib.parse,xml.etree.ElementTree as ET
-from comparison_content import comparison_article, product_article
+from comparison_content import comparison_article, product_article, review_article
 ROOT=Path(__file__).resolve().parents[1]
 class Page(HTMLParser):
  def __init__(self):super().__init__();self.skip=0;self.words=[];self.links=[];self.ids=set();self.images=[];self.h1=0;self.script=False;self.jsonld=[];self.buffer=[];self.canonical=None;self.description=None;self.title=False;self.title_text=[]
@@ -64,7 +64,7 @@ assert {'what-is-the-app','how-it-works','main-features','audience-segments','te
 reviews=json.loads((ROOT/'content/testimonials.json').read_text());assert all(r['rating']==5 and r['author'] and r['reviewId'] and r['sourceURL'] for r in reviews)
 assert sum(len(r['quote'].split()) for r in reviews)<=25
 comparison=json.loads((ROOT/'content/us-storefront-comparison.json').read_text())
-articles=json.loads((ROOT/'content/articles.json').read_text())+[comparison_article(comparison),product_article(comparison)]
+articles=json.loads((ROOT/'content/articles.json').read_text())+[comparison_article(comparison),product_article(comparison),review_article(comparison)]
 for article in articles:
  assert article['sources'],article['slug']
  assert len(re.findall(r'\w+',re.sub('<[^>]+>',' ',article['body'])))>=350,article['slug']
@@ -88,6 +88,29 @@ for app in comparison['competitors']:
 assert any(s.get('@type')=='Dataset' for group in comparison_page.jsonld for s in group),'Dataset metadata missing'
 assert all(token not in markdown for token in ('{BASE}','{APP}')),'Unexpanded text link'
 assert not (ROOT/'robots.txt').exists(),'Project-path robots.txt does not control the host'
-report={'passed':True,'checkedOn':comparison['checkedOn'],'htmlPages':len(files),'articles':len(articles),'competitors':11,'comparisonFormatsAgree':True,'allCompetitorsHaveSourcesAndCaveats':True,'keywordTokensCovered':len(inventory['uniqueTokenInventory']),'missingKeywords':missing,'coverageByLocale':coverage,'internalLinksValid':True,'jsonLdValid':True,'genuineAssetHashesValid':True,'testimonials':len(reviews),'sitemapEntries':len(urls),'privacyPolicyPreserved':True}
+review_data=json.loads((ROOT/'data/competitor-reviews.json').read_text())
+assert review_data['research']==comparison['reviewResearch']
+review_page=files[(ROOT/'guides/converter-app-review-complaints-and-alternatives/index.html').resolve()]
+review_text=' '.join(review_page.words)
+review_md=(ROOT/'reference/competitor-reviews.md').read_text()
+selected=0
+for app in comparison['competitors']:
+ research=app['reviewResearch']
+ assert 'reviews-'+str(app['appId']) in review_page.ids
+ record=next(r for r in review_data['apps'] if r['appId']==app['appId'])
+ assert all(record[k]==v for k,v in research.items()),'Review JSON differs from source'
+ for field in ('reportedConcern','ourDocumentedResponse','limitations','developerAndReleaseContext'):
+  assert research[field] in review_text and research[field] in review_md and research[field] in markdown,(app['name'],field,'review context drift')
+ for example in research['examples']:
+  selected+=1
+  assert example['reviewId'] in review_text and example['reviewId'] in review_md
+  assert example['paraphrase'] in review_text and example['paraphrase'] in review_md
+  assert example['sourceUrl'] in review_page.links
+  assert example['status']=='user_report_current_reproduction_not_verified'
+  assert example['sameVersionAsCurrentListing']==(example['reviewedVersion']==research['currentVersionAtCheck'])
+assert selected==17
+assert sum(a['reviewResearch']['sampleSize'] for a in comparison['competitors'])==comparison['reviewResearch']['totalWrittenReviewsReturned']==500
+assert 'refresh-table' in comparison_page.ids and 'rate-refresh-table' in home.ids
+report={'passed':True,'checkedOn':comparison['checkedOn'],'htmlPages':len(files),'articles':len(articles),'competitors':11,'selectedReviewExamples':selected,'writtenReviewRecordsReturned':500,'reviewSourcesAndContextAgree':True,'comparisonFormatsAgree':True,'allCompetitorsHaveSourcesAndCaveats':True,'keywordTokensCovered':len(inventory['uniqueTokenInventory']),'missingKeywords':missing,'coverageByLocale':coverage,'internalLinksValid':True,'jsonLdValid':True,'genuineAssetHashesValid':True,'testimonials':len(reviews),'sitemapEntries':len(urls),'privacyPolicyPreserved':True}
 (ROOT/('docs/content-audit-'+comparison['checkedOn']+'.json')).write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps(report,indent=2))
