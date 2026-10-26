@@ -6,7 +6,7 @@ US App Store written reviews only. A review is eligible only when its stated app
 
 Attributed current-version user reports; the alleged behavior and its resolution have not been independently reproduced. The source feed omits developer replies.
 
-Conversion Calculator Plus documents one-minute active Currency+ checks. Four rivals explicitly state slower automatic schedules: Units Plus daily; Currency converter calculator! and GlobeConvert hourly; Converter+ every six hours or on request. The other seven reviewed descriptions do not specify a numeric automatic interval.
+Rate schedules and offline capabilities are documented in the separate product comparison: https://developer-yl.github.io/convert-units-plus/guides/us-app-store-conversion-calculator-comparison/
 
 ## Unit Converter - Best Unit App
 
@@ -26,22 +26,6 @@ developerAndReleaseContext: Included examples identify version 10.2, matching th
 App Store and visible replies: https://apps.apple.com/us/app/unit-converter-best-unit-app/id623691968
 Review sample: https://itunes.apple.com/us/rss/customerreviews/id=623691968/sortBy=mostRecent/json
 
-## Currency converter calculator!
-
-Current-version matches: 2; current listing version 3.1.10.
-
-reportedConcern: No eligible critical review example was identified for the latest listed version, 3.1.10, in the reviewed sample.
-
-ourDocumentedResponse: Comparison is limited to the documented product capabilities; no review-based weakness is asserted.
-
-limitations: No conclusion about customer satisfaction or product reliability follows from the absence of an eligible example.
-
-developerAndReleaseContext: The reviewed feed contained 2 written reviews identifying current version 3.1.10. Reviews of previous versions are excluded from this analysis.
-
-
-App Store and visible replies: https://apps.apple.com/us/app/currency-converter-calculator/id1457309557
-Review sample: https://itunes.apple.com/us/rss/customerreviews/id=1457309557/sortBy=mostRecent/json
-
 ## Unit Converter - Convert all
 
 Current-version matches: 1; current listing version 3.0.29.
@@ -58,22 +42,6 @@ developerAndReleaseContext: Included examples identify version 3.0.29, matching 
 
 App Store and visible replies: https://apps.apple.com/us/app/unit-converter-convert-all/id417794697
 Review sample: https://itunes.apple.com/us/rss/customerreviews/id=417794697/sortBy=mostRecent/json
-
-## My Currency Converter & Rates
-
-Current-version matches: 0; current listing version 26.6.2.
-
-reportedConcern: No eligible critical review example was identified for the latest listed version, 26.6.2, in the reviewed sample.
-
-ourDocumentedResponse: Comparison is limited to the documented product capabilities; no review-based weakness is asserted.
-
-limitations: No conclusion about customer satisfaction or product reliability follows from the absence of an eligible example.
-
-developerAndReleaseContext: The reviewed feed contained 0 written reviews identifying current version 26.6.2. Reviews of previous versions are excluded from this analysis.
-
-
-App Store and visible replies: https://apps.apple.com/us/app/my-currency-converter-rates/id549019596
-Review sample: https://itunes.apple.com/us/rss/customerreviews/id=549019596/sortBy=mostRecent/json
 
 ## Convert Any Unit Lite
 
@@ -110,22 +78,6 @@ developerAndReleaseContext: Included examples identify version 3.0.0, matching t
 App Store and visible replies: https://apps.apple.com/us/app/metric-conversion-tool/id1439430070
 Review sample: https://itunes.apple.com/us/rss/customerreviews/id=1439430070/sortBy=mostRecent/json
 
-## Units - Conversion Calculator
-
-Current-version matches: 0; current listing version 1.0.
-
-reportedConcern: No eligible critical review example was identified for the latest listed version, 1.0, in the reviewed sample.
-
-ourDocumentedResponse: Comparison is limited to the documented product capabilities; no review-based weakness is asserted.
-
-limitations: No conclusion about customer satisfaction or product reliability follows from the absence of an eligible example.
-
-developerAndReleaseContext: The reviewed feed contained 0 written reviews identifying current version 1.0. Reviews of previous versions are excluded from this analysis.
-
-
-App Store and visible replies: https://apps.apple.com/us/app/units-conversion-calculator/id6761082020
-Review sample: https://itunes.apple.com/us/rss/customerreviews/id=6761082020/sortBy=mostRecent/json
-
 ## GlobeConvert Currency & Units
 
 Current-version matches: 11; current listing version 2.2.8.
@@ -143,38 +95,6 @@ developerAndReleaseContext: Included examples identify version 2.2.8, matching t
 
 App Store and visible replies: https://apps.apple.com/us/app/globeconvert-currency-units/id334851202
 Review sample: https://itunes.apple.com/us/rss/customerreviews/id=334851202/sortBy=mostRecent/json
-
-## Conversion Calculator Units
-
-Current-version matches: 0; current listing version 1.9.
-
-reportedConcern: No eligible critical review example was identified for the latest listed version, 1.9, in the reviewed sample.
-
-ourDocumentedResponse: Comparison is limited to the documented product capabilities; no review-based weakness is asserted.
-
-limitations: No conclusion about customer satisfaction or product reliability follows from the absence of an eligible example.
-
-developerAndReleaseContext: The reviewed feed contained 0 written reviews identifying current version 1.9. Reviews of previous versions are excluded from this analysis.
-
-
-App Store and visible replies: https://apps.apple.com/us/app/conversion-calculator-units/id727632233
-Review sample: https://itunes.apple.com/us/rss/customerreviews/id=727632233/sortBy=mostRecent/json
-
-## Unit Converter - Pro Units App
-
-Current-version matches: 0; current listing version 2.1.3.
-
-reportedConcern: No eligible critical review example was identified for the latest listed version, 2.1.3, in the reviewed sample.
-
-ourDocumentedResponse: Comparison is limited to the documented product capabilities; no review-based weakness is asserted.
-
-limitations: No conclusion about customer satisfaction or product reliability follows from the absence of an eligible example.
-
-developerAndReleaseContext: The reviewed feed contained 0 written reviews identifying current version 2.1.3. Reviews of previous versions are excluded from this analysis.
-
-
-App Store and visible replies: https://apps.apple.com/us/app/unit-converter-pro-units-app/id1139120257
-Review sample: https://itunes.apple.com/us/rss/customerreviews/id=1139120257/sortBy=mostRecent/json
 
 ## Converter+ (Units, Currencies)
 

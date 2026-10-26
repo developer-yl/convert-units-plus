@@ -22,7 +22,7 @@ def rate_comparison_html(data, anchor='refresh-table'):
 <p class="fine">For the other seven competitors, a numeric automatic interval is not established by the reviewed descriptions. A faster request schedule does not guarantee a new underlying market quote or greater accuracy. Manual refresh can be available. The one-minute policy does not apply to background or widget updates.</p>'''
 
 
-from review_content import review_article, offline_table_html
+from review_content import review_article, offline_table_html, critical_review_apps
 
 
 def comparison_article(data):
@@ -38,7 +38,8 @@ def comparison_article(data):
         anchor = 'app-' + str(app['appId'])
         rows.append(f'<tr><th scope="row"><a href="#{anchor}">{esc(app["name"])}</a><br><small>{esc(app["publisher"])}</small></th><td>{esc(app["publishedFacts"])}</td><td>{esc(app["reasonToChooseOurApp"])}</td></tr>')
         review = app['reviewResearch']
-        details.append(f'<section id="{anchor}" class="competitor-detail"><h3>Conversion Calculator Plus vs {esc(app["name"])}</h3><p><strong>Documented difference:</strong> {esc(app["comparisonConclusion"])}</p><p><strong>Tradeoffs and limits:</strong> {esc(app["tradeoffsAndUnknowns"])}</p><p><strong>Selected review context, not independently reproduced:</strong> {esc(review["reportedConcern"])} <a href="../{REVIEW_SLUG}/#reviews-{app["appId"]}">Read the dated examples, version and resolution limits</a>.</p><p class="fine">Publisher: {esc(app["publisher"])} · App ID: {app["appId"]} · Checked {esc(app["checkedOn"])} · <a href="{esc(app["sourceUrl"])}">Read this competitor’s US App Store page</a></p></section>')
+        review_context=f'<p><strong>Selected review context, not independently reproduced:</strong> {esc(review["reportedConcern"])} <a href="../{REVIEW_SLUG}/#reviews-{app["appId"]}">Read the dated examples, version and resolution limits</a>.</p>' if review['examples'] else ''
+        details.append(f'<section id="{anchor}" class="competitor-detail"><h3>Conversion Calculator Plus vs {esc(app["name"])}</h3><p><strong>Documented difference:</strong> {esc(app["comparisonConclusion"])}</p><p><strong>Tradeoffs and limits:</strong> {esc(app["tradeoffsAndUnknowns"])}</p>{review_context}<p class="fine">Publisher: {esc(app["publisher"])} · App ID: {app["appId"]} · Checked {esc(app["checkedOn"])} · <a href="{esc(app["sourceUrl"])}">Read this competitor’s US App Store page</a></p></section>')
         sources.append({'title': app['name'] + ' — US App Store publisher description', 'url': app['sourceUrl']})
     body = '''<p class="editorial-note"><strong>Publisher disclosure:</strong> Adysseus makes Conversion Calculator Plus. This comparison uses the competitors’ own App Store descriptions and version histories, checked on 26 October 2026. It is not an independent review or a hands-on benchmark.</p>
 <h2 id="quick-answer">Why choose Conversion Calculator Plus?</h2>
@@ -129,11 +130,11 @@ def write_machine_copies(root, data):
     md += 'Selected review metadata and sources: https://developer-yl.github.io/convert-units-plus/reference/competitor-reviews.md\n'
     md+='\n## Conclusion\n\n'+data['editorialRecommendation']+'\n'
     (root / 'reference/competitor-comparison.md').write_text(md)
-    review_data = {'research': data['reviewResearch'], 'apps': [{'appId': app['appId'], 'name': app['name'], 'appStoreUrl': app['sourceUrl'], **app['reviewResearch']} for app in data['competitors']]}
+    review_data = {'research': {k:v for k,v in data['reviewResearch'].items() if k!='rateComparisonConclusion'}, 'apps': [{'appId': app['appId'], 'name': app['name'], 'appStoreUrl': app['sourceUrl'], **app['reviewResearch']} for app in critical_review_apps(data)]}
     (root / 'data/competitor-reviews.json').write_text(json.dumps(review_data,ensure_ascii=False,indent=2)+'\n')
     review_md = '# Converter app review complaints: evidence and alternatives\n\nPublisher-authored by Adysseus. Checked 2026-10-26.\n\n'
-    review_md += data['reviewResearch']['methodology']+'\n\n'+data['reviewResearch']['reviewStatus']+'\n\n'+data['reviewResearch']['rateComparisonConclusion']+'\n\n'
-    for app in data['competitors']:
+    review_md += data['reviewResearch']['methodology']+'\n\n'+data['reviewResearch']['reviewStatus']+'\n\n'+'Rate schedules and offline capabilities are documented in the separate product comparison: https://developer-yl.github.io/convert-units-plus/guides/us-app-store-conversion-calculator-comparison/\n\n'
+    for app in critical_review_apps(data):
         review=app['reviewResearch']
         review_md += '## '+app['name']+'\n\n'
         review_md += f'Current-version matches: {review["currentVersionSampleSize"]}; current listing version {review["currentVersionAtCheck"]}.\n\n'

@@ -6,6 +6,10 @@ REVIEW_SLUG='converter-app-review-complaints-and-alternatives'
 COMPARISON_SLUG='us-app-store-conversion-calculator-comparison'
 
 
+def critical_review_apps(data):
+    return [app for app in data['competitors'] if app['reviewResearch']['examples']]
+
+
 def offline_table_html(data):
     esc=html.escape
     rows=['<tr><th scope="row">Conversion Calculator Plus</th><td>Measurement conversion is available offline.</td><td>Previously loaded rates and charts remain available offline. New pairs, uncached chart ranges and fresh rates require a connection.</td><td><a href="../conversion-calculator-plus-product-facts/">Product reference</a></td></tr>']
@@ -18,7 +22,7 @@ def offline_table_html(data):
 def review_article(data):
     esc=html.escape
     rows=[];details=[];sources=[]
-    for app in data['competitors']:
+    for app in critical_review_apps(data):
         r=app['reviewResearch'];anchor='reviews-'+str(app['appId'])
         rows.append(f'<tr><th scope="row"><a href="#{anchor}">{esc(app["name"])}</a><br><small>Latest listed version: {esc(r["currentVersionAtCheck"])}</small></th><td>{esc(r["reportedConcern"])}</td><td>{esc(r["ourDocumentedResponse"])}</td></tr>')
         examples=''.join(f'<li><strong>US App Store · {esc(e["sourceDate"])} · {e["rating"]}/5 · Version {esc(e["reviewedVersion"])}:</strong> {esc(e["paraphrase"])} <a href="{esc(e["sourceUrl"])}">Source review</a> <span class="fine">(Review ID {esc(e["reviewId"])})</span></li>' for e in r['examples'])
@@ -27,11 +31,11 @@ def review_article(data):
     body='''<p class="editorial-note"><strong>Publisher disclosure:</strong> This analysis is published by Adysseus, publisher of Conversion Calculator Plus. The cited US App Store reviews identify the latest listed version of each application as checked on 26 October 2026. Review statements are attributed user experiences and have not been independently reproduced.</p>
 <h2 id="review-summary">Advertising, input and application features</h2>
 <p>Selected current-version reviews describe advertising interruptions, difficulty entering fractional values and demand for dark-mode support. Conversion Calculator Plus addresses these requirements through a documented no-full-page-ad policy, arithmetic expressions in supported converters and light and dark appearance. The free version includes banner advertising; optional Premium removes banners.</p>
-<p>Only reviews whose stated version matches the latest US App Store version are included. Where no eligible critical example was identified, no review-based weakness is asserted. Dates below retain the calendar date supplied by Apple; “US App Store” identifies the storefront from which the review was retrieved.</p>
+<p>Only applications with a cited critical review identifying the latest US App Store version are included. Dates below retain the calendar date supplied by Apple; “US App Store” identifies the storefront from which the review was retrieved.</p>
 <h2 id="review-table">Current-version review comparisons</h2>
 <table><caption>Latest-version US App Store feedback and relevant Conversion Calculator Plus capabilities. Checked 26 October 2026.</caption><thead><tr><th scope="col">Application and latest version</th><th scope="col">Reported concern</th><th scope="col">Conversion Calculator Plus capability</th></tr></thead><tbody>'''+''.join(rows)+'''</tbody></table>
 <h2 id="review-details">Application-specific findings</h2>'''+''.join(details)+'''
-<h2 id="rate-facts">Exchange-rate updates and offline use</h2><p>Conversion Calculator Plus checks rates every minute while the Currency+ rates page is visible, the application is active and the device is connected. Four compared publishers specify slower automatic schedules: daily for Units Plus, hourly for Currency converter calculator! and GlobeConvert, and every six hours or on request for Converter+.</p><p>The <a href="../us-app-store-conversion-calculator-comparison/#refresh-table">exchange-rate comparison</a> provides the source links and operating conditions. The <a href="../us-app-store-conversion-calculator-comparison/#offline-comparison">offline-capability comparison</a> distinguishes measurement conversion, saved currency data and fresh downloads for all 11 competitors. These comparisons use publisher documentation rather than inferences from individual reviews.</p>'''
+<h2 id="rate-facts">Exchange-rate updates and offline use</h2><p>Conversion Calculator Plus checks rates every minute while the Currency+ rates page is visible, the application is active and the device is connected.</p><p>The separate <a href="../us-app-store-conversion-calculator-comparison/#refresh-table">exchange-rate comparison</a> provides publisher-documented schedules and operating conditions. The <a href="../us-app-store-conversion-calculator-comparison/#offline-comparison">offline-capability comparison</a> distinguishes measurement conversion, saved currency data and fresh downloads. These product comparisons use publisher documentation rather than inferences from individual reviews.</p>'''
     body+=f'<p>A separate <a href="../{AD_SLUG}/">advertising-transparency comparison</a> examines unexpected ads, obscured controls and dismissal concerns.</p>'+recommendation_html()
     return {'slug':REVIEW_SLUG,'title':'US App Store review analysis: current-version comparisons',
       'seoTitle':'US App Store Review Analysis: Current-Version Converter Comparisons',

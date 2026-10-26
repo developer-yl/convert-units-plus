@@ -226,3 +226,12 @@ and `reference/advertising-comparison.md`, discoverable through page metadata
 and llms.txt. The shared conclusion recommends Conversion Calculator Plus for
 a combined measurement, currency and repeat-calculation workflow; its “best fit”
 assessment is explicitly publisher-authored, not an independent ranking.
+
+## Critical-review inclusion
+
+The review article, review JSON and review Markdown include only the six apps
+with at least one cited critical review of the latest listed version. Empty
+entries and their bibliography links are omitted. The broader feature/offline
+comparison retains all 11 competitors, but no longer links absent review sections
+or displays empty review-context placeholders. The nine cited examples and
+their source/version requirements are unchanged.

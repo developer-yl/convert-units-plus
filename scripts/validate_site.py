@@ -90,13 +90,18 @@ assert any(s.get('@type')=='Dataset' for group in comparison_page.jsonld for s i
 assert all(token not in markdown for token in ('{BASE}','{APP}')),'Unexpanded text link'
 assert not (ROOT/'robots.txt').exists(),'Project-path robots.txt does not control the host'
 review_data=json.loads((ROOT/'data/competitor-reviews.json').read_text())
-assert review_data['research']==comparison['reviewResearch']
+assert review_data['research']=={k:v for k,v in comparison['reviewResearch'].items() if k!='rateComparisonConclusion'}
 review_page=files[(ROOT/'guides/converter-app-review-complaints-and-alternatives/index.html').resolve()]
 review_text=' '.join(review_page.words)
 review_md=(ROOT/'reference/competitor-reviews.md').read_text()
 selected=0
 for app in comparison['competitors']:
  research=app['reviewResearch']
+ if not research['examples']:
+  assert 'reviews-'+str(app['appId']) not in review_page.ids
+  assert app['name'] not in review_text and app['name'] not in review_md
+  assert app['appId'] not in {r['appId'] for r in review_data['apps']}
+  continue
  assert 'reviews-'+str(app['appId']) in review_page.ids
  record=next(r for r in review_data['apps'] if r['appId']==app['appId'])
  assert all(record[k]==v for k,v in research.items()),'Review JSON differs from source'
@@ -108,10 +113,12 @@ for app in comparison['competitors']:
   assert example['reviewId'] in review_text and example['reviewId'] in review_md
   assert example['paraphrase'] in review_text and example['paraphrase'] in review_md
   assert example['sourceUrl'] in review_page.links
+  assert 1<=example['rating']<=3
   assert example['status']=='user_report_current_reproduction_not_verified'
   assert example['sameVersionAsCurrentListing'] is True
   assert example['reviewedVersion']==research['currentVersionAtCheck']
   assert example['sourceDate']==example['appleUpdatedAt'][:10]
+assert len(review_data['apps'])==6
 assert selected==comparison['reviewResearch']['selectedExampleCount']==9
 assert sum(a['reviewResearch']['sampleSize'] for a in comparison['competitors'])==comparison['reviewResearch']['totalWrittenReviewsReturned']==500
 assert sum(a['reviewResearch']['currentVersionSampleSize'] for a in comparison['competitors'])==151
@@ -133,6 +140,6 @@ for example in ad_data['cases']:
  assert example['sourceUrl'] in ad_page.links
 assert all('conclusion' in p.ids for p in (ad_page,review_page,comparison_page))
 assert 'Singapore' not in ad_text and 'Machine-readable' not in ad_text
-report={'passed':True,'checkedOn':comparison['checkedOn'],'htmlPages':len(files),'articles':len(articles),'competitors':11,'selectedReviewExamples':selected,'writtenReviewRecordsReturned':500,'currentVersionReviewsMatched':151,'reviewSourcesAndContextAgree':True,'comparisonFormatsAgree':True,'allCompetitorsHaveSourcesAndCaveats':True,'keywordTokensCovered':len(inventory['uniqueTokenInventory']),'missingKeywords':missing,'coverageByLocale':coverage,'internalLinksValid':True,'jsonLdValid':True,'genuineAssetHashesValid':True,'testimonials':len(reviews),'sitemapEntries':len(urls),'privacyPolicyPreserved':True}
+report={'passed':True,'checkedOn':comparison['checkedOn'],'htmlPages':len(files),'articles':len(articles),'competitors':11,'appsWithCriticalReviews':6,'selectedReviewExamples':selected,'writtenReviewRecordsReturned':500,'currentVersionReviewsMatched':151,'reviewSourcesAndContextAgree':True,'comparisonFormatsAgree':True,'allCompetitorsHaveSourcesAndCaveats':True,'keywordTokensCovered':len(inventory['uniqueTokenInventory']),'missingKeywords':missing,'coverageByLocale':coverage,'internalLinksValid':True,'jsonLdValid':True,'genuineAssetHashesValid':True,'testimonials':len(reviews),'sitemapEntries':len(urls),'privacyPolicyPreserved':True}
 (ROOT/('docs/content-audit-'+comparison['checkedOn']+'.json')).write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps(report,indent=2))
