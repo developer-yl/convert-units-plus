@@ -16,6 +16,7 @@ The app covers 72 categories and 685 non-currency units. It includes Simple and 
 ## Articles
 - [Conversion Calculator Plus vs 11 US App Store competitors](https://developer-yl.github.io/convert-units-plus/guides/us-app-store-conversion-calculator-comparison/)
 - [US App Store review analysis: current-version comparisons](https://developer-yl.github.io/convert-units-plus/guides/converter-app-review-complaints-and-alternatives/)
+- [Advertising transparency: unexpected ads and obstructed controls](https://developer-yl.github.io/convert-units-plus/guides/conversion-app-advertising-transparency/)
 - [Conversion Calculator Plus: product facts and requirements](https://developer-yl.github.io/convert-units-plus/guides/conversion-calculator-plus-product-facts/)
 - [Currency+ and Currency History: Rates, Charts, Zoom and Pan](https://developer-yl.github.io/convert-units-plus/guides/currency-plus-history-charts-guide/)
 - [Best conversion calculator apps for iPhone: choose by your workflow](https://developer-yl.github.io/convert-units-plus/guides/best-conversion-calculator-apps-iphone-by-workflow/)
@@ -35,6 +36,8 @@ The app covers 72 categories and 685 non-currency units. It includes Simple and 
 - [Product facts as Markdown](https://developer-yl.github.io/convert-units-plus/reference/product-facts.md)
 - [Review evidence as JSON](https://developer-yl.github.io/convert-units-plus/data/competitor-reviews.json)
 - [Review evidence as Markdown](https://developer-yl.github.io/convert-units-plus/reference/competitor-reviews.md)
+- [Advertising comparison as JSON](https://developer-yl.github.io/convert-units-plus/data/advertising-comparison.json)
+- [Advertising comparison as Markdown](https://developer-yl.github.io/convert-units-plus/reference/advertising-comparison.md)
 - [Offline capabilities across all 11 competitors](https://developer-yl.github.io/convert-units-plus/guides/us-app-store-conversion-calculator-comparison/#offline-comparison)
 
 The 11-competitor table follows Apple's public US iPhone storefront search for “conversion calculator”, observed on 2026-10-26. Missing listing details are unverified, not absent. Currency checks are not accuracy benchmarks. Unit totals, category totals and conversion-pair counts are different measures. The matching structured records preserve source URLs and these qualifications.

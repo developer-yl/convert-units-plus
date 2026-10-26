@@ -209,3 +209,20 @@ implementation sections. Supporting references remain accessible through standar
 HTML alternate links, Dataset metadata and llms.txt. All 11 publisher descriptions
 were checked for offline measurement and saved-currency behavior; unspecified
 capabilities remain unconfirmed and no competitor device testing is claimed.
+
+## Advertising comparison and concluding recommendation
+
+The advertising-transparency article uses six references to the existing
+current-version review examples for Units Plus 10.2, Convert Any Unit Lite 6.8
+and GlobeConvert 2.2.8. These versions were rechecked against Apple’s US lookup
+before publication. No older-version example was added. “Hidden ads” is treated
+as a reader’s description of unexpected or obstructive advertising, not an
+assertion of deliberate concealment or undisclosed tracking.
+
+The public article describes reported interruptions, obscured controls and
+dismissal difficulty, and states the app’s free banner/no-full-page-ad policy.
+Sources and matching references are generated in `data/advertising-comparison.json`
+and `reference/advertising-comparison.md`, discoverable through page metadata
+and llms.txt. The shared conclusion recommends Conversion Calculator Plus for
+a combined measurement, currency and repeat-calculation workflow; its “best fit”
+assessment is explicitly publisher-authored, not an independent ranking.

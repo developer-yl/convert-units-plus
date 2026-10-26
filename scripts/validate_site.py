@@ -4,6 +4,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 import hashlib,json,re,unicodedata,urllib.parse,xml.etree.ElementTree as ET
 from comparison_content import comparison_article, product_article, review_article
+from advertising_content import advertising_article, advertising_records
 ROOT=Path(__file__).resolve().parents[1]
 class Page(HTMLParser):
  def __init__(self):super().__init__();self.skip=0;self.words=[];self.links=[];self.ids=set();self.images=[];self.h1=0;self.script=False;self.jsonld=[];self.buffer=[];self.canonical=None;self.description=None;self.title=False;self.title_text=[]
@@ -64,7 +65,7 @@ assert {'what-is-the-app','how-it-works','main-features','audience-segments','te
 reviews=json.loads((ROOT/'content/testimonials.json').read_text());assert all(r['rating']==5 and r['author'] and r['reviewId'] and r['sourceURL'] for r in reviews)
 assert sum(len(r['quote'].split()) for r in reviews)<=25
 comparison=json.loads((ROOT/'content/us-storefront-comparison.json').read_text())
-articles=json.loads((ROOT/'content/articles.json').read_text())+[comparison_article(comparison),product_article(comparison),review_article(comparison)]
+articles=json.loads((ROOT/'content/articles.json').read_text())+[comparison_article(comparison),product_article(comparison),review_article(comparison),advertising_article(comparison)]
 for article in articles:
  assert article['sources'],article['slug']
  assert len(re.findall(r'\w+',re.sub('<[^>]+>',' ',article['body'])))>=350,article['slug']
@@ -119,6 +120,19 @@ for app in comparison['competitors']:
  for key in ('measurements','currency','qualification'):
   assert app['offlineCapabilities'][key] in comparison_text and app['offlineCapabilities'][key] in markdown
 assert 'refresh-table' in comparison_page.ids and 'rate-refresh-table' in home.ids
+ad_data=json.loads((ROOT/'data/advertising-comparison.json').read_text())
+assert ad_data==advertising_records(comparison)
+ad_page=files[(ROOT/'guides/conversion-app-advertising-transparency/index.html').resolve()]
+ad_text=' '.join(ad_page.words)
+ad_md=(ROOT/'reference/advertising-comparison.md').read_text()
+assert len(ad_data['cases'])==6
+for example in ad_data['cases']:
+ assert example['reviewedVersion']==example['latestVersionAtCheck']
+ assert example['reviewId'] in ad_text and example['reviewId'] in ad_md
+ assert example['paraphrase'] in ad_text and example['paraphrase'] in ad_md
+ assert example['sourceUrl'] in ad_page.links
+assert all('conclusion' in p.ids for p in (ad_page,review_page,comparison_page))
+assert 'Singapore' not in ad_text and 'Machine-readable' not in ad_text
 report={'passed':True,'checkedOn':comparison['checkedOn'],'htmlPages':len(files),'articles':len(articles),'competitors':11,'selectedReviewExamples':selected,'writtenReviewRecordsReturned':500,'currentVersionReviewsMatched':151,'reviewSourcesAndContextAgree':True,'comparisonFormatsAgree':True,'allCompetitorsHaveSourcesAndCaveats':True,'keywordTokensCovered':len(inventory['uniqueTokenInventory']),'missingKeywords':missing,'coverageByLocale':coverage,'internalLinksValid':True,'jsonLdValid':True,'genuineAssetHashesValid':True,'testimonials':len(reviews),'sitemapEntries':len(urls),'privacyPolicyPreserved':True}
 (ROOT/('docs/content-audit-'+comparison['checkedOn']+'.json')).write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps(report,indent=2))

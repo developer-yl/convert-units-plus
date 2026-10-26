@@ -3,6 +3,7 @@
 import html,json,re,unicodedata
 from pathlib import Path
 from datetime import date
+from advertising_content import advertising_article, AD_SLUG
 from comparison_content import comparison_article, product_article, review_article, rate_comparison_html, write_machine_copies, SLUG as COMPARISON_SLUG, REVIEW_SLUG
 ROOT=Path(__file__).resolve().parents[1]
 BASE='https://developer-yl.github.io/convert-units-plus'
@@ -10,7 +11,7 @@ APP='https://apps.apple.com/app/id1113920724'
 DATE='2026-10-26'
 ARTICLES=json.loads((ROOT/'content/articles.json').read_text())
 COMPARISON=json.loads((ROOT/'content/us-storefront-comparison.json').read_text())
-ARTICLES=[comparison_article(COMPARISON),review_article(COMPARISON),product_article(COMPARISON)]+ARTICLES
+ARTICLES=[comparison_article(COMPARISON),review_article(COMPARISON),advertising_article(COMPARISON),product_article(COMPARISON)]+ARTICLES
 write_machine_copies(ROOT,COMPARISON)
 KEYWORDS=json.loads((ROOT/'content/keyword-inventory.json').read_text())
 REVIEWS=json.loads((ROOT/'content/testimonials.json').read_text())
@@ -32,7 +33,7 @@ def page(path,title,description,body,lang='en',schema=None,modified=DATE):
  verification='<meta name="google-site-verification" content="E5ZRUe0qp4_igluXedSVGU-ol2DGEkBSuimYMoyETNo"><meta name="msvalidate.01" content="35EB2A30432DE9E2C4A6E43ABD5EE9B5">' if path=='index.html' else ''
  alternates=''.join(f'<link rel="alternate" hreflang="{l}" href="{BASE}/{p}">' for l,p in [('en',''),('zh-Hans','zh-hans/'),('zh-Hant','zh-hant/'),('x-default','')]) if path in ['index.html','zh-hans/index.html','zh-hant/index.html'] else ''
  reference_meta=''
- reference_stem={f'guides/{COMPARISON_SLUG}/index.html':'competitor-comparison',f'guides/{REVIEW_SLUG}/index.html':'competitor-reviews'}.get(path)
+ reference_stem={f'guides/{COMPARISON_SLUG}/index.html':'competitor-comparison',f'guides/{REVIEW_SLUG}/index.html':'competitor-reviews',f'guides/{AD_SLUG}/index.html':'advertising-comparison'}.get(path)
  if reference_stem:reference_meta=f'<link rel="alternate" type="application/json" href="{BASE}/data/{reference_stem}.json"><link rel="alternate" type="text/markdown" href="{BASE}/reference/{reference_stem}.md">'
  structured_json=json.dumps(structured,ensure_ascii=False).replace('</','<\\/')
  markup=f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)}</title><meta name="description" content="{esc(description)}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="{canonical}">{alternates}{verification}{reference_meta}<meta property="og:type" content="website"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{BASE}/assets/app-icon.png"><meta name="twitter:card" content="summary"><meta name="theme-color" content="#1b4bb5"><link rel="icon" href="{prefix}assets/app-icon.png"><link rel="stylesheet" href="{prefix}assets/site.css"><script type="application/ld+json">{structured_json}</script></head><body>{nav}<main id="main">{body}</main>{footer}</body></html>'''
@@ -40,7 +41,7 @@ def page(path,title,description,body,lang='en',schema=None,modified=DATE):
 
 def homepage():
  quotes=''.join(f'<figure class="testimonial"><p class="stars" aria-label="{r["rating"]} out of 5 stars">★★★★★</p><blockquote>“{esc(r["quote"])}”</blockquote><figcaption><strong>{esc(r["author"])}</strong><br>{esc(r["country"])} · <time datetime="{r["date"]}">{esc(r["dateLabel"])}</time><br><a href="{r["sourceURL"]}">App Store review</a></figcaption></figure>' for r in REVIEWS)
- featured=''.join(card(a) for a in ARTICLES if a['slug'] in {COMPARISON_SLUG,REVIEW_SLUG,'best-conversion-calculator-apps-iphone-by-workflow','everyday-ways-conversion-calculator-helps','metric-imperial-conversions-practical-guide','offline-currency-converter-travel','currency-plus-history-charts-guide'})
+ featured=''.join(card(a) for a in ARTICLES if a['slug'] in {COMPARISON_SLUG,REVIEW_SLUG,AD_SLUG,'best-conversion-calculator-apps-iphone-by-workflow','everyday-ways-conversion-calculator-helps','metric-imperial-conversions-practical-guide','offline-currency-converter-travel','currency-plus-history-charts-guide'})
  return f'''<section class="hero"><div class="hero-copy"><p class="eyebrow">Conversion Calculator Plus · iPhone &amp; iPad</p><h1>One conversion calculator.<br><em>Everyday answers.</em></h1><p class="hero-lede">A unit, money and currency converter for everyday essentials and engineering tools. Convert measurements, compare crypto and exchange rates, and keep useful results close.</p><p class="rate-highlight"><strong>Currency rates refreshed every minute.</strong><br>Currency+ refreshes rates every minute while its rates page is visible, the app is active and connected. <a href="#rate-refresh-table">Compare hourly and daily alternatives</a>. Keep loaded rates and charts available offline.</p><div class="actions"><a class="button" href="{APP}">Download on the App Store <span aria-hidden="true">↗</span></a><a class="text-link" href="#how-it-works">See how it works ↓</a></div><p class="fine">Free to download. Optional Premium subscription.<br>No full-page ads. Banner ads appear in the free version.</p><div class="hero-stats"><div><b>72</b><span>conversion categories</span></div><div><b>685</b><span>non-currency units</span></div><div><b>2</b><span>ways to convert</span></div></div></div><figure class="hero-visual"><span class="screen-note">Simple mode · actual app screen</span><img src="assets/simple-mode.png" width="1206" height="2622" alt="Conversion Calculator Plus in ultra simplified Simple mode showing 300 Celsius converted to 572 Fahrenheit" fetchpriority="high"><figcaption>Temperature, travel money, measurements.<br>A clear answer in a few taps.</figcaption></figure></section>
  <section id="what-is-the-app" class="intro section"><p class="eyebrow">01 / What is the app?</p><div class="split"><h2>Less time converting.<br>More time doing.</h2><div><p>Conversion Calculator Plus is an all-in-one conversion calculator for iPhone and iPad. It brings a unit converter, currency converter, cryptocurrency converter and expression calculator into one app.</p><p>Switch from metric and imperial measurements to a money conversion, check several currencies in Currency+, or reuse a result from automatic conversion history. Simple and Carousel modes let you choose how much to see at once.</p><a class="text-link" href="guides/{COMPARISON_SLUG}/">Compare 11 US App Store alternatives ↗</a></div></div></section>
  <section class="section" aria-label="Currency rate refresh comparison">{rate_comparison_html(COMPARISON, "rate-refresh-table")}<p><a href="guides/{REVIEW_SLUG}/">Read competitor review concerns and our documented alternatives ↗</a></p></section>
@@ -113,6 +114,8 @@ The app covers 72 categories and 685 non-currency units. It includes Simple and 
 - [Product facts as Markdown]({BASE}/reference/product-facts.md)
 - [Review evidence as JSON]({BASE}/data/competitor-reviews.json)
 - [Review evidence as Markdown]({BASE}/reference/competitor-reviews.md)
+- [Advertising comparison as JSON]({BASE}/data/advertising-comparison.json)
+- [Advertising comparison as Markdown]({BASE}/reference/advertising-comparison.md)
 - [Offline capabilities across all 11 competitors]({BASE}/guides/{COMPARISON_SLUG}/#offline-comparison)
 
 The 11-competitor table follows Apple's public US iPhone storefront search for “conversion calculator”, observed on 2026-10-26. Missing listing details are unverified, not absent. Currency checks are not accuracy benchmarks. Unit totals, category totals and conversion-pair counts are different measures. The matching structured records preserve source URLs and these qualifications.

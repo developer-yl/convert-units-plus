@@ -1,5 +1,6 @@
 """Formal public review analysis and documented offline capabilities."""
 import html
+from advertising_content import recommendation_html, AD_SLUG
 
 REVIEW_SLUG='converter-app-review-complaints-and-alternatives'
 COMPARISON_SLUG='us-app-store-conversion-calculator-comparison'
@@ -31,8 +32,9 @@ def review_article(data):
 <table><caption>Latest-version US App Store feedback and relevant Conversion Calculator Plus capabilities. Checked 26 October 2026.</caption><thead><tr><th scope="col">Application and latest version</th><th scope="col">Reported concern</th><th scope="col">Conversion Calculator Plus capability</th></tr></thead><tbody>'''+''.join(rows)+'''</tbody></table>
 <h2 id="review-details">Application-specific findings</h2>'''+''.join(details)+'''
 <h2 id="rate-facts">Exchange-rate updates and offline use</h2><p>Conversion Calculator Plus checks rates every minute while the Currency+ rates page is visible, the application is active and the device is connected. Four compared publishers specify slower automatic schedules: daily for Units Plus, hourly for Currency converter calculator! and GlobeConvert, and every six hours or on request for Converter+.</p><p>The <a href="../us-app-store-conversion-calculator-comparison/#refresh-table">exchange-rate comparison</a> provides the source links and operating conditions. The <a href="../us-app-store-conversion-calculator-comparison/#offline-comparison">offline-capability comparison</a> distinguishes measurement conversion, saved currency data and fresh downloads for all 11 competitors. These comparisons use publisher documentation rather than inferences from individual reviews.</p>'''
+    body+=f'<p>A separate <a href="../{AD_SLUG}/">advertising-transparency comparison</a> examines unexpected ads, obscured controls and dismissal concerns.</p>'+recommendation_html()
     return {'slug':REVIEW_SLUG,'title':'US App Store review analysis: current-version comparisons',
       'seoTitle':'US App Store Review Analysis: Current-Version Converter Comparisons',
       'description':'Latest-version US App Store review findings, documented Conversion Calculator Plus capabilities and source-linked comparisons.',
       'category':'Application comparison','published':data['checkedOn'],'updated':data['checkedOn'],'checked':data['checkedOn'],
-      'body':body,'sources':sources,'relatedSlugs':[COMPARISON_SLUG,'conversion-calculator-plus-product-facts']}
+      'body':body,'sources':sources,'relatedSlugs':[AD_SLUG,COMPARISON_SLUG,'conversion-calculator-plus-product-facts']}

@@ -1,8 +1,8 @@
 {
   "passed": true,
   "checkedOn": "2026-10-26",
-  "htmlPages": 19,
-  "articles": 13,
+  "htmlPages": 20,
+  "articles": 14,
   "competitors": 11,
   "selectedReviewExamples": 9,
   "writtenReviewRecordsReturned": 500,
@@ -58,6 +58,6 @@
   "jsonLdValid": true,
   "genuineAssetHashesValid": true,
   "testimonials": 3,
-  "sitemapEntries": 19,
+  "sitemapEntries": 20,
   "privacyPolicyPreserved": true
 }

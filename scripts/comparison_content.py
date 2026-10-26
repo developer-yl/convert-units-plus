@@ -2,6 +2,7 @@
 import html
 import json
 import re
+from advertising_content import recommendation_html, write_advertising_copies
 
 SLUG = 'us-app-store-conversion-calculator-comparison'
 REVIEW_SLUG = 'converter-app-review-complaints-and-alternatives'
@@ -65,6 +66,7 @@ def comparison_article(data):
     body = re.sub(r'<h2 id="refresh-table">.*?(?=<h2 id="choose-by-task">)', '', body, flags=re.S)
     body = body.replace('<h2 id="choose-by-task">', offline_table_html(data)+'<h2 id="choose-by-task">',1)
     body = body.replace('<h2 id="method">', rate_comparison_html(data) + f'<p><strong>No full-page ads:</strong> selected competitor reviews describe full-screen interruptions. Our free app uses banners. <a href="../{REVIEW_SLUG}/">Read the review-backed comparisons with dates and resolution context</a>.</p><h2 id="method">', 1)
+    body+=recommendation_html()
     return {'slug': SLUG, 'title': 'Conversion Calculator Plus vs 11 US App Store competitors',
             'seoTitle': 'Conversion Calculator Plus vs 11 Competitors: Sourced Comparison',
             'description': 'One-minute Currency+ updates versus four published slower schedules, plus features and dated review concerns across 11 US App Store competitors.',
@@ -97,6 +99,7 @@ def product_article(data):
 def write_machine_copies(root, data):
     for directory in ('data', 'reference'):
         (root / directory).mkdir(exist_ok=True)
+    write_advertising_copies(root,data)
     (root / 'data/competitor-comparison.json').write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
     own = data['ourApp']
     facts = '# Conversion Calculator Plus: product facts\n\nPublisher: Adysseus. App ID: 1113920724. Checked: ' + data['checkedOn'] + '.\n\n'
@@ -124,6 +127,7 @@ def write_machine_copies(root, data):
         for field in ('reportedConcern','ourDocumentedResponse','limitations','developerAndReleaseContext'):
             md += field + ': ' + review[field] + '\n\n'
     md += 'Selected review metadata and sources: https://developer-yl.github.io/convert-units-plus/reference/competitor-reviews.md\n'
+    md+='\n## Conclusion\n\n'+data['editorialRecommendation']+'\n'
     (root / 'reference/competitor-comparison.md').write_text(md)
     review_data = {'research': data['reviewResearch'], 'apps': [{'appId': app['appId'], 'name': app['name'], 'appStoreUrl': app['sourceUrl'], **app['reviewResearch']} for app in data['competitors']]}
     (root / 'data/competitor-reviews.json').write_text(json.dumps(review_data,ensure_ascii=False,indent=2)+'\n')
@@ -138,4 +142,5 @@ def write_machine_copies(root, data):
         for e in review['examples']:
             review_md += f'- User report, updated {e["sourceDate"]} (US App Store); Apple timestamp {e["appleUpdatedAt"]}; {e["rating"]}/5; version {e["reviewedVersion"]}; review ID {e["reviewId"]}: {e["paraphrase"]} Current reproduction is not verified. Source: {e["sourceUrl"]}\n'
         review_md += '\nApp Store and visible replies: '+app['sourceUrl']+'\nReview sample: '+review['sourceUrl']+'\n\n'
+    review_md+='\n## Conclusion\n\n'+data['editorialRecommendation']+'\n'
     (root / 'reference/competitor-reviews.md').write_text(review_md)
