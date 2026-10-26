@@ -177,9 +177,9 @@ not used as an accuracy or provider-observation-age claim.
 `content/us-storefront-comparison.json` schema version 2 also stores curated
 review evidence. Up to 50 latest written US reviews were retrieved per app:
 500 entries across ten populated feeds, with no written entries returned for
-Units - Conversion Calculator. Seventeen selected 1–3-star examples are
+Units - Conversion Calculator. Nine selected current-version 1–3-star examples are
 paraphrased with IDs, ratings, versions, raw timestamps and dates displayed in
-Asia/Singapore. The sample is qualitative and intentionally examines concerns;
+Apple’s source dates. The sample is qualitative and intentionally examines concerns;
 it is not a representative satisfaction measure or comparative complaint rate.
 
 The new `guides/converter-app-review-complaints-and-alternatives/` article and
@@ -187,8 +187,7 @@ generated `data/competitor-reviews.json` and `reference/competitor-reviews.md`
 carry the same contextual limits. Raw review dumps remain outside the site.
 The RSS feeds omit developer replies; visible App Store replies and current
 release notes were checked separately. Contextual replies are distinguished
-from responses to the selected reviews. Older resolved purchase/decimal/ad-music
-issues are excluded as current defect claims. Recent subjective complaints are
+from responses to the selected reviews. Previous-version reports are excluded from published examples and concerns. Recent subjective complaints are
 still user reports, not reproduced current behavior. No allegations of malware,
 fraud, data theft or illicit ad content are republished. No third-party review
 scores or fabricated aggregate-review markup were added.
@@ -198,3 +197,15 @@ interruption complaints. Our free app still has banners. Category access,
 favorites/search, expressions and light/dark appearance are described as
 documented alternatives without claiming universal usability, accuracy or
 privacy superiority. A zero-entry feed supplies no adverse inference.
+
+## Current-version eligibility and editorial revision
+
+Only review versions exactly matching the latest checked US App Store listing
+are eligible. Nine selected examples remain; 151 of the 500 source records
+match current versions. Older-version examples and concerns have been removed
+from HTML, JSON and Markdown. Source calendar dates replace converted timezone
+labels. Public articles use formal language without research-process or agent
+implementation sections. Supporting references remain accessible through standard
+HTML alternate links, Dataset metadata and llms.txt. All 11 publisher descriptions
+were checked for offline measurement and saved-currency behavior; unspecified
+capabilities remain unconfirmed and no competitor device testing is claimed.

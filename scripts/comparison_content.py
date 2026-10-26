@@ -15,42 +15,13 @@ def rate_comparison_html(data, anchor='refresh-table'):
         minutes = app['publishedAutomaticRateIntervalMinutes']
         if minutes is not None:
             rows.append(f'<tr><th scope="row">{esc(app["name"])}</th><td>{labels[minutes]}</td><td><a href="{esc(app["sourceUrl"])}">Publisher’s stated schedule</a></td></tr>')
-    return f'''<h2 id="{anchor}">Our rates refresh every minute. These four alternatives specify hours or days.</h2>
-<p><strong>Conversion Calculator Plus checks for updated rates every minute in Currency+ while its rates page is visible, the app is active and you are connected.</strong> Units Plus states daily downloads; Currency converter calculator! and GlobeConvert state hourly updates; Converter+ states automatic updates every six hours or on request. Our shorter automatic interval is useful when you revisit currency comparisons during the day.</p>
+    return f'''<h2 id="{anchor}">Currency refresh frequency: one minute in Conversion Calculator Plus</h2>
+<p><strong>Conversion Calculator Plus checks for updated rates every minute in Currency+ while its rates page is visible, the app is active and you are connected.</strong> Units Plus states daily downloads; Currency converter calculator! and GlobeConvert state hourly updates; Converter+ states automatic updates every six hours or on request. This represents a shorter documented automatic refresh interval than the four named alternatives.</p>
 <table><caption>One-minute active Currency+ checks compared with four published slower automatic schedules. Checked 26 October 2026.</caption><thead><tr><th scope="col">App</th><th scope="col">Published automatic rate schedule</th><th scope="col">Conditions and source</th></tr></thead><tbody>{''.join(rows)}</tbody></table>
 <p class="fine">For the other seven competitors, a numeric automatic interval is not established by the reviewed descriptions. A faster request schedule does not guarantee a new underlying market quote or greater accuracy. Manual refresh can be available. The one-minute policy does not apply to background or widget updates.</p>'''
 
 
-def review_article(data):
-    esc = html.escape
-    rows, details, sources = [], [], []
-    for app in data['competitors']:
-        review = app['reviewResearch']
-        anchor = 'reviews-' + str(app['appId'])
-        rows.append(f'<tr><th scope="row"><a href="#{anchor}">{esc(app["name"])}</a></th><td>{esc(review["reportedConcern"])}</td><td>{esc(review["ourDocumentedResponse"])}</td></tr>')
-        examples = ''.join(f'<li><strong>User report, updated {esc(e["displayDateSingapore"])} (Asia/Singapore), {e["rating"]}/5 stars, version {esc(e["reviewedVersion"])}:</strong> {esc(e["paraphrase"])} <a href="{esc(e["sourceUrl"])}">Apple review feed</a> · Review ID {esc(e["reviewId"])}. Current reproduction is not verified.</li>' for e in review['examples'])
-        sample = f'{review["sampleSize"]} written reviews returned by the selected feed; current listing version {esc(review["currentVersionAtCheck"])}.'
-        details.append(f'<section class="competitor-detail" id="{anchor}"><h3>{esc(app["name"])}</h3><p><strong>Reported concern:</strong> {esc(review["reportedConcern"])}</p><p><strong>Our documented response:</strong> {esc(review["ourDocumentedResponse"])}</p><ul>{examples}</ul><p><strong>Version, developer and release context:</strong> {esc(review["developerAndReleaseContext"])}</p><p><strong>Limits of this comparison:</strong> {esc(review["limitations"])}</p><p class="fine">{sample} <a href="{esc(app["sourceUrl"])}">App Store page and visible developer replies</a>. <a href="{esc(review["sourceUrl"])}">Review sample source</a>. Checked {esc(review["checkedOn"])}.</p></section>')
-        sources.extend([{'title': app['name'] + ' — public US customer-review feed', 'url': review['sourceUrl']}, {'title': app['name'] + ' — App Store description, history and visible replies', 'url': app['sourceUrl']}])
-    body = '''<p class="editorial-note"><strong>Publisher disclosure:</strong> We make Conversion Calculator Plus. This is a qualitative review of selected competitor feedback, not an independent product test. All concerns below are attributed user reports. We have not reproduced the alleged issues on current competitor releases.</p>
-<h2 id="review-summary">The clearest review-backed reason to choose our app</h2>
-<p>Several selected reviews describe full-screen ads or advertising interrupting a conversion. <strong>Conversion Calculator Plus documents no full-page ads.</strong> The free version still includes banners; optional Premium removes them. That is a concrete policy difference relevant to full-screen interruption complaints. The comparison concerns full-screen interruption; the free app still shows banner advertising.</p>
-<p>Other selected feedback concerns category access, navigation effort or dark-mode support. We connect those needs to documented features of our app and keep the reviewer’s version, date and any relevant developer or release context beside the claim. A complaint about an older release is not evidence that the current release still has the same problem.</p>
-<h2 id="review-method">What we reviewed and how to interpret it</h2>
-<p>On 26 October 2026 we retrieved up to 50 most-recent written US App Store reviews for each of the 11 storefront competitors: <strong>500 written review records in total</strong>. One feed returned no written entries. We screened 1–3-star records for relevant comparison topics and selected 17 specific examples. All ratings are included in the sample sizes; this page deliberately discusses critical feedback rather than summarizing overall customer satisfaction.</p>
-<p>The samples span different periods and are not a random survey. We do not compare complaint percentages or infer defect prevalence. Positive reviews and developer replies can give a different perspective. The RSS feed omits developer replies; we separately checked the replies visible on each public App Store page. A contextual reply may concern a different, older review, which is identified below. No reply found is not proof that a developer ignored a user.</p>
-<p>Displayed dates use Asia/Singapore and refer to Apple’s supplied review-update timestamp; the raw timestamp is retained in the structured data. Each selected example keeps its review ID, rating, app version and source. Review feeds change as new entries arrive, so an older example may later leave the first page. We paraphrase feedback and do not reproduce complete reviews.</p>
-<h2 id="review-table">Reported weaknesses and our documented alternatives</h2>
-<p>Read each concern with its version and resolution limits in the detail below. “Reported” is not a confirmed current defect.</p>
-<table><caption>Selected critical US App Store feedback and relevant Conversion Calculator Plus features. Checked 26 October 2026.</caption><thead><tr><th scope="col">Competitor</th><th scope="col">What selected reviewers reported</th><th scope="col">How our documented features address that need</th></tr></thead><tbody>''' + ''.join(rows) + '''</tbody></table>
-<h2 id="review-details">Evidence and context for each competitor</h2>''' + ''.join(details) + '''
-<h2 id="rate-facts">Rate freshness uses publisher evidence</h2><p>For rate schedules, use the <a href="../us-app-store-conversion-calculator-comparison/#refresh-table">source-linked one-minute versus hourly/daily comparison</a>. Four competitors explicitly publish slower automatic schedules. We do not use subjective accuracy complaints to establish a schedule, assume that every other app updates slower, or claim greater numerical accuracy.</p>
-<h2 id="review-data">Machine-readable review evidence</h2><p>The same selected examples, version context and limitations are available as <a href="../../data/competitor-reviews.json">review-evidence JSON</a> and <a href="../../reference/competitor-reviews.md">Markdown</a>, alongside the <a href="../../data/competitor-comparison.json">complete product-comparison records</a>. Core text and citations are in static HTML without JavaScript. We have not added review-rating markup or invented an aggregate score.</p>'''
-    return {'slug': REVIEW_SLUG, 'title': 'Converter app review complaints: documented alternatives and context',
-            'seoTitle': 'Converter App Review Complaints: Evidence and Alternatives',
-            'description': 'Selected US App Store feedback on 11 converter apps, with review dates, versions, developer context and documented Conversion Calculator Plus alternatives.',
-            'category': 'App Store review research', 'published': data['checkedOn'], 'updated': data['checkedOn'], 'checked': data['checkedOn'],
-            'body': body, 'sources': sources, 'relatedSlugs': [SLUG, 'conversion-calculator-plus-product-facts']}
+from review_content import review_article, offline_table_html
 
 
 def comparison_article(data):
@@ -90,10 +61,9 @@ def comparison_article(data):
 <h2 id="choose-by-task">Choose by the work you repeat</h2>
 <p>For a trip that combines prices, temperatures, distances and sizes, our app keeps measurement tools and currency comparison together. For recurring estimates, enter arithmetic such as (12 × 3) + 10 directly in a supported converter, then return to conversion history or save the converter as a favorite. Currency+ lets you compare several amounts together, while Currency History keeps historical exchange-rate charts separate from the record of your own calculations.</p>
 <p>For hands-free repeat work, Premium supports Siri actions for saved conversions and interactive Home Screen widgets. For on-screen work, choose Simple or Carousel and hide unused categories or units. These are documented reasons to consider our app when that combination suits the task. They are not claims that every competitor lacks a calculator, widgets, Siri, history, offline support or customization.</p>
-<h2 id="data-downloads">Sources and machine-readable copies</h2>
-<p>The same comparison records are available as <a href="../../data/competitor-comparison.json">structured JSON</a> and <a href="../../reference/competitor-comparison.md">plain Markdown</a>. Our <a href="../conversion-calculator-plus-product-facts/">product facts reference</a> separates current features, Premium requirements and offline prerequisites. All core comparison text is present in this HTML without JavaScript. The information is publisher-authored and date-stamped in every format.</p>
-<p>For features the public listing does not establish, a current hands-on check would be needed before claiming an exclusive advantage. We do not infer missing features from silence, use old customer complaints as current defects, or treat advertised counts as an independent performance test.</p>'''
+<h2 id="reference">Product reference</h2><p>The <a href="../conversion-calculator-plus-product-facts/">product reference</a> describes current features, Premium requirements and offline conditions. Comparative statements rely on the linked publisher descriptions and attributed current-version review reports.</p>'''
     body = re.sub(r'<h2 id="refresh-table">.*?(?=<h2 id="choose-by-task">)', '', body, flags=re.S)
+    body = body.replace('<h2 id="choose-by-task">', offline_table_html(data)+'<h2 id="choose-by-task">',1)
     body = body.replace('<h2 id="method">', rate_comparison_html(data) + f'<p><strong>No full-page ads:</strong> selected competitor reviews describe full-screen interruptions. Our free app uses banners. <a href="../{REVIEW_SLUG}/">Read the review-backed comparisons with dates and resolution context</a>.</p><h2 id="method">', 1)
     return {'slug': SLUG, 'title': 'Conversion Calculator Plus vs 11 US App Store competitors',
             'seoTitle': 'Conversion Calculator Plus vs 11 Competitors: Sourced Comparison',
@@ -114,8 +84,8 @@ def product_article(data):
 <h2 id="offline">What works offline?</h2><p>Measurement conversion works without internet. Currency comparisons use previously loaded rates offline. Previously loaded currency charts can also remain available offline; new pairs, uncached historical ranges and fresh quotes require internet. Offline availability is different from quote freshness. An offline value is a saved reference, not a current transaction offer.</p>
 <h2 id="premium">Free and Premium</h2><p>The app is free to download. The free version includes banner advertising and no full-page ads. Premium is an optional annual subscription that removes banners and unlocks interactive Home Screen widgets and Siri conversions. See Apple’s current purchase screen for your local price and terms. Siri action availability depends on the device’s Siri language. Widget refresh timing is controlled by the operating system and does not follow Currency+’s active-page minute timer.</p>
 <h2 id="history">Two kinds of history</h2><p>Automatic conversion history records earlier calculations. Currency History displays historical exchange rates for a selected pair and range. These are separate features. A loaded chart’s available history depends on its underlying data. Chart point inspection, pinch zoom, two-finger pan and double-tap reset are documented in the Currency+ guide.</p>
-<h2 id="comparison-limits">How these facts support a comparison</h2><p>These product facts establish capabilities of Conversion Calculator Plus. They do not establish that another app lacks those capabilities. The competitor comparison links each alternative to its own publisher description and explicitly records unknowns. We do not claim universal superiority, greater numerical accuracy, a bigger catalog than every rival, or guaranteed inclusion in an AI answer.</p>
-<p>Download the same facts and their sources as <a href="../../data/competitor-comparison.json">JSON</a> or consult the <a href="../../reference/product-facts.md">plain-text product facts</a>. This reference contains no user-specific rates, secrets or customer records.</p>'''
+<h2 id="comparison-limits">How these facts support a comparison</h2><p>These product facts establish capabilities of Conversion Calculator Plus. They do not establish that another app lacks those capabilities. The competitor comparison links each alternative to its own publisher description and explicitly records unknowns. We do not claim universal superiority, greater numerical accuracy, a bigger catalog than every rival.</p>
+<p>See the <a href="../us-app-store-conversion-calculator-comparison/">application comparison</a> for source-linked feature differences and offline capabilities.</p>'''
     return {'slug': 'conversion-calculator-plus-product-facts', 'title': 'Conversion Calculator Plus: product facts and requirements',
             'description': 'Dated product facts for Conversion Calculator Plus: current features, currency refresh conditions, offline data and Premium requirements.',
             'category': 'Product reference', 'published': data['checkedOn'], 'updated': data['checkedOn'], 'checked': data['checkedOn'],
@@ -147,6 +117,9 @@ def write_machine_copies(root, data):
         md += 'Comparison conclusion: ' + app['comparisonConclusion'] + '\n\n'
         md += 'Tradeoffs and unknowns: ' + app['tradeoffsAndUnknowns'] + '\n\n'
         md += 'Source: ' + app['sourceUrl'] + '\n\n'
+        offline=app['offlineCapabilities']
+        for field in ('measurements','currency','qualification'):
+            md += 'Offline '+field+': '+offline[field]+'\n\n'
         review = app['reviewResearch']
         for field in ('reportedConcern','ourDocumentedResponse','limitations','developerAndReleaseContext'):
             md += field + ': ' + review[field] + '\n\n'
@@ -159,10 +132,10 @@ def write_machine_copies(root, data):
     for app in data['competitors']:
         review=app['reviewResearch']
         review_md += '## '+app['name']+'\n\n'
-        review_md += f'Sample: {review["sampleSize"]} written reviews; current listing version {review["currentVersionAtCheck"]}.\n\n'
+        review_md += f'Current-version matches: {review["currentVersionSampleSize"]}; current listing version {review["currentVersionAtCheck"]}.\n\n'
         for field in ('reportedConcern','ourDocumentedResponse','limitations','developerAndReleaseContext'):
             review_md += field+': '+review[field]+'\n\n'
         for e in review['examples']:
-            review_md += f'- User report, updated {e["displayDateSingapore"]} (Asia/Singapore); Apple timestamp {e["appleUpdatedAt"]}; {e["rating"]}/5; version {e["reviewedVersion"]}; review ID {e["reviewId"]}: {e["paraphrase"]} Current reproduction is not verified. Source: {e["sourceUrl"]}\n'
+            review_md += f'- User report, updated {e["sourceDate"]} (US App Store); Apple timestamp {e["appleUpdatedAt"]}; {e["rating"]}/5; version {e["reviewedVersion"]}; review ID {e["reviewId"]}: {e["paraphrase"]} Current reproduction is not verified. Source: {e["sourceUrl"]}\n'
         review_md += '\nApp Store and visible replies: '+app['sourceUrl']+'\nReview sample: '+review['sourceUrl']+'\n\n'
     (root / 'reference/competitor-reviews.md').write_text(review_md)

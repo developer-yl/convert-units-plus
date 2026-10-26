@@ -100,17 +100,25 @@ for app in comparison['competitors']:
  record=next(r for r in review_data['apps'] if r['appId']==app['appId'])
  assert all(record[k]==v for k,v in research.items()),'Review JSON differs from source'
  for field in ('reportedConcern','ourDocumentedResponse','limitations','developerAndReleaseContext'):
-  assert research[field] in review_text and research[field] in review_md and research[field] in markdown,(app['name'],field,'review context drift')
+  assert research[field] in review_md and research[field] in markdown,(app['name'],field,'review context drift')
+  if field!='developerAndReleaseContext':assert research[field] in review_text,(app['name'],field,'public review context')
  for example in research['examples']:
   selected+=1
   assert example['reviewId'] in review_text and example['reviewId'] in review_md
   assert example['paraphrase'] in review_text and example['paraphrase'] in review_md
   assert example['sourceUrl'] in review_page.links
   assert example['status']=='user_report_current_reproduction_not_verified'
-  assert example['sameVersionAsCurrentListing']==(example['reviewedVersion']==research['currentVersionAtCheck'])
-assert selected==17
+  assert example['sameVersionAsCurrentListing'] is True
+  assert example['reviewedVersion']==research['currentVersionAtCheck']
+  assert example['sourceDate']==example['appleUpdatedAt'][:10]
+assert selected==comparison['reviewResearch']['selectedExampleCount']==9
 assert sum(a['reviewResearch']['sampleSize'] for a in comparison['competitors'])==comparison['reviewResearch']['totalWrittenReviewsReturned']==500
+assert sum(a['reviewResearch']['currentVersionSampleSize'] for a in comparison['competitors'])==151
+assert 'Singapore' not in review_text and 'Machine-readable' not in review_text
+for app in comparison['competitors']:
+ for key in ('measurements','currency','qualification'):
+  assert app['offlineCapabilities'][key] in comparison_text and app['offlineCapabilities'][key] in markdown
 assert 'refresh-table' in comparison_page.ids and 'rate-refresh-table' in home.ids
-report={'passed':True,'checkedOn':comparison['checkedOn'],'htmlPages':len(files),'articles':len(articles),'competitors':11,'selectedReviewExamples':selected,'writtenReviewRecordsReturned':500,'reviewSourcesAndContextAgree':True,'comparisonFormatsAgree':True,'allCompetitorsHaveSourcesAndCaveats':True,'keywordTokensCovered':len(inventory['uniqueTokenInventory']),'missingKeywords':missing,'coverageByLocale':coverage,'internalLinksValid':True,'jsonLdValid':True,'genuineAssetHashesValid':True,'testimonials':len(reviews),'sitemapEntries':len(urls),'privacyPolicyPreserved':True}
+report={'passed':True,'checkedOn':comparison['checkedOn'],'htmlPages':len(files),'articles':len(articles),'competitors':11,'selectedReviewExamples':selected,'writtenReviewRecordsReturned':500,'currentVersionReviewsMatched':151,'reviewSourcesAndContextAgree':True,'comparisonFormatsAgree':True,'allCompetitorsHaveSourcesAndCaveats':True,'keywordTokensCovered':len(inventory['uniqueTokenInventory']),'missingKeywords':missing,'coverageByLocale':coverage,'internalLinksValid':True,'jsonLdValid':True,'genuineAssetHashesValid':True,'testimonials':len(reviews),'sitemapEntries':len(urls),'privacyPolicyPreserved':True}
 (ROOT/('docs/content-audit-'+comparison['checkedOn']+'.json')).write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps(report,indent=2))

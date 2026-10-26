@@ -43,13 +43,19 @@ Tradeoffs and unknowns: Category groupings differ. Units Plus already has calcul
 
 Source: https://apps.apple.com/us/app/unit-converter-best-unit-app/id623691968
 
+Offline measurements: Not specified in the reviewed description.
+
+Offline currency: Saved-rate offline use is not specified.
+
+Offline qualification: The description requires internet for daily rate downloads; this does not establish that the entire app requires internet.
+
 reportedConcern: Selected October 2026 reviews of version 10.2 report full-screen ads or advertising obstructing input.
 
 ourDocumentedResponse: Conversion Calculator Plus documents no full-page ads; the free version uses banners. This directly addresses the full-screen interruption concern. Premium removes banners.
 
 limitations: These reports describe selected sessions. Overall ad frequency and present-day input layout have not been independently measured.
 
-developerAndReleaseContext: The selected review version matches the current listing. No response to these selected reviews was available in the reviewed feed; current resolution is unknown.
+developerAndReleaseContext: Included examples identify version 10.2, matching the latest US App Store version checked on 26 October 2026. The review feed does not include developer replies; no resolution of these selected reports has been independently confirmed.
 
 ### Currency converter calculator!
 
@@ -65,13 +71,19 @@ Tradeoffs and unknowns: Custom exchange rates are an explicit rival capability. 
 
 Source: https://apps.apple.com/us/app/currency-converter-calculator/id1457309557
 
-reportedConcern: Selected August and October 2026 reviewers report screen-blocking or full-screen ads.
+Offline measurements: Not addressed; the description focuses on currency.
 
-ourDocumentedResponse: Our app documents banner-only advertising with no full-page ads, plus one-minute active Currency+ checks versus this rival’s published hourly schedule.
+Offline currency: The publisher states that the app works without internet.
 
-limitations: The selected reviews precede current version 3.1.10. Its release notes say bug fixes without identifying these complaints; current reproduction is unknown.
+Offline qualification: Offline currency use is documented; precise cache preparation and retention rules are not described.
 
-developerAndReleaseContext: Older highlighted App Store reviews about purchase restoration and a 2024 currency-selection problem include resolution reports or a developer fix. Those are excluded as evidence of current defects.
+reportedConcern: No eligible critical review example was identified for the latest listed version, 3.1.10, in the reviewed sample.
+
+ourDocumentedResponse: Comparison is limited to the documented product capabilities; no review-based weakness is asserted.
+
+limitations: No conclusion about customer satisfaction or product reliability follows from the absence of an eligible example.
+
+developerAndReleaseContext: The reviewed feed contained 2 written reviews identifying current version 3.1.10. Reviews of previous versions are excluded from this analysis.
 
 ### Unit Converter - Convert all
 
@@ -87,13 +99,19 @@ Tradeoffs and unknowns: The rival already documents a calculator, offline conver
 
 Source: https://apps.apple.com/us/app/unit-converter-convert-all/id417794697
 
-reportedConcern: October 2026 reviewers describe ads interrupting first use and difficulty with fractional input or paid conversion access.
+Offline measurements: Explicitly supported for measurement units.
 
-ourDocumentedResponse: Our no-full-page-ad policy addresses interruption. Our supported expression input can calculate 1 ÷ 8 before conversion; ordinary measurement categories are not listed as Premium requirements.
+Offline currency: Live currency rates require a connection; saved-rate behavior is not separately detailed.
 
-limitations: The rival itself advertises an expression calculator. A reviewer’s fraction-entry difficulty is not proof it cannot calculate division or that our input is uniquely capable.
+Offline qualification: The description states that units convert offline and that a connection is required to refresh live rates.
 
-developerAndReleaseContext: An older 2017 decimal-key complaint has a developer reply saying it was fixed; a 2018 purchase-restoration complaint was also resolved. Neither is used as a current defect claim.
+reportedConcern: A review identifying current version 3.0.29 reports difficulty entering an inch fraction and dissatisfaction with paid access to less-used conversions.
+
+ourDocumentedResponse: Conversion Calculator Plus supports division expressions such as 1 ÷ 8 before conversion. Its ordinary measurement categories are not listed as Premium requirements.
+
+limitations: The competing app also advertises an expression calculator. This report does not establish that division is unavailable or that either app has exclusive arithmetic capabilities.
+
+developerAndReleaseContext: Included examples identify version 3.0.29, matching the latest US App Store version checked on 26 October 2026. The review feed does not include developer replies; no resolution of these selected reports has been independently confirmed.
 
 ### My Currency Converter & Rates
 
@@ -109,13 +127,19 @@ Tradeoffs and unknowns: Its listing already promises offline currency use. Measu
 
 Source: https://apps.apple.com/us/app/my-currency-converter-rates/id549019596
 
-reportedConcern: One September 2026 reviewer criticized navigation effort on version 26.5.1.
+Offline measurements: Not addressed; the description focuses on currency.
 
-ourDocumentedResponse: Currency+ compares several currencies together, and favorites and conversion history support repeat work. These are concrete workflow options for users who dislike repeated setup.
+Offline currency: Explicitly documented without an internet connection.
 
-limitations: This is a subjective report, not a tap-count benchmark or proof our app is universally easier. Other sampled and highlighted reviews praise this rival’s simplicity.
+Offline qualification: The description states that currency values can be compared while disconnected; it does not specify a numeric update interval.
 
-developerAndReleaseContext: Current version 26.6.2 release notes explicitly mention design improvements, so the older navigation concern may have changed. Current resolution was not tested.
+reportedConcern: No eligible critical review example was identified for the latest listed version, 26.6.2, in the reviewed sample.
+
+ourDocumentedResponse: Comparison is limited to the documented product capabilities; no review-based weakness is asserted.
+
+limitations: No conclusion about customer satisfaction or product reliability follows from the absence of an eligible example.
+
+developerAndReleaseContext: The reviewed feed contained 0 written reviews identifying current version 26.6.2. Reviews of previous versions are excluded from this analysis.
 
 ### Convert Any Unit Lite
 
@@ -131,13 +155,19 @@ Tradeoffs and unknowns: We do not claim the largest unit catalog. Its fractions 
 
 Source: https://apps.apple.com/us/app/convert-any-unit-lite/id478222820
 
+Offline measurements: Not specified in the reviewed description.
+
+Offline currency: Not specified in the reviewed description.
+
+Offline qualification: No explicit offline policy is provided in the reviewed publisher description.
+
 reportedConcern: Selected July and September 2026 reviews of version 6.8 report intrusive ads interrupting conversion or unit selection.
 
-ourDocumentedResponse: Our published no-full-page-ad policy offers a concrete alternative to full-screen interruptions. Premium removes our banner ads.
+ourDocumentedResponse: The published no-full-page-ad policy offers a concrete alternative to full-screen interruptions. Premium removes its banner ads.
 
-limitations: Our free version still has banners. These individual reports do not establish an overall failure rate or the behavior of every rival session.
+limitations: The free version of Conversion Calculator Plus still has banners. These individual reports do not establish an overall failure rate or the behavior of every rival session.
 
-developerAndReleaseContext: The selected reviews match current version 6.8. A separate older developer reply says the Lite rebranding retained the same app; that does not resolve the selected ad reports. Current reproduction is unknown.
+developerAndReleaseContext: Included examples identify version 6.8, matching the latest US App Store version checked on 26 October 2026. The review feed does not include developer replies; no resolution of these selected reports has been independently confirmed.
 
 ### Metric Conversion tool
 
@@ -153,13 +183,19 @@ Tradeoffs and unknowns: Its conversion-pair count is not comparable with our uni
 
 Source: https://apps.apple.com/us/app/metric-conversion-tool/id1439430070
 
-reportedConcern: Selected October 2026 reviews criticize advertising, including a report against current version 3.0.0.
+Offline measurements: The publisher states that the converter works offline.
 
-ourDocumentedResponse: Our documented policy limits the free app to banner ads, with no full-page ads. Premium removes banners. This establishes our policy, not a measured ad-quality advantage.
+Offline currency: The description does not separately explain saved currency-rate behavior.
 
-limitations: The selected reports establish dissatisfaction with advertising, but do not identify every ad’s format. Our free app also contains banners.
+Offline qualification: The general offline claim is documented, but the listed live currency feature does not define its offline cache conditions.
 
-developerAndReleaseContext: A March 2025 developer response says an earlier ad-quality and music problem was addressed in an update. That historical complaint is not presented as an unresolved current issue.
+reportedConcern: A review identifying current version 3.0.0 criticizes advertising introduced after an update.
+
+ourDocumentedResponse: The documented policy limits the free app to banner ads, with no full-page ads. Premium removes banners. This establishes our policy, not a measured ad-quality advantage.
+
+limitations: This report does not identify every advertisement’s format. Conversion Calculator Plus also includes banner advertising in its free version.
+
+developerAndReleaseContext: Included examples identify version 3.0.0, matching the latest US App Store version checked on 26 October 2026. The review feed does not include developer replies; no resolution of these selected reports has been independently confirmed.
 
 ### Units - Conversion Calculator
 
@@ -175,13 +211,19 @@ Tradeoffs and unknowns: The rival already has history and favorites and explicit
 
 Source: https://apps.apple.com/us/app/units-conversion-calculator/id6761082020
 
-reportedConcern: No written review entries were returned by the selected US feed.
+Offline measurements: Explicitly supported; live currency rates are the stated exception.
 
-ourDocumentedResponse: Our published category count and Currency+ workflow can still be compared using product descriptions; no review-based weakness is established.
+Offline currency: Saved-rate offline use is not specified.
 
-limitations: No written entries in this feed does not mean no ratings, no reviews elsewhere or no defects. The rival advertises no ads, so we do not claim an advertising advantage.
+Offline qualification: The publisher describes offline operation except for live currency rates.
 
-developerAndReleaseContext: No review-based inference is made.
+reportedConcern: No eligible critical review example was identified for the latest listed version, 1.0, in the reviewed sample.
+
+ourDocumentedResponse: Comparison is limited to the documented product capabilities; no review-based weakness is asserted.
+
+limitations: No conclusion about customer satisfaction or product reliability follows from the absence of an eligible example.
+
+developerAndReleaseContext: The reviewed feed contained 0 written reviews identifying current version 1.0. Reviews of previous versions are excluded from this analysis.
 
 ### GlobeConvert Currency & Units
 
@@ -197,13 +239,19 @@ Tradeoffs and unknowns: We do not use the inconsistent unit totals to calculate 
 
 Source: https://apps.apple.com/us/app/globeconvert-currency-units/id334851202
 
+Offline measurements: Not separately specified in the reviewed description.
+
+Offline currency: Explicitly supported using the latest successfully saved rate data.
+
+Offline qualification: Saved currency data remains available for offline calculations; new observations require a connection.
+
 reportedConcern: Selected August and October 2026 reviews of version 2.2.8 criticize lengthy or recurring ads.
 
-ourDocumentedResponse: Our app documents no full-page ads. Currency+ also checks rates every minute while active and connected, versus GlobeConvert’s stated hourly updates.
+ourDocumentedResponse: Conversion Calculator Plus documents no full-page ads. Currency+ also checks rates every minute while active and connected, versus GlobeConvert’s stated hourly updates.
 
 limitations: The reports do not establish which actions triggered each ad. Both products offer saved-rate offline use and an ad-free paid option.
 
-developerAndReleaseContext: In a separate 2024 App Store reply, the developer says ads appear for extra functionality and not ordinary conversion. That narrower scope is preserved alongside the later user complaints; current reproduction was not tested.
+developerAndReleaseContext: Included examples identify version 2.2.8, matching the latest US App Store version checked on 26 October 2026. The review feed does not include developer replies; no resolution of these selected reports has been independently confirmed.
 
 ### Conversion Calculator Units
 
@@ -219,13 +267,19 @@ Tradeoffs and unknowns: Customization and favorites are already rival features. 
 
 Source: https://apps.apple.com/us/app/conversion-calculator-units/id727632233
 
-reportedConcern: Selected 2025–2026 reviews report navigation difficulty and ad interruptions on older versions.
+Offline measurements: Not specified in the reviewed description.
 
-ourDocumentedResponse: Our app offers category/unit search, favorites and a choice of Simple or Carousel, plus no full-page ads. These are documented alternatives for those needs.
+Offline currency: Currency conversion is not established by the enumerated categories.
 
-limitations: The cited reviews concern versions 1.8 and 1.7.2, not current 1.9; their complaints must not be presented as confirmed current defects.
+Offline qualification: No explicit offline policy is provided in the reviewed publisher description.
 
-developerAndReleaseContext: Version 1.9 release notes mention stability, performance and user-experience improvements. Whether the selected issues remain is unknown.
+reportedConcern: No eligible critical review example was identified for the latest listed version, 1.9, in the reviewed sample.
+
+ourDocumentedResponse: Comparison is limited to the documented product capabilities; no review-based weakness is asserted.
+
+limitations: No conclusion about customer satisfaction or product reliability follows from the absence of an eligible example.
+
+developerAndReleaseContext: The reviewed feed contained 0 written reviews identifying current version 1.9. Reviews of previous versions are excluded from this analysis.
 
 ### Unit Converter - Pro Units App
 
@@ -241,13 +295,19 @@ Tradeoffs and unknowns: The rival supports custom unit lists. A numeric currency
 
 Source: https://apps.apple.com/us/app/unit-converter-pro-units-app/id1139120257
 
-reportedConcern: A 2023 reviewer objected to paid feature access; the current listing independently confirms that only four categories are unlocked by default.
+Offline measurements: Not specified in the reviewed description.
 
-ourDocumentedResponse: Our ordinary measurement categories are not listed as Premium-gated. Premium is described as removing banners and unlocking interactive widgets and Siri.
+Offline currency: Saved-rate offline use is not specified.
 
-limitations: The review is historical, but the four-category free-tier restriction is a current publisher-documented fact. We do not infer unresolved purchase-restoration bugs.
+Offline qualification: The publisher requires a connection for up-to-date exchange rates; that statement does not establish the offline status of measurement conversion.
 
-developerAndReleaseContext: Current version 2.1.3 was checked. The comparison relies on its current description for the free-tier restriction, not solely on the older review.
+reportedConcern: No eligible critical review example was identified for the latest listed version, 2.1.3, in the reviewed sample.
+
+ourDocumentedResponse: Comparison is limited to the documented product capabilities; no review-based weakness is asserted.
+
+limitations: No conclusion about customer satisfaction or product reliability follows from the absence of an eligible example.
+
+developerAndReleaseContext: The reviewed feed contained 0 written reviews identifying current version 2.1.3. Reviews of previous versions are excluded from this analysis.
 
 ### Converter+ (Units, Currencies)
 
@@ -263,12 +323,18 @@ Tradeoffs and unknowns: The rival advertises more supplied categories, custom te
 
 Source: https://apps.apple.com/us/app/converter-units-currencies/id370146222
 
+Offline measurements: Not specified in the reviewed description.
+
+Offline currency: Not specified in the reviewed description.
+
+Offline qualification: The description documents automatic and manual exchange-rate updates and online template downloads, but does not define offline operation.
+
 reportedConcern: An August 2026 reviewer of current version 3.6 requested dark mode.
 
-ourDocumentedResponse: Our app explicitly supports light and dark appearance and one-minute active Currency+ checks, compared with the rival’s stated six-hour automatic schedule or manual refresh.
+ourDocumentedResponse: Conversion Calculator Plus explicitly supports light and dark appearance and one-minute active Currency+ checks, compared with the rival’s stated six-hour automatic schedule or manual refresh.
 
 limitations: A feature request is not independent proof that dark mode is absent. Current rival dark-mode behavior has not been independently tested.
 
-developerAndReleaseContext: The current listing remains version 3.6. We report the dark-mode request as user feedback and use the published refresh interval for the rate comparison.
+developerAndReleaseContext: Included examples identify version 3.6, matching the latest US App Store version checked on 26 October 2026. The review feed does not include developer replies; no resolution of these selected reports has been independently confirmed.
 
 Selected review metadata and sources: https://developer-yl.github.io/convert-units-plus/reference/competitor-reviews.md

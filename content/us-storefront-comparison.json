@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "checkedOn": "2026-10-26",
   "publisher": "Adysseus",
   "disclosure": "Prepared by the publisher of Conversion Calculator Plus; not an independent review or hands-on benchmark.",
@@ -118,32 +118,41 @@
         "reportedConcern": "Selected October 2026 reviews of version 10.2 report full-screen ads or advertising obstructing input.",
         "ourDocumentedResponse": "Conversion Calculator Plus documents no full-page ads; the free version uses banners. This directly addresses the full-screen interruption concern. Premium removes banners.",
         "limitations": "These reports describe selected sessions. Overall ad frequency and present-day input layout have not been independently measured.",
-        "developerAndReleaseContext": "The selected review version matches the current listing. No response to these selected reviews was available in the reviewed feed; current resolution is unknown.",
+        "developerAndReleaseContext": "Included examples identify version 10.2, matching the latest US App Store version checked on 26 October 2026. The review feed does not include developer replies; no resolution of these selected reports has been independently confirmed.",
         "developerReplyContextSource": "https://apps.apple.com/us/app/unit-converter-best-unit-app/id623691968",
         "examples": [
           {
             "reviewId": "14705901689",
             "appleUpdatedAt": "2026-10-24T08:31:57-07:00",
-            "displayDateSingapore": "2026-10-24",
             "rating": 1,
             "reviewedVersion": "10.2",
             "sameVersionAsCurrentListing": true,
             "paraphrase": "Reported full-screen advertising and frustration with feature paywalls.",
             "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=623691968/sortBy=mostRecent/json",
-            "status": "user_report_current_reproduction_not_verified"
+            "status": "user_report_current_reproduction_not_verified",
+            "sourceDate": "2026-10-24"
           },
           {
             "reviewId": "14655798272",
             "appleUpdatedAt": "2026-10-11T17:10:22-07:00",
-            "displayDateSingapore": "2026-10-12",
             "rating": 1,
             "reviewedVersion": "10.2",
             "sameVersionAsCurrentListing": true,
             "paraphrase": "Reported advertising covering the keyboard.",
             "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=623691968/sortBy=mostRecent/json",
-            "status": "user_report_current_reproduction_not_verified"
+            "status": "user_report_current_reproduction_not_verified",
+            "sourceDate": "2026-10-11"
           }
-        ]
+        ],
+        "currentVersionSampleSize": 50
+      },
+      "offlineCapabilities": {
+        "measurements": "Not specified in the reviewed description.",
+        "currency": "Saved-rate offline use is not specified.",
+        "qualification": "The description requires internet for daily rate downloads; this does not establish that the entire app requires internet.",
+        "evidence": "publisher_description_not_device_tested",
+        "sourceUrl": "https://apps.apple.com/us/app/unit-converter-best-unit-app/id623691968",
+        "checkedOn": "2026-10-26"
       }
     },
     {
@@ -167,35 +176,21 @@
         "checkedOn": "2026-10-26",
         "currentVersionAtCheck": "3.1.10",
         "currentVersionReleasedAt": "2026-10-19T18:41:48Z",
-        "reportedConcern": "Selected August and October 2026 reviewers report screen-blocking or full-screen ads.",
-        "ourDocumentedResponse": "Our app documents banner-only advertising with no full-page ads, plus one-minute active Currency+ checks versus this rival’s published hourly schedule.",
-        "limitations": "The selected reviews precede current version 3.1.10. Its release notes say bug fixes without identifying these complaints; current reproduction is unknown.",
-        "developerAndReleaseContext": "Older highlighted App Store reviews about purchase restoration and a 2024 currency-selection problem include resolution reports or a developer fix. Those are excluded as evidence of current defects.",
+        "reportedConcern": "No eligible critical review example was identified for the latest listed version, 3.1.10, in the reviewed sample.",
+        "ourDocumentedResponse": "Comparison is limited to the documented product capabilities; no review-based weakness is asserted.",
+        "limitations": "No conclusion about customer satisfaction or product reliability follows from the absence of an eligible example.",
+        "developerAndReleaseContext": "The reviewed feed contained 2 written reviews identifying current version 3.1.10. Reviews of previous versions are excluded from this analysis.",
         "developerReplyContextSource": "https://apps.apple.com/us/app/currency-converter-calculator/id1457309557",
-        "examples": [
-          {
-            "reviewId": "14655356758",
-            "appleUpdatedAt": "2026-10-11T14:12:43-07:00",
-            "displayDateSingapore": "2026-10-12",
-            "rating": 3,
-            "reviewedVersion": "3.1.9",
-            "sameVersionAsCurrentListing": false,
-            "paraphrase": "Reported an ad blocking the screen during an exchange-rate lookup.",
-            "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=1457309557/sortBy=mostRecent/json",
-            "status": "user_report_current_reproduction_not_verified"
-          },
-          {
-            "reviewId": "14486874176",
-            "appleUpdatedAt": "2026-08-29T10:46:21-07:00",
-            "displayDateSingapore": "2026-08-30",
-            "rating": 1,
-            "reviewedVersion": "3.1.5",
-            "sameVersionAsCurrentListing": false,
-            "paraphrase": "Reported a full-screen ad that was difficult to dismiss.",
-            "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=1457309557/sortBy=mostRecent/json",
-            "status": "user_report_current_reproduction_not_verified"
-          }
-        ]
+        "examples": [],
+        "currentVersionSampleSize": 2
+      },
+      "offlineCapabilities": {
+        "measurements": "Not addressed; the description focuses on currency.",
+        "currency": "The publisher states that the app works without internet.",
+        "qualification": "Offline currency use is documented; precise cache preparation and retention rules are not described.",
+        "evidence": "publisher_description_not_device_tested",
+        "sourceUrl": "https://apps.apple.com/us/app/currency-converter-calculator/id1457309557",
+        "checkedOn": "2026-10-26"
       }
     },
     {
@@ -219,35 +214,33 @@
         "checkedOn": "2026-10-26",
         "currentVersionAtCheck": "3.0.29",
         "currentVersionReleasedAt": "2026-10-16T16:33:43Z",
-        "reportedConcern": "October 2026 reviewers describe ads interrupting first use and difficulty with fractional input or paid conversion access.",
-        "ourDocumentedResponse": "Our no-full-page-ad policy addresses interruption. Our supported expression input can calculate 1 ÷ 8 before conversion; ordinary measurement categories are not listed as Premium requirements.",
-        "limitations": "The rival itself advertises an expression calculator. A reviewer’s fraction-entry difficulty is not proof it cannot calculate division or that our input is uniquely capable.",
-        "developerAndReleaseContext": "An older 2017 decimal-key complaint has a developer reply saying it was fixed; a 2018 purchase-restoration complaint was also resolved. Neither is used as a current defect claim.",
+        "reportedConcern": "A review identifying current version 3.0.29 reports difficulty entering an inch fraction and dissatisfaction with paid access to less-used conversions.",
+        "ourDocumentedResponse": "Conversion Calculator Plus supports division expressions such as 1 ÷ 8 before conversion. Its ordinary measurement categories are not listed as Premium requirements.",
+        "limitations": "The competing app also advertises an expression calculator. This report does not establish that division is unavailable or that either app has exclusive arithmetic capabilities.",
+        "developerAndReleaseContext": "Included examples identify version 3.0.29, matching the latest US App Store version checked on 26 October 2026. The review feed does not include developer replies; no resolution of these selected reports has been independently confirmed.",
         "developerReplyContextSource": "https://apps.apple.com/us/app/unit-converter-convert-all/id417794697",
         "examples": [
           {
-            "reviewId": "14642561386",
-            "appleUpdatedAt": "2026-10-08T09:07:49-07:00",
-            "displayDateSingapore": "2026-10-09",
-            "rating": 1,
-            "reviewedVersion": "3.0.28",
-            "sameVersionAsCurrentListing": false,
-            "paraphrase": "Reported too many ads before completing a first conversion.",
-            "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=417794697/sortBy=mostRecent/json",
-            "status": "user_report_current_reproduction_not_verified"
-          },
-          {
             "reviewId": "14695375271",
             "appleUpdatedAt": "2026-10-21T18:12:00-07:00",
-            "displayDateSingapore": "2026-10-22",
             "rating": 3,
             "reviewedVersion": "3.0.29",
             "sameVersionAsCurrentListing": true,
             "paraphrase": "Reported difficulty entering an inch fraction and disliked paying for less-used conversions.",
             "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=417794697/sortBy=mostRecent/json",
-            "status": "user_report_current_reproduction_not_verified"
+            "status": "user_report_current_reproduction_not_verified",
+            "sourceDate": "2026-10-21"
           }
-        ]
+        ],
+        "currentVersionSampleSize": 1
+      },
+      "offlineCapabilities": {
+        "measurements": "Explicitly supported for measurement units.",
+        "currency": "Live currency rates require a connection; saved-rate behavior is not separately detailed.",
+        "qualification": "The description states that units convert offline and that a connection is required to refresh live rates.",
+        "evidence": "publisher_description_not_device_tested",
+        "sourceUrl": "https://apps.apple.com/us/app/unit-converter-convert-all/id417794697",
+        "checkedOn": "2026-10-26"
       }
     },
     {
@@ -271,24 +264,21 @@
         "checkedOn": "2026-10-26",
         "currentVersionAtCheck": "26.6.2",
         "currentVersionReleasedAt": "2026-10-25T21:53:50Z",
-        "reportedConcern": "One September 2026 reviewer criticized navigation effort on version 26.5.1.",
-        "ourDocumentedResponse": "Currency+ compares several currencies together, and favorites and conversion history support repeat work. These are concrete workflow options for users who dislike repeated setup.",
-        "limitations": "This is a subjective report, not a tap-count benchmark or proof our app is universally easier. Other sampled and highlighted reviews praise this rival’s simplicity.",
-        "developerAndReleaseContext": "Current version 26.6.2 release notes explicitly mention design improvements, so the older navigation concern may have changed. Current resolution was not tested.",
+        "reportedConcern": "No eligible critical review example was identified for the latest listed version, 26.6.2, in the reviewed sample.",
+        "ourDocumentedResponse": "Comparison is limited to the documented product capabilities; no review-based weakness is asserted.",
+        "limitations": "No conclusion about customer satisfaction or product reliability follows from the absence of an eligible example.",
+        "developerAndReleaseContext": "The reviewed feed contained 0 written reviews identifying current version 26.6.2. Reviews of previous versions are excluded from this analysis.",
         "developerReplyContextSource": "https://apps.apple.com/us/app/my-currency-converter-rates/id549019596",
-        "examples": [
-          {
-            "reviewId": "14572272545",
-            "appleUpdatedAt": "2026-09-20T06:25:31-07:00",
-            "displayDateSingapore": "2026-09-20",
-            "rating": 1,
-            "reviewedVersion": "26.5.1",
-            "sameVersionAsCurrentListing": false,
-            "paraphrase": "Reported frustration with the number of interactions needed to change a setting or value.",
-            "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=549019596/sortBy=mostRecent/json",
-            "status": "user_report_current_reproduction_not_verified"
-          }
-        ]
+        "examples": [],
+        "currentVersionSampleSize": 0
+      },
+      "offlineCapabilities": {
+        "measurements": "Not addressed; the description focuses on currency.",
+        "currency": "Explicitly documented without an internet connection.",
+        "qualification": "The description states that currency values can be compared while disconnected; it does not specify a numeric update interval.",
+        "evidence": "publisher_description_not_device_tested",
+        "sourceUrl": "https://apps.apple.com/us/app/my-currency-converter-rates/id549019596",
+        "checkedOn": "2026-10-26"
       }
     },
     {
@@ -313,34 +303,43 @@
         "currentVersionAtCheck": "6.8",
         "currentVersionReleasedAt": "2025-05-12T17:01:28Z",
         "reportedConcern": "Selected July and September 2026 reviews of version 6.8 report intrusive ads interrupting conversion or unit selection.",
-        "ourDocumentedResponse": "Our published no-full-page-ad policy offers a concrete alternative to full-screen interruptions. Premium removes our banner ads.",
-        "limitations": "Our free version still has banners. These individual reports do not establish an overall failure rate or the behavior of every rival session.",
-        "developerAndReleaseContext": "The selected reviews match current version 6.8. A separate older developer reply says the Lite rebranding retained the same app; that does not resolve the selected ad reports. Current reproduction is unknown.",
+        "ourDocumentedResponse": "The published no-full-page-ad policy offers a concrete alternative to full-screen interruptions. Premium removes its banner ads.",
+        "limitations": "The free version of Conversion Calculator Plus still has banners. These individual reports do not establish an overall failure rate or the behavior of every rival session.",
+        "developerAndReleaseContext": "Included examples identify version 6.8, matching the latest US App Store version checked on 26 October 2026. The review feed does not include developer replies; no resolution of these selected reports has been independently confirmed.",
         "developerReplyContextSource": "https://apps.apple.com/us/app/convert-any-unit-lite/id478222820",
         "examples": [
           {
             "reviewId": "14553699416",
             "appleUpdatedAt": "2026-09-15T11:56:57-07:00",
-            "displayDateSingapore": "2026-09-16",
             "rating": 2,
             "reviewedVersion": "6.8",
             "sameVersionAsCurrentListing": true,
             "paraphrase": "Reported ads appearing when changing measurement units.",
             "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=478222820/sortBy=mostRecent/json",
-            "status": "user_report_current_reproduction_not_verified"
+            "status": "user_report_current_reproduction_not_verified",
+            "sourceDate": "2026-09-15"
           },
           {
             "reviewId": "14271522240",
             "appleUpdatedAt": "2026-07-06T14:21:35-07:00",
-            "displayDateSingapore": "2026-07-07",
             "rating": 2,
             "reviewedVersion": "6.8",
             "sameVersionAsCurrentListing": true,
             "paraphrase": "Reported ads that were difficult to close and said restarting the app was necessary.",
             "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=478222820/sortBy=mostRecent/json",
-            "status": "user_report_current_reproduction_not_verified"
+            "status": "user_report_current_reproduction_not_verified",
+            "sourceDate": "2026-07-06"
           }
-        ]
+        ],
+        "currentVersionSampleSize": 35
+      },
+      "offlineCapabilities": {
+        "measurements": "Not specified in the reviewed description.",
+        "currency": "Not specified in the reviewed description.",
+        "qualification": "No explicit offline policy is provided in the reviewed publisher description.",
+        "evidence": "publisher_description_not_device_tested",
+        "sourceUrl": "https://apps.apple.com/us/app/convert-any-unit-lite/id478222820",
+        "checkedOn": "2026-10-26"
       }
     },
     {
@@ -364,35 +363,33 @@
         "checkedOn": "2026-10-26",
         "currentVersionAtCheck": "3.0.0",
         "currentVersionReleasedAt": "2026-10-17T05:43:28Z",
-        "reportedConcern": "Selected October 2026 reviews criticize advertising, including a report against current version 3.0.0.",
-        "ourDocumentedResponse": "Our documented policy limits the free app to banner ads, with no full-page ads. Premium removes banners. This establishes our policy, not a measured ad-quality advantage.",
-        "limitations": "The selected reports establish dissatisfaction with advertising, but do not identify every ad’s format. Our free app also contains banners.",
-        "developerAndReleaseContext": "A March 2025 developer response says an earlier ad-quality and music problem was addressed in an update. That historical complaint is not presented as an unresolved current issue.",
+        "reportedConcern": "A review identifying current version 3.0.0 criticizes advertising introduced after an update.",
+        "ourDocumentedResponse": "The documented policy limits the free app to banner ads, with no full-page ads. Premium removes banners. This establishes our policy, not a measured ad-quality advantage.",
+        "limitations": "This report does not identify every advertisement’s format. Conversion Calculator Plus also includes banner advertising in its free version.",
+        "developerAndReleaseContext": "Included examples identify version 3.0.0, matching the latest US App Store version checked on 26 October 2026. The review feed does not include developer replies; no resolution of these selected reports has been independently confirmed.",
         "developerReplyContextSource": "https://apps.apple.com/us/app/metric-conversion-tool/id1439430070",
         "examples": [
           {
-            "reviewId": "14655331214",
-            "appleUpdatedAt": "2026-10-11T14:03:10-07:00",
-            "displayDateSingapore": "2026-10-12",
-            "rating": 1,
-            "reviewedVersion": "2.2.27",
-            "sameVersionAsCurrentListing": false,
-            "paraphrase": "Reported too much advertising.",
-            "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=1439430070/sortBy=mostRecent/json",
-            "status": "user_report_current_reproduction_not_verified"
-          },
-          {
             "reviewId": "14690234910",
             "appleUpdatedAt": "2026-10-20T10:53:10-07:00",
-            "displayDateSingapore": "2026-10-21",
             "rating": 1,
             "reviewedVersion": "3.0.0",
             "sameVersionAsCurrentListing": true,
             "paraphrase": "Reported unwanted advertising after an update.",
             "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=1439430070/sortBy=mostRecent/json",
-            "status": "user_report_current_reproduction_not_verified"
+            "status": "user_report_current_reproduction_not_verified",
+            "sourceDate": "2026-10-20"
           }
-        ]
+        ],
+        "currentVersionSampleSize": 2
+      },
+      "offlineCapabilities": {
+        "measurements": "The publisher states that the converter works offline.",
+        "currency": "The description does not separately explain saved currency-rate behavior.",
+        "qualification": "The general offline claim is documented, but the listed live currency feature does not define its offline cache conditions.",
+        "evidence": "publisher_description_not_device_tested",
+        "sourceUrl": "https://apps.apple.com/us/app/metric-conversion-tool/id1439430070",
+        "checkedOn": "2026-10-26"
       }
     },
     {
@@ -416,12 +413,21 @@
         "checkedOn": "2026-10-26",
         "currentVersionAtCheck": "1.0",
         "currentVersionReleasedAt": "2026-03-25T19:40:43Z",
-        "reportedConcern": "No written review entries were returned by the selected US feed.",
-        "ourDocumentedResponse": "Our published category count and Currency+ workflow can still be compared using product descriptions; no review-based weakness is established.",
-        "limitations": "No written entries in this feed does not mean no ratings, no reviews elsewhere or no defects. The rival advertises no ads, so we do not claim an advertising advantage.",
-        "developerAndReleaseContext": "No review-based inference is made.",
+        "reportedConcern": "No eligible critical review example was identified for the latest listed version, 1.0, in the reviewed sample.",
+        "ourDocumentedResponse": "Comparison is limited to the documented product capabilities; no review-based weakness is asserted.",
+        "limitations": "No conclusion about customer satisfaction or product reliability follows from the absence of an eligible example.",
+        "developerAndReleaseContext": "The reviewed feed contained 0 written reviews identifying current version 1.0. Reviews of previous versions are excluded from this analysis.",
         "developerReplyContextSource": "https://apps.apple.com/us/app/units-conversion-calculator/id6761082020",
-        "examples": []
+        "examples": [],
+        "currentVersionSampleSize": 0
+      },
+      "offlineCapabilities": {
+        "measurements": "Explicitly supported; live currency rates are the stated exception.",
+        "currency": "Saved-rate offline use is not specified.",
+        "qualification": "The publisher describes offline operation except for live currency rates.",
+        "evidence": "publisher_description_not_device_tested",
+        "sourceUrl": "https://apps.apple.com/us/app/units-conversion-calculator/id6761082020",
+        "checkedOn": "2026-10-26"
       }
     },
     {
@@ -446,34 +452,43 @@
         "currentVersionAtCheck": "2.2.8",
         "currentVersionReleasedAt": "2026-08-17T15:57:20Z",
         "reportedConcern": "Selected August and October 2026 reviews of version 2.2.8 criticize lengthy or recurring ads.",
-        "ourDocumentedResponse": "Our app documents no full-page ads. Currency+ also checks rates every minute while active and connected, versus GlobeConvert’s stated hourly updates.",
+        "ourDocumentedResponse": "Conversion Calculator Plus documents no full-page ads. Currency+ also checks rates every minute while active and connected, versus GlobeConvert’s stated hourly updates.",
         "limitations": "The reports do not establish which actions triggered each ad. Both products offer saved-rate offline use and an ad-free paid option.",
-        "developerAndReleaseContext": "In a separate 2024 App Store reply, the developer says ads appear for extra functionality and not ordinary conversion. That narrower scope is preserved alongside the later user complaints; current reproduction was not tested.",
+        "developerAndReleaseContext": "Included examples identify version 2.2.8, matching the latest US App Store version checked on 26 October 2026. The review feed does not include developer replies; no resolution of these selected reports has been independently confirmed.",
         "developerReplyContextSource": "https://apps.apple.com/us/app/globeconvert-currency-units/id334851202",
         "examples": [
           {
             "reviewId": "14468677441",
             "appleUpdatedAt": "2026-08-24T19:27:26-07:00",
-            "displayDateSingapore": "2026-08-25",
             "rating": 1,
             "reviewedVersion": "2.2.8",
             "sameVersionAsCurrentListing": true,
             "paraphrase": "Reported excessive long advertisements.",
             "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=334851202/sortBy=mostRecent/json",
-            "status": "user_report_current_reproduction_not_verified"
+            "status": "user_report_current_reproduction_not_verified",
+            "sourceDate": "2026-08-24"
           },
           {
             "reviewId": "14694437326",
             "appleUpdatedAt": "2026-10-21T12:17:48-07:00",
-            "displayDateSingapore": "2026-10-22",
             "rating": 1,
             "reviewedVersion": "2.2.8",
             "sameVersionAsCurrentListing": true,
             "paraphrase": "Reported recurring pop-up advertising.",
             "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=334851202/sortBy=mostRecent/json",
-            "status": "user_report_current_reproduction_not_verified"
+            "status": "user_report_current_reproduction_not_verified",
+            "sourceDate": "2026-10-21"
           }
-        ]
+        ],
+        "currentVersionSampleSize": 11
+      },
+      "offlineCapabilities": {
+        "measurements": "Not separately specified in the reviewed description.",
+        "currency": "Explicitly supported using the latest successfully saved rate data.",
+        "qualification": "Saved currency data remains available for offline calculations; new observations require a connection.",
+        "evidence": "publisher_description_not_device_tested",
+        "sourceUrl": "https://apps.apple.com/us/app/globeconvert-currency-units/id334851202",
+        "checkedOn": "2026-10-26"
       }
     },
     {
@@ -497,35 +512,21 @@
         "checkedOn": "2026-10-26",
         "currentVersionAtCheck": "1.9",
         "currentVersionReleasedAt": "2026-09-22T02:52:06Z",
-        "reportedConcern": "Selected 2025–2026 reviews report navigation difficulty and ad interruptions on older versions.",
-        "ourDocumentedResponse": "Our app offers category/unit search, favorites and a choice of Simple or Carousel, plus no full-page ads. These are documented alternatives for those needs.",
-        "limitations": "The cited reviews concern versions 1.8 and 1.7.2, not current 1.9; their complaints must not be presented as confirmed current defects.",
-        "developerAndReleaseContext": "Version 1.9 release notes mention stability, performance and user-experience improvements. Whether the selected issues remain is unknown.",
+        "reportedConcern": "No eligible critical review example was identified for the latest listed version, 1.9, in the reviewed sample.",
+        "ourDocumentedResponse": "Comparison is limited to the documented product capabilities; no review-based weakness is asserted.",
+        "limitations": "No conclusion about customer satisfaction or product reliability follows from the absence of an eligible example.",
+        "developerAndReleaseContext": "The reviewed feed contained 0 written reviews identifying current version 1.9. Reviews of previous versions are excluded from this analysis.",
         "developerReplyContextSource": "https://apps.apple.com/us/app/conversion-calculator-units/id727632233",
-        "examples": [
-          {
-            "reviewId": "13855705389",
-            "appleUpdatedAt": "2026-03-16T15:28:34-07:00",
-            "displayDateSingapore": "2026-03-17",
-            "rating": 1,
-            "reviewedVersion": "1.8",
-            "sameVersionAsCurrentListing": false,
-            "paraphrase": "Reported difficulty switching from volume to other conversion categories.",
-            "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=727632233/sortBy=mostRecent/json",
-            "status": "user_report_current_reproduction_not_verified"
-          },
-          {
-            "reviewId": "12885167382",
-            "appleUpdatedAt": "2025-07-12T19:42:44-07:00",
-            "displayDateSingapore": "2025-07-13",
-            "rating": 1,
-            "reviewedVersion": "1.7.2",
-            "sameVersionAsCurrentListing": false,
-            "paraphrase": "Reported ads that could not be skipped or paused.",
-            "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=727632233/sortBy=mostRecent/json",
-            "status": "user_report_current_reproduction_not_verified"
-          }
-        ]
+        "examples": [],
+        "currentVersionSampleSize": 0
+      },
+      "offlineCapabilities": {
+        "measurements": "Not specified in the reviewed description.",
+        "currency": "Currency conversion is not established by the enumerated categories.",
+        "qualification": "No explicit offline policy is provided in the reviewed publisher description.",
+        "evidence": "publisher_description_not_device_tested",
+        "sourceUrl": "https://apps.apple.com/us/app/conversion-calculator-units/id727632233",
+        "checkedOn": "2026-10-26"
       }
     },
     {
@@ -549,24 +550,21 @@
         "checkedOn": "2026-10-26",
         "currentVersionAtCheck": "2.1.3",
         "currentVersionReleasedAt": "2026-10-09T13:53:37Z",
-        "reportedConcern": "A 2023 reviewer objected to paid feature access; the current listing independently confirms that only four categories are unlocked by default.",
-        "ourDocumentedResponse": "Our ordinary measurement categories are not listed as Premium-gated. Premium is described as removing banners and unlocking interactive widgets and Siri.",
-        "limitations": "The review is historical, but the four-category free-tier restriction is a current publisher-documented fact. We do not infer unresolved purchase-restoration bugs.",
-        "developerAndReleaseContext": "Current version 2.1.3 was checked. The comparison relies on its current description for the free-tier restriction, not solely on the older review.",
+        "reportedConcern": "No eligible critical review example was identified for the latest listed version, 2.1.3, in the reviewed sample.",
+        "ourDocumentedResponse": "Comparison is limited to the documented product capabilities; no review-based weakness is asserted.",
+        "limitations": "No conclusion about customer satisfaction or product reliability follows from the absence of an eligible example.",
+        "developerAndReleaseContext": "The reviewed feed contained 0 written reviews identifying current version 2.1.3. Reviews of previous versions are excluded from this analysis.",
         "developerReplyContextSource": "https://apps.apple.com/us/app/unit-converter-pro-units-app/id1139120257",
-        "examples": [
-          {
-            "reviewId": "10508145068",
-            "appleUpdatedAt": "2023-10-23T13:52:18-07:00",
-            "displayDateSingapore": "2023-10-24",
-            "rating": 1,
-            "reviewedVersion": "2.0.5",
-            "sameVersionAsCurrentListing": false,
-            "paraphrase": "Disliked discovering that only part of the app was available without paying.",
-            "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=1139120257/sortBy=mostRecent/json",
-            "status": "user_report_current_reproduction_not_verified"
-          }
-        ]
+        "examples": [],
+        "currentVersionSampleSize": 0
+      },
+      "offlineCapabilities": {
+        "measurements": "Not specified in the reviewed description.",
+        "currency": "Saved-rate offline use is not specified.",
+        "qualification": "The publisher requires a connection for up-to-date exchange rates; that statement does not establish the offline status of measurement conversion.",
+        "evidence": "publisher_description_not_device_tested",
+        "sourceUrl": "https://apps.apple.com/us/app/unit-converter-pro-units-app/id1139120257",
+        "checkedOn": "2026-10-26"
       }
     },
     {
@@ -591,33 +589,49 @@
         "currentVersionAtCheck": "3.6",
         "currentVersionReleasedAt": "2017-11-13T21:04:01Z",
         "reportedConcern": "An August 2026 reviewer of current version 3.6 requested dark mode.",
-        "ourDocumentedResponse": "Our app explicitly supports light and dark appearance and one-minute active Currency+ checks, compared with the rival’s stated six-hour automatic schedule or manual refresh.",
+        "ourDocumentedResponse": "Conversion Calculator Plus explicitly supports light and dark appearance and one-minute active Currency+ checks, compared with the rival’s stated six-hour automatic schedule or manual refresh.",
         "limitations": "A feature request is not independent proof that dark mode is absent. Current rival dark-mode behavior has not been independently tested.",
-        "developerAndReleaseContext": "The current listing remains version 3.6. We report the dark-mode request as user feedback and use the published refresh interval for the rate comparison.",
+        "developerAndReleaseContext": "Included examples identify version 3.6, matching the latest US App Store version checked on 26 October 2026. The review feed does not include developer replies; no resolution of these selected reports has been independently confirmed.",
         "developerReplyContextSource": "https://apps.apple.com/us/app/converter-units-currencies/id370146222",
         "examples": [
           {
             "reviewId": "14489490918",
             "appleUpdatedAt": "2026-08-30T04:10:08-07:00",
-            "displayDateSingapore": "2026-08-30",
             "rating": 3,
             "reviewedVersion": "3.6",
             "sameVersionAsCurrentListing": true,
             "paraphrase": "Requested dark-mode support, while otherwise describing the app positively.",
             "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=370146222/sortBy=mostRecent/json",
-            "status": "user_report_current_reproduction_not_verified"
+            "status": "user_report_current_reproduction_not_verified",
+            "sourceDate": "2026-08-30"
           }
-        ]
+        ],
+        "currentVersionSampleSize": 50
+      },
+      "offlineCapabilities": {
+        "measurements": "Not specified in the reviewed description.",
+        "currency": "Not specified in the reviewed description.",
+        "qualification": "The description documents automatic and manual exchange-rate updates and online template downloads, but does not define offline operation.",
+        "evidence": "publisher_description_not_device_tested",
+        "sourceUrl": "https://apps.apple.com/us/app/converter-units-currencies/id370146222",
+        "checkedOn": "2026-10-26"
       }
     }
   ],
   "reviewResearch": {
     "checkedOn": "2026-10-26",
-    "methodology": "Retrieved up to 50 most-recent written US App Store reviews per competitor from Apple’s public customer-review feed. Screened 1–3-star records for relevant comparison topics and inspected selected examples alongside current listings, release notes and visible developer replies. Every rating in the returned sample contributes to sampleSize; only selected critical examples are paraphrased below. These are qualitative examples, not a representative survey, a defect rate or a cross-app quality ranking. Dates displayed in the article use Asia/Singapore; raw Apple timestamps and versions are retained.",
-    "reviewStatus": "User-reported experiences; current reproduction and resolution are not verified unless explicitly stated. The RSS feed does not supply developer replies; contextual replies come from the linked public App Store page and may concern other, older reviews.",
-    "selectionPolicy": "Prefer recent, specific usability, advertising and feature-access concerns that map to a documented feature of our app. Preserve contrary developer context and version differences. Selected user reports do not establish overall reliability. A feed with no written entries supplies no adverse inference.",
+    "methodology": "US App Store written reviews only. A review is eligible only when its stated app version exactly matches the latest US App Store version checked on 26 October 2026. Previous-version reviews are excluded from every published concern and example. Source dates use the calendar date in Apple’s supplied review-update timestamp; raw timestamps are retained. Storefront territory does not establish reviewer residence.",
+    "reviewStatus": "Attributed current-version user reports; the alleged behavior and its resolution have not been independently reproduced. The source feed omits developer replies.",
+    "selectionPolicy": "Only exact current-version matches are eligible. Selected examples concern specific advertising, input or feature-access issues and retain source IDs, dates, ratings and version metadata. An absent eligible example supplies no adverse inference.",
     "totalWrittenReviewsReturned": 500,
-    "scope": "US public feeds, first page sorted mostRecent; 11 apps; sample windows differ substantially.",
-    "rateComparisonConclusion": "Conversion Calculator Plus documents one-minute active Currency+ checks. Four rivals explicitly state slower automatic schedules: Units Plus daily; Currency converter calculator! and GlobeConvert hourly; Converter+ every six hours or on request. The other seven reviewed descriptions do not specify a numeric automatic interval."
+    "scope": "US storefront; latest listed version for each app; first review-feed page sorted mostRecent; previous-version entries excluded from published examples.",
+    "rateComparisonConclusion": "Conversion Calculator Plus documents one-minute active Currency+ checks. Four rivals explicitly state slower automatic schedules: Units Plus daily; Currency converter calculator! and GlobeConvert hourly; Converter+ every six hours or on request. The other seven reviewed descriptions do not specify a numeric automatic interval.",
+    "totalCurrentVersionReviewsMatched": 151,
+    "selectedExampleCount": 9
+  },
+  "offlineResearch": {
+    "checkedOn": "2026-10-26",
+    "scope": "All 11 current US App Store publisher descriptions were checked. No competitor was installed or tested offline in this research.",
+    "qualification": "A capability not specified in a description remains unconfirmed, not unavailable. Offline measurement conversion, saved currency references and fresh rate downloads are distinct capabilities."
   }
 }
