@@ -247,3 +247,5 @@ review dumps were added. HTML blockquotes and matching JSON/Markdown copies
 preserve the wording separately from editorial paraphrases.
 
 The generated stylesheet URL includes a content fingerprint so returning browsers receive updated styling when quote formatting changes.
+
+Quoted reviews now show literal quotation marks, the source reviewer’s public display name and filled/empty stars corresponding to the source rating. Excerpt labels are omitted; title/body provenance remains in the structured record. Display names and ratings were matched to the same Apple review IDs.

@@ -35,7 +35,7 @@ def advertising_article(data):
     evidence=advertising_records(data)
     rows=[];sources=[]
     for e in evidence['cases']:
-        rows.append(f'<tr><th scope="row">{esc(e["appName"])}<br><small>Version {esc(e["reviewedVersion"])}</small></th><td>{esc(e["topic"])}</td><td><span class="quote-label">{"Review title excerpt" if e["quoteSourceField"]=="title" else "Review excerpt"}</span><blockquote class="review-excerpt" cite="{esc(e["sourceUrl"])}"><p>{esc(e["quote"])}</p></blockquote><p>{esc(e["paraphrase"])}</p></td><td>US App Store · {esc(e["sourceDate"])} · {e["rating"]}/5<br><a href="{esc(e["sourceUrl"])}">Source review</a><br><small>Review ID {esc(e["reviewId"])}</small></td></tr>')
+        rows.append(f'<tr><th scope="row">{esc(e["appName"])}<br><small>Version {esc(e["reviewedVersion"])}</small></th><td>{esc(e["topic"])}</td><td><strong>{esc(e["reviewerDisplayName"])}</strong><span class="review-rating" aria-label="{e["rating"]} out of 5 stars">{"★"*e["rating"]+"☆"*(5-e["rating"])}</span><blockquote class="review-excerpt" cite="{esc(e["sourceUrl"])}"><p>&quot;{esc(e["quote"])}&quot;</p></blockquote><p>{esc(e["paraphrase"])}</p></td><td>US App Store · {esc(e["sourceDate"])} · {e["rating"]}/5<br><a href="{esc(e["sourceUrl"])}">Source review</a><br><small>Review ID {esc(e["reviewId"])}</small></td></tr>')
         sources.append({'title':e['appName']+' — US App Store reviews','url':e['sourceUrl']})
         sources.append({'title':e['appName']+' — current publisher listing','url':e['publisherListing']})
     # Preserve source order while avoiding repeated bibliography entries.
@@ -69,6 +69,5 @@ def write_advertising_copies(root,data):
         md+=record[field]+'\n\n'
     for e in record['cases']:
         md+=f'## {e["appName"]}: {e["topic"]}\n\nUS App Store · {e["sourceDate"]} · {e["rating"]}/5 · Version {e["reviewedVersion"]} (current listing: {e["latestVersionAtCheck"]}).\n\n{e["paraphrase"]}\n\nReview ID: {e["reviewId"]}. Source: {e["sourceUrl"]}\nPublisher listing: {e["publisherListing"]}\n\n'
-        label='Review title excerpt' if e['quoteSourceField']=='title' else 'Review excerpt'
-        md+=f'{label}:\n\n> {e["quote"]}\n\n'
+        md+=f'\n> "{e["quote"]}"\n>\n> — {e["reviewerDisplayName"]} · {"★"*e["rating"]+"☆"*(5-e["rating"])} ({e["rating"]}/5)\n\n'
     (root/'reference/advertising-comparison.md').write_text(md)

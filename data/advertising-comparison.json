@@ -24,7 +24,8 @@
       "sourceDate": "2026-10-24",
       "quote": "Full Screen Ads.",
       "quoteSourceField": "title",
-      "quoteVerifiedOn": "2026-10-26"
+      "quoteVerifiedOn": "2026-10-26",
+      "reviewerDisplayName": "marie22.reviewer"
     },
     {
       "appId": 623691968,
@@ -43,7 +44,8 @@
       "sourceDate": "2026-10-11",
       "quote": "Now the ads cover up the keyboard.",
       "quoteSourceField": "body",
-      "quoteVerifiedOn": "2026-10-26"
+      "quoteVerifiedOn": "2026-10-26",
+      "reviewerDisplayName": "MHO350SS"
     },
     {
       "appId": 478222820,
@@ -62,7 +64,8 @@
       "sourceDate": "2026-09-15",
       "quote": "they start right when you want to change the units of measure.",
       "quoteSourceField": "body",
-      "quoteVerifiedOn": "2026-10-26"
+      "quoteVerifiedOn": "2026-10-26",
+      "reviewerDisplayName": "Duckfan13"
     },
     {
       "appId": 478222820,
@@ -81,7 +84,8 @@
       "sourceDate": "2026-07-06",
       "quote": "Ads are far too intrusive and impossible to close.",
       "quoteSourceField": "body",
-      "quoteVerifiedOn": "2026-10-26"
+      "quoteVerifiedOn": "2026-10-26",
+      "reviewerDisplayName": "Kaffeeking"
     },
     {
       "appId": 334851202,
@@ -100,7 +104,8 @@
       "sourceDate": "2026-08-24",
       "quote": "Nice app but waaaay too many long ads.",
       "quoteSourceField": "body",
-      "quoteVerifiedOn": "2026-10-26"
+      "quoteVerifiedOn": "2026-10-26",
+      "reviewerDisplayName": "JBD254"
     },
     {
       "appId": 334851202,
@@ -119,7 +124,8 @@
       "sourceDate": "2026-10-21",
       "quote": "Ad keeps popping up",
       "quoteSourceField": "title",
-      "quoteVerifiedOn": "2026-10-26"
+      "quoteVerifiedOn": "2026-10-26",
+      "reviewerDisplayName": "johnoz182"
     }
   ]
 }

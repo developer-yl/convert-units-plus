@@ -118,8 +118,11 @@ for app in comparison['competitors']:
   assert example['sameVersionAsCurrentListing'] is True
   assert example['reviewedVersion']==research['currentVersionAtCheck']
   assert example['sourceDate']==example['appleUpdatedAt'][:10]
-  assert example['quote'] in review_text and '> '+example['quote'] in review_md
+  assert example['quote'] in review_text and '> "'+example['quote']+'"' in review_md
   assert example['quoteSourceField'] in ('title','body')
+  assert example['reviewerDisplayName'] in review_text and example['reviewerDisplayName'] in review_md
+  assert '★'*example['rating']+'☆'*(5-example['rating']) in review_text
+  assert '"'+example['quote']+'"' in review_text
  assert sum(len(e['quote'].split()) for e in research['examples'])<=25
 assert len(review_data['apps'])==6
 assert selected==comparison['reviewResearch']['selectedExampleCount']==9
@@ -141,7 +144,9 @@ for example in ad_data['cases']:
  assert example['reviewId'] in ad_text and example['reviewId'] in ad_md
  assert example['paraphrase'] in ad_text and example['paraphrase'] in ad_md
  assert example['sourceUrl'] in ad_page.links
- assert example['quote'] in ad_text and '> '+example['quote'] in ad_md
+ assert example['quote'] in ad_text and '> "'+example['quote']+'"' in ad_md
+assert 'Review excerpt' not in review_text and 'Review title excerpt' not in review_text
+assert 'Review excerpt' not in ad_text and 'Review title excerpt' not in ad_text
 assert all('conclusion' in p.ids for p in (ad_page,review_page,comparison_page))
 assert 'Singapore' not in ad_text and 'Machine-readable' not in ad_text
 report={'passed':True,'checkedOn':comparison['checkedOn'],'htmlPages':len(files),'articles':len(articles),'competitors':11,'appsWithCriticalReviews':6,'selectedReviewExamples':selected,'writtenReviewRecordsReturned':500,'currentVersionReviewsMatched':151,'reviewSourcesAndContextAgree':True,'comparisonFormatsAgree':True,'allCompetitorsHaveSourcesAndCaveats':True,'keywordTokensCovered':len(inventory['uniqueTokenInventory']),'missingKeywords':missing,'coverageByLocale':coverage,'internalLinksValid':True,'jsonLdValid':True,'genuineAssetHashesValid':True,'testimonials':len(reviews),'sitemapEntries':len(urls),'privacyPolicyPreserved':True}

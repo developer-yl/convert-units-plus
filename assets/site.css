@@ -17,4 +17,6 @@ caption{text-align:left;padding:16px;font-weight:650;color:var(--ink);background
 
 /* Attributed, verbatim excerpts remain distinct from editorial summaries. */
 .review-excerpt{margin:12px 0;padding:12px 16px;border-left:3px solid var(--blue);background:var(--wash);font-size:inherit;line-height:1.6}
-.article-body .review-excerpt p{margin:0}.quote-label{display:block;margin-top:12px;font-size:12px;font-weight:650;color:var(--muted)}
+.article-body .review-excerpt p{margin:0}
+
+.review-rating{display:inline-block;white-space:nowrap;letter-spacing:.08em;color:var(--blue);margin-left:10px}.review-meta{display:block;margin-top:4px;font-size:13px;color:var(--muted)}
