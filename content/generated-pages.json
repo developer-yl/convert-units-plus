@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22",
+  "generatedAt": "2026-10-26",
   "pages": [
     {
       "path": "index.html",
@@ -9,6 +9,16 @@
     {
       "path": "guides/index.html",
       "url": "https://developer-yl.github.io/convert-units-plus/guides/",
+      "language": "en"
+    },
+    {
+      "path": "guides/us-app-store-conversion-calculator-comparison/index.html",
+      "url": "https://developer-yl.github.io/convert-units-plus/guides/us-app-store-conversion-calculator-comparison/",
+      "language": "en"
+    },
+    {
+      "path": "guides/conversion-calculator-plus-product-facts/index.html",
+      "url": "https://developer-yl.github.io/convert-units-plus/guides/conversion-calculator-plus-product-facts/",
       "language": "en"
     },
     {

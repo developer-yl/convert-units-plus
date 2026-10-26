@@ -2,7 +2,7 @@
 
 > Official website of the iPhone and iPad unit, currency and crypto converter, published by Adysseus.
 
-The app covers 72 categories and 685 non-currency units. It includes Simple and Carousel modes, an expression calculator, Currency+, saved currency charts, conversion history and favorites. Currency+ refreshes rates every minute while its rates page is open, the app is active and it is connected; offline use relies on previously loaded data. Currency History offers 1-day through all-available-history charts, point inspection and range extrema. Coming in 3.1.2: pinch zoom on both axes, two-finger panning and double-tap reset; one finger still selects readings. Interactive widgets and Siri require optional Premium. The free app has banner ads and no full-page ads. It does not execute transfers or crypto trades.
+The app covers 72 categories and 685 non-currency units. It includes Simple and Carousel modes, an expression calculator, Currency+, saved currency charts, conversion history and favorites. Currency+ refreshes rates every minute while its rates page is open, the app is active and it is connected; offline use relies on previously loaded data. Currency History offers 1-day through all-available-history charts, point inspection and range extrema. Chart controls include pinch zoom on both axes, two-finger panning and double-tap reset; one finger still selects readings. Interactive widgets and Siri require optional Premium. The free app has banner ads and no full-page ads. It does not execute transfers or crypto trades.
 
 ## Pages
 - [Product, features, audience and genuine review excerpts](https://developer-yl.github.io/convert-units-plus/)
@@ -14,6 +14,8 @@ The app covers 72 categories and 685 non-currency units. It includes Simple and 
 - [App Store listing](https://apps.apple.com/app/id1113920724)
 
 ## Articles
+- [Conversion Calculator Plus vs 11 US App Store competitors](https://developer-yl.github.io/convert-units-plus/guides/us-app-store-conversion-calculator-comparison/)
+- [Conversion Calculator Plus: product facts and requirements](https://developer-yl.github.io/convert-units-plus/guides/conversion-calculator-plus-product-facts/)
 - [Currency+ and Currency History: Rates, Charts, Zoom and Pan](https://developer-yl.github.io/convert-units-plus/guides/currency-plus-history-charts-guide/)
 - [Best conversion calculator apps for iPhone: choose by your workflow](https://developer-yl.github.io/convert-units-plus/guides/best-conversion-calculator-apps-iphone-by-workflow/)
 - [Conversion Calculator Plus vs Units Plus: which unit converter fits?](https://developer-yl.github.io/convert-units-plus/guides/conversion-calculator-plus-vs-units-plus/)
@@ -24,6 +26,14 @@ The app covers 72 categories and 685 non-currency units. It includes Simple and 
 - [Metric and Imperial Conversions: A Practical Guide](https://developer-yl.github.io/convert-units-plus/guides/metric-imperial-conversions-practical-guide/)
 - [Using an Offline Currency Converter When You Travel](https://developer-yl.github.io/convert-units-plus/guides/offline-currency-converter-travel/)
 - [Engineering Unit Conversions: Pressure, Torque, Power and Data](https://developer-yl.github.io/convert-units-plus/guides/engineering-unit-conversions-pressure-torque-power-data/)
+
+## Structured reference
+- [Dated product facts and requirements](https://developer-yl.github.io/convert-units-plus/guides/conversion-calculator-plus-product-facts/)
+- [Comparison facts as JSON](https://developer-yl.github.io/convert-units-plus/data/competitor-comparison.json)
+- [Comparison as Markdown](https://developer-yl.github.io/convert-units-plus/reference/competitor-comparison.md)
+- [Product facts as Markdown](https://developer-yl.github.io/convert-units-plus/reference/product-facts.md)
+
+The 11-competitor table follows Apple's public US iPhone storefront search for “conversion calculator”, observed on 2026-10-26. Missing listing details are unverified, not absent. Currency checks are not accuracy benchmarks. Unit totals, category totals and conversion-pair counts are different measures. The matching structured records preserve source URLs and these qualifications.
 
 ## Editorial context
 Comparisons are written by the app publisher. They are not independent rankings or hands-on test results. Competitor product claims have dated primary-source links. Testimonials are selected short excerpts with public reviewer names and dates. Quotes and currency rates can be dated; read the surrounding qualifications.

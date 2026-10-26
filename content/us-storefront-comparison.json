@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-26",
+  "publisher": "Adysseus",
+  "disclosure": "Prepared by the publisher of Conversion Calculator Plus; not an independent review or hands-on benchmark.",
+  "methodology": "Selection is the 12-result public US iPhone web storefront search observed on 26 October 2026, including our app and these 11 competitors. Publisher descriptions and version histories establish documented claims, not independently measured performance. Unknown features are not treated as absent. Category groupings differ; counts of conversion pairs, units and categories are not interchangeable. Search order is not a permanent ranking or a native-iPhone ranking claim.",
+  "storefrontObservation": {
+    "url": "https://apps.apple.com/us/iphone/search?term=conversion%20calculator",
+    "market": "US",
+    "platform": "iPhone",
+    "query": "conversion calculator",
+    "checkedOn": "2026-10-26",
+    "surface": "Apple public web storefront viewed in browser",
+    "visibleResults": [
+      {
+        "appId": 623691968,
+        "name": "Unit Converter - Best Unit App"
+      },
+      {
+        "appId": 1457309557,
+        "name": "Currency converter calculator!"
+      },
+      {
+        "appId": 417794697,
+        "name": "Unit Converter - Convert all"
+      },
+      {
+        "appId": 549019596,
+        "name": "My Currency Converter & Rates"
+      },
+      {
+        "appId": 478222820,
+        "name": "Convert Any Unit Lite"
+      },
+      {
+        "appId": 1439430070,
+        "name": "Metric Conversion tool"
+      },
+      {
+        "appId": 6761082020,
+        "name": "Units - Conversion Calculator"
+      },
+      {
+        "appId": 1113920724,
+        "name": "Conversion Calculator Plus"
+      },
+      {
+        "appId": 334851202,
+        "name": "GlobeConvert Currency & Units"
+      },
+      {
+        "appId": 727632233,
+        "name": "Conversion Calculator Units"
+      },
+      {
+        "appId": 1139120257,
+        "name": "Unit Converter - Pro Units App"
+      },
+      {
+        "appId": 370146222,
+        "name": "Converter+ (Units, Currencies)"
+      }
+    ]
+  },
+  "ourApp": {
+    "appId": 1113920724,
+    "name": "Conversion Calculator Plus",
+    "publisher": "Adysseus",
+    "seller": "Yan Liong Tan",
+    "observedVersion": "3.1.4",
+    "sourceUrl": "https://apps.apple.com/us/app/conversion-calculator-plus/id1113920724",
+    "guideUrl": "https://developer-yl.github.io/convert-units-plus/guides/currency-plus-history-charts-guide/",
+    "verifiedFacts": [
+      "72 conversion categories and 685 non-currency units; category counts describe product organization, not an independent quality score.",
+      "Measurement conversion, currency/crypto/precious-metal comparison and an expression calculator for supported converters.",
+      "Currency+ compares several currencies in one list and checks rates every minute while its rates page is visible, the app is active and internet is connected.",
+      "A rate check does not guarantee a new market observation. The one-minute policy does not describe widget or background updates.",
+      "Previously loaded rates and currency charts remain usable offline; new pairs, uncached chart ranges and fresh rates require internet.",
+      "Automatic conversion history and favorites; Simple and Carousel modes; hide unused units, currencies and categories.",
+      "iPhone and iPad support. Siri action availability depends on the device Siri language.",
+      "Free version has banner ads and no full-page ads. Optional annual Premium removes banners and unlocks interactive Home Screen widgets and Siri conversions.",
+      "The app compares amounts and converts units; it does not execute transfers or cryptocurrency trades."
+    ],
+    "sourceVerification": {
+      "appStoreCheckedOn": "2026-10-26",
+      "implementationReference": "App repository docs/PROJECT_REFERENCE.md: Currency+ — the multi-currency screen; current App Store description for offline access, ads, expression input, history and Premium.",
+      "categoryCatalogReference": "Official product catalog and established published website count, cross-checked with the app category enumeration; catalog organization is not normalized against rivals."
+    }
+  },
+  "competitors": [
+    {
+      "appId": 623691968,
+      "name": "Unit Converter - Best Unit App",
+      "publisher": "Alan Mrvica",
+      "sourceUrl": "https://apps.apple.com/us/app/unit-converter-best-unit-app/id623691968",
+      "checkedOn": "2026-10-26",
+      "evidenceType": "publisher_documented_app_store_description_and_version_history",
+      "publishedFacts": "20 categories; 155 currencies; daily rate download when opened. Version history also documents calculator, favorites, fractions and compound units.",
+      "reasonToChooseOurApp": "Choose 72 published categories and minute-by-minute connected Currency+ checks for broader category coverage and more frequent automatic checking.",
+      "comparisonConclusion": "Our published category count is larger, and our active Currency+ rate-check interval is shorter than the stated daily download. The practical benefit is revisiting currency comparisons during the day.",
+      "tradeoffsAndUnknowns": "Category groupings differ. Units Plus already has calculation and repeat-use tools; we do not present those as exclusive to our app.",
+      "publishedAutomaticRateIntervalMinutes": 1440,
+      "unknownFeaturePolicy": "A feature not described in the reviewed listing is not verified, not absent."
+    },
+    {
+      "appId": 1457309557,
+      "name": "Currency converter calculator!",
+      "publisher": "Aleksei Mezhevikin",
+      "sourceUrl": "https://apps.apple.com/us/app/currency-converter-calculator/id1457309557",
+      "checkedOn": "2026-10-26",
+      "evidenceType": "publisher_documented_app_store_description_and_version_history",
+      "publishedFacts": "Hourly currency updates, offline use, custom exchange rates, country search and an exchange-rate widget.",
+      "reasonToChooseOurApp": "Choose a one-minute active Currency+ schedule alongside measurement conversion and exchange-rate charts.",
+      "comparisonConclusion": "Our active Currency+ checks are more frequent than its stated hourly schedule. Our app also documents measurement categories and historical charts alongside currency comparisons.",
+      "tradeoffsAndUnknowns": "Custom exchange rates are an explicit rival capability. We have not established a custom-rate advantage or a quote-accuracy advantage for our app.",
+      "publishedAutomaticRateIntervalMinutes": 60,
+      "unknownFeaturePolicy": "A feature not described in the reviewed listing is not verified, not absent."
+    },
+    {
+      "appId": 417794697,
+      "name": "Unit Converter - Convert all",
+      "publisher": "oWorld Software",
+      "sourceUrl": "https://apps.apple.com/us/app/unit-converter-convert-all/id417794697",
+      "checkedOn": "2026-10-26",
+      "evidenceType": "publisher_documented_app_store_description_and_version_history",
+      "publishedFacts": "18+ categories, expression calculator, live currency and crypto, offline measurement conversion. Version history documents Siri and Shortcuts.",
+      "reasonToChooseOurApp": "Choose our documented 72-category catalog and Currency+ with exchange-rate history when that particular combination suits the task.",
+      "comparisonConclusion": "Our catalog provides a specific 72-category reference, while the rival advertises an open-ended 18+ figure. Exact coverage must be checked by unit; its lower-bound count cannot establish a complete catalog gap.",
+      "tradeoffsAndUnknowns": "The rival already documents a calculator, offline conversion and Siri. No numeric rate interval is specified; we cannot claim its currency updates are slower.",
+      "publishedAutomaticRateIntervalMinutes": null,
+      "unknownFeaturePolicy": "A feature not described in the reviewed listing is not verified, not absent."
+    },
+    {
+      "appId": 549019596,
+      "name": "My Currency Converter & Rates",
+      "publisher": "JRustonApps B.V.",
+      "sourceUrl": "https://apps.apple.com/us/app/my-currency-converter-rates/id549019596",
+      "checkedOn": "2026-10-26",
+      "evidenceType": "publisher_documented_app_store_description_and_version_history",
+      "publishedFacts": "150+ currencies, Bitcoin, Litecoin, Dogecoin, automatic updates, offline currency use and conversion while typing.",
+      "reasonToChooseOurApp": "Choose our combined currency, measurement, expression-calculator and history workflow for tasks that span money and physical units.",
+      "comparisonConclusion": "Our app positively documents engineering and everyday measurement categories, Currency+ and currency-history charts in one product. The reviewed rival description concentrates on currency conversion.",
+      "tradeoffsAndUnknowns": "Its listing already promises offline currency use. Measurement tools and a numeric update interval are not verified from that description; silence does not establish absence.",
+      "publishedAutomaticRateIntervalMinutes": null,
+      "unknownFeaturePolicy": "A feature not described in the reviewed listing is not verified, not absent."
+    },
+    {
+      "appId": 478222820,
+      "name": "Convert Any Unit Lite",
+      "publisher": "Cider Software LLC",
+      "sourceUrl": "https://apps.apple.com/us/app/convert-any-unit-lite/id478222820",
+      "checkedOn": "2026-10-26",
+      "evidenceType": "publisher_documented_app_store_description_and_version_history",
+      "publishedFacts": "6,400+ units in 51 categories, autocomplete search, calculator, fractional results and bookmarks organized into folders.",
+      "reasonToChooseOurApp": "Choose our 72-category organization, Simple/Carousel choice and documented Currency+ rate and chart workflow when those matter more than the largest unit list.",
+      "comparisonConclusion": "Our advertised category total is higher, but this rival advertises a substantially larger unit total. Category breadth and unit depth are different measures; neither establishes numerical accuracy.",
+      "tradeoffsAndUnknowns": "We do not claim the largest unit catalog. Its fractions and bookmark folders are documented strengths. Currency refresh timing is not specified in the reviewed description.",
+      "publishedAutomaticRateIntervalMinutes": null,
+      "unknownFeaturePolicy": "A feature not described in the reviewed listing is not verified, not absent."
+    },
+    {
+      "appId": 1439430070,
+      "name": "Metric Conversion tool",
+      "publisher": "Wight Hat Ltd",
+      "sourceUrl": "https://apps.apple.com/us/app/metric-conversion-tool/id1439430070",
+      "checkedOn": "2026-10-26",
+      "evidenceType": "publisher_documented_app_store_description_and_version_history",
+      "publishedFacts": "30,000+ conversions, 160+ currencies including crypto, offline use, favorites, fractions and split imperial results.",
+      "reasonToChooseOurApp": "Choose our positively documented Currency+, exchange-rate charts, automatic conversion history and Premium Siri/widget workflow if that combination is needed.",
+      "comparisonConclusion": "A workflow distinction is supported by our product facts. Exclusive superiority over this app is not established by its listing: it already covers measurement and currency conversion.",
+      "tradeoffsAndUnknowns": "Its conversion-pair count is not comparable with our unit count. Chart, Siri and interactive-widget support and a numeric rate interval are not verified from this description.",
+      "publishedAutomaticRateIntervalMinutes": null,
+      "unknownFeaturePolicy": "A feature not described in the reviewed listing is not verified, not absent."
+    },
+    {
+      "appId": 6761082020,
+      "name": "Units - Conversion Calculator",
+      "publisher": "Matys Bouziane",
+      "sourceUrl": "https://apps.apple.com/us/app/units-conversion-calculator/id6761082020",
+      "checkedOn": "2026-10-26",
+      "evidenceType": "publisher_documented_app_store_description_and_version_history",
+      "publishedFacts": "57 categories, conversion history, favorites, specialist calculators and size charts. Publisher says no ads, no tracking and no account.",
+      "reasonToChooseOurApp": "Choose our 72 published categories, iPhone/iPad product and documented Currency+ history-chart workflow when those requirements take priority.",
+      "comparisonConclusion": "Our published category count is higher, with different grouping possible. Our app documents a multi-currency and historical-chart workflow; those particular capabilities are not established by the reviewed rival description.",
+      "tradeoffsAndUnknowns": "The rival already has history and favorites and explicitly advertises no ads. Our free app has banner ads; an ad-free or privacy advantage is not established.",
+      "publishedAutomaticRateIntervalMinutes": null,
+      "unknownFeaturePolicy": "A feature not described in the reviewed listing is not verified, not absent."
+    },
+    {
+      "appId": 334851202,
+      "name": "GlobeConvert Currency & Units",
+      "publisher": "Ievgenii Lebid",
+      "sourceUrl": "https://apps.apple.com/us/app/globeconvert-currency-units/id334851202",
+      "checkedOn": "2026-10-26",
+      "evidenceType": "publisher_documented_app_store_description_and_version_history",
+      "publishedFacts": "160+ currencies, favorites, hourly rate updates and saved rates for offline calculations. Description gives conflicting 450+ and 350+ physical-unit totals.",
+      "reasonToChooseOurApp": "Choose our one-minute active Currency+ checks when repeated connected currency comparisons benefit from a shorter automatic-check interval.",
+      "comparisonConclusion": "Our documented active Currency+ schedule checks more often than its stated hourly schedule. Both products document saved-rate offline use.",
+      "tradeoffsAndUnknowns": "We do not use the inconsistent unit totals to calculate a catalog advantage. A shorter request interval does not prove newer underlying observations or greater accuracy.",
+      "publishedAutomaticRateIntervalMinutes": 60,
+      "unknownFeaturePolicy": "A feature not described in the reviewed listing is not verified, not absent."
+    },
+    {
+      "appId": 727632233,
+      "name": "Conversion Calculator Units",
+      "publisher": "RV AppStudios LLC",
+      "sourceUrl": "https://apps.apple.com/us/app/conversion-calculator-units/id727632233",
+      "checkedOn": "2026-10-26",
+      "evidenceType": "publisher_documented_app_store_description_and_version_history",
+      "publishedFacts": "12 categories and 140+ units; favorites, themes, unit reordering, decimal settings and hide/show controls.",
+      "reasonToChooseOurApp": "Choose our larger published category catalog plus positively documented currency, crypto, metals and calculator/history workflow.",
+      "comparisonConclusion": "Our 72-category catalog goes beyond the 12 categories enumerated in this listing, including pressure, torque, electrical and thermal categories. Our own product facts also establish money-related tools.",
+      "tradeoffsAndUnknowns": "Customization and favorites are already rival features. Currency support is not verified from its enumerated categories; we do not turn that omission into a categorical absence claim.",
+      "publishedAutomaticRateIntervalMinutes": null,
+      "unknownFeaturePolicy": "A feature not described in the reviewed listing is not verified, not absent."
+    },
+    {
+      "appId": 1139120257,
+      "name": "Unit Converter - Pro Units App",
+      "publisher": "Tue Nguyen Minh",
+      "sourceUrl": "https://apps.apple.com/us/app/unit-converter-pro-units-app/id1139120257",
+      "checkedOn": "2026-10-26",
+      "evidenceType": "publisher_documented_app_store_description_and_version_history",
+      "publishedFacts": "16 categories, custom unit lists and 148 world currencies. Four categories unlocked by default; remaining categories require Pro Features.",
+      "reasonToChooseOurApp": "Choose our 72-category coverage and free measurement tools; our Premium requirements are banner removal, interactive widgets and Siri.",
+      "comparisonConclusion": "Our published catalog covers more categories, and the reviewed rival explicitly places access to all 16 behind its Pro purchase. Our published Premium description does not gate ordinary measurement categories.",
+      "tradeoffsAndUnknowns": "The rival supports custom unit lists. A numeric currency-update interval is not specified, so no comparative refresh-speed claim is made.",
+      "publishedAutomaticRateIntervalMinutes": null,
+      "unknownFeaturePolicy": "A feature not described in the reviewed listing is not verified, not absent."
+    },
+    {
+      "appId": 370146222,
+      "name": "Converter+ (Units, Currencies)",
+      "publisher": "TranCreative Software",
+      "sourceUrl": "https://apps.apple.com/us/app/converter-units-currencies/id370146222",
+      "checkedOn": "2026-10-26",
+      "evidenceType": "publisher_documented_app_store_description_and_version_history",
+      "publishedFacts": "100+ supplied categories, editable/shareable templates, compound units, calculator, favorites and multi-unit/currency output. Rates refresh every six hours or on request.",
+      "reasonToChooseOurApp": "Choose our one-minute active Currency+ checks and documented currency-history workflow when frequent connected reference checks are the priority.",
+      "comparisonConclusion": "Our automatic Currency+ request interval is shorter than its stated six-hour automatic schedule. Its manual refresh option means we cannot infer that a user must wait six hours.",
+      "tradeoffsAndUnknowns": "The rival advertises more supplied categories, custom templates and simultaneous results. We do not claim a larger catalog or exclusive multi-currency output.",
+      "publishedAutomaticRateIntervalMinutes": 360,
+      "unknownFeaturePolicy": "A feature not described in the reviewed listing is not verified, not absent."
+    }
+  ]
+}

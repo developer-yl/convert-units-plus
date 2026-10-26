@@ -3,6 +3,7 @@
 from html.parser import HTMLParser
 from pathlib import Path
 import hashlib,json,re,unicodedata,urllib.parse,xml.etree.ElementTree as ET
+from comparison_content import comparison_article, product_article
 ROOT=Path(__file__).resolve().parents[1]
 class Page(HTMLParser):
  def __init__(self):super().__init__();self.skip=0;self.words=[];self.links=[];self.ids=set();self.images=[];self.h1=0;self.script=False;self.jsonld=[];self.buffer=[];self.canonical=None;self.description=None;self.title=False;self.title_text=[]
@@ -62,12 +63,31 @@ home=files[(ROOT/'index.html').resolve()]
 assert {'what-is-the-app','how-it-works','main-features','audience-segments','testimonials','support'}.issubset(home.ids)
 reviews=json.loads((ROOT/'content/testimonials.json').read_text());assert all(r['rating']==5 and r['author'] and r['reviewId'] and r['sourceURL'] for r in reviews)
 assert sum(len(r['quote'].split()) for r in reviews)<=25
-for article in json.loads((ROOT/'content/articles.json').read_text()):
+comparison=json.loads((ROOT/'content/us-storefront-comparison.json').read_text())
+articles=json.loads((ROOT/'content/articles.json').read_text())+[comparison_article(comparison),product_article(comparison)]
+for article in articles:
  assert article['sources'],article['slug']
  assert len(re.findall(r'\w+',re.sub('<[^>]+>',' ',article['body'])))>=350,article['slug']
  assert 'Currency Calculator Plus' not in article['body']
 urls=ET.parse(ROOT/'sitemap.xml').getroot();assert len(urls)==len(files),'Sitemap/page count differs'
 assert hashlib.sha256((ROOT/'privacy.html').read_bytes()).hexdigest()==(ROOT/'content/preserved-privacy.sha256').read_text().strip(),'Privacy policy changed'
-report={'passed':True,'htmlPages':len(files),'articles':len(json.loads((ROOT/'content/articles.json').read_text())),'keywordTokensCovered':len(inventory['uniqueTokenInventory']),'missingKeywords':missing,'coverageByLocale':coverage,'internalLinksValid':True,'jsonLdValid':True,'genuineAssetHashesValid':True,'testimonials':len(reviews),'sitemapEntries':len(urls),'privacyPolicyPreserved':True}
-(ROOT/'docs/content-audit-2026-10-20.json').write_text(json.dumps(report,indent=2)+'\n')
+published=json.loads((ROOT/'data/competitor-comparison.json').read_text())
+assert published==comparison,'Published comparison data differs from source'
+observed={a['appId'] for a in comparison['storefrontObservation']['visibleResults']}
+assert len(observed)==12 and observed=={1113920724}|{a['appId'] for a in comparison['competitors']}
+assert len(comparison['competitors'])==11,'The observed storefront has 11 competitors'
+comparison_page=files[(ROOT/'guides/us-app-store-conversion-calculator-comparison/index.html').resolve()]
+comparison_text=' '.join(comparison_page.words)
+markdown=(ROOT/'reference/competitor-comparison.md').read_text()
+for app in comparison['competitors']:
+ assert 'app-'+str(app['appId']) in comparison_page.ids
+ assert app['sourceUrl'] in comparison_page.links and app['sourceUrl'] in markdown
+ assert app['checkedOn']==comparison['checkedOn']
+ for field in ('publishedFacts','reasonToChooseOurApp','comparisonConclusion','tradeoffsAndUnknowns'):
+  assert app[field] in comparison_text and app[field] in markdown,(app['name'],field,'format drift')
+assert any(s.get('@type')=='Dataset' for group in comparison_page.jsonld for s in group),'Dataset metadata missing'
+assert all(token not in markdown for token in ('{BASE}','{APP}')),'Unexpanded text link'
+assert not (ROOT/'robots.txt').exists(),'Project-path robots.txt does not control the host'
+report={'passed':True,'checkedOn':comparison['checkedOn'],'htmlPages':len(files),'articles':len(articles),'competitors':11,'comparisonFormatsAgree':True,'allCompetitorsHaveSourcesAndCaveats':True,'keywordTokensCovered':len(inventory['uniqueTokenInventory']),'missingKeywords':missing,'coverageByLocale':coverage,'internalLinksValid':True,'jsonLdValid':True,'genuineAssetHashesValid':True,'testimonials':len(reviews),'sitemapEntries':len(urls),'privacyPolicyPreserved':True}
+(ROOT/('docs/content-audit-'+comparison['checkedOn']+'.json')).write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps(report,indent=2))

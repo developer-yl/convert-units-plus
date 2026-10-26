@@ -123,3 +123,44 @@ quote from every provider each minute. Source behavior and gestures were checked
 against the app’s build 3 implementation and simulator verification.
 Existing screenshots are unchanged first-party captures from the earlier layout.
 Per-article publication/update/check dates preserve older comparison provenance.
+
+## US storefront comparison — 26 October 2026
+
+The current comparison uses the 12 visible results (our app plus 11 competitors)
+from Apple's **public US iPhone web storefront**, searched in a browser for
+`conversion calculator`. It does not claim native-device order or permanent rank.
+All 11 linked App Store pages were reviewed, including their descriptions and
+relevant version history. Their numeric claims are publisher assertions.
+
+- Source records: `content/us-storefront-comparison.json`.
+- HTML and text rendering: `scripts/comparison_content.py`, called by the builder.
+- Generated JSON: `data/competitor-comparison.json`.
+- Generated plain text: `reference/competitor-comparison.md` and `reference/product-facts.md`.
+- Public comparison: `guides/us-app-store-conversion-calculator-comparison/`.
+- Current facts: `guides/conversion-calculator-plus-product-facts/`.
+
+Maintain all generated formats by editing the source records and rebuilding.
+Every app has a stable ID, source URL, check date, documented facts, reasons to
+choose our app and explicit tradeoffs/unknowns. Never turn an unmentioned feature
+into an absence. No universal winner, accuracy advantage, unit-count ratio or
+pricing advantage is asserted. GlobeConvert's description gives conflicting
+physical-unit totals, so those numbers do not support a catalog superiority claim.
+oWorld's 18+ is a lower bound, not a complete category count.
+
+Our catalog was cross-checked against the ConversionKit registry (72 categories)
+and its English non-currency catalog (685 units). The one-minute policy was
+checked against the app's Currency+ architecture: visible rates page, foreground
+app, internet. The public Apple Search API returned our release 3.1.4; chart
+gestures are no longer labeled as an upcoming 3.1.2 feature.
+
+Host-root robots.txt still returns 404 and an OAI-SearchBot user-agent request to
+our home page returns 200 without X-Robots-Tag exclusions (26 October 2026).
+No host-wide crawler/training policy was changed. Static HTML, ordinary links,
+dated citations, sitemap and matching JSON/Markdown improve inspectability, but
+do not guarantee indexing, AI citation, recommendation or training use. `llms.txt`
+is supplementary navigation, not a standard that every agent follows.
+
+For future changes, recheck relevant publisher sources before advancing a fact's
+check date. Consider direct device testing for unverified rival features and
+manual Search Console/Bing sitemap submission after publication. No recurring
+research task was scheduled.
