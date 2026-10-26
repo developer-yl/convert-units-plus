@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Build the crawlable static marketing pages. Standard library only."""
-import html,json,re,unicodedata
+import html,json,re,unicodedata,hashlib
 from pathlib import Path
 from datetime import date
 from advertising_content import advertising_article, AD_SLUG
 from comparison_content import comparison_article, product_article, review_article, rate_comparison_html, write_machine_copies, SLUG as COMPARISON_SLUG, REVIEW_SLUG
 ROOT=Path(__file__).resolve().parents[1]
+CSS_REVISION=hashlib.sha256((ROOT/'assets/site.css').read_bytes()).hexdigest()[:12]
 BASE='https://developer-yl.github.io/convert-units-plus'
 APP='https://apps.apple.com/app/id1113920724'
 DATE='2026-10-26'
@@ -36,7 +37,7 @@ def page(path,title,description,body,lang='en',schema=None,modified=DATE):
  reference_stem={f'guides/{COMPARISON_SLUG}/index.html':'competitor-comparison',f'guides/{REVIEW_SLUG}/index.html':'competitor-reviews',f'guides/{AD_SLUG}/index.html':'advertising-comparison'}.get(path)
  if reference_stem:reference_meta=f'<link rel="alternate" type="application/json" href="{BASE}/data/{reference_stem}.json"><link rel="alternate" type="text/markdown" href="{BASE}/reference/{reference_stem}.md">'
  structured_json=json.dumps(structured,ensure_ascii=False).replace('</','<\\/')
- markup=f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)}</title><meta name="description" content="{esc(description)}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="{canonical}">{alternates}{verification}{reference_meta}<meta property="og:type" content="website"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{BASE}/assets/app-icon.png"><meta name="twitter:card" content="summary"><meta name="theme-color" content="#1b4bb5"><link rel="icon" href="{prefix}assets/app-icon.png"><link rel="stylesheet" href="{prefix}assets/site.css"><script type="application/ld+json">{structured_json}</script></head><body>{nav}<main id="main">{body}</main>{footer}</body></html>'''
+ markup=f'''<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)}</title><meta name="description" content="{esc(description)}"><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="{canonical}">{alternates}{verification}{reference_meta}<meta property="og:type" content="website"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{BASE}/assets/app-icon.png"><meta name="twitter:card" content="summary"><meta name="theme-color" content="#1b4bb5"><link rel="icon" href="{prefix}assets/app-icon.png"><link rel="stylesheet" href="{prefix}assets/site.css?v={CSS_REVISION}"><script type="application/ld+json">{structured_json}</script></head><body>{nav}<main id="main">{body}</main>{footer}</body></html>'''
  file=ROOT/path;file.parent.mkdir(parents=True,exist_ok=True);file.write_text(markup+'\n');pages.append((path,canonical,lang))
 
 def homepage():

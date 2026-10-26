@@ -245,3 +245,5 @@ excerpts from body excerpts; source IDs, dates, ratings and versions remain.
 Quoted wording is limited to 25 words total per app’s source feed. No complete
 review dumps were added. HTML blockquotes and matching JSON/Markdown copies
 preserve the wording separately from editorial paraphrases.
+
+The generated stylesheet URL includes a content fingerprint so returning browsers receive updated styling when quote formatting changes.
