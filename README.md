@@ -235,3 +235,13 @@ entries and their bibliography links are omitted. The broader feature/offline
 comparison retains all 11 competitors, but no longer links absent review sections
 or displays empty review-context placeholders. The nine cited examples and
 their source/version requirements are unchanged.
+
+## Verbatim review excerpts
+
+Nine short quotations accompany the existing current-version review summaries.
+Each excerpt was matched exactly to the cited Apple review’s title or body,
+using freshly retrieved US review feeds. `quoteSourceField` distinguishes title
+excerpts from body excerpts; source IDs, dates, ratings and versions remain.
+Quoted wording is limited to 25 words total per app’s source feed. No complete
+review dumps were added. HTML blockquotes and matching JSON/Markdown copies
+preserve the wording separately from editorial paraphrases.

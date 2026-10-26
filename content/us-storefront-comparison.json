@@ -130,7 +130,10 @@
             "paraphrase": "Reported full-screen advertising and frustration with feature paywalls.",
             "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=623691968/sortBy=mostRecent/json",
             "status": "user_report_current_reproduction_not_verified",
-            "sourceDate": "2026-10-24"
+            "sourceDate": "2026-10-24",
+            "quote": "Full Screen Ads.",
+            "quoteSourceField": "title",
+            "quoteVerifiedOn": "2026-10-26"
           },
           {
             "reviewId": "14655798272",
@@ -141,7 +144,10 @@
             "paraphrase": "Reported advertising covering the keyboard.",
             "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=623691968/sortBy=mostRecent/json",
             "status": "user_report_current_reproduction_not_verified",
-            "sourceDate": "2026-10-11"
+            "sourceDate": "2026-10-11",
+            "quote": "Now the ads cover up the keyboard.",
+            "quoteSourceField": "body",
+            "quoteVerifiedOn": "2026-10-26"
           }
         ],
         "currentVersionSampleSize": 50
@@ -229,7 +235,10 @@
             "paraphrase": "Reported difficulty entering an inch fraction and disliked paying for less-used conversions.",
             "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=417794697/sortBy=mostRecent/json",
             "status": "user_report_current_reproduction_not_verified",
-            "sourceDate": "2026-10-21"
+            "sourceDate": "2026-10-21",
+            "quote": "you can’t type in a fraction of an inch to get a decimal",
+            "quoteSourceField": "body",
+            "quoteVerifiedOn": "2026-10-26"
           }
         ],
         "currentVersionSampleSize": 1
@@ -317,7 +326,10 @@
             "paraphrase": "Reported ads appearing when changing measurement units.",
             "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=478222820/sortBy=mostRecent/json",
             "status": "user_report_current_reproduction_not_verified",
-            "sourceDate": "2026-09-15"
+            "sourceDate": "2026-09-15",
+            "quote": "they start right when you want to change the units of measure.",
+            "quoteSourceField": "body",
+            "quoteVerifiedOn": "2026-10-26"
           },
           {
             "reviewId": "14271522240",
@@ -328,7 +340,10 @@
             "paraphrase": "Reported ads that were difficult to close and said restarting the app was necessary.",
             "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=478222820/sortBy=mostRecent/json",
             "status": "user_report_current_reproduction_not_verified",
-            "sourceDate": "2026-07-06"
+            "sourceDate": "2026-07-06",
+            "quote": "Ads are far too intrusive and impossible to close.",
+            "quoteSourceField": "body",
+            "quoteVerifiedOn": "2026-10-26"
           }
         ],
         "currentVersionSampleSize": 35
@@ -378,7 +393,10 @@
             "paraphrase": "Reported unwanted advertising after an update.",
             "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=1439430070/sortBy=mostRecent/json",
             "status": "user_report_current_reproduction_not_verified",
-            "sourceDate": "2026-10-20"
+            "sourceDate": "2026-10-20",
+            "quote": "Suddenly, this calculator has advertising.",
+            "quoteSourceField": "body",
+            "quoteVerifiedOn": "2026-10-26"
           }
         ],
         "currentVersionSampleSize": 2
@@ -466,7 +484,10 @@
             "paraphrase": "Reported excessive long advertisements.",
             "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=334851202/sortBy=mostRecent/json",
             "status": "user_report_current_reproduction_not_verified",
-            "sourceDate": "2026-08-24"
+            "sourceDate": "2026-08-24",
+            "quote": "Nice app but waaaay too many long ads.",
+            "quoteSourceField": "body",
+            "quoteVerifiedOn": "2026-10-26"
           },
           {
             "reviewId": "14694437326",
@@ -477,7 +498,10 @@
             "paraphrase": "Reported recurring pop-up advertising.",
             "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=334851202/sortBy=mostRecent/json",
             "status": "user_report_current_reproduction_not_verified",
-            "sourceDate": "2026-10-21"
+            "sourceDate": "2026-10-21",
+            "quote": "Ad keeps popping up",
+            "quoteSourceField": "title",
+            "quoteVerifiedOn": "2026-10-26"
           }
         ],
         "currentVersionSampleSize": 11
@@ -603,7 +627,10 @@
             "paraphrase": "Requested dark-mode support, while otherwise describing the app positively.",
             "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=370146222/sortBy=mostRecent/json",
             "status": "user_report_current_reproduction_not_verified",
-            "sourceDate": "2026-08-30"
+            "sourceDate": "2026-08-30",
+            "quote": "app is good but outdated in terms of dark mode",
+            "quoteSourceField": "body",
+            "quoteVerifiedOn": "2026-10-26"
           }
         ],
         "currentVersionSampleSize": 50

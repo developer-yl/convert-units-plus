@@ -142,6 +142,8 @@ def write_machine_copies(root, data):
             review_md += field+': '+review[field]+'\n\n'
         for e in review['examples']:
             review_md += f'- User report, updated {e["sourceDate"]} (US App Store); Apple timestamp {e["appleUpdatedAt"]}; {e["rating"]}/5; version {e["reviewedVersion"]}; review ID {e["reviewId"]}: {e["paraphrase"]} Current reproduction is not verified. Source: {e["sourceUrl"]}\n'
+            label='Review title excerpt' if e['quoteSourceField']=='title' else 'Review excerpt'
+            review_md+=f'\n{label}:\n\n> {e["quote"]}\n\n'
         review_md += '\nApp Store and visible replies: '+app['sourceUrl']+'\nReview sample: '+review['sourceUrl']+'\n\n'
     review_md+='\n## Conclusion\n\n'+data['editorialRecommendation']+'\n'
     (root / 'reference/competitor-reviews.md').write_text(review_md)

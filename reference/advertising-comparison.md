@@ -21,6 +21,10 @@ Reported full-screen advertising and frustration with feature paywalls.
 Review ID: 14705901689. Source: https://itunes.apple.com/us/rss/customerreviews/id=623691968/sortBy=mostRecent/json
 Publisher listing: https://apps.apple.com/us/app/unit-converter-best-unit-app/id623691968
 
+Review title excerpt:
+
+> Full Screen Ads.
+
 ## Unit Converter - Best Unit App: Keyboard obstruction
 
 US App Store · 2026-10-11 · 1/5 · Version 10.2 (current listing: 10.2).
@@ -29,6 +33,10 @@ Reported advertising covering the keyboard.
 
 Review ID: 14655798272. Source: https://itunes.apple.com/us/rss/customerreviews/id=623691968/sortBy=mostRecent/json
 Publisher listing: https://apps.apple.com/us/app/unit-converter-best-unit-app/id623691968
+
+Review excerpt:
+
+> Now the ads cover up the keyboard.
 
 ## Convert Any Unit Lite: Advertising during unit selection
 
@@ -39,6 +47,10 @@ Reported ads appearing when changing measurement units.
 Review ID: 14553699416. Source: https://itunes.apple.com/us/rss/customerreviews/id=478222820/sortBy=mostRecent/json
 Publisher listing: https://apps.apple.com/us/app/convert-any-unit-lite/id478222820
 
+Review excerpt:
+
+> they start right when you want to change the units of measure.
+
 ## Convert Any Unit Lite: Dismissal difficulty
 
 US App Store · 2026-07-06 · 2/5 · Version 6.8 (current listing: 6.8).
@@ -47,6 +59,10 @@ Reported ads that were difficult to close and said restarting the app was necess
 
 Review ID: 14271522240. Source: https://itunes.apple.com/us/rss/customerreviews/id=478222820/sortBy=mostRecent/json
 Publisher listing: https://apps.apple.com/us/app/convert-any-unit-lite/id478222820
+
+Review excerpt:
+
+> Ads are far too intrusive and impossible to close.
 
 ## GlobeConvert Currency & Units: Long advertisements
 
@@ -57,6 +73,10 @@ Reported excessive long advertisements.
 Review ID: 14468677441. Source: https://itunes.apple.com/us/rss/customerreviews/id=334851202/sortBy=mostRecent/json
 Publisher listing: https://apps.apple.com/us/app/globeconvert-currency-units/id334851202
 
+Review excerpt:
+
+> Nice app but waaaay too many long ads.
+
 ## GlobeConvert Currency & Units: Recurring pop-ups
 
 US App Store · 2026-10-21 · 1/5 · Version 2.2.8 (current listing: 2.2.8).
@@ -65,4 +85,8 @@ Reported recurring pop-up advertising.
 
 Review ID: 14694437326. Source: https://itunes.apple.com/us/rss/customerreviews/id=334851202/sortBy=mostRecent/json
 Publisher listing: https://apps.apple.com/us/app/globeconvert-currency-units/id334851202
+
+Review title excerpt:
+
+> Ad keeps popping up
 

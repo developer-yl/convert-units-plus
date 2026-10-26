@@ -21,7 +21,10 @@
       "paraphrase": "Reported full-screen advertising and frustration with feature paywalls.",
       "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=623691968/sortBy=mostRecent/json",
       "status": "user_report_current_reproduction_not_verified",
-      "sourceDate": "2026-10-24"
+      "sourceDate": "2026-10-24",
+      "quote": "Full Screen Ads.",
+      "quoteSourceField": "title",
+      "quoteVerifiedOn": "2026-10-26"
     },
     {
       "appId": 623691968,
@@ -37,7 +40,10 @@
       "paraphrase": "Reported advertising covering the keyboard.",
       "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=623691968/sortBy=mostRecent/json",
       "status": "user_report_current_reproduction_not_verified",
-      "sourceDate": "2026-10-11"
+      "sourceDate": "2026-10-11",
+      "quote": "Now the ads cover up the keyboard.",
+      "quoteSourceField": "body",
+      "quoteVerifiedOn": "2026-10-26"
     },
     {
       "appId": 478222820,
@@ -53,7 +59,10 @@
       "paraphrase": "Reported ads appearing when changing measurement units.",
       "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=478222820/sortBy=mostRecent/json",
       "status": "user_report_current_reproduction_not_verified",
-      "sourceDate": "2026-09-15"
+      "sourceDate": "2026-09-15",
+      "quote": "they start right when you want to change the units of measure.",
+      "quoteSourceField": "body",
+      "quoteVerifiedOn": "2026-10-26"
     },
     {
       "appId": 478222820,
@@ -69,7 +78,10 @@
       "paraphrase": "Reported ads that were difficult to close and said restarting the app was necessary.",
       "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=478222820/sortBy=mostRecent/json",
       "status": "user_report_current_reproduction_not_verified",
-      "sourceDate": "2026-07-06"
+      "sourceDate": "2026-07-06",
+      "quote": "Ads are far too intrusive and impossible to close.",
+      "quoteSourceField": "body",
+      "quoteVerifiedOn": "2026-10-26"
     },
     {
       "appId": 334851202,
@@ -85,7 +97,10 @@
       "paraphrase": "Reported excessive long advertisements.",
       "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=334851202/sortBy=mostRecent/json",
       "status": "user_report_current_reproduction_not_verified",
-      "sourceDate": "2026-08-24"
+      "sourceDate": "2026-08-24",
+      "quote": "Nice app but waaaay too many long ads.",
+      "quoteSourceField": "body",
+      "quoteVerifiedOn": "2026-10-26"
     },
     {
       "appId": 334851202,
@@ -101,7 +116,10 @@
       "paraphrase": "Reported recurring pop-up advertising.",
       "sourceUrl": "https://itunes.apple.com/us/rss/customerreviews/id=334851202/sortBy=mostRecent/json",
       "status": "user_report_current_reproduction_not_verified",
-      "sourceDate": "2026-10-21"
+      "sourceDate": "2026-10-21",
+      "quote": "Ad keeps popping up",
+      "quoteSourceField": "title",
+      "quoteVerifiedOn": "2026-10-26"
     }
   ]
 }

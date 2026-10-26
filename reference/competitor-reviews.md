@@ -21,7 +21,17 @@ limitations: These reports describe selected sessions. Overall ad frequency and 
 developerAndReleaseContext: Included examples identify version 10.2, matching the latest US App Store version checked on 26 October 2026. The review feed does not include developer replies; no resolution of these selected reports has been independently confirmed.
 
 - User report, updated 2026-10-24 (US App Store); Apple timestamp 2026-10-24T08:31:57-07:00; 1/5; version 10.2; review ID 14705901689: Reported full-screen advertising and frustration with feature paywalls. Current reproduction is not verified. Source: https://itunes.apple.com/us/rss/customerreviews/id=623691968/sortBy=mostRecent/json
+
+Review title excerpt:
+
+> Full Screen Ads.
+
 - User report, updated 2026-10-11 (US App Store); Apple timestamp 2026-10-11T17:10:22-07:00; 1/5; version 10.2; review ID 14655798272: Reported advertising covering the keyboard. Current reproduction is not verified. Source: https://itunes.apple.com/us/rss/customerreviews/id=623691968/sortBy=mostRecent/json
+
+Review excerpt:
+
+> Now the ads cover up the keyboard.
+
 
 App Store and visible replies: https://apps.apple.com/us/app/unit-converter-best-unit-app/id623691968
 Review sample: https://itunes.apple.com/us/rss/customerreviews/id=623691968/sortBy=mostRecent/json
@@ -40,6 +50,11 @@ developerAndReleaseContext: Included examples identify version 3.0.29, matching 
 
 - User report, updated 2026-10-21 (US App Store); Apple timestamp 2026-10-21T18:12:00-07:00; 3/5; version 3.0.29; review ID 14695375271: Reported difficulty entering an inch fraction and disliked paying for less-used conversions. Current reproduction is not verified. Source: https://itunes.apple.com/us/rss/customerreviews/id=417794697/sortBy=mostRecent/json
 
+Review excerpt:
+
+> you can’t type in a fraction of an inch to get a decimal
+
+
 App Store and visible replies: https://apps.apple.com/us/app/unit-converter-convert-all/id417794697
 Review sample: https://itunes.apple.com/us/rss/customerreviews/id=417794697/sortBy=mostRecent/json
 
@@ -56,7 +71,17 @@ limitations: The free version of Conversion Calculator Plus still has banners. T
 developerAndReleaseContext: Included examples identify version 6.8, matching the latest US App Store version checked on 26 October 2026. The review feed does not include developer replies; no resolution of these selected reports has been independently confirmed.
 
 - User report, updated 2026-09-15 (US App Store); Apple timestamp 2026-09-15T11:56:57-07:00; 2/5; version 6.8; review ID 14553699416: Reported ads appearing when changing measurement units. Current reproduction is not verified. Source: https://itunes.apple.com/us/rss/customerreviews/id=478222820/sortBy=mostRecent/json
+
+Review excerpt:
+
+> they start right when you want to change the units of measure.
+
 - User report, updated 2026-07-06 (US App Store); Apple timestamp 2026-07-06T14:21:35-07:00; 2/5; version 6.8; review ID 14271522240: Reported ads that were difficult to close and said restarting the app was necessary. Current reproduction is not verified. Source: https://itunes.apple.com/us/rss/customerreviews/id=478222820/sortBy=mostRecent/json
+
+Review excerpt:
+
+> Ads are far too intrusive and impossible to close.
+
 
 App Store and visible replies: https://apps.apple.com/us/app/convert-any-unit-lite/id478222820
 Review sample: https://itunes.apple.com/us/rss/customerreviews/id=478222820/sortBy=mostRecent/json
@@ -75,6 +100,11 @@ developerAndReleaseContext: Included examples identify version 3.0.0, matching t
 
 - User report, updated 2026-10-20 (US App Store); Apple timestamp 2026-10-20T10:53:10-07:00; 1/5; version 3.0.0; review ID 14690234910: Reported unwanted advertising after an update. Current reproduction is not verified. Source: https://itunes.apple.com/us/rss/customerreviews/id=1439430070/sortBy=mostRecent/json
 
+Review excerpt:
+
+> Suddenly, this calculator has advertising.
+
+
 App Store and visible replies: https://apps.apple.com/us/app/metric-conversion-tool/id1439430070
 Review sample: https://itunes.apple.com/us/rss/customerreviews/id=1439430070/sortBy=mostRecent/json
 
@@ -91,7 +121,17 @@ limitations: The reports do not establish which actions triggered each ad. Both 
 developerAndReleaseContext: Included examples identify version 2.2.8, matching the latest US App Store version checked on 26 October 2026. The review feed does not include developer replies; no resolution of these selected reports has been independently confirmed.
 
 - User report, updated 2026-08-24 (US App Store); Apple timestamp 2026-08-24T19:27:26-07:00; 1/5; version 2.2.8; review ID 14468677441: Reported excessive long advertisements. Current reproduction is not verified. Source: https://itunes.apple.com/us/rss/customerreviews/id=334851202/sortBy=mostRecent/json
+
+Review excerpt:
+
+> Nice app but waaaay too many long ads.
+
 - User report, updated 2026-10-21 (US App Store); Apple timestamp 2026-10-21T12:17:48-07:00; 1/5; version 2.2.8; review ID 14694437326: Reported recurring pop-up advertising. Current reproduction is not verified. Source: https://itunes.apple.com/us/rss/customerreviews/id=334851202/sortBy=mostRecent/json
+
+Review title excerpt:
+
+> Ad keeps popping up
+
 
 App Store and visible replies: https://apps.apple.com/us/app/globeconvert-currency-units/id334851202
 Review sample: https://itunes.apple.com/us/rss/customerreviews/id=334851202/sortBy=mostRecent/json
@@ -109,6 +149,11 @@ limitations: A feature request is not independent proof that dark mode is absent
 developerAndReleaseContext: Included examples identify version 3.6, matching the latest US App Store version checked on 26 October 2026. The review feed does not include developer replies; no resolution of these selected reports has been independently confirmed.
 
 - User report, updated 2026-08-30 (US App Store); Apple timestamp 2026-08-30T04:10:08-07:00; 3/5; version 3.6; review ID 14489490918: Requested dark-mode support, while otherwise describing the app positively. Current reproduction is not verified. Source: https://itunes.apple.com/us/rss/customerreviews/id=370146222/sortBy=mostRecent/json
+
+Review excerpt:
+
+> app is good but outdated in terms of dark mode
+
 
 App Store and visible replies: https://apps.apple.com/us/app/converter-units-currencies/id370146222
 Review sample: https://itunes.apple.com/us/rss/customerreviews/id=370146222/sortBy=mostRecent/json
