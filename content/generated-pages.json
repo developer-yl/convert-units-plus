@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26",
+  "generatedAt": "2026-10-28",
   "pages": [
     {
       "path": "index.html",
@@ -79,6 +79,36 @@
     {
       "path": "guides/engineering-unit-conversions-pressure-torque-power-data/index.html",
       "url": "https://developer-yl.github.io/convert-units-plus/guides/engineering-unit-conversions-pressure-torque-power-data/",
+      "language": "en"
+    },
+    {
+      "path": "guides/calculator-history-and-widgets/index.html",
+      "url": "https://developer-yl.github.io/convert-units-plus/guides/calculator-history-and-widgets/",
+      "language": "en"
+    },
+    {
+      "path": "guides/measurement-conversion-guide/index.html",
+      "url": "https://developer-yl.github.io/convert-units-plus/guides/measurement-conversion-guide/",
+      "language": "en"
+    },
+    {
+      "path": "guides/kitchen-cooking-unit-conversions/index.html",
+      "url": "https://developer-yl.github.io/convert-units-plus/guides/kitchen-cooking-unit-conversions/",
+      "language": "en"
+    },
+    {
+      "path": "guides/travel-currency-converter-guide/index.html",
+      "url": "https://developer-yl.github.io/convert-units-plus/guides/travel-currency-converter-guide/",
+      "language": "en"
+    },
+    {
+      "path": "guides/crypto-and-precious-metals-guide/index.html",
+      "url": "https://developer-yl.github.io/convert-units-plus/guides/crypto-and-precious-metals-guide/",
+      "language": "en"
+    },
+    {
+      "path": "guides/complete-unit-category-catalog/index.html",
+      "url": "https://developer-yl.github.io/convert-units-plus/guides/complete-unit-category-catalog/",
       "language": "en"
     },
     {

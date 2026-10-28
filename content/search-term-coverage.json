@@ -1,0 +1,1404 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-10-28",
+  "sourceReport": "aso-us-ads-expanded.html and its linked aso-us-ads-expanded.json, 25 October 2026",
+  "sourceReportSha256": "82490314116a5c08f6e78f62555cc1d099346c0011cae659dcc46fd218663e35",
+  "policy": "Check all 279 measured terms, including terms outside the report’s 46 eligible title phrases. Cover relevant phrases in visible explanatory content. Qualify related searches whose wider intent exceeds app capabilities; exclude unsupported or ambiguous standalone intents. Do not publish campaign IDs, popularity scores or claim unsupported features.",
+  "terms": [
+    {
+      "term": "unit converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "currency converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "conversion calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "currency calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "travel converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "exchange rate calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "exchange rate",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "money converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "currency exchange converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "metric conversion calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "weight conversion calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "feet inch calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "temperature converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "celsius to fahrenheit converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "kg to lb weight converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "quart converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "gold calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "measurement converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "unit conversion calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "units conversion calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "currency conversion calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "cooking conversion calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "measurements conversion calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "scale conversion calculator",
+      "status": "excluded",
+      "reason": "Ambiguous scale/model-ratio solver intent; no dedicated scale workflow verified."
+    },
+    {
+      "term": "percentage conversion calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "countries conversion calculator",
+      "status": "excluded",
+      "reason": "Ambiguous phrase; countries are not convertible quantities. Country currency converter is covered."
+    },
+    {
+      "term": "energy conversion calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "footage conversion calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "fractions conversion calculator",
+      "status": "excluded",
+      "reason": "Dedicated fraction conversion workflow is not supported by the documented decimal input."
+    },
+    {
+      "term": "offline unit converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "cooking unit converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "engineering unit converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "kitchen unit converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "pressure unit converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "metric unit converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "weight unit converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "energy unit converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "inches unit converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "power unit converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "bakery unit converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "currency converter widget",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "travel currency converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "online currency converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "exchange currency converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "forex currency converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "rate currency converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "czech currency converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "international currency converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "country currency converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "cooking converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "engineering converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "kitchen converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "pressure converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "metric converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "weight converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "energy converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "inches converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "power converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "bakery converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "currency exchange",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "exchange rates",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "currency exchange calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "money conversion calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "forex calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "international money converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "currency converter offline",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "currency converter calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "unit converter calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "feet and inches calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "feet and inches converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "length converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "cm to inches",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "kg to lbs",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "weight calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "metric conversion",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "kitchen calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "cooking calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "recipe converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "baking calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "fraction calculator",
+      "status": "excluded",
+      "reason": "Dedicated fraction input, simplification and fraction output workflow is not verified."
+    },
+    {
+      "term": "percentage calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "square footage calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "area calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "volume calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "gold price",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "bitcoin converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "tether converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "torque converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "speed converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "celsius fahrenheit",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "inch calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "unit calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "conversion calculator plus",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "calculator with history",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "calculator app",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "basic calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "simple calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "calculator widget",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "math calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "decimal calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "convert units",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "unit conversion",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "unit conversions",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "units converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "measurement calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "measurement conversion",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "metric calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "pounds to kilograms",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "kilograms to pounds",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "kg to lbs converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "lbs to kg converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "grams to ounces",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "ounces to grams",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "inches to cm",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "cm to inches converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "meters to feet converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "millimeters to inches",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "celsius to fahrenheit",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "fahrenheit to celsius",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "time calculator",
+      "status": "excluded",
+      "reason": "Clock/date arithmetic is not documented. Time-unit conversion is listed in the full catalog."
+    },
+    {
+      "term": "scientific calculator",
+      "status": "excluded",
+      "reason": "Trigonometry, logarithms and a scientific keypad are not documented app features."
+    },
+    {
+      "term": "calculator with unit converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "calculator converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "converter app",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "calculator history",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "currency conversion",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "currency exchange rates",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "currency exchange rate",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "currency rates",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "exchange rates calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "foreign currency converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "money calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "money exchange",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "foreign exchange calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "forex converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "fx calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "currency calculator converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "money converter calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "dollar to peso",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "yen converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "yen to usd",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "yen to usd currency converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "euro to dollar converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "dollars to euros",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "usd to eur",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "usd to gbp",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "usd to jpy",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "usd to inr",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "usd to php",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "usd to mxn",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "cny to usd",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "won to usd",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "exchange calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "cooking measurements",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "cooking conversion",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "measurement conversion calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "volume converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "liters to gallons",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "gallons to liters",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "ml to oz",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "oz to ml",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "fluid ounces to ml",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "square feet calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "celsius fahrenheit converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "fahrenheit celsius converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "celsius fahrenheit calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "temperature calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "fahrenheit converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "celsius converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "celsius fahrenheit conversion",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "fahrenheit to celsius converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "temperature conversion calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "bitcoin price",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "bitcoin calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "ethereum price",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "ethereum calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "ethereum converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "eth converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "eth calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "tether price",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "tether calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "usdt converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "usdt calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "dogecoin price",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "dogecoin calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "dogecoin converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "litecoin price",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "litecoin calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "litecoin converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "cardano price",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "cardano converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "xrp calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "xrp price",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "ripple converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "crypto converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "crypto calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "cryptocurrency converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "cryptocurrency calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "cryptocurrency prices",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "solana price",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "solana converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "silver price",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "silver calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "gold and silver prices",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "gold silver calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "crypto prices",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "crypto widget",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "bitcoin widget",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "currency widget",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "bitcoin to usd",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "ethereum to usd",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "japanese yen",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "japanese yen converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "japanese yen calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "yen calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "chinese yuan",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "yuan converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "yuan calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "indian rupee",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "rupee converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "rupee calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "mexican peso",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "peso converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "peso calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "philippine peso",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "philippine peso converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "thai baht",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "baht converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "korean won",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "won converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "swiss franc",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "franc converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "swiss franc converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "australian dollar",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "canadian dollar",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "hong kong dollar",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "singapore dollar",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "malaysian ringgit",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "russian ruble",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "ruble converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "brazilian real",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "saudi riyal",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "uae dirham",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "czech koruna",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "cash calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "satoshi calculator",
+      "status": "excluded",
+      "reason": "No selectable satoshi unit or dedicated satoshi conversion workflow is verified."
+    },
+    {
+      "term": "currency calculator widget",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "usd eur converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "bitcoin price widget",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "gold price widget",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "silver price widget",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "mpg converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "fuel converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "height converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "cm to feet",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "cm to feet converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "height conversion calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "psi to bar",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "bar to psi",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "mph to kph",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "kph to mph",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "kmh to mph",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "mph to kmh",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "mb to gb",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "gb to mb",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "bytes converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "data storage converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "area conversion calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "square meter converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "square feet converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "gallons to liters converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "liters to gallons converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "cups to ounces converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "ounces to ml converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "grams to ounces converter",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "energy calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    },
+    {
+      "term": "power calculator",
+      "status": "include",
+      "reason": "Relevant conversion, arithmetic or qualified widget/cooking/FX use."
+    }
+  ]
+}

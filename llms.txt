@@ -7,7 +7,8 @@ The app covers 72 categories and 685 non-currency units. It includes Simple and 
 ## Pages
 - [Product, features, audience and genuine review excerpts](https://developer-yl.github.io/convert-units-plus/)
 - [Guides and publisher-authored comparisons](https://developer-yl.github.io/convert-units-plus/guides/)
-- [Currency, crypto and unit reference](https://developer-yl.github.io/convert-units-plus/guides/currency-crypto-code-reference/)
+- [Complete 72-category and 685-unit directory](https://developer-yl.github.io/convert-units-plus/guides/complete-unit-category-catalog/)
+- [All 289 currencies, crypto and metal codes](https://developer-yl.github.io/convert-units-plus/guides/currency-crypto-code-reference/)
 - [简体中文](https://developer-yl.github.io/convert-units-plus/zh-hans/)
 - [繁體中文](https://developer-yl.github.io/convert-units-plus/zh-hant/)
 - [Privacy policy](https://developer-yl.github.io/convert-units-plus/privacy.html)
@@ -28,8 +29,15 @@ The app covers 72 categories and 685 non-currency units. It includes Simple and 
 - [Metric and Imperial Conversions: A Practical Guide](https://developer-yl.github.io/convert-units-plus/guides/metric-imperial-conversions-practical-guide/)
 - [Using an Offline Currency Converter When You Travel](https://developer-yl.github.io/convert-units-plus/guides/offline-currency-converter-travel/)
 - [Engineering Unit Conversions: Pressure, Torque, Power and Data](https://developer-yl.github.io/convert-units-plus/guides/engineering-unit-conversions-pressure-torque-power-data/)
+- [A calculator with history, conversions and widgets](https://developer-yl.github.io/convert-units-plus/guides/calculator-history-and-widgets/)
+- [Measurement conversions: length, weight, temperature and engineering](https://developer-yl.github.io/convert-units-plus/guides/measurement-conversion-guide/)
+- [Cooking and baking unit conversions](https://developer-yl.github.io/convert-units-plus/guides/kitchen-cooking-unit-conversions/)
+- [Travel currency converter: names, pairs and offline rates](https://developer-yl.github.io/convert-units-plus/guides/travel-currency-converter-guide/)
+- [Crypto and precious metals: compare codes, amounts and quotes](https://developer-yl.github.io/convert-units-plus/guides/crypto-and-precious-metals-guide/)
 
 ## Structured reference
+- [Complete app catalog as JSON](https://developer-yl.github.io/convert-units-plus/data/app-catalog.json)
+- [Complete app catalog as Markdown](https://developer-yl.github.io/convert-units-plus/reference/app-catalog.md)
 - [Dated product facts and requirements](https://developer-yl.github.io/convert-units-plus/guides/conversion-calculator-plus-product-facts/)
 - [Comparison facts as JSON](https://developer-yl.github.io/convert-units-plus/data/competitor-comparison.json)
 - [Comparison as Markdown](https://developer-yl.github.io/convert-units-plus/reference/competitor-comparison.md)

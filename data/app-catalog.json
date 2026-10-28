@@ -1,0 +1,5344 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-28",
+  "sources": {
+    "units": {
+      "package": "ConversionKit",
+      "path": "Tools/translations/catalog-en.json",
+      "sha256": "a3a1ea25daff6e5c53f9e398753fa4928cffd179a0d3103debddda0b5083223d"
+    },
+    "registry": {
+      "package": "ConversionKit",
+      "path": "Sources/ConversionKit/UnitCategory.swift",
+      "sha256": "9b2e00a728ae590d12bdeee400ed8ba3ef3f97edde7f50efd0bee219159f8d6c"
+    },
+    "currencyCases": {
+      "package": "ConversionKit",
+      "path": "Sources/ConversionKit/Units/CurrencyUnits.swift",
+      "sha256": "bd4075bc21b20c2a1ded6f227774be1aba9581c68789c8fdb02548bcbcf0a3e2"
+    },
+    "currencyPolicy": {
+      "package": "ConversionKit",
+      "path": "Sources/ConversionKit/Units/CurrencyUnits+extension.swift",
+      "sha256": "f600bc799c44ed7003da9a09d5a96cce61a736ef0bf42f86e6a5e17539ba9fb8"
+    },
+    "currencies": {
+      "package": "CurrencyKit",
+      "path": "Sources/CurrencyKit/CurrencyCatalog.swift",
+      "sha256": "b1b1a34d6dc3fd80f2c8954a76de6810e00bfc3b8756bac4c18125ae208fd6d0"
+    }
+  },
+  "categoryCount": 72,
+  "measurementCategoryCount": 71,
+  "measurementUnitCount": 685,
+  "currencyCount": 289,
+  "currencyCountsByKind": {
+    "crypto": 125,
+    "fiat": 160,
+    "metal": 4
+  },
+  "excludedRetiredCodes": [
+    "SSP"
+  ],
+  "coverageNote": "Catalog entries describe selectable units and recognized codes, not guaranteed fresh quotes, market activity or trading availability. Fiat grouping includes regional and currency-like units. Asset names and classifications follow the package catalog.",
+  "categories": [
+    {
+      "rawValue": "pace",
+      "name": "Pace",
+      "units": [
+        {
+          "symbol": "kph",
+          "en": "Kilometer Per Hour",
+          "raw": "kilometerPerHour"
+        },
+        {
+          "en": "Miles per Hour",
+          "raw": "milePerHour",
+          "symbol": "mph"
+        },
+        {
+          "en": "Time Per Kilometer",
+          "raw": "timePerKm",
+          "symbol": "t/km"
+        },
+        {
+          "en": "Time Per Mile",
+          "raw": "timePerMile",
+          "symbol": "t/mile"
+        },
+        {
+          "en": "Seconds Per 100 meters",
+          "raw": "secondsPer100meter",
+          "symbol": "sec/hm"
+        }
+      ]
+    },
+    {
+      "name": "Thermal",
+      "units": [
+        {
+          "raw": "Celsius",
+          "en": "Celsius",
+          "symbol": "°C"
+        },
+        {
+          "raw": "Farenheit",
+          "en": "Fahrenheit",
+          "symbol": "°F"
+        },
+        {
+          "raw": "Kelvin",
+          "en": "Kelvin",
+          "symbol": "K"
+        },
+        {
+          "raw": "Rankine",
+          "en": "Rankine",
+          "symbol": "Ra"
+        }
+      ],
+      "rawValue": "temp"
+    },
+    {
+      "name": "Shoes",
+      "units": [
+        {
+          "raw": "centimeters",
+          "en": "Centimeters (Shoes)",
+          "symbol": "cm"
+        },
+        {
+          "raw": "inch",
+          "en": "Inch (Shoes)",
+          "symbol": "in"
+        },
+        {
+          "raw": "usMen",
+          "en": "US Men (Shoes)",
+          "symbol": ""
+        },
+        {
+          "raw": "usWomen",
+          "en": "US Women (Shoes)",
+          "symbol": ""
+        },
+        {
+          "raw": "usChildren",
+          "en": "US Children (Shoes)",
+          "symbol": ""
+        },
+        {
+          "raw": "europe",
+          "en": "EU (Shoes)",
+          "symbol": ""
+        },
+        {
+          "raw": "unitedKingdom",
+          "en": "UK (Shoes)",
+          "symbol": ""
+        },
+        {
+          "raw": "mondoPoint",
+          "en": "Mondopoint (Shoes)",
+          "symbol": ""
+        }
+      ],
+      "rawValue": "shoes"
+    },
+    {
+      "name": "Rings",
+      "units": [
+        {
+          "raw": "usCanada",
+          "en": "US / Canada (Ring)",
+          "symbol": ""
+        },
+        {
+          "raw": "uk",
+          "en": "UK / Ireland (Ring)",
+          "symbol": ""
+        },
+        {
+          "raw": "europe",
+          "en": "EU / ISO (Ring)",
+          "symbol": "mm"
+        },
+        {
+          "raw": "diameter",
+          "en": "Diameter (Ring)",
+          "symbol": "mm"
+        },
+        {
+          "raw": "japan",
+          "en": "Japan (Ring)",
+          "symbol": "号"
+        },
+        {
+          "raw": "switzerland",
+          "en": "Switzerland (Ring)",
+          "symbol": ""
+        }
+      ],
+      "rawValue": "rings"
+    },
+    {
+      "name": "Fuel",
+      "units": [
+        {
+          "raw": "MilesPerGallonUS",
+          "en": "Miles per Gallon(US)",
+          "symbol": "MPG(US)"
+        },
+        {
+          "raw": "MilesPerGallonUK",
+          "en": "Miles per Gallon(UK)",
+          "symbol": "MPG(UK)"
+        },
+        {
+          "raw": "MilesPerLiter",
+          "en": "Miles per liter",
+          "symbol": "mi/l"
+        },
+        {
+          "raw": "KilometerPerLiter",
+          "en": "Kilometers per liter",
+          "symbol": "km/l"
+        },
+        {
+          "raw": "LitersPerKm",
+          "en": "Liters per km",
+          "symbol": "Liters/km"
+        },
+        {
+          "raw": "LitersPer100Km",
+          "en": "Liters per 100km",
+          "symbol": "Liters/100km"
+        }
+      ],
+      "rawValue": "fuel"
+    },
+    {
+      "name": "Weight",
+      "units": [
+        {
+          "raw": "Kilogram",
+          "en": "Kilogram",
+          "symbol": "kg"
+        },
+        {
+          "raw": "Gram",
+          "en": "Gram",
+          "symbol": "g"
+        },
+        {
+          "raw": "Milligram",
+          "en": "Milligram",
+          "symbol": "mg"
+        },
+        {
+          "raw": "Pound",
+          "en": "Pound",
+          "symbol": "lb"
+        },
+        {
+          "raw": "Ounce",
+          "en": "Ounce",
+          "symbol": "oz"
+        },
+        {
+          "raw": "TonMetric",
+          "en": "Ton Metric",
+          "symbol": "t"
+        },
+        {
+          "raw": "TonLongUK",
+          "en": "Ton Long(UK)",
+          "symbol": "ton(UK)"
+        },
+        {
+          "raw": "TonShortUS",
+          "en": "Ton Short(US)",
+          "symbol": "ton(US)"
+        },
+        {
+          "raw": "Stone",
+          "en": "Stone",
+          "symbol": "st"
+        },
+        {
+          "raw": "Slug",
+          "en": "Slug",
+          "symbol": "slug"
+        },
+        {
+          "raw": "grain",
+          "en": "Grain",
+          "symbol": "gr"
+        },
+        {
+          "raw": "troyOunce",
+          "en": "Troy Ounce",
+          "symbol": "t oz"
+        },
+        {
+          "raw": "troyPound",
+          "en": "Troy Pound",
+          "symbol": "t lb"
+        },
+        {
+          "raw": "dekagram",
+          "en": "Dekagram",
+          "symbol": "dag"
+        },
+        {
+          "raw": "carat",
+          "en": "Carat",
+          "symbol": "ct"
+        }
+      ],
+      "rawValue": "weight"
+    },
+    {
+      "name": "Length",
+      "units": [
+        {
+          "raw": "Kilometer",
+          "en": "Kilometer",
+          "symbol": "km"
+        },
+        {
+          "raw": "Meter",
+          "en": "Meter",
+          "symbol": "m"
+        },
+        {
+          "raw": "Decimeter",
+          "en": "Decimeter",
+          "symbol": "dm"
+        },
+        {
+          "raw": "Hectometer",
+          "en": "Hectometer",
+          "symbol": "hm"
+        },
+        {
+          "raw": "Centimeter",
+          "en": "Centimeter",
+          "symbol": "cm"
+        },
+        {
+          "raw": "Millimeter",
+          "en": "Millimeter",
+          "symbol": "mm"
+        },
+        {
+          "raw": "Mile",
+          "en": "Mile",
+          "symbol": "mile"
+        },
+        {
+          "raw": "Yard",
+          "en": "Yard",
+          "symbol": "yard"
+        },
+        {
+          "raw": "Feet",
+          "en": "Feet",
+          "symbol": "ft"
+        },
+        {
+          "raw": "Inch",
+          "en": "Inch",
+          "symbol": "in"
+        },
+        {
+          "raw": "MicroInch",
+          "en": "MicroInch",
+          "symbol": "microinch"
+        },
+        {
+          "raw": "NauticalMile",
+          "en": "Nautical Mile",
+          "symbol": "nmi"
+        },
+        {
+          "raw": "Fathom",
+          "en": "Fathom",
+          "symbol": "fath"
+        },
+        {
+          "raw": "League",
+          "en": "League",
+          "symbol": "league"
+        },
+        {
+          "raw": "Furlong",
+          "en": "Furlong",
+          "symbol": "fur"
+        },
+        {
+          "raw": "Rod",
+          "en": "Rod",
+          "symbol": "rod"
+        },
+        {
+          "raw": "Chain",
+          "en": "Chain",
+          "symbol": "chain"
+        },
+        {
+          "raw": "micron",
+          "en": "Micron",
+          "symbol": "µ"
+        },
+        {
+          "raw": "mil",
+          "en": "Mil",
+          "symbol": "mil"
+        },
+        {
+          "raw": "mileScandinavian",
+          "en": "Mile(Scandinavian)",
+          "symbol": "mil(S)"
+        }
+      ],
+      "rawValue": "length"
+    },
+    {
+      "name": "Area",
+      "units": [
+        {
+          "raw": "SquareMillimeter",
+          "en": "Square Millimeter",
+          "symbol": "mm²"
+        },
+        {
+          "raw": "SquareMile",
+          "en": "Square Mile",
+          "symbol": "mile²"
+        },
+        {
+          "raw": "SquareCentimeter",
+          "en": "Square Centimeter",
+          "symbol": "cm²"
+        },
+        {
+          "raw": "SquareMeter",
+          "en": "Square Meter",
+          "symbol": "m²"
+        },
+        {
+          "raw": "SquareDecimeter",
+          "en": "Square Decimeter",
+          "symbol": "dm²"
+        },
+        {
+          "raw": "SquareDecameter",
+          "en": "Square Decameter",
+          "symbol": "dam²"
+        },
+        {
+          "raw": "SquareKilometer",
+          "en": "Square Kilometer",
+          "symbol": "km²"
+        },
+        {
+          "raw": "SquareInch",
+          "en": "Square Inch",
+          "symbol": "in²"
+        },
+        {
+          "raw": "SquareFeet",
+          "en": "Square Feet",
+          "symbol": "feet²"
+        },
+        {
+          "raw": "SquareYard",
+          "en": "Square Yard",
+          "symbol": "yard²"
+        },
+        {
+          "raw": "Are",
+          "en": "Are",
+          "symbol": "a"
+        },
+        {
+          "raw": "Acre",
+          "en": "Acre",
+          "symbol": "Acre"
+        },
+        {
+          "raw": "Hectare",
+          "en": "Hectare",
+          "symbol": "ha"
+        },
+        {
+          "raw": "SquareWah",
+          "en": "Square Wah",
+          "symbol": "wah²"
+        },
+        {
+          "raw": "Rai",
+          "en": "Rai",
+          "symbol": "rai"
+        },
+        {
+          "raw": "bigha",
+          "en": "Bigha",
+          "symbol": "bigha"
+        },
+        {
+          "raw": "biswa",
+          "en": "Biswa",
+          "symbol": "biswa"
+        },
+        {
+          "raw": "cent",
+          "en": "Cent",
+          "symbol": "cent"
+        },
+        {
+          "raw": "chatak",
+          "en": "Chatak",
+          "symbol": "chatak"
+        },
+        {
+          "raw": "dhur",
+          "en": "Dhur",
+          "symbol": "dhur"
+        },
+        {
+          "raw": "gaj",
+          "en": "Gaj",
+          "symbol": "gaj"
+        },
+        {
+          "raw": "grounds",
+          "en": "Grounds",
+          "symbol": "grounds"
+        },
+        {
+          "raw": "guntha",
+          "en": "Guntha",
+          "symbol": "guntha"
+        },
+        {
+          "raw": "kanal",
+          "en": "Kanal",
+          "symbol": "kanal"
+        },
+        {
+          "raw": "katha",
+          "en": "Katha",
+          "symbol": "katha"
+        },
+        {
+          "raw": "killa",
+          "en": "Killa",
+          "symbol": "killa"
+        },
+        {
+          "raw": "lessa",
+          "en": "Lessa",
+          "symbol": "lessa"
+        },
+        {
+          "raw": "marla",
+          "en": "Marla",
+          "symbol": "marla"
+        },
+        {
+          "raw": "murabba",
+          "en": "Murabba",
+          "symbol": "murabba"
+        },
+        {
+          "raw": "pura",
+          "en": "Pura",
+          "symbol": "pura"
+        },
+        {
+          "raw": "squareKaram",
+          "en": "Square Karam",
+          "symbol": "karam²"
+        },
+        {
+          "raw": "tsubo",
+          "en": "Tsubo",
+          "symbol": "tsubo"
+        },
+        {
+          "raw": "pyeong",
+          "en": "Pyeong",
+          "symbol": "pyeong"
+        },
+        {
+          "raw": "ping",
+          "en": "Ping",
+          "symbol": "ping"
+        },
+        {
+          "raw": "mu",
+          "en": "Mu",
+          "symbol": "mu"
+        },
+        {
+          "raw": "dunam",
+          "en": "Dunam",
+          "symbol": "dunam"
+        },
+        {
+          "raw": "ngan",
+          "en": "Ngan",
+          "symbol": "ngan"
+        },
+        {
+          "raw": "sotka",
+          "en": "Sotka",
+          "symbol": "sotka"
+        },
+        {
+          "raw": "desyatina",
+          "en": "Desyatina",
+          "symbol": "desyatina"
+        },
+        {
+          "raw": "rood",
+          "en": "Rood",
+          "symbol": "rood"
+        },
+        {
+          "raw": "perch",
+          "en": "Perch",
+          "symbol": "perch"
+        },
+        {
+          "raw": "section",
+          "en": "Section",
+          "symbol": "section"
+        },
+        {
+          "raw": "township",
+          "en": "Township",
+          "symbol": "township"
+        },
+        {
+          "raw": "stremma",
+          "en": "Stremma",
+          "symbol": "stremma"
+        },
+        {
+          "raw": "morgen",
+          "en": "Morgen",
+          "symbol": "morgen"
+        },
+        {
+          "raw": "ropani",
+          "en": "Ropani",
+          "symbol": "ropani"
+        },
+        {
+          "raw": "aana",
+          "en": "Aana",
+          "symbol": "aana"
+        }
+      ],
+      "rawValue": "area"
+    },
+    {
+      "name": "Torque",
+      "units": [
+        {
+          "raw": "NewtonMeter",
+          "en": "Newton Meter",
+          "symbol": "Nm"
+        },
+        {
+          "raw": "DecaNewtonMeter",
+          "en": "Deca Newton Meter",
+          "symbol": "daNm"
+        },
+        {
+          "raw": "KiloNewtonMeter",
+          "en": "Kilo Newton Meter",
+          "symbol": "kNm"
+        },
+        {
+          "raw": "DeciNewtonMeter",
+          "en": "Deci Newton Meter",
+          "symbol": "dNm"
+        },
+        {
+          "raw": "CentiNewtonMeter",
+          "en": "Centi Newton Meter",
+          "symbol": "cNm"
+        },
+        {
+          "raw": "MircoNewtonMeter",
+          "en": "Micro Newton Meter",
+          "symbol": "μNm"
+        },
+        {
+          "raw": "KilogramForceMeter",
+          "en": "Kilogram Force Meter",
+          "symbol": "kgFm/kPm"
+        },
+        {
+          "raw": "KilogramForceCentiMeter",
+          "en": "Kilogram Force Centimeter",
+          "symbol": "kgFcm/kPcm"
+        },
+        {
+          "raw": "GramForceMeter",
+          "en": "Gram Force Meter",
+          "symbol": "gFm/gPm"
+        },
+        {
+          "raw": "GramForceCentiMeter",
+          "en": "Gram Force Centimeter",
+          "symbol": "gFcm/gPcm"
+        },
+        {
+          "raw": "DyneCentimeter",
+          "en": "Dyne Centimeter",
+          "symbol": "dyn cm/erg"
+        },
+        {
+          "raw": "PoundForceFeet",
+          "en": "Pound Force Feet",
+          "symbol": "lbf ft"
+        },
+        {
+          "raw": "PoundForceInch",
+          "en": "Pound Force Inch",
+          "symbol": "lbf in"
+        },
+        {
+          "raw": "OnceForceInch",
+          "en": "Ounce Force Inch / Inch Ounces",
+          "symbol": "ozf in"
+        },
+        {
+          "raw": "PoundalForceFeet",
+          "en": "Poundal Force Feet",
+          "symbol": "pdl ft"
+        },
+        {
+          "raw": "PoundalForceInch",
+          "en": "Poundal Force Inch",
+          "symbol": "pdl in"
+        },
+        {
+          "raw": "TonUKForceFeet",
+          "en": "Ton(UK) Force Feet",
+          "symbol": "tonf ft"
+        },
+        {
+          "raw": "TonUSForceFeet",
+          "en": "Ton(US) Force Feet",
+          "symbol": "ton ft"
+        }
+      ],
+      "rawValue": "torque"
+    },
+    {
+      "name": "Time",
+      "units": [
+        {
+          "raw": "Millenium",
+          "en": "Millennium",
+          "symbol": "m"
+        },
+        {
+          "raw": "Century",
+          "en": "Century",
+          "symbol": "c"
+        },
+        {
+          "raw": "Decade",
+          "en": "Decade",
+          "symbol": "dec"
+        },
+        {
+          "raw": "Year",
+          "en": "Year",
+          "symbol": "y"
+        },
+        {
+          "raw": "Month",
+          "en": "Month",
+          "symbol": "mo"
+        },
+        {
+          "raw": "Week",
+          "en": "Week",
+          "symbol": "wk"
+        },
+        {
+          "raw": "Day",
+          "en": "Day",
+          "symbol": "dy"
+        },
+        {
+          "raw": "Hour",
+          "en": "Hour",
+          "symbol": "hr"
+        },
+        {
+          "raw": "Minute",
+          "en": "Minute",
+          "symbol": "min"
+        },
+        {
+          "raw": "Second",
+          "en": "Second",
+          "symbol": "sec"
+        },
+        {
+          "raw": "Millisecond",
+          "en": "Millisecond",
+          "symbol": "ms"
+        }
+      ],
+      "rawValue": "time"
+    },
+    {
+      "name": "Speed",
+      "units": [
+        {
+          "raw": "KilometerPerHour",
+          "en": "Kilometer per Hour",
+          "symbol": "km/h"
+        },
+        {
+          "raw": "MilePerHour",
+          "en": "Miles per Hour",
+          "symbol": "mph"
+        },
+        {
+          "raw": "minPerMile",
+          "en": "Minute Per Mile",
+          "symbol": "min/mile"
+        },
+        {
+          "raw": "secondsPerMile",
+          "en": "Seconds Per Mile",
+          "symbol": "sec/mile"
+        },
+        {
+          "raw": "minPerKilometer",
+          "en": "Minute Per Kilometer",
+          "symbol": "min/km"
+        },
+        {
+          "raw": "secondsPer100meter",
+          "en": "Seconds Per 100 meters",
+          "symbol": "sec/hm"
+        },
+        {
+          "raw": "secondsPerKilometer",
+          "en": "Seconds Per Kilometer",
+          "symbol": "sec/km"
+        },
+        {
+          "raw": "FeetPerMinute",
+          "en": "Feet per Minute",
+          "symbol": "ft/min"
+        },
+        {
+          "raw": "FeetPerSecond",
+          "en": "Feet per Second",
+          "symbol": "ft/s"
+        },
+        {
+          "raw": "MeterPerSecond",
+          "en": "Meter per Second",
+          "symbol": "m/s"
+        },
+        {
+          "raw": "Knot",
+          "en": "Knot",
+          "symbol": "knot"
+        },
+        {
+          "raw": "SpeedOfLight",
+          "en": "Speed of Light",
+          "symbol": "c(V)"
+        },
+        {
+          "raw": "SpeedOfSoundAir",
+          "en": "Speed of Sound(Air)",
+          "symbol": "Mach(air)"
+        },
+        {
+          "raw": "SpeedOfSoundWater",
+          "en": "Speed of Sound(Water)",
+          "symbol": "Mach(water)"
+        }
+      ],
+      "rawValue": "speed"
+    },
+    {
+      "name": "Volume",
+      "units": [
+        {
+          "raw": "CubicMeter",
+          "en": "Cubic Meter",
+          "symbol": "m³"
+        },
+        {
+          "raw": "Liter",
+          "en": "Liter",
+          "symbol": "l(dm³)"
+        },
+        {
+          "raw": "Deciliter",
+          "en": "Deciliter",
+          "symbol": "dl"
+        },
+        {
+          "raw": "Centiliter",
+          "en": "Centiliter",
+          "symbol": "cl"
+        },
+        {
+          "raw": "MilliliterCC",
+          "en": "Milliliter(cc)",
+          "symbol": "ml(cm³)"
+        },
+        {
+          "raw": "CubicMilliliter",
+          "en": "Cubic Millimeter",
+          "symbol": "mm³"
+        },
+        {
+          "raw": "TablespoonMet",
+          "en": "Tablespoon(metric)",
+          "symbol": "tblspn(m)"
+        },
+        {
+          "raw": "TeaspoonMet",
+          "en": "Teaspoon(metric)",
+          "symbol": "tspn(m)"
+        },
+        {
+          "raw": "CubicYard",
+          "en": "Cubic Yard",
+          "symbol": "yd³"
+        },
+        {
+          "raw": "CubicFoot",
+          "en": "Cubic Foot",
+          "symbol": "ft³"
+        },
+        {
+          "raw": "CubicInch",
+          "en": "Cubic Inch",
+          "symbol": "in³"
+        },
+        {
+          "raw": "BushelUS",
+          "en": "Bushel(US)",
+          "symbol": "bushel"
+        },
+        {
+          "raw": "BarrelUS",
+          "en": "Barrel(Oil)(US)",
+          "symbol": "bbl(US)"
+        },
+        {
+          "raw": "LiquidGallonUS",
+          "en": "Gallon(Liquid)(US)",
+          "symbol": "gal(US)"
+        },
+        {
+          "raw": "DryGallonUS",
+          "en": "Gallon(Dry)(US)",
+          "symbol": "gal(US dry)"
+        },
+        {
+          "raw": "FluidOunceUS",
+          "en": "Fluid Ounce(US)",
+          "symbol": "fl oz(US)"
+        },
+        {
+          "raw": "PintUS",
+          "en": "Pint(US)",
+          "symbol": "pint(US)"
+        },
+        {
+          "raw": "QuartUS",
+          "en": "Quart(US)",
+          "symbol": "quart(US)"
+        },
+        {
+          "raw": "TablespoonUS",
+          "en": "Tablespoon(US)",
+          "symbol": "tblspn(US)"
+        },
+        {
+          "raw": "TeaspoonUS",
+          "en": "Teaspoon(US)",
+          "symbol": "tspn(US)"
+        },
+        {
+          "raw": "CupUS",
+          "en": "Cup(US)",
+          "symbol": "cup(US)"
+        },
+        {
+          "raw": "BarrelUK",
+          "en": "Barrel(UK)",
+          "symbol": "bbl(UK)"
+        },
+        {
+          "raw": "GallonUK",
+          "en": "Gallon(Liquid)(UK)",
+          "symbol": "gal(UK)"
+        },
+        {
+          "raw": "FluidOunceUK",
+          "en": "Fluid Ounce(UK)",
+          "symbol": "fl oz(UK)"
+        },
+        {
+          "raw": "CupUK",
+          "en": "Cup(UK)",
+          "symbol": "cup(UK)"
+        },
+        {
+          "raw": "PintUK",
+          "en": "Pint(UK)",
+          "symbol": "pint(UK)"
+        },
+        {
+          "raw": "QuartUK",
+          "en": "Quart(UK)",
+          "symbol": "quart(UK)"
+        },
+        {
+          "raw": "BarrelDryUS",
+          "en": "Barrel(Dry)(US)",
+          "symbol": "bbl(US dry)"
+        },
+        {
+          "raw": "PeckUS",
+          "en": "Peck(US)",
+          "symbol": "pk(US)"
+        },
+        {
+          "raw": "PintDryUS",
+          "en": "Pint(Dry)(US)",
+          "symbol": "pint(US dry)"
+        },
+        {
+          "raw": "QuartDryUS",
+          "en": "Quart(Dry)(US)",
+          "symbol": "quart(US dry)"
+        },
+        {
+          "raw": "Drop",
+          "en": "Drop",
+          "symbol": "drop"
+        }
+      ],
+      "rawValue": "volume"
+    },
+    {
+      "name": "Pressure",
+      "units": [
+        {
+          "raw": "Pascal",
+          "en": "Pascal",
+          "symbol": "Pa"
+        },
+        {
+          "raw": "KiloPascal",
+          "en": "Kilo Pascal",
+          "symbol": "kPa"
+        },
+        {
+          "raw": "MegaPascal",
+          "en": "Mega Pascal",
+          "symbol": "MPa"
+        },
+        {
+          "raw": "PoundPerSquareInch",
+          "en": "Pound/sq Inch",
+          "symbol": "psi"
+        },
+        {
+          "raw": "PoundPerSquareFoot",
+          "en": "Pound/sq Foot",
+          "symbol": "psf"
+        },
+        {
+          "raw": "Atomsphere",
+          "en": "Atmosphere",
+          "symbol": "atm"
+        },
+        {
+          "raw": "Bar",
+          "en": "Bar",
+          "symbol": "bar"
+        },
+        {
+          "raw": "Millibar",
+          "en": "Millibar",
+          "symbol": "mbar"
+        },
+        {
+          "raw": "InchMercury",
+          "en": "Inch Mercury",
+          "symbol": "in Hg"
+        },
+        {
+          "raw": "MillimeterMercury",
+          "en": "Millimeter Mercury",
+          "symbol": "mm Hg"
+        },
+        {
+          "raw": "centimeterMercury",
+          "en": "Centimeter Mercury",
+          "symbol": "cm Hg"
+        },
+        {
+          "raw": "hectoPascal",
+          "en": "Hecto Pascal",
+          "symbol": "hPa"
+        },
+        {
+          "raw": "hectoBar",
+          "en": "Hecto Bar",
+          "symbol": "hb"
+        },
+        {
+          "raw": "centimeterWater",
+          "en": "Centimeter Water",
+          "symbol": "cm H2O"
+        },
+        {
+          "raw": "inchWater",
+          "en": "Inch Water",
+          "symbol": "in H2O"
+        },
+        {
+          "raw": "dyneCentimeter",
+          "en": "Dyne/centimeter sq",
+          "symbol": "dyn/cm²"
+        },
+        {
+          "raw": "kilogramMeterSquare",
+          "en": "Kilogram/meter sq",
+          "symbol": "kg/m²"
+        },
+        {
+          "raw": "kilogramCentimeterSquare",
+          "en": "Kilogram/centimeter sq",
+          "symbol": "kg/cm²"
+        },
+        {
+          "raw": "kiloNewtonCentimeterSquare",
+          "en": "Kilo Newton/centimeter sq",
+          "symbol": "kN/cm²"
+        },
+        {
+          "raw": "megaNewtonMeterSquare",
+          "en": "Mega Newton/meter sq",
+          "symbol": "mN/m²"
+        },
+        {
+          "raw": "poundalSquareFoot",
+          "en": "Poundal/foot sq",
+          "symbol": "pdl/ft²"
+        },
+        {
+          "raw": "torr",
+          "en": "Torr",
+          "symbol": "torr"
+        }
+      ],
+      "rawValue": "pressure"
+    },
+    {
+      "name": "Energy",
+      "units": [
+        {
+          "raw": "btu",
+          "en": "British Thermal Unit",
+          "symbol": "BTU"
+        },
+        {
+          "raw": "wattHour",
+          "en": "Watt-hour",
+          "symbol": "Wh"
+        },
+        {
+          "raw": "kiloWattHour",
+          "en": "Kilowatt-hour",
+          "symbol": "kWh"
+        },
+        {
+          "raw": "megaWattHour",
+          "en": "Megawatt-hour",
+          "symbol": "MWh"
+        },
+        {
+          "raw": "gigaWattHour",
+          "en": "Gigawatt-hour",
+          "symbol": "GWh"
+        },
+        {
+          "raw": "teraWattHour",
+          "en": "Terawatt-hour",
+          "symbol": "TWh"
+        },
+        {
+          "raw": "gasCubicMeter",
+          "en": "Gas Cubic Meter",
+          "symbol": "m³"
+        },
+        {
+          "raw": "joule",
+          "en": "Joule",
+          "symbol": "J"
+        },
+        {
+          "raw": "kiloJoule",
+          "en": "Kilojoule",
+          "symbol": "kJ"
+        },
+        {
+          "raw": "megaJoule",
+          "en": "Megajoule",
+          "symbol": "MJ"
+        },
+        {
+          "raw": "calorie",
+          "en": "Calorie",
+          "symbol": "cal"
+        },
+        {
+          "raw": "kilocalorie",
+          "en": "Kilocalorie",
+          "symbol": "kcal"
+        },
+        {
+          "raw": "electronVolt",
+          "en": "Electron Volt",
+          "symbol": "eV"
+        },
+        {
+          "raw": "thermUS",
+          "en": "Therm(US)",
+          "symbol": "therm"
+        },
+        {
+          "raw": "thermUK",
+          "en": "Therm(UK)",
+          "symbol": "therm"
+        },
+        {
+          "raw": "erg",
+          "en": "Erg",
+          "symbol": "erg"
+        },
+        {
+          "raw": "footPoundForce",
+          "en": "Foot-pound force",
+          "symbol": "ft·lbf"
+        }
+      ],
+      "rawValue": "energy"
+    },
+    {
+      "name": "Power",
+      "units": [
+        {
+          "raw": "btuh",
+          "en": "British Thermal Unit/h",
+          "symbol": "BTU/h"
+        },
+        {
+          "raw": "horsePower",
+          "en": "Horse Power",
+          "symbol": "hp(metric)"
+        },
+        {
+          "raw": "kiloWatt",
+          "en": "KiloWatt",
+          "symbol": "kW"
+        },
+        {
+          "raw": "watt",
+          "en": "Watt",
+          "symbol": "W"
+        },
+        {
+          "raw": "tonOfRefigeration",
+          "en": "Ton of Refrigeration Unit/h",
+          "symbol": "ton/ref"
+        },
+        {
+          "raw": "megaWatt",
+          "en": "MegaWatt",
+          "symbol": "MW"
+        },
+        {
+          "raw": "gigaWatt",
+          "en": "GigaWatt",
+          "symbol": "GW"
+        },
+        {
+          "raw": "teraWatt",
+          "en": "TeraWatt",
+          "symbol": "TW"
+        }
+      ],
+      "rawValue": "power"
+    },
+    {
+      "name": "Data",
+      "units": [
+        {
+          "raw": "bit",
+          "en": "Bit",
+          "symbol": "bit"
+        },
+        {
+          "raw": "nibble",
+          "en": "Nibble",
+          "symbol": "nibble"
+        },
+        {
+          "raw": "byte",
+          "en": "Byte",
+          "symbol": "b"
+        },
+        {
+          "raw": "block",
+          "en": "Block",
+          "symbol": "block"
+        },
+        {
+          "raw": "kilobyteBase2",
+          "en": "Kilobyte (base 2)",
+          "symbol": "KiB"
+        },
+        {
+          "raw": "kilobyteBase10",
+          "en": "Kilobyte (base 10)",
+          "symbol": "KB"
+        },
+        {
+          "raw": "kilobit",
+          "en": "Kilobit",
+          "symbol": "Kb"
+        },
+        {
+          "raw": "megabyteBase2",
+          "en": "Megabyte (base 2)",
+          "symbol": "MiB"
+        },
+        {
+          "raw": "megabyteBase10",
+          "en": "Megabyte (base 10)",
+          "symbol": "MB"
+        },
+        {
+          "raw": "megabit",
+          "en": "Megabit",
+          "symbol": "Mb"
+        },
+        {
+          "raw": "gigabyteBase2",
+          "en": "Gigabyte (base 2)",
+          "symbol": "GiB"
+        },
+        {
+          "raw": "gigabyteBase10",
+          "en": "Gigabyte (base 10)",
+          "symbol": "GB"
+        },
+        {
+          "raw": "gigabit",
+          "en": "Gigabit",
+          "symbol": "Gb"
+        },
+        {
+          "raw": "terabyteBase2",
+          "en": "Terabyte (base 2)",
+          "symbol": "TiB"
+        },
+        {
+          "raw": "terabyteBase10",
+          "en": "Terabyte (base 10)",
+          "symbol": "TB"
+        },
+        {
+          "raw": "terabit",
+          "en": "Terabit",
+          "symbol": "Tb"
+        }
+      ],
+      "rawValue": "data"
+    },
+    {
+      "name": "Amount",
+      "units": [
+        {
+          "raw": "one",
+          "en": "One",
+          "symbol": "one"
+        },
+        {
+          "raw": "hundred",
+          "en": "Hundred",
+          "symbol": "hundred"
+        },
+        {
+          "raw": "thousand",
+          "en": "Thousand",
+          "symbol": "thousand"
+        },
+        {
+          "raw": "lac",
+          "en": "Lac / Lakh",
+          "symbol": "lac"
+        },
+        {
+          "raw": "million",
+          "en": "Million",
+          "symbol": "million"
+        },
+        {
+          "raw": "cr",
+          "en": "Crore",
+          "symbol": "cr"
+        },
+        {
+          "raw": "billion",
+          "en": "Billion",
+          "symbol": "billion"
+        },
+        {
+          "raw": "arab",
+          "en": "Arab",
+          "symbol": "arab"
+        },
+        {
+          "raw": "kharab",
+          "en": "Kharab",
+          "symbol": "kharab"
+        },
+        {
+          "raw": "trillion",
+          "en": "Trillion",
+          "symbol": "trillion"
+        },
+        {
+          "raw": "wan",
+          "en": "Wan (万)",
+          "symbol": "万"
+        },
+        {
+          "raw": "yi",
+          "en": "Yi (亿)",
+          "symbol": "亿"
+        },
+        {
+          "raw": "neel",
+          "en": "Neel",
+          "symbol": "neel"
+        },
+        {
+          "raw": "padma",
+          "en": "Padma",
+          "symbol": "padma"
+        },
+        {
+          "raw": "quadrillion",
+          "en": "Quadrillion",
+          "symbol": "quadrillion"
+        },
+        {
+          "raw": "jing",
+          "en": "Jing (京)",
+          "symbol": "京"
+        },
+        {
+          "raw": "shankh",
+          "en": "Shankh",
+          "symbol": "shankh"
+        }
+      ],
+      "rawValue": "amount"
+    },
+    {
+      "name": "Angle",
+      "units": [
+        {
+          "raw": "degree",
+          "en": "Degree",
+          "symbol": "°"
+        },
+        {
+          "raw": "radian",
+          "en": "Radian",
+          "symbol": "rad"
+        },
+        {
+          "raw": "gradian",
+          "en": "Gradian",
+          "symbol": "grad"
+        },
+        {
+          "raw": "angularMil",
+          "en": "Angular Mil",
+          "symbol": "mil"
+        },
+        {
+          "raw": "minuteOfArc",
+          "en": "Minute of Arc",
+          "symbol": "'"
+        },
+        {
+          "raw": "secondOfArc",
+          "en": "Second of Arc",
+          "symbol": "\""
+        },
+        {
+          "raw": "sign",
+          "en": "Sign",
+          "symbol": "sign"
+        },
+        {
+          "raw": "sextant",
+          "en": "Sextant",
+          "symbol": "sextant"
+        },
+        {
+          "raw": "quadrant",
+          "en": "Quadrant",
+          "symbol": "quadrant"
+        },
+        {
+          "raw": "revolution",
+          "en": "Revolution",
+          "symbol": "rev"
+        }
+      ],
+      "rawValue": "angle"
+    },
+    {
+      "name": "Sound",
+      "units": [
+        {
+          "raw": "decibel",
+          "en": "Decibel",
+          "symbol": "dB"
+        },
+        {
+          "raw": "bel",
+          "en": "Bel",
+          "symbol": "B"
+        },
+        {
+          "raw": "neper",
+          "en": "Neper",
+          "symbol": "Np"
+        }
+      ],
+      "rawValue": "sound"
+    },
+    {
+      "name": "Image",
+      "units": [
+        {
+          "raw": "dpi",
+          "en": "Dots per Inch",
+          "symbol": "dpi"
+        },
+        {
+          "raw": "ppi",
+          "en": "Pixels per Inch",
+          "symbol": "ppi"
+        },
+        {
+          "raw": "dotPerMillimeter",
+          "en": "Dots per Millimeter",
+          "symbol": "dot/mm"
+        },
+        {
+          "raw": "dotPerMeter",
+          "en": "Dots per Meter",
+          "symbol": "dot/m"
+        }
+      ],
+      "rawValue": "image"
+    },
+    {
+      "name": "Permeability",
+      "units": [
+        {
+          "raw": "kgPaSM2",
+          "en": "Kilogram/Pa/s/m²",
+          "symbol": "kg/Pa·s·m²"
+        },
+        {
+          "raw": "perm0C",
+          "en": "Permeability (0 °C)",
+          "symbol": "perm(0°C)"
+        },
+        {
+          "raw": "permInch0C",
+          "en": "Permeability (0 °C)/inch",
+          "symbol": "perm·in(0°C)"
+        },
+        {
+          "raw": "perm23C",
+          "en": "Permeability (23 °C)",
+          "symbol": "perm(23°C)"
+        },
+        {
+          "raw": "permInch23C",
+          "en": "Permeability (23 °C)/inch",
+          "symbol": "perm·in(23°C)"
+        }
+      ],
+      "rawValue": "permeability"
+    },
+    {
+      "name": "Typography",
+      "units": [
+        {
+          "raw": "point",
+          "en": "Point",
+          "symbol": "pt"
+        },
+        {
+          "raw": "characterX",
+          "en": "Character-X",
+          "symbol": "char(X)"
+        },
+        {
+          "raw": "characterY",
+          "en": "Character-Y",
+          "symbol": "char(y)"
+        },
+        {
+          "raw": "en",
+          "en": "En",
+          "symbol": "en"
+        },
+        {
+          "raw": "pica",
+          "en": "Pica",
+          "symbol": "pica"
+        },
+        {
+          "raw": "twip",
+          "en": "Twip",
+          "symbol": "twip"
+        },
+        {
+          "raw": "pixelX",
+          "en": "Pixel-X",
+          "symbol": "px(X)"
+        },
+        {
+          "raw": "pixelY",
+          "en": "Pixel-Y",
+          "symbol": "px(Y)"
+        },
+        {
+          "raw": "inch",
+          "en": "Inch",
+          "symbol": "in"
+        },
+        {
+          "raw": "millimeter",
+          "en": "Millimeter",
+          "symbol": "mm"
+        },
+        {
+          "raw": "centimeter",
+          "en": "Centimeter",
+          "symbol": "cm"
+        },
+        {
+          "raw": "meter",
+          "en": "Meter",
+          "symbol": "m"
+        }
+      ],
+      "rawValue": "typography"
+    },
+    {
+      "name": "Force",
+      "units": [
+        {
+          "raw": "newton",
+          "en": "Newton",
+          "symbol": "N"
+        },
+        {
+          "raw": "kiloNewton",
+          "en": "Kilonewton",
+          "symbol": "kN"
+        },
+        {
+          "raw": "dyne",
+          "en": "Dyne",
+          "symbol": "dyn"
+        },
+        {
+          "raw": "gramForce",
+          "en": "Gram-force",
+          "symbol": "gf"
+        },
+        {
+          "raw": "kilogramForce",
+          "en": "Kilogram-force",
+          "symbol": "kgf"
+        },
+        {
+          "raw": "poundForce",
+          "en": "Pound-force",
+          "symbol": "lbf"
+        },
+        {
+          "raw": "ounceForce",
+          "en": "Ounce-force",
+          "symbol": "ozf"
+        },
+        {
+          "raw": "poundal",
+          "en": "Poundal",
+          "symbol": "pdl"
+        },
+        {
+          "raw": "tonForceMetric",
+          "en": "Ton-force (metric)",
+          "symbol": "tf"
+        },
+        {
+          "raw": "tonForceShortUS",
+          "en": "Ton-force (short/US)",
+          "symbol": "tonf(US)"
+        },
+        {
+          "raw": "tonForceLongUK",
+          "en": "Ton-force (long/UK)",
+          "symbol": "tonf(UK)"
+        }
+      ],
+      "rawValue": "force"
+    },
+    {
+      "name": "Surface Tension",
+      "units": [
+        {
+          "raw": "newtonPerMeter",
+          "en": "Newton/meter",
+          "symbol": "N/m"
+        },
+        {
+          "raw": "milliNewtonPerMeter",
+          "en": "Millinewton/meter",
+          "symbol": "mN/m"
+        },
+        {
+          "raw": "dynePerCentimeter",
+          "en": "Dyne/centimeter",
+          "symbol": "dyn/cm"
+        },
+        {
+          "raw": "ergPerCentimeterSquare",
+          "en": "Erg/centimeter²",
+          "symbol": "erg/cm²"
+        },
+        {
+          "raw": "ergPerMillimeterSquare",
+          "en": "Erg/millimeter²",
+          "symbol": "erg/mm²"
+        },
+        {
+          "raw": "gramForcePerCentimeter",
+          "en": "Gram-force/centimeter",
+          "symbol": "gf/cm"
+        },
+        {
+          "raw": "poundForcePerInch",
+          "en": "Pound-force/inch",
+          "symbol": "lbf/in"
+        },
+        {
+          "raw": "poundalPerInch",
+          "en": "Poundal/inch",
+          "symbol": "pdl/in"
+        }
+      ],
+      "rawValue": "surfaceTension"
+    },
+    {
+      "name": "Current",
+      "units": [
+        {
+          "raw": "ampere",
+          "en": "Ampere",
+          "symbol": "A"
+        },
+        {
+          "raw": "kiloAmpere",
+          "en": "Kiloampere",
+          "symbol": "kA"
+        },
+        {
+          "raw": "milliAmpere",
+          "en": "Milliampere",
+          "symbol": "mA"
+        },
+        {
+          "raw": "microAmpere",
+          "en": "Microampere",
+          "symbol": "µA"
+        },
+        {
+          "raw": "abampere",
+          "en": "Abampere",
+          "symbol": "abA"
+        },
+        {
+          "raw": "biot",
+          "en": "Biot",
+          "symbol": "Bi"
+        },
+        {
+          "raw": "cgsElectromagnetic",
+          "en": "CGS e.m.",
+          "symbol": "CGS e.m."
+        },
+        {
+          "raw": "emu",
+          "en": "EMU of current",
+          "symbol": "EMU"
+        },
+        {
+          "raw": "cgsElectrostatic",
+          "en": "CGS e.s.",
+          "symbol": "CGS e.s."
+        },
+        {
+          "raw": "esu",
+          "en": "ESU of current",
+          "symbol": "ESU"
+        }
+      ],
+      "rawValue": "current"
+    },
+    {
+      "name": "Voltage",
+      "units": [
+        {
+          "raw": "volt",
+          "en": "Volt",
+          "symbol": "V"
+        },
+        {
+          "raw": "kiloVolt",
+          "en": "Kilovolt",
+          "symbol": "kV"
+        },
+        {
+          "raw": "megaVolt",
+          "en": "Megavolt",
+          "symbol": "MV"
+        },
+        {
+          "raw": "milliVolt",
+          "en": "Millivolt",
+          "symbol": "mV"
+        },
+        {
+          "raw": "microVolt",
+          "en": "Microvolt",
+          "symbol": "µV"
+        },
+        {
+          "raw": "abvolt",
+          "en": "Abvolt",
+          "symbol": "abV"
+        },
+        {
+          "raw": "statvolt",
+          "en": "Statvolt",
+          "symbol": "stV"
+        }
+      ],
+      "rawValue": "voltage"
+    },
+    {
+      "name": "Charge",
+      "units": [
+        {
+          "raw": "coulomb",
+          "en": "Coulomb",
+          "symbol": "C"
+        },
+        {
+          "raw": "ampereSecond",
+          "en": "Ampere-second",
+          "symbol": "A·s"
+        },
+        {
+          "raw": "ampereMinute",
+          "en": "Ampere-minute",
+          "symbol": "A·min"
+        },
+        {
+          "raw": "ampereHour",
+          "en": "Ampere-hour",
+          "symbol": "A·h"
+        },
+        {
+          "raw": "abcoulomb",
+          "en": "Abcoulomb",
+          "symbol": "abC"
+        },
+        {
+          "raw": "emuCharge",
+          "en": "EMU of charge",
+          "symbol": "EMU"
+        },
+        {
+          "raw": "statcoulomb",
+          "en": "Statcoulomb",
+          "symbol": "stC"
+        },
+        {
+          "raw": "franklin",
+          "en": "Franklin",
+          "symbol": "Fr"
+        },
+        {
+          "raw": "esuCharge",
+          "en": "ESU of charge",
+          "symbol": "ESU"
+        },
+        {
+          "raw": "faraday",
+          "en": "Faraday",
+          "symbol": "F"
+        },
+        {
+          "raw": "kiloCoulomb",
+          "en": "Kilocoulomb",
+          "symbol": "kC"
+        },
+        {
+          "raw": "milliCoulomb",
+          "en": "Millicoulomb",
+          "symbol": "mC"
+        },
+        {
+          "raw": "megaCoulomb",
+          "en": "Megacoulomb",
+          "symbol": "MC"
+        }
+      ],
+      "rawValue": "charge"
+    },
+    {
+      "name": "Resistance",
+      "units": [
+        {
+          "raw": "ohm",
+          "en": "Ohm",
+          "symbol": "Ω"
+        },
+        {
+          "raw": "voltPerAmpere",
+          "en": "Volt/ampere",
+          "symbol": "V/A"
+        },
+        {
+          "raw": "milliOhm",
+          "en": "Milliohm",
+          "symbol": "mΩ"
+        },
+        {
+          "raw": "microOhm",
+          "en": "Microohm",
+          "symbol": "µΩ"
+        },
+        {
+          "raw": "emu",
+          "en": "EMU of resistance",
+          "symbol": "emu"
+        },
+        {
+          "raw": "esu",
+          "en": "ESU of resistance",
+          "symbol": "esu"
+        }
+      ],
+      "rawValue": "resistance"
+    },
+    {
+      "name": "Magnet",
+      "units": [
+        {
+          "raw": "weber",
+          "en": "Weber",
+          "symbol": "Wb"
+        },
+        {
+          "raw": "milliweber",
+          "en": "Milliweber",
+          "symbol": "mWb"
+        },
+        {
+          "raw": "microweber",
+          "en": "Microweber",
+          "symbol": "µWb"
+        },
+        {
+          "raw": "maxwell",
+          "en": "Maxwell",
+          "symbol": "Mx"
+        },
+        {
+          "raw": "line",
+          "en": "Line",
+          "symbol": "line"
+        },
+        {
+          "raw": "kiloline",
+          "en": "Kiloline",
+          "symbol": "kiloLine"
+        },
+        {
+          "raw": "megaline",
+          "en": "Megaline",
+          "symbol": "megaline"
+        },
+        {
+          "raw": "gaussSquareCentimeter",
+          "en": "Gauss square centimeter",
+          "symbol": "Gcm²"
+        },
+        {
+          "raw": "teslaSquareMeter",
+          "en": "Tesla square meter",
+          "symbol": "Tm²"
+        },
+        {
+          "raw": "teslaSquareCentimeter",
+          "en": "Tesla square centimeter",
+          "symbol": "Tcm²"
+        },
+        {
+          "raw": "voltSecond",
+          "en": "Volt second",
+          "symbol": "Vs"
+        }
+      ],
+      "rawValue": "magnet"
+    },
+    {
+      "name": "Frequency",
+      "units": [
+        {
+          "raw": "hertz",
+          "en": "Hertz",
+          "symbol": "Hz"
+        },
+        {
+          "raw": "kilohertz",
+          "en": "Kilohertz",
+          "symbol": "kHz"
+        },
+        {
+          "raw": "megahertz",
+          "en": "Megahertz",
+          "symbol": "MHz"
+        },
+        {
+          "raw": "gigahertz",
+          "en": "Gigahertz",
+          "symbol": "GHz"
+        },
+        {
+          "raw": "terahertz",
+          "en": "Terahertz",
+          "symbol": "THz"
+        },
+        {
+          "raw": "cyclePerSecond",
+          "en": "Cycles per second",
+          "symbol": "cycle/s"
+        },
+        {
+          "raw": "revolutionPerSecond",
+          "en": "Revolution per second",
+          "symbol": "rev/s"
+        },
+        {
+          "raw": "revolutionPerMinute",
+          "en": "Revolution per minute",
+          "symbol": "rev/min"
+        },
+        {
+          "raw": "revolutionPerHour",
+          "en": "Revolution per hour",
+          "symbol": "rev/h"
+        },
+        {
+          "raw": "radianPerSecond",
+          "en": "Radian per second",
+          "symbol": "rad/s"
+        },
+        {
+          "raw": "radianPerMinute",
+          "en": "Radian per minute",
+          "symbol": "rad/min"
+        },
+        {
+          "raw": "radianPerHour",
+          "en": "Radian per hour",
+          "symbol": "rad/h"
+        },
+        {
+          "raw": "degreePerSecond",
+          "en": "Degree per second",
+          "symbol": "°/sec"
+        },
+        {
+          "raw": "degreePerMinute",
+          "en": "Degree per minute",
+          "symbol": "°/min"
+        },
+        {
+          "raw": "degreePerHour",
+          "en": "Degree per hour",
+          "symbol": "°/hour"
+        }
+      ],
+      "rawValue": "frequency"
+    },
+    {
+      "name": "Luminance",
+      "units": [
+        {
+          "raw": "candelaPerSquareMeter",
+          "en": "Candela per square meter",
+          "symbol": "cd/m²"
+        },
+        {
+          "raw": "nit",
+          "en": "Nit",
+          "symbol": "nt"
+        },
+        {
+          "raw": "kilocandelaPerSquareMeter",
+          "en": "Kilocandela per square meter",
+          "symbol": "kcd/m²"
+        },
+        {
+          "raw": "candelaPerSquareCentimeter",
+          "en": "Candela per square centimeter",
+          "symbol": "cd/cm²"
+        },
+        {
+          "raw": "stilb",
+          "en": "Stilb",
+          "symbol": "sb"
+        },
+        {
+          "raw": "candelaPerSquareFoot",
+          "en": "Candela per square foot",
+          "symbol": "cd/ft²"
+        },
+        {
+          "raw": "candelaPerSquareInch",
+          "en": "Candela per square inch",
+          "symbol": "cd/in²"
+        },
+        {
+          "raw": "lambert",
+          "en": "Lambert",
+          "symbol": "L"
+        },
+        {
+          "raw": "footLambert",
+          "en": "Foot-lambert",
+          "symbol": "fL"
+        },
+        {
+          "raw": "blondel",
+          "en": "Blondel",
+          "symbol": "blondel"
+        },
+        {
+          "raw": "skot",
+          "en": "Skot",
+          "symbol": "skot"
+        },
+        {
+          "raw": "bril",
+          "en": "Bril",
+          "symbol": "bril"
+        }
+      ],
+      "rawValue": "luminance"
+    },
+    {
+      "name": "Illumination",
+      "units": [
+        {
+          "raw": "lux",
+          "en": "Lux",
+          "symbol": "lx"
+        },
+        {
+          "raw": "lumenPerSquareMeter",
+          "en": "Lumen per square meter",
+          "symbol": "lm/m²"
+        },
+        {
+          "raw": "meterCandle",
+          "en": "Meter-candle",
+          "symbol": "mc"
+        },
+        {
+          "raw": "candelaSteradianPerSquareMeter",
+          "en": "Candela steradian per square meter",
+          "symbol": "cd·sr/m²"
+        },
+        {
+          "raw": "nox",
+          "en": "Nox",
+          "symbol": "nox"
+        },
+        {
+          "raw": "phot",
+          "en": "Phot",
+          "symbol": "ph"
+        },
+        {
+          "raw": "lumenPerSquareCentimeter",
+          "en": "Lumen per square centimeter",
+          "symbol": "lm/cm²"
+        },
+        {
+          "raw": "centimeterCandle",
+          "en": "Centimeter-candle",
+          "symbol": "cmc"
+        },
+        {
+          "raw": "footCandle",
+          "en": "Foot-candle",
+          "symbol": "ftc"
+        },
+        {
+          "raw": "lumenPerSquareFoot",
+          "en": "Lumen per square foot",
+          "symbol": "lm/ft²"
+        },
+        {
+          "raw": "flame",
+          "en": "Flame",
+          "symbol": "flame"
+        },
+        {
+          "raw": "wattPerSquareCentimeter",
+          "en": "Watt per square centimeter",
+          "symbol": "watt/cm²"
+        }
+      ],
+      "rawValue": "illumination"
+    },
+    {
+      "name": "Blood Sugar",
+      "units": [
+        {
+          "raw": "milligramPerDecilitre",
+          "en": "Milligram per decilitre",
+          "symbol": "mg/dl"
+        },
+        {
+          "raw": "milligramPercent",
+          "en": "Milligram%",
+          "symbol": "mg%"
+        },
+        {
+          "raw": "millimolePerLitre",
+          "en": "Millimoles per litre",
+          "symbol": "mmol/l"
+        }
+      ],
+      "rawValue": "bloodSugar"
+    },
+    {
+      "name": "Radiation",
+      "units": [
+        {
+          "raw": "gray",
+          "en": "Gray",
+          "symbol": "Gy"
+        },
+        {
+          "raw": "centigray",
+          "en": "Centigray",
+          "symbol": "cGy"
+        },
+        {
+          "raw": "milligray",
+          "en": "Milligray",
+          "symbol": "mGy"
+        },
+        {
+          "raw": "microgray",
+          "en": "Microgray",
+          "symbol": "µGy"
+        },
+        {
+          "raw": "rad",
+          "en": "Rad",
+          "symbol": "rad"
+        },
+        {
+          "raw": "sievert",
+          "en": "Sievert",
+          "symbol": "Sv"
+        }
+      ],
+      "rawValue": "radiation"
+    },
+    {
+      "name": "Flow",
+      "units": [
+        {
+          "raw": "cubicMeterPerSecond",
+          "en": "Cubic meter per second",
+          "symbol": "m³/s"
+        },
+        {
+          "raw": "cubicMeterPerMinute",
+          "en": "Cubic meter per minute",
+          "symbol": "m³/min"
+        },
+        {
+          "raw": "litrePerSecond",
+          "en": "Litre per second",
+          "symbol": "l/s"
+        },
+        {
+          "raw": "litrePerMinute",
+          "en": "Litre per minute",
+          "symbol": "l/min"
+        },
+        {
+          "raw": "millilitrePerSecond",
+          "en": "Millilitre per second",
+          "symbol": "ml/s"
+        },
+        {
+          "raw": "millilitrePerMinute",
+          "en": "Millilitre per minute",
+          "symbol": "ml/min"
+        },
+        {
+          "raw": "cubicCentimeterPerSecond",
+          "en": "Cubic centimeter per second",
+          "symbol": "cm³/s"
+        },
+        {
+          "raw": "cubicCentimeterPerMinute",
+          "en": "Cubic centimeter per minute",
+          "symbol": "cm³/min"
+        },
+        {
+          "raw": "cubicInchPerSecond",
+          "en": "Cubic inch per second",
+          "symbol": "in³/s"
+        },
+        {
+          "raw": "cubicInchPerMinute",
+          "en": "Cubic inch per minute",
+          "symbol": "in³/min"
+        },
+        {
+          "raw": "cubicFeetPerSecond",
+          "en": "Cubic feet per second",
+          "symbol": "ft³/s"
+        },
+        {
+          "raw": "cubicFeetPerMinute",
+          "en": "Cubic feet per minute",
+          "symbol": "ft³/min"
+        },
+        {
+          "raw": "cubicYardPerSecond",
+          "en": "Cubic yard per second",
+          "symbol": "yd³/s"
+        },
+        {
+          "raw": "cubicYardPerMinute",
+          "en": "Cubic yard per minute",
+          "symbol": "yd³/min"
+        },
+        {
+          "raw": "gallonPerSecondUS",
+          "en": "Gallon per second[US]",
+          "symbol": "gal/s[US]"
+        },
+        {
+          "raw": "gallonPerSecondUK",
+          "en": "Gallon per second[UK]",
+          "symbol": "gal/s[UK]"
+        },
+        {
+          "raw": "barrelPerSecond",
+          "en": "Barrel per second",
+          "symbol": "bbl/s"
+        },
+        {
+          "raw": "barrelPerMinute",
+          "en": "Barrel per minute",
+          "symbol": "bbl/min"
+        },
+        {
+          "raw": "kilogramPerSecond",
+          "en": "Kilogram per second",
+          "symbol": "kg/s"
+        },
+        {
+          "raw": "kilogramPerMinute",
+          "en": "Kilogram per minute",
+          "symbol": "kg/min"
+        },
+        {
+          "raw": "poundPerSecond",
+          "en": "Pound per second",
+          "symbol": "lb/s"
+        },
+        {
+          "raw": "poundPerMinute",
+          "en": "Pound per minute",
+          "symbol": "lb/min"
+        },
+        {
+          "raw": "ouncePerSecond",
+          "en": "Ounce per second",
+          "symbol": "oz/s"
+        },
+        {
+          "raw": "ouncePerMinute",
+          "en": "Ounce per minute",
+          "symbol": "oz/min"
+        }
+      ],
+      "rawValue": "flow"
+    },
+    {
+      "name": "Density",
+      "units": [
+        {
+          "raw": "gramPerCubicCentimeter",
+          "en": "Gram per cubic centimeter",
+          "symbol": "g/cm³"
+        },
+        {
+          "raw": "gramPerLitre",
+          "en": "Gram per litre",
+          "symbol": "g/L"
+        },
+        {
+          "raw": "gramPerCubicMeter",
+          "en": "Gram per cubic meter",
+          "symbol": "g/m³"
+        },
+        {
+          "raw": "kilogramPerCubicCentimeter",
+          "en": "Kilogram per cubic centimeter",
+          "symbol": "kg/cm³"
+        },
+        {
+          "raw": "kilogramPerLitre",
+          "en": "Kilogram per litre",
+          "symbol": "kg/L"
+        },
+        {
+          "raw": "kilogramPerCubicMeter",
+          "en": "Kilogram per cubic meter",
+          "symbol": "kg/m³"
+        },
+        {
+          "raw": "poundPerCubicFoot",
+          "en": "Pound per cubic feet",
+          "symbol": "lb/ft³"
+        },
+        {
+          "raw": "poundPerGallonUK",
+          "en": "Pound per gallon-UK",
+          "symbol": "lb/gal(UK)"
+        },
+        {
+          "raw": "poundPerGallonUS",
+          "en": "Pound per gallon-US",
+          "symbol": "lb/gal(US)"
+        },
+        {
+          "raw": "poundPerCubicInch",
+          "en": "Pound per cubic inch",
+          "symbol": "lb/in³"
+        },
+        {
+          "raw": "poundPerCubicYard",
+          "en": "Pound per cubic yard",
+          "symbol": "lb/yd³"
+        },
+        {
+          "raw": "ouncePerCubicFoot",
+          "en": "Ounce per cubic feet",
+          "symbol": "oz/ft³"
+        },
+        {
+          "raw": "ouncePerGallonUK",
+          "en": "Ounce per gallon-UK",
+          "symbol": "oz/gal(UK)"
+        },
+        {
+          "raw": "ouncePerGallonUS",
+          "en": "Ounce per gallon-US",
+          "symbol": "oz/gal(US)"
+        },
+        {
+          "raw": "ouncePerCubicInch",
+          "en": "Ounce per cubic inch",
+          "symbol": "oz/in³"
+        },
+        {
+          "raw": "slugPerCubicFoot",
+          "en": "Slug per cubic feet",
+          "symbol": "slug/ft³"
+        },
+        {
+          "raw": "tonPerCubicYard",
+          "en": "Ton per cubic yard",
+          "symbol": "ton/yd³"
+        }
+      ],
+      "rawValue": "density"
+    },
+    {
+      "name": "Viscosity",
+      "units": [
+        {
+          "raw": "centipoise",
+          "en": "Centipoise",
+          "symbol": "cP"
+        },
+        {
+          "raw": "dyneSecondPerSquareCentimeter",
+          "en": "Dyne second per square centimeter",
+          "symbol": "dyn*s/cm²"
+        },
+        {
+          "raw": "gramPerCentimeterSecond",
+          "en": "Gram per centimeter second",
+          "symbol": "g/cm*s"
+        },
+        {
+          "raw": "kilogramPerMeterSecond",
+          "en": "Kilogram per meter second",
+          "symbol": "kg/m*s"
+        },
+        {
+          "raw": "poundPerFootHour",
+          "en": "Pound per foot hour",
+          "symbol": "lb/ft*h"
+        },
+        {
+          "raw": "poundPerFootSecond",
+          "en": "Pound per foot second",
+          "symbol": "lb/ft*s"
+        },
+        {
+          "raw": "poundForceSecondPerSquareFoot",
+          "en": "Pound-force second per square foot",
+          "symbol": "lbf*s/ft²"
+        },
+        {
+          "raw": "poundForceSecondPerSquareInch",
+          "en": "Pound-force second per square inch",
+          "symbol": "lbf*s/in²"
+        },
+        {
+          "raw": "newtonSecondPerSquareMeter",
+          "en": "Newton second per square meter",
+          "symbol": "N*s/m²"
+        },
+        {
+          "raw": "poise",
+          "en": "Poise",
+          "symbol": "P"
+        },
+        {
+          "raw": "pascalSecond",
+          "en": "Pascal-second",
+          "symbol": "Pa*s"
+        },
+        {
+          "raw": "poundalSecondPerSquareFoot",
+          "en": "Poundal second per square foot",
+          "symbol": "pdl*s/ft²"
+        },
+        {
+          "raw": "slugPerFootSecond",
+          "en": "Slug per foot second",
+          "symbol": "slug/ft*s"
+        }
+      ],
+      "rawValue": "viscosity"
+    },
+    {
+      "name": "Acceleration",
+      "units": [
+        {
+          "raw": "meterPerSecondSquared",
+          "en": "Meter per second squared",
+          "symbol": "m/s²"
+        },
+        {
+          "raw": "centimeterPerSecondSquared",
+          "en": "Centimeter per second squared",
+          "symbol": "cm/s²"
+        },
+        {
+          "raw": "millimeterPerSecondSquared",
+          "en": "Millimeter per second squared",
+          "symbol": "mm/s²"
+        },
+        {
+          "raw": "kilometerPerSecondSquared",
+          "en": "Kilometer per second squared",
+          "symbol": "km/s²"
+        },
+        {
+          "raw": "gal",
+          "en": "Gal (galileo)",
+          "symbol": "Gal"
+        },
+        {
+          "raw": "footPerSecondSquared",
+          "en": "Foot per second squared",
+          "symbol": "ft/s²"
+        },
+        {
+          "raw": "inchPerSecondSquared",
+          "en": "Inch per second squared",
+          "symbol": "in/s²"
+        },
+        {
+          "raw": "yardPerSecondSquared",
+          "en": "Yard per second squared",
+          "symbol": "yd/s²"
+        },
+        {
+          "raw": "milePerSecondSquared",
+          "en": "Mile per second squared",
+          "symbol": "mi/s²"
+        },
+        {
+          "raw": "standardGravity",
+          "en": "Standard gravity",
+          "symbol": "g"
+        },
+        {
+          "raw": "kilometerPerHourSecond",
+          "en": "Kilometer per hour second",
+          "symbol": "(km/h)/s"
+        },
+        {
+          "raw": "milePerHourSecond",
+          "en": "Mile per hour second",
+          "symbol": "(mi/h)/s"
+        }
+      ],
+      "rawValue": "acceleration"
+    },
+    {
+      "name": "Data Transfer Rate",
+      "units": [
+        {
+          "raw": "bitPerSecond",
+          "en": "Bit per second",
+          "symbol": "bit/s"
+        },
+        {
+          "raw": "kilobitPerSecond",
+          "en": "Kilobit per second",
+          "symbol": "kbit/s"
+        },
+        {
+          "raw": "megabitPerSecond",
+          "en": "Megabit per second",
+          "symbol": "Mbit/s"
+        },
+        {
+          "raw": "gigabitPerSecond",
+          "en": "Gigabit per second",
+          "symbol": "Gbit/s"
+        },
+        {
+          "raw": "terabitPerSecond",
+          "en": "Terabit per second",
+          "symbol": "Tbit/s"
+        },
+        {
+          "raw": "bytePerSecond",
+          "en": "Byte per second",
+          "symbol": "B/s"
+        },
+        {
+          "raw": "kilobytePerSecond",
+          "en": "Kilobyte per second",
+          "symbol": "kB/s"
+        },
+        {
+          "raw": "megabytePerSecond",
+          "en": "Megabyte per second",
+          "symbol": "MB/s"
+        },
+        {
+          "raw": "gigabytePerSecond",
+          "en": "Gigabyte per second",
+          "symbol": "GB/s"
+        },
+        {
+          "raw": "terabytePerSecond",
+          "en": "Terabyte per second",
+          "symbol": "TB/s"
+        }
+      ],
+      "rawValue": "dataTransferRate"
+    },
+    {
+      "name": "Capacitance",
+      "units": [
+        {
+          "raw": "farad",
+          "en": "Farad",
+          "symbol": "F"
+        },
+        {
+          "raw": "millifarad",
+          "en": "Millifarad",
+          "symbol": "mF"
+        },
+        {
+          "raw": "microfarad",
+          "en": "Microfarad",
+          "symbol": "µF"
+        },
+        {
+          "raw": "nanofarad",
+          "en": "Nanofarad",
+          "symbol": "nF"
+        },
+        {
+          "raw": "picofarad",
+          "en": "Picofarad",
+          "symbol": "pF"
+        },
+        {
+          "raw": "kilofarad",
+          "en": "Kilofarad",
+          "symbol": "kF"
+        },
+        {
+          "raw": "abfarad",
+          "en": "Abfarad",
+          "symbol": "abF"
+        },
+        {
+          "raw": "statfarad",
+          "en": "Statfarad",
+          "symbol": "statF"
+        }
+      ],
+      "rawValue": "capacitance"
+    },
+    {
+      "name": "Inductance",
+      "units": [
+        {
+          "raw": "henry",
+          "en": "Henry",
+          "symbol": "H"
+        },
+        {
+          "raw": "millihenry",
+          "en": "Millihenry",
+          "symbol": "mH"
+        },
+        {
+          "raw": "microhenry",
+          "en": "Microhenry",
+          "symbol": "µH"
+        },
+        {
+          "raw": "nanohenry",
+          "en": "Nanohenry",
+          "symbol": "nH"
+        },
+        {
+          "raw": "picohenry",
+          "en": "Picohenry",
+          "symbol": "pH"
+        },
+        {
+          "raw": "kilohenry",
+          "en": "Kilohenry",
+          "symbol": "kH"
+        },
+        {
+          "raw": "abhenry",
+          "en": "Abhenry",
+          "symbol": "abH"
+        },
+        {
+          "raw": "stathenry",
+          "en": "Stathenry",
+          "symbol": "statH"
+        }
+      ],
+      "rawValue": "inductance"
+    },
+    {
+      "name": "Conductance",
+      "units": [
+        {
+          "raw": "siemens",
+          "en": "Siemens",
+          "symbol": "S"
+        },
+        {
+          "raw": "millisiemens",
+          "en": "Millisiemens",
+          "symbol": "mS"
+        },
+        {
+          "raw": "microsiemens",
+          "en": "Microsiemens",
+          "symbol": "µS"
+        },
+        {
+          "raw": "kilosiemens",
+          "en": "Kilosiemens",
+          "symbol": "kS"
+        },
+        {
+          "raw": "mho",
+          "en": "Mho",
+          "symbol": "℧"
+        },
+        {
+          "raw": "abmho",
+          "en": "Abmho",
+          "symbol": "ab℧"
+        },
+        {
+          "raw": "statmho",
+          "en": "Statmho",
+          "symbol": "stat℧"
+        }
+      ],
+      "rawValue": "conductance"
+    },
+    {
+      "name": "Kinematic Viscosity",
+      "units": [
+        {
+          "raw": "squareMeterPerSecond",
+          "en": "Square meter per second",
+          "symbol": "m²/s"
+        },
+        {
+          "raw": "squareMeterPerHour",
+          "en": "Square meter per hour",
+          "symbol": "m²/h"
+        },
+        {
+          "raw": "squareCentimeterPerSecond",
+          "en": "Square centimeter per second",
+          "symbol": "cm²/s"
+        },
+        {
+          "raw": "squareMillimeterPerSecond",
+          "en": "Square millimeter per second",
+          "symbol": "mm²/s"
+        },
+        {
+          "raw": "stokes",
+          "en": "Stokes",
+          "symbol": "St"
+        },
+        {
+          "raw": "centistokes",
+          "en": "Centistokes",
+          "symbol": "cSt"
+        },
+        {
+          "raw": "squareFootPerSecond",
+          "en": "Square foot per second",
+          "symbol": "ft²/s"
+        },
+        {
+          "raw": "squareInchPerSecond",
+          "en": "Square inch per second",
+          "symbol": "in²/s"
+        }
+      ],
+      "rawValue": "kinematicViscosity"
+    },
+    {
+      "name": "Luminous Intensity",
+      "units": [
+        {
+          "raw": "candela",
+          "en": "Candela",
+          "symbol": "cd"
+        },
+        {
+          "raw": "millicandela",
+          "en": "Millicandela",
+          "symbol": "mcd"
+        },
+        {
+          "raw": "kilocandela",
+          "en": "Kilocandela",
+          "symbol": "kcd"
+        },
+        {
+          "raw": "candlepower",
+          "en": "Candlepower",
+          "symbol": "cp"
+        },
+        {
+          "raw": "hefnerCandle",
+          "en": "Hefner candle",
+          "symbol": "HK"
+        },
+        {
+          "raw": "carcel",
+          "en": "Carcel unit",
+          "symbol": "carcel"
+        },
+        {
+          "raw": "violle",
+          "en": "Violle",
+          "symbol": "violle"
+        }
+      ],
+      "rawValue": "luminousIntensity"
+    },
+    {
+      "name": "Radioactivity",
+      "units": [
+        {
+          "raw": "becquerel",
+          "en": "Becquerel",
+          "symbol": "Bq"
+        },
+        {
+          "raw": "kilobecquerel",
+          "en": "Kilobecquerel",
+          "symbol": "kBq"
+        },
+        {
+          "raw": "megabecquerel",
+          "en": "Megabecquerel",
+          "symbol": "MBq"
+        },
+        {
+          "raw": "gigabecquerel",
+          "en": "Gigabecquerel",
+          "symbol": "GBq"
+        },
+        {
+          "raw": "terabecquerel",
+          "en": "Terabecquerel",
+          "symbol": "TBq"
+        },
+        {
+          "raw": "curie",
+          "en": "Curie",
+          "symbol": "Ci"
+        },
+        {
+          "raw": "millicurie",
+          "en": "Millicurie",
+          "symbol": "mCi"
+        },
+        {
+          "raw": "microcurie",
+          "en": "Microcurie",
+          "symbol": "µCi"
+        },
+        {
+          "raw": "rutherford",
+          "en": "Rutherford",
+          "symbol": "Rd"
+        },
+        {
+          "raw": "disintegrationPerSecond",
+          "en": "Disintegrations per second",
+          "symbol": "dps"
+        },
+        {
+          "raw": "disintegrationPerMinute",
+          "en": "Disintegrations per minute",
+          "symbol": "dpm"
+        }
+      ],
+      "rawValue": "radioactivity"
+    },
+    {
+      "name": "Exposure",
+      "units": [
+        {
+          "raw": "coulombPerKilogram",
+          "en": "Coulomb per kilogram",
+          "symbol": "C/kg"
+        },
+        {
+          "raw": "millicoulombPerKilogram",
+          "en": "Millicoulomb per kilogram",
+          "symbol": "mC/kg"
+        },
+        {
+          "raw": "microcoulombPerKilogram",
+          "en": "Microcoulomb per kilogram",
+          "symbol": "µC/kg"
+        },
+        {
+          "raw": "roentgen",
+          "en": "Roentgen",
+          "symbol": "R"
+        },
+        {
+          "raw": "milliroentgen",
+          "en": "Milliroentgen",
+          "symbol": "mR"
+        },
+        {
+          "raw": "microroentgen",
+          "en": "Microroentgen",
+          "symbol": "µR"
+        }
+      ],
+      "rawValue": "exposure"
+    },
+    {
+      "name": "Thermal Conductivity",
+      "units": [
+        {
+          "raw": "wattPerMeterKelvin",
+          "en": "Watt per meter-kelvin",
+          "symbol": "W/(m·K)"
+        },
+        {
+          "raw": "wattPerCentimeterCelsius",
+          "en": "Watt per centimeter-celsius",
+          "symbol": "W/(cm·°C)"
+        },
+        {
+          "raw": "kilowattPerMeterKelvin",
+          "en": "Kilowatt per meter-kelvin",
+          "symbol": "kW/(m·K)"
+        },
+        {
+          "raw": "caloriePerSecondCentimeterCelsius",
+          "en": "Calorie per second centimeter-celsius",
+          "symbol": "cal/(s·cm·°C)"
+        },
+        {
+          "raw": "kilocaloriePerHourMeterCelsius",
+          "en": "Kilocalorie per hour meter-celsius",
+          "symbol": "kcal/(h·m·°C)"
+        },
+        {
+          "raw": "btuPerHourFootFahrenheit",
+          "en": "BTU per hour foot-fahrenheit",
+          "symbol": "BTU/(h·ft·°F)"
+        },
+        {
+          "raw": "btuInchPerHourFootSquaredFahrenheit",
+          "en": "BTU inch per hour square foot-fahrenheit",
+          "symbol": "BTU·in/(h·ft²·°F)"
+        }
+      ],
+      "rawValue": "thermalConductivity"
+    },
+    {
+      "name": "Specific Heat Capacity",
+      "units": [
+        {
+          "raw": "joulePerKilogramKelvin",
+          "en": "Joule per kilogram-kelvin",
+          "symbol": "J/(kg·K)"
+        },
+        {
+          "raw": "joulePerKilogramCelsius",
+          "en": "Joule per kilogram-celsius",
+          "symbol": "J/(kg·°C)"
+        },
+        {
+          "raw": "kilojoulePerKilogramKelvin",
+          "en": "Kilojoule per kilogram-kelvin",
+          "symbol": "kJ/(kg·K)"
+        },
+        {
+          "raw": "caloriePerGramCelsius",
+          "en": "Calorie per gram-celsius",
+          "symbol": "cal/(g·°C)"
+        },
+        {
+          "raw": "kilocaloriePerKilogramCelsius",
+          "en": "Kilocalorie per kilogram-celsius",
+          "symbol": "kcal/(kg·°C)"
+        },
+        {
+          "raw": "btuPerPoundFahrenheit",
+          "en": "BTU per pound-fahrenheit",
+          "symbol": "BTU/(lb·°F)"
+        }
+      ],
+      "rawValue": "specificHeatCapacity"
+    },
+    {
+      "name": "Heat Density",
+      "units": [
+        {
+          "raw": "joulePerSquareMeter",
+          "en": "Joule per square meter",
+          "symbol": "J/m²"
+        },
+        {
+          "raw": "joulePerSquareCentimeter",
+          "en": "Joule per square centimeter",
+          "symbol": "J/cm²"
+        },
+        {
+          "raw": "caloriePerSquareCentimeter",
+          "en": "Calorie per square centimeter",
+          "symbol": "cal/cm²"
+        },
+        {
+          "raw": "langley",
+          "en": "Langley",
+          "symbol": "Ly"
+        },
+        {
+          "raw": "btuPerSquareFoot",
+          "en": "BTU per square foot",
+          "symbol": "BTU/ft²"
+        }
+      ],
+      "rawValue": "heatDensity"
+    },
+    {
+      "name": "Heat Flux Density",
+      "units": [
+        {
+          "raw": "wattPerSquareMeter",
+          "en": "Watt per square meter",
+          "symbol": "W/m²"
+        },
+        {
+          "raw": "kilowattPerSquareMeter",
+          "en": "Kilowatt per square meter",
+          "symbol": "kW/m²"
+        },
+        {
+          "raw": "wattPerSquareCentimeter",
+          "en": "Watt per square centimeter",
+          "symbol": "W/cm²"
+        },
+        {
+          "raw": "caloriePerSecondSquareCentimeter",
+          "en": "Calorie per second square centimeter",
+          "symbol": "cal/(s·cm²)"
+        },
+        {
+          "raw": "kilocaloriePerHourSquareMeter",
+          "en": "Kilocalorie per hour square meter",
+          "symbol": "kcal/(h·m²)"
+        },
+        {
+          "raw": "btuPerHourSquareFoot",
+          "en": "BTU per hour square foot",
+          "symbol": "BTU/(h·ft²)"
+        }
+      ],
+      "rawValue": "heatFluxDensity"
+    },
+    {
+      "name": "Heat Transfer Coefficient",
+      "units": [
+        {
+          "raw": "wattPerSquareMeterKelvin",
+          "en": "Watt per square meter-kelvin",
+          "symbol": "W/(m²·K)"
+        },
+        {
+          "raw": "wattPerSquareMeterCelsius",
+          "en": "Watt per square meter-celsius",
+          "symbol": "W/(m²·°C)"
+        },
+        {
+          "raw": "caloriePerSecondSquareCentimeterCelsius",
+          "en": "Calorie per second square centimeter-celsius",
+          "symbol": "cal/(s·cm²·°C)"
+        },
+        {
+          "raw": "kilocaloriePerHourSquareMeterCelsius",
+          "en": "Kilocalorie per hour square meter-celsius",
+          "symbol": "kcal/(h·m²·°C)"
+        },
+        {
+          "raw": "btuPerHourSquareFootFahrenheit",
+          "en": "BTU per hour square foot-fahrenheit",
+          "symbol": "BTU/(h·ft²·°F)"
+        }
+      ],
+      "rawValue": "heatTransferCoefficient"
+    },
+    {
+      "name": "Thermal Expansion",
+      "units": [
+        {
+          "raw": "perKelvin",
+          "en": "Per kelvin",
+          "symbol": "1/K"
+        },
+        {
+          "raw": "perCelsius",
+          "en": "Per celsius",
+          "symbol": "1/°C"
+        },
+        {
+          "raw": "perFahrenheit",
+          "en": "Per fahrenheit",
+          "symbol": "1/°F"
+        },
+        {
+          "raw": "perRankine",
+          "en": "Per rankine",
+          "symbol": "1/°R"
+        },
+        {
+          "raw": "ppmPerCelsius",
+          "en": "Ppm per celsius",
+          "symbol": "ppm/°C"
+        }
+      ],
+      "rawValue": "thermalExpansion"
+    },
+    {
+      "name": "Temperature Interval",
+      "units": [
+        {
+          "raw": "kelvin",
+          "en": "Kelvin",
+          "symbol": "K"
+        },
+        {
+          "raw": "celsius",
+          "en": "Celsius",
+          "symbol": "°C"
+        },
+        {
+          "raw": "fahrenheit",
+          "en": "Fahrenheit",
+          "symbol": "°F"
+        },
+        {
+          "raw": "rankine",
+          "en": "Rankine",
+          "symbol": "°R"
+        },
+        {
+          "raw": "reaumur",
+          "en": "Reaumur",
+          "symbol": "°Ré"
+        }
+      ],
+      "rawValue": "temperatureInterval"
+    },
+    {
+      "name": "Concentration Molar",
+      "units": [
+        {
+          "raw": "molePerCubicMeter",
+          "en": "Mole per cubic meter",
+          "symbol": "mol/m³"
+        },
+        {
+          "raw": "molePerLiter",
+          "en": "Mole per liter",
+          "symbol": "mol/L"
+        },
+        {
+          "raw": "millimolePerLiter",
+          "en": "Millimole per liter",
+          "symbol": "mmol/L"
+        },
+        {
+          "raw": "micromolePerLiter",
+          "en": "Micromole per liter",
+          "symbol": "µmol/L"
+        },
+        {
+          "raw": "molePerCubicDecimeter",
+          "en": "Mole per cubic decimeter",
+          "symbol": "mol/dm³"
+        },
+        {
+          "raw": "millimolePerCubicMeter",
+          "en": "Millimole per cubic meter",
+          "symbol": "mmol/m³"
+        }
+      ],
+      "rawValue": "concentrationMolar"
+    },
+    {
+      "name": "Molar Mass",
+      "units": [
+        {
+          "raw": "gramPerMole",
+          "en": "Gram per mole",
+          "symbol": "g/mol"
+        },
+        {
+          "raw": "kilogramPerMole",
+          "en": "Kilogram per mole",
+          "symbol": "kg/mol"
+        },
+        {
+          "raw": "kilogramPerKilomole",
+          "en": "Kilogram per kilomole",
+          "symbol": "kg/kmol"
+        },
+        {
+          "raw": "poundPerMole",
+          "en": "Pound per mole",
+          "symbol": "lb/mol"
+        }
+      ],
+      "rawValue": "molarMass"
+    },
+    {
+      "name": "Molar Flow Rate",
+      "units": [
+        {
+          "raw": "molePerSecond",
+          "en": "Mole per second",
+          "symbol": "mol/s"
+        },
+        {
+          "raw": "millimolePerSecond",
+          "en": "Millimole per second",
+          "symbol": "mmol/s"
+        },
+        {
+          "raw": "molePerMinute",
+          "en": "Mole per minute",
+          "symbol": "mol/min"
+        },
+        {
+          "raw": "molePerHour",
+          "en": "Mole per hour",
+          "symbol": "mol/h"
+        },
+        {
+          "raw": "kilomolePerSecond",
+          "en": "Kilomole per second",
+          "symbol": "kmol/s"
+        },
+        {
+          "raw": "kilomolePerHour",
+          "en": "Kilomole per hour",
+          "symbol": "kmol/h"
+        }
+      ],
+      "rawValue": "molarFlowRate"
+    },
+    {
+      "name": "Mass Flux Density",
+      "units": [
+        {
+          "raw": "kilogramPerSecondSquareMeter",
+          "en": "Kilogram per second square meter",
+          "symbol": "kg/(s·m²)"
+        },
+        {
+          "raw": "gramPerSecondSquareMeter",
+          "en": "Gram per second square meter",
+          "symbol": "g/(s·m²)"
+        },
+        {
+          "raw": "kilogramPerHourSquareMeter",
+          "en": "Kilogram per hour square meter",
+          "symbol": "kg/(h·m²)"
+        },
+        {
+          "raw": "gramPerSecondSquareCentimeter",
+          "en": "Gram per second square centimeter",
+          "symbol": "g/(s·cm²)"
+        },
+        {
+          "raw": "poundPerHourSquareFoot",
+          "en": "Pound per hour square foot",
+          "symbol": "lb/(h·ft²)"
+        }
+      ],
+      "rawValue": "massFluxDensity"
+    },
+    {
+      "name": "Specific Volume",
+      "units": [
+        {
+          "raw": "cubicMeterPerKilogram",
+          "en": "Cubic meter per kilogram",
+          "symbol": "m³/kg"
+        },
+        {
+          "raw": "literPerKilogram",
+          "en": "Liter per kilogram",
+          "symbol": "L/kg"
+        },
+        {
+          "raw": "cubicCentimeterPerGram",
+          "en": "Cubic centimeter per gram",
+          "symbol": "cm³/g"
+        },
+        {
+          "raw": "milliliterPerGram",
+          "en": "Milliliter per gram",
+          "symbol": "mL/g"
+        },
+        {
+          "raw": "cubicFootPerPound",
+          "en": "Cubic foot per pound",
+          "symbol": "ft³/lb"
+        }
+      ],
+      "rawValue": "specificVolume"
+    },
+    {
+      "name": "Moment of Inertia",
+      "units": [
+        {
+          "raw": "kilogramSquareMeter",
+          "en": "Kilogram square meter",
+          "symbol": "kg·m²"
+        },
+        {
+          "raw": "gramSquareCentimeter",
+          "en": "Gram square centimeter",
+          "symbol": "g·cm²"
+        },
+        {
+          "raw": "kilogramSquareCentimeter",
+          "en": "Kilogram square centimeter",
+          "symbol": "kg·cm²"
+        },
+        {
+          "raw": "poundSquareFoot",
+          "en": "Pound square foot",
+          "symbol": "lb·ft²"
+        },
+        {
+          "raw": "poundSquareInch",
+          "en": "Pound square inch",
+          "symbol": "lb·in²"
+        },
+        {
+          "raw": "ounceSquareInch",
+          "en": "Ounce square inch",
+          "symbol": "oz·in²"
+        }
+      ],
+      "rawValue": "momentOfInertia"
+    },
+    {
+      "name": "Angular Acceleration",
+      "units": [
+        {
+          "raw": "radianPerSecondSquared",
+          "en": "Radian per second squared",
+          "symbol": "rad/s²"
+        },
+        {
+          "raw": "radianPerMinuteSquared",
+          "en": "Radian per minute squared",
+          "symbol": "rad/min²"
+        },
+        {
+          "raw": "revolutionPerSecondSquared",
+          "en": "Revolution per second squared",
+          "symbol": "rev/s²"
+        },
+        {
+          "raw": "revolutionPerMinuteSquared",
+          "en": "Revolution per minute squared",
+          "symbol": "rev/min²"
+        },
+        {
+          "raw": "degreePerSecondSquared",
+          "en": "Degree per second squared",
+          "symbol": "°/s²"
+        }
+      ],
+      "rawValue": "angularAcceleration"
+    },
+    {
+      "name": "Linear Charge Density",
+      "units": [
+        {
+          "raw": "coulombPerMeter",
+          "en": "Coulomb per meter",
+          "symbol": "C/m"
+        },
+        {
+          "raw": "coulombPerCentimeter",
+          "en": "Coulomb per centimeter",
+          "symbol": "C/cm"
+        },
+        {
+          "raw": "coulombPerMillimeter",
+          "en": "Coulomb per millimeter",
+          "symbol": "C/mm"
+        },
+        {
+          "raw": "millicoulombPerMeter",
+          "en": "Millicoulomb per meter",
+          "symbol": "mC/m"
+        },
+        {
+          "raw": "microcoulombPerMeter",
+          "en": "Microcoulomb per meter",
+          "symbol": "µC/m"
+        },
+        {
+          "raw": "abcoulombPerMeter",
+          "en": "Abcoulomb per meter",
+          "symbol": "abC/m"
+        }
+      ],
+      "rawValue": "linearChargeDensity"
+    },
+    {
+      "name": "Surface Charge Density",
+      "units": [
+        {
+          "raw": "coulombPerSquareMeter",
+          "en": "Coulomb per square meter",
+          "symbol": "C/m²"
+        },
+        {
+          "raw": "coulombPerSquareCentimeter",
+          "en": "Coulomb per square centimeter",
+          "symbol": "C/cm²"
+        },
+        {
+          "raw": "coulombPerSquareMillimeter",
+          "en": "Coulomb per square millimeter",
+          "symbol": "C/mm²"
+        },
+        {
+          "raw": "millicoulombPerSquareMeter",
+          "en": "Millicoulomb per square meter",
+          "symbol": "mC/m²"
+        },
+        {
+          "raw": "microcoulombPerSquareMeter",
+          "en": "Microcoulomb per square meter",
+          "symbol": "µC/m²"
+        },
+        {
+          "raw": "abcoulombPerSquareMeter",
+          "en": "Abcoulomb per square meter",
+          "symbol": "abC/m²"
+        }
+      ],
+      "rawValue": "surfaceChargeDensity"
+    },
+    {
+      "name": "Volume Charge Density",
+      "units": [
+        {
+          "raw": "coulombPerCubicMeter",
+          "en": "Coulomb per cubic meter",
+          "symbol": "C/m³"
+        },
+        {
+          "raw": "coulombPerCubicCentimeter",
+          "en": "Coulomb per cubic centimeter",
+          "symbol": "C/cm³"
+        },
+        {
+          "raw": "coulombPerCubicMillimeter",
+          "en": "Coulomb per cubic millimeter",
+          "symbol": "C/mm³"
+        },
+        {
+          "raw": "millicoulombPerCubicMeter",
+          "en": "Millicoulomb per cubic meter",
+          "symbol": "mC/m³"
+        },
+        {
+          "raw": "microcoulombPerCubicMeter",
+          "en": "Microcoulomb per cubic meter",
+          "symbol": "µC/m³"
+        },
+        {
+          "raw": "abcoulombPerCubicMeter",
+          "en": "Abcoulomb per cubic meter",
+          "symbol": "abC/m³"
+        }
+      ],
+      "rawValue": "volumeChargeDensity"
+    },
+    {
+      "name": "Linear Current Density",
+      "units": [
+        {
+          "raw": "amperePerMeter",
+          "en": "Ampere per meter",
+          "symbol": "A/m"
+        },
+        {
+          "raw": "amperePerCentimeter",
+          "en": "Ampere per centimeter",
+          "symbol": "A/cm"
+        },
+        {
+          "raw": "amperePerMillimeter",
+          "en": "Ampere per millimeter",
+          "symbol": "A/mm"
+        },
+        {
+          "raw": "amperePerInch",
+          "en": "Ampere per inch",
+          "symbol": "A/in"
+        },
+        {
+          "raw": "abamperePerMeter",
+          "en": "Abampere per meter",
+          "symbol": "abA/m"
+        }
+      ],
+      "rawValue": "linearCurrentDensity"
+    },
+    {
+      "name": "Surface Current Density",
+      "units": [
+        {
+          "raw": "amperePerSquareMeter",
+          "en": "Ampere per square meter",
+          "symbol": "A/m²"
+        },
+        {
+          "raw": "amperePerSquareCentimeter",
+          "en": "Ampere per square centimeter",
+          "symbol": "A/cm²"
+        },
+        {
+          "raw": "amperePerSquareMillimeter",
+          "en": "Ampere per square millimeter",
+          "symbol": "A/mm²"
+        },
+        {
+          "raw": "amperePerSquareInch",
+          "en": "Ampere per square inch",
+          "symbol": "A/in²"
+        },
+        {
+          "raw": "kiloamperePerSquareMeter",
+          "en": "Kiloampere per square meter",
+          "symbol": "kA/m²"
+        }
+      ],
+      "rawValue": "surfaceCurrentDensity"
+    },
+    {
+      "name": "Electric Field Strength",
+      "units": [
+        {
+          "raw": "voltPerMeter",
+          "en": "Volt per meter",
+          "symbol": "V/m"
+        },
+        {
+          "raw": "kilovoltPerMeter",
+          "en": "Kilovolt per meter",
+          "symbol": "kV/m"
+        },
+        {
+          "raw": "voltPerCentimeter",
+          "en": "Volt per centimeter",
+          "symbol": "V/cm"
+        },
+        {
+          "raw": "voltPerMillimeter",
+          "en": "Volt per millimeter",
+          "symbol": "V/mm"
+        },
+        {
+          "raw": "millivoltPerMeter",
+          "en": "Millivolt per meter",
+          "symbol": "mV/m"
+        },
+        {
+          "raw": "voltPerInch",
+          "en": "Volt per inch",
+          "symbol": "V/in"
+        }
+      ],
+      "rawValue": "electricFieldStrength"
+    },
+    {
+      "name": "Electric Resistivity",
+      "units": [
+        {
+          "raw": "ohmMeter",
+          "en": "Ohm meter",
+          "symbol": "Ω·m"
+        },
+        {
+          "raw": "ohmCentimeter",
+          "en": "Ohm centimeter",
+          "symbol": "Ω·cm"
+        },
+        {
+          "raw": "microohmMeter",
+          "en": "Microohm meter",
+          "symbol": "µΩ·m"
+        },
+        {
+          "raw": "microohmCentimeter",
+          "en": "Microohm centimeter",
+          "symbol": "µΩ·cm"
+        },
+        {
+          "raw": "ohmSquareMillimeterPerMeter",
+          "en": "Ohm square millimeter per meter",
+          "symbol": "Ω·mm²/m"
+        },
+        {
+          "raw": "ohmInch",
+          "en": "Ohm inch",
+          "symbol": "Ω·in"
+        }
+      ],
+      "rawValue": "electricResistivity"
+    },
+    {
+      "name": "Electric Conductivity",
+      "units": [
+        {
+          "raw": "siemensPerMeter",
+          "en": "Siemens per meter",
+          "symbol": "S/m"
+        },
+        {
+          "raw": "siemensPerCentimeter",
+          "en": "Siemens per centimeter",
+          "symbol": "S/cm"
+        },
+        {
+          "raw": "millisiemensPerMeter",
+          "en": "Millisiemens per meter",
+          "symbol": "mS/m"
+        },
+        {
+          "raw": "microsiemensPerMeter",
+          "en": "Microsiemens per meter",
+          "symbol": "µS/m"
+        },
+        {
+          "raw": "megasiemensPerMeter",
+          "en": "Megasiemens per meter",
+          "symbol": "MS/m"
+        }
+      ],
+      "rawValue": "electricConductivity"
+    },
+    {
+      "name": "Magnetic Field Strength",
+      "units": [
+        {
+          "raw": "amperePerMeter",
+          "en": "Ampere per meter",
+          "symbol": "A/m"
+        },
+        {
+          "raw": "amperePerCentimeter",
+          "en": "Ampere per centimeter",
+          "symbol": "A/cm"
+        },
+        {
+          "raw": "amperePerMillimeter",
+          "en": "Ampere per millimeter",
+          "symbol": "A/mm"
+        },
+        {
+          "raw": "oersted",
+          "en": "Oersted",
+          "symbol": "Oe"
+        },
+        {
+          "raw": "ampereTurnPerMeter",
+          "en": "Ampere-turn per meter",
+          "symbol": "A·t/m"
+        },
+        {
+          "raw": "ampereTurnPerInch",
+          "en": "Ampere-turn per inch",
+          "symbol": "A·t/in"
+        }
+      ],
+      "rawValue": "magneticFieldStrength"
+    },
+    {
+      "name": "Magnetic Flux Density",
+      "units": [
+        {
+          "raw": "tesla",
+          "en": "Tesla",
+          "symbol": "T"
+        },
+        {
+          "raw": "millitesla",
+          "en": "Millitesla",
+          "symbol": "mT"
+        },
+        {
+          "raw": "microtesla",
+          "en": "Microtesla",
+          "symbol": "µT"
+        },
+        {
+          "raw": "nanotesla",
+          "en": "Nanotesla",
+          "symbol": "nT"
+        },
+        {
+          "raw": "gauss",
+          "en": "Gauss",
+          "symbol": "G"
+        },
+        {
+          "raw": "milligauss",
+          "en": "Milligauss",
+          "symbol": "mG"
+        },
+        {
+          "raw": "weberPerSquareMeter",
+          "en": "Weber per square meter",
+          "symbol": "Wb/m²"
+        },
+        {
+          "raw": "gamma",
+          "en": "Gamma",
+          "symbol": "γ"
+        }
+      ],
+      "rawValue": "magneticFluxDensity"
+    },
+    {
+      "name": "Magnetomotive Force",
+      "units": [
+        {
+          "raw": "ampereTurn",
+          "en": "Ampere-turn",
+          "symbol": "A·t"
+        },
+        {
+          "raw": "kiloampereTurn",
+          "en": "Kiloampere-turn",
+          "symbol": "kA·t"
+        },
+        {
+          "raw": "milliampereTurn",
+          "en": "Milliampere-turn",
+          "symbol": "mA·t"
+        },
+        {
+          "raw": "gilbert",
+          "en": "Gilbert",
+          "symbol": "Gb"
+        },
+        {
+          "raw": "abampereTurn",
+          "en": "Abampere-turn",
+          "symbol": "abA·t"
+        }
+      ],
+      "rawValue": "magnetomotiveForce"
+    }
+  ],
+  "currencies": [
+    {
+      "code": "1INCH",
+      "kind": "crypto",
+      "englishName": "1inch"
+    },
+    {
+      "code": "AAVE",
+      "kind": "crypto",
+      "englishName": "Aave"
+    },
+    {
+      "code": "ADA",
+      "kind": "crypto",
+      "englishName": "Cardano"
+    },
+    {
+      "code": "AED",
+      "kind": "fiat",
+      "englishName": "UAE Dirham"
+    },
+    {
+      "code": "AFN",
+      "kind": "fiat",
+      "englishName": "Afghan afghani"
+    },
+    {
+      "code": "AKT",
+      "kind": "crypto",
+      "englishName": "Akash Network"
+    },
+    {
+      "code": "ALGO",
+      "kind": "crypto",
+      "englishName": "Algorand"
+    },
+    {
+      "code": "ALL",
+      "kind": "fiat",
+      "englishName": "Albanian Lek"
+    },
+    {
+      "code": "AMD",
+      "kind": "fiat",
+      "englishName": "Armenian dram"
+    },
+    {
+      "code": "AMP",
+      "kind": "crypto",
+      "englishName": "Amp"
+    },
+    {
+      "code": "AOA",
+      "kind": "fiat",
+      "englishName": "Angolan Kwanza"
+    },
+    {
+      "code": "APE",
+      "kind": "crypto",
+      "englishName": "ApeCoin"
+    },
+    {
+      "code": "APT",
+      "kind": "crypto",
+      "englishName": "Aptos"
+    },
+    {
+      "code": "AR",
+      "kind": "crypto",
+      "englishName": "Arweave"
+    },
+    {
+      "code": "ARB",
+      "kind": "crypto",
+      "englishName": "Arbitrum"
+    },
+    {
+      "code": "ARS",
+      "kind": "fiat",
+      "englishName": "Argentine Peso"
+    },
+    {
+      "code": "ATOM",
+      "kind": "crypto",
+      "englishName": "Cosmos"
+    },
+    {
+      "code": "AUD",
+      "kind": "fiat",
+      "englishName": "Australian Dollars"
+    },
+    {
+      "code": "AVAX",
+      "kind": "crypto",
+      "englishName": "Avalanche"
+    },
+    {
+      "code": "AWG",
+      "kind": "fiat",
+      "englishName": "Aruba Florin"
+    },
+    {
+      "code": "AXS",
+      "kind": "crypto",
+      "englishName": "Axie Infinity"
+    },
+    {
+      "code": "AZN",
+      "kind": "fiat",
+      "englishName": "Azerbaijani Manat"
+    },
+    {
+      "code": "BAKE",
+      "kind": "crypto",
+      "englishName": "BakeryToken"
+    },
+    {
+      "code": "BAM",
+      "kind": "fiat",
+      "englishName": "Bosnia-Herzegovina Convertible Mark"
+    },
+    {
+      "code": "BAT",
+      "kind": "crypto",
+      "englishName": "Basic Attention Token"
+    },
+    {
+      "code": "BBD",
+      "kind": "fiat",
+      "englishName": "Barbados Dollar"
+    },
+    {
+      "code": "BCH",
+      "kind": "crypto",
+      "englishName": "Bitcoin Cash"
+    },
+    {
+      "code": "BDT",
+      "kind": "fiat",
+      "englishName": "Bangladesh Taka"
+    },
+    {
+      "code": "BGN",
+      "kind": "fiat",
+      "englishName": "Bulgarian Lev"
+    },
+    {
+      "code": "BHD",
+      "kind": "fiat",
+      "englishName": "Bahraini Dinar"
+    },
+    {
+      "code": "BIF",
+      "kind": "fiat",
+      "englishName": "Burundi Franc"
+    },
+    {
+      "code": "BMD",
+      "kind": "fiat",
+      "englishName": "Bermuda Dollar"
+    },
+    {
+      "code": "BNB",
+      "kind": "crypto",
+      "englishName": "BNB"
+    },
+    {
+      "code": "BND",
+      "kind": "fiat",
+      "englishName": "Brunei Dollar"
+    },
+    {
+      "code": "BOB",
+      "kind": "fiat",
+      "englishName": "Bolivian Boliviano"
+    },
+    {
+      "code": "BRL",
+      "kind": "fiat",
+      "englishName": "Brazilian Real"
+    },
+    {
+      "code": "BSD",
+      "kind": "fiat",
+      "englishName": "Bahamian Dollar"
+    },
+    {
+      "code": "BSV",
+      "kind": "crypto",
+      "englishName": "Bitcoin SV"
+    },
+    {
+      "code": "BSW",
+      "kind": "crypto",
+      "englishName": "Biswap"
+    },
+    {
+      "code": "BTC",
+      "kind": "crypto",
+      "englishName": "Bitcoin"
+    },
+    {
+      "code": "BTCB",
+      "kind": "crypto",
+      "englishName": "Bitcoin BEP2"
+    },
+    {
+      "code": "BTG",
+      "kind": "crypto",
+      "englishName": "Bitcoin Gold"
+    },
+    {
+      "code": "BTN",
+      "kind": "fiat",
+      "englishName": "Bhutanese Ngultrum"
+    },
+    {
+      "code": "BTT",
+      "kind": "crypto",
+      "englishName": "BitTorrent"
+    },
+    {
+      "code": "BWP",
+      "kind": "fiat",
+      "englishName": "Botswana Pula"
+    },
+    {
+      "code": "BYN",
+      "kind": "fiat",
+      "englishName": "Belarusian Ruble"
+    },
+    {
+      "code": "BZD",
+      "kind": "fiat",
+      "englishName": "Belize Dollar"
+    },
+    {
+      "code": "CAD",
+      "kind": "fiat",
+      "englishName": "Canadian Dollars"
+    },
+    {
+      "code": "CAKE",
+      "kind": "crypto",
+      "englishName": "PancakeSwap"
+    },
+    {
+      "code": "CDF",
+      "kind": "fiat",
+      "englishName": "Congolese Franc"
+    },
+    {
+      "code": "CELO",
+      "kind": "crypto",
+      "englishName": "Celo"
+    },
+    {
+      "code": "CFX",
+      "kind": "crypto",
+      "englishName": "Conflux"
+    },
+    {
+      "code": "CHF",
+      "kind": "fiat",
+      "englishName": "Swiss Francs"
+    },
+    {
+      "code": "CHZ",
+      "kind": "crypto",
+      "englishName": "Chiliz"
+    },
+    {
+      "code": "CLP",
+      "kind": "fiat",
+      "englishName": "Chilean Peso"
+    },
+    {
+      "code": "CNH",
+      "kind": "fiat",
+      "englishName": "Chinese (offshore)Yuan Renminbi"
+    },
+    {
+      "code": "CNY",
+      "kind": "fiat",
+      "englishName": "Chinese (China)Yuan Renminbi"
+    },
+    {
+      "code": "COMP",
+      "kind": "crypto",
+      "englishName": "Compound"
+    },
+    {
+      "code": "COP",
+      "kind": "fiat",
+      "englishName": "Colombian Peso"
+    },
+    {
+      "code": "CRC",
+      "kind": "fiat",
+      "englishName": "Costa Rica Colon"
+    },
+    {
+      "code": "CRO",
+      "kind": "crypto",
+      "englishName": "Cronos"
+    },
+    {
+      "code": "CRV",
+      "kind": "crypto",
+      "englishName": "Curve DAO Token"
+    },
+    {
+      "code": "CSPR",
+      "kind": "crypto",
+      "englishName": "Casper"
+    },
+    {
+      "code": "CUP",
+      "kind": "fiat",
+      "englishName": "Cuban Peso"
+    },
+    {
+      "code": "CVE",
+      "kind": "fiat",
+      "englishName": "Cape Verde Escudo"
+    },
+    {
+      "code": "CVX",
+      "kind": "crypto",
+      "englishName": "Convex Finance"
+    },
+    {
+      "code": "CZK",
+      "kind": "fiat",
+      "englishName": "Czech Koruna"
+    },
+    {
+      "code": "DAI",
+      "kind": "crypto",
+      "englishName": "Dai"
+    },
+    {
+      "code": "DASH",
+      "kind": "crypto",
+      "englishName": "Dash"
+    },
+    {
+      "code": "DCR",
+      "kind": "crypto",
+      "englishName": "Decred"
+    },
+    {
+      "code": "DFI",
+      "kind": "crypto",
+      "englishName": "DfiStarter"
+    },
+    {
+      "code": "DJF",
+      "kind": "fiat",
+      "englishName": "Djibouti Franc"
+    },
+    {
+      "code": "DKK",
+      "kind": "fiat",
+      "englishName": "Denmark Kroner"
+    },
+    {
+      "code": "DOGE",
+      "kind": "crypto",
+      "englishName": "Dogecoin"
+    },
+    {
+      "code": "DOP",
+      "kind": "fiat",
+      "englishName": "Dominican Peso"
+    },
+    {
+      "code": "DOT",
+      "kind": "crypto",
+      "englishName": "Polkadot"
+    },
+    {
+      "code": "DYDX",
+      "kind": "crypto",
+      "englishName": "dYdX"
+    },
+    {
+      "code": "DZD",
+      "kind": "fiat",
+      "englishName": "Algerian Dinar"
+    },
+    {
+      "code": "EGLD",
+      "kind": "crypto",
+      "englishName": "MultiversX"
+    },
+    {
+      "code": "EGP",
+      "kind": "fiat",
+      "englishName": "Egyptian Pound"
+    },
+    {
+      "code": "ENJ",
+      "kind": "crypto",
+      "englishName": "Enjin Coin"
+    },
+    {
+      "code": "EOS",
+      "kind": "crypto",
+      "englishName": "EOS"
+    },
+    {
+      "code": "ERN",
+      "kind": "fiat",
+      "englishName": "Eritrea Nakfa"
+    },
+    {
+      "code": "ETB",
+      "kind": "fiat",
+      "englishName": "Ethiopian Birr"
+    },
+    {
+      "code": "ETC",
+      "kind": "crypto",
+      "englishName": "Ethereum Classic"
+    },
+    {
+      "code": "ETH",
+      "kind": "crypto",
+      "englishName": "Ethereum"
+    },
+    {
+      "code": "EUR",
+      "kind": "fiat",
+      "englishName": "Euro"
+    },
+    {
+      "code": "EURC",
+      "kind": "crypto",
+      "englishName": "Euro Coin"
+    },
+    {
+      "code": "FIL",
+      "kind": "crypto",
+      "englishName": "Filecoin"
+    },
+    {
+      "code": "FJD",
+      "kind": "fiat",
+      "englishName": "Fiji Dollar"
+    },
+    {
+      "code": "FKP",
+      "kind": "fiat",
+      "englishName": "Falkland Islands Pound"
+    },
+    {
+      "code": "FLOW",
+      "kind": "crypto",
+      "englishName": "Flow"
+    },
+    {
+      "code": "FLR",
+      "kind": "crypto",
+      "englishName": "Flare"
+    },
+    {
+      "code": "FRAX",
+      "kind": "crypto",
+      "englishName": "Frax"
+    },
+    {
+      "code": "GALA",
+      "kind": "crypto",
+      "englishName": "Gala"
+    },
+    {
+      "code": "GBP",
+      "kind": "fiat",
+      "englishName": "Britain/UK/England Pound"
+    },
+    {
+      "code": "GEL",
+      "kind": "fiat",
+      "englishName": "Georgian lari"
+    },
+    {
+      "code": "GGP",
+      "kind": "fiat",
+      "englishName": "Guernsey Pound"
+    },
+    {
+      "code": "GHS",
+      "kind": "fiat",
+      "englishName": "Ghanaian cedi"
+    },
+    {
+      "code": "GIP",
+      "kind": "fiat",
+      "englishName": "Gibraltar Pound"
+    },
+    {
+      "code": "GMD",
+      "kind": "fiat",
+      "englishName": "Gambian Dalasi"
+    },
+    {
+      "code": "GMX",
+      "kind": "crypto",
+      "englishName": "GMX"
+    },
+    {
+      "code": "GNF",
+      "kind": "fiat",
+      "englishName": "Guinea Franc"
+    },
+    {
+      "code": "GNO",
+      "kind": "crypto",
+      "englishName": "Gnosis"
+    },
+    {
+      "code": "GRT",
+      "kind": "crypto",
+      "englishName": "The Graph"
+    },
+    {
+      "code": "GT",
+      "kind": "crypto",
+      "englishName": "GateToken"
+    },
+    {
+      "code": "GTQ",
+      "kind": "fiat",
+      "englishName": "Guatemala Quetzal"
+    },
+    {
+      "code": "GUSD",
+      "kind": "crypto",
+      "englishName": "Gemini US Dollar"
+    },
+    {
+      "code": "GYD",
+      "kind": "fiat",
+      "englishName": "Guyana Dollar"
+    },
+    {
+      "code": "HBAR",
+      "kind": "crypto",
+      "englishName": "Hedera"
+    },
+    {
+      "code": "HKD",
+      "kind": "fiat",
+      "englishName": "Hong Kong Dollars"
+    },
+    {
+      "code": "HNL",
+      "kind": "fiat",
+      "englishName": "Honduras Lempira"
+    },
+    {
+      "code": "HNT",
+      "kind": "crypto",
+      "englishName": "Helium"
+    },
+    {
+      "code": "HOT",
+      "kind": "crypto",
+      "englishName": "Holo"
+    },
+    {
+      "code": "HT",
+      "kind": "crypto",
+      "englishName": "Huobi Token"
+    },
+    {
+      "code": "HTG",
+      "kind": "fiat",
+      "englishName": "Haiti Gourde"
+    },
+    {
+      "code": "HUF",
+      "kind": "fiat",
+      "englishName": "Hungarian Forint"
+    },
+    {
+      "code": "ICP",
+      "kind": "crypto",
+      "englishName": "Internet Computer"
+    },
+    {
+      "code": "IDR",
+      "kind": "fiat",
+      "englishName": "Indonesian Rupiah"
+    },
+    {
+      "code": "ILS",
+      "kind": "fiat",
+      "englishName": "Israeli Shekel"
+    },
+    {
+      "code": "IMP",
+      "kind": "fiat",
+      "englishName": "Isle of Man Pound"
+    },
+    {
+      "code": "IMX",
+      "kind": "crypto",
+      "englishName": "Immutable X"
+    },
+    {
+      "code": "INJ",
+      "kind": "crypto",
+      "englishName": "Injective"
+    },
+    {
+      "code": "INR",
+      "kind": "fiat",
+      "englishName": "Indian Rupee"
+    },
+    {
+      "code": "IQD",
+      "kind": "fiat",
+      "englishName": "Iraqi Dinar"
+    },
+    {
+      "code": "IRR",
+      "kind": "fiat",
+      "englishName": "Iran Rial"
+    },
+    {
+      "code": "ISK",
+      "kind": "fiat",
+      "englishName": "Iceland Krona"
+    },
+    {
+      "code": "JEP",
+      "kind": "fiat",
+      "englishName": "Jersey Pound"
+    },
+    {
+      "code": "JMD",
+      "kind": "fiat",
+      "englishName": "Jamaican Dollar"
+    },
+    {
+      "code": "JOD",
+      "kind": "fiat",
+      "englishName": "Jordanian Dinar"
+    },
+    {
+      "code": "JPY",
+      "kind": "fiat",
+      "englishName": "Japanese Yen"
+    },
+    {
+      "code": "KAS",
+      "kind": "crypto",
+      "englishName": "Kaspa"
+    },
+    {
+      "code": "KAVA",
+      "kind": "crypto",
+      "englishName": "Kava"
+    },
+    {
+      "code": "KCS",
+      "kind": "crypto",
+      "englishName": "KuCoin Token"
+    },
+    {
+      "code": "KDA",
+      "kind": "crypto",
+      "englishName": "Kadena"
+    },
+    {
+      "code": "KES",
+      "kind": "fiat",
+      "englishName": "Kenyan Shilling"
+    },
+    {
+      "code": "KGS",
+      "kind": "fiat",
+      "englishName": "Kyrgystani Som"
+    },
+    {
+      "code": "KHR",
+      "kind": "fiat",
+      "englishName": "Cambodia Riel"
+    },
+    {
+      "code": "KLAY",
+      "kind": "crypto",
+      "englishName": "Klaytn"
+    },
+    {
+      "code": "KMF",
+      "kind": "fiat",
+      "englishName": "Comoros Franc"
+    },
+    {
+      "code": "KNC",
+      "kind": "crypto",
+      "englishName": "Kyber Network Crystals"
+    },
+    {
+      "code": "KPW",
+      "kind": "fiat",
+      "englishName": "North Korean Won"
+    },
+    {
+      "code": "KRW",
+      "kind": "fiat",
+      "englishName": "South Korean Won"
+    },
+    {
+      "code": "KSM",
+      "kind": "crypto",
+      "englishName": "Kusama"
+    },
+    {
+      "code": "KWD",
+      "kind": "fiat",
+      "englishName": "Kuwaiti Dinar"
+    },
+    {
+      "code": "KYD",
+      "kind": "fiat",
+      "englishName": "Cayman Islands Dollar"
+    },
+    {
+      "code": "KZT",
+      "kind": "fiat",
+      "englishName": "Kazakhstan Tenge"
+    },
+    {
+      "code": "LAK",
+      "kind": "fiat",
+      "englishName": "Lao Kip"
+    },
+    {
+      "code": "LBP",
+      "kind": "fiat",
+      "englishName": "Lebanese Pound"
+    },
+    {
+      "code": "LDO",
+      "kind": "crypto",
+      "englishName": "Lido DAO Token"
+    },
+    {
+      "code": "LEO",
+      "kind": "crypto",
+      "englishName": "UNUS SED LEO"
+    },
+    {
+      "code": "LINK",
+      "kind": "crypto",
+      "englishName": "Chainlink"
+    },
+    {
+      "code": "LKR",
+      "kind": "fiat",
+      "englishName": "Sri Lanka Rupee"
+    },
+    {
+      "code": "LRC",
+      "kind": "crypto",
+      "englishName": "Loopring"
+    },
+    {
+      "code": "LRD",
+      "kind": "fiat",
+      "englishName": "Liberian Dollar"
+    },
+    {
+      "code": "LSL",
+      "kind": "fiat",
+      "englishName": "Lesotho Loti"
+    },
+    {
+      "code": "LTC",
+      "kind": "crypto",
+      "englishName": "Litecoin"
+    },
+    {
+      "code": "LYD",
+      "kind": "fiat",
+      "englishName": "Libyan Dinar"
+    },
+    {
+      "code": "MAD",
+      "kind": "fiat",
+      "englishName": "Moroccan Dirham"
+    },
+    {
+      "code": "MANA",
+      "kind": "crypto",
+      "englishName": "Decentraland"
+    },
+    {
+      "code": "MBX",
+      "kind": "crypto",
+      "englishName": "MobieCoin"
+    },
+    {
+      "code": "MDL",
+      "kind": "fiat",
+      "englishName": "Moldovan Leu"
+    },
+    {
+      "code": "MGA",
+      "kind": "fiat",
+      "englishName": "Malagasy Ariary"
+    },
+    {
+      "code": "MINA",
+      "kind": "crypto",
+      "englishName": "Mina"
+    },
+    {
+      "code": "MKD",
+      "kind": "fiat",
+      "englishName": "Macedonian Denar"
+    },
+    {
+      "code": "MKR",
+      "kind": "crypto",
+      "englishName": "Maker"
+    },
+    {
+      "code": "MMK",
+      "kind": "fiat",
+      "englishName": "Myanmar Kyat"
+    },
+    {
+      "code": "MNT",
+      "kind": "fiat",
+      "englishName": "Mongolian Tugrik"
+    },
+    {
+      "code": "MOP",
+      "kind": "fiat",
+      "englishName": "Macau Pataca"
+    },
+    {
+      "code": "MRU",
+      "kind": "fiat",
+      "englishName": "Mauritanian Ouguiya"
+    },
+    {
+      "code": "MUR",
+      "kind": "fiat",
+      "englishName": "Mauritius Rupee"
+    },
+    {
+      "code": "MVR",
+      "kind": "fiat",
+      "englishName": "Maldives Rufiyaa"
+    },
+    {
+      "code": "MWK",
+      "kind": "fiat",
+      "englishName": "Malawi Kwacha"
+    },
+    {
+      "code": "MXN",
+      "kind": "fiat",
+      "englishName": "Mexico Peso"
+    },
+    {
+      "code": "MYR",
+      "kind": "fiat",
+      "englishName": "Malaysian Ringgit"
+    },
+    {
+      "code": "MZN",
+      "kind": "fiat",
+      "englishName": "Mozambique New Metical"
+    },
+    {
+      "code": "NAD",
+      "kind": "fiat",
+      "englishName": "Namibian Dollar"
+    },
+    {
+      "code": "NEAR",
+      "kind": "crypto",
+      "englishName": "NEAR Protocol"
+    },
+    {
+      "code": "NEO",
+      "kind": "crypto",
+      "englishName": "Neo"
+    },
+    {
+      "code": "NEXO",
+      "kind": "crypto",
+      "englishName": "Nexo"
+    },
+    {
+      "code": "NFT",
+      "kind": "crypto",
+      "englishName": "APENFT"
+    },
+    {
+      "code": "NGN",
+      "kind": "fiat",
+      "englishName": "Nigerian Naira"
+    },
+    {
+      "code": "NIO",
+      "kind": "fiat",
+      "englishName": "Nicaragua Cordoba"
+    },
+    {
+      "code": "NOK",
+      "kind": "fiat",
+      "englishName": "Norway Kroner"
+    },
+    {
+      "code": "NPR",
+      "kind": "fiat",
+      "englishName": "Nepalese Rupee"
+    },
+    {
+      "code": "NZD",
+      "kind": "fiat",
+      "englishName": "New Zealand Dollars"
+    },
+    {
+      "code": "OKB",
+      "kind": "crypto",
+      "englishName": "OKB"
+    },
+    {
+      "code": "OMR",
+      "kind": "fiat",
+      "englishName": "Omani Rial"
+    },
+    {
+      "code": "ONE",
+      "kind": "crypto",
+      "englishName": "Harmony"
+    },
+    {
+      "code": "OP",
+      "kind": "crypto",
+      "englishName": "Optimism"
+    },
+    {
+      "code": "ORDI",
+      "kind": "crypto",
+      "englishName": "Ordinals"
+    },
+    {
+      "code": "PAB",
+      "kind": "fiat",
+      "englishName": "Panama Balboa"
+    },
+    {
+      "code": "PAXG",
+      "kind": "crypto",
+      "englishName": "PAX Gold"
+    },
+    {
+      "code": "PEN",
+      "kind": "fiat",
+      "englishName": "Peruvian Nuevo Sol"
+    },
+    {
+      "code": "PEPE",
+      "kind": "crypto",
+      "englishName": "Pepe"
+    },
+    {
+      "code": "PGK",
+      "kind": "fiat",
+      "englishName": "Papua New Guinea Kina"
+    },
+    {
+      "code": "PHP",
+      "kind": "fiat",
+      "englishName": "Philippine Peso"
+    },
+    {
+      "code": "PI",
+      "kind": "crypto",
+      "englishName": "Plian"
+    },
+    {
+      "code": "PKR",
+      "kind": "fiat",
+      "englishName": "Pakistan Rupee"
+    },
+    {
+      "code": "PLN",
+      "kind": "fiat",
+      "englishName": "Polish New Zloty"
+    },
+    {
+      "code": "POL",
+      "kind": "crypto",
+      "englishName": "Polygon"
+    },
+    {
+      "code": "PYG",
+      "kind": "fiat",
+      "englishName": "Paraguayan Guarani"
+    },
+    {
+      "code": "QAR",
+      "kind": "fiat",
+      "englishName": "Qatar Rial"
+    },
+    {
+      "code": "QNT",
+      "kind": "crypto",
+      "englishName": "Quant"
+    },
+    {
+      "code": "QTUM",
+      "kind": "crypto",
+      "englishName": "Qtum"
+    },
+    {
+      "code": "RON",
+      "kind": "fiat",
+      "englishName": "Romanian Leu"
+    },
+    {
+      "code": "RPL",
+      "kind": "crypto",
+      "englishName": "Rocket Pool"
+    },
+    {
+      "code": "RSD",
+      "kind": "fiat",
+      "englishName": "Serbian Dinar"
+    },
+    {
+      "code": "RUB",
+      "kind": "fiat",
+      "englishName": "Russian Rouble"
+    },
+    {
+      "code": "RUNE",
+      "kind": "crypto",
+      "englishName": "THORChain"
+    },
+    {
+      "code": "RVN",
+      "kind": "crypto",
+      "englishName": "Ravencoin"
+    },
+    {
+      "code": "RWF",
+      "kind": "fiat",
+      "englishName": "Rwanda Franc"
+    },
+    {
+      "code": "SAND",
+      "kind": "crypto",
+      "englishName": "The Sandbox"
+    },
+    {
+      "code": "SAR",
+      "kind": "fiat",
+      "englishName": "Saudi Riyal"
+    },
+    {
+      "code": "SBD",
+      "kind": "fiat",
+      "englishName": "Solomon Islands Dollar"
+    },
+    {
+      "code": "SCR",
+      "kind": "fiat",
+      "englishName": "Seychelles Rupee"
+    },
+    {
+      "code": "SDG",
+      "kind": "fiat",
+      "englishName": "Sudanese Pound"
+    },
+    {
+      "code": "SEK",
+      "kind": "fiat",
+      "englishName": "Sweden Kronor"
+    },
+    {
+      "code": "SGD",
+      "kind": "fiat",
+      "englishName": "Singapore Dollars"
+    },
+    {
+      "code": "SHIB",
+      "kind": "crypto",
+      "englishName": "Shiba Inu"
+    },
+    {
+      "code": "SHP",
+      "kind": "fiat",
+      "englishName": "St Helena Pound"
+    },
+    {
+      "code": "SLE",
+      "kind": "fiat",
+      "englishName": "Sierra Leonean Leone"
+    },
+    {
+      "code": "SNX",
+      "kind": "crypto",
+      "englishName": "Synthetix Network"
+    },
+    {
+      "code": "SOL",
+      "kind": "crypto",
+      "englishName": "Solana"
+    },
+    {
+      "code": "SOS",
+      "kind": "fiat",
+      "englishName": "Somali Shilling"
+    },
+    {
+      "code": "SPL",
+      "kind": "fiat",
+      "englishName": "Seborgan Luigino"
+    },
+    {
+      "code": "SRD",
+      "kind": "fiat",
+      "englishName": "Suriname Dollar"
+    },
+    {
+      "code": "STN",
+      "kind": "fiat",
+      "englishName": "Sao Tome Dobra"
+    },
+    {
+      "code": "STX",
+      "kind": "crypto",
+      "englishName": "Stacks"
+    },
+    {
+      "code": "SUI",
+      "kind": "crypto",
+      "englishName": "Sui"
+    },
+    {
+      "code": "SYP",
+      "kind": "fiat",
+      "englishName": "Syrian Pound"
+    },
+    {
+      "code": "SZL",
+      "kind": "fiat",
+      "englishName": "Swaziland Lilageni"
+    },
+    {
+      "code": "THB",
+      "kind": "fiat",
+      "englishName": "Thai Baht"
+    },
+    {
+      "code": "THETA",
+      "kind": "crypto",
+      "englishName": "Theta"
+    },
+    {
+      "code": "TJS",
+      "kind": "fiat",
+      "englishName": "Tajikistani Somoni"
+    },
+    {
+      "code": "TMT",
+      "kind": "fiat",
+      "englishName": "Turkmenistani Manat"
+    },
+    {
+      "code": "TND",
+      "kind": "fiat",
+      "englishName": "Tunisian Dinar"
+    },
+    {
+      "code": "TOP",
+      "kind": "fiat",
+      "englishName": "Tonga Pa'ang"
+    },
+    {
+      "code": "TRX",
+      "kind": "crypto",
+      "englishName": "TRON"
+    },
+    {
+      "code": "TRY",
+      "kind": "fiat",
+      "englishName": "Turkish Lira"
+    },
+    {
+      "code": "TTD",
+      "kind": "fiat",
+      "englishName": "Trinidad  Tobago Dollar"
+    },
+    {
+      "code": "TUSD",
+      "kind": "crypto",
+      "englishName": "True USD"
+    },
+    {
+      "code": "TVD",
+      "kind": "fiat",
+      "englishName": "Tuvaluan Dollar"
+    },
+    {
+      "code": "TWD",
+      "kind": "fiat",
+      "englishName": "Taiwan Dollar"
+    },
+    {
+      "code": "TWT",
+      "kind": "crypto",
+      "englishName": "Trust Wallet Token"
+    },
+    {
+      "code": "TZS",
+      "kind": "fiat",
+      "englishName": "Tanzanian Shilling"
+    },
+    {
+      "code": "UAH",
+      "kind": "fiat",
+      "englishName": "Ukrainian Hryvnia"
+    },
+    {
+      "code": "UGX",
+      "kind": "fiat",
+      "englishName": "Ugandan Shilling"
+    },
+    {
+      "code": "UNI",
+      "kind": "crypto",
+      "englishName": "Uniswap"
+    },
+    {
+      "code": "USD",
+      "kind": "fiat",
+      "englishName": "US Dollars"
+    },
+    {
+      "code": "USDC",
+      "kind": "crypto",
+      "englishName": "USD Coin"
+    },
+    {
+      "code": "USDD",
+      "kind": "crypto",
+      "englishName": "USDD"
+    },
+    {
+      "code": "USDP",
+      "kind": "crypto",
+      "englishName": "Pax Dollar"
+    },
+    {
+      "code": "USDT",
+      "kind": "crypto",
+      "englishName": "Tether"
+    },
+    {
+      "code": "UYU",
+      "kind": "fiat",
+      "englishName": "Uruguayan New Peso"
+    },
+    {
+      "code": "UZS",
+      "kind": "fiat",
+      "englishName": "Uzbekistani Som"
+    },
+    {
+      "code": "VES",
+      "kind": "fiat",
+      "englishName": "Venezuelan Bolivar"
+    },
+    {
+      "code": "VET",
+      "kind": "crypto",
+      "englishName": "VeChain"
+    },
+    {
+      "code": "VND",
+      "kind": "fiat",
+      "englishName": "Vietnam Dong"
+    },
+    {
+      "code": "VUV",
+      "kind": "fiat",
+      "englishName": "Vanuatu Vatu"
+    },
+    {
+      "code": "WAVES",
+      "kind": "crypto",
+      "englishName": "Waves"
+    },
+    {
+      "code": "WEMIX",
+      "kind": "crypto",
+      "englishName": "WEMIX"
+    },
+    {
+      "code": "WOO",
+      "kind": "crypto",
+      "englishName": "WOO Network"
+    },
+    {
+      "code": "WST",
+      "kind": "fiat",
+      "englishName": "Samoa Tala"
+    },
+    {
+      "code": "XAF",
+      "kind": "fiat",
+      "englishName": "Central African CFA Franc"
+    },
+    {
+      "code": "XAG",
+      "kind": "metal",
+      "englishName": "Silver Ounce"
+    },
+    {
+      "code": "XAU",
+      "kind": "metal",
+      "englishName": "Gold Ounce"
+    },
+    {
+      "code": "XAUT",
+      "kind": "crypto",
+      "englishName": "Tether Gold"
+    },
+    {
+      "code": "XCD",
+      "kind": "fiat",
+      "englishName": "East Caribbean Dollar"
+    },
+    {
+      "code": "XCG",
+      "kind": "fiat",
+      "englishName": "Caribbean Guilder"
+    },
+    {
+      "code": "XCH",
+      "kind": "crypto",
+      "englishName": "Chia"
+    },
+    {
+      "code": "XDC",
+      "kind": "crypto",
+      "englishName": "XDC Network"
+    },
+    {
+      "code": "XDR",
+      "kind": "fiat",
+      "englishName": "Special Drawing Rights"
+    },
+    {
+      "code": "XEC",
+      "kind": "crypto",
+      "englishName": "eCash"
+    },
+    {
+      "code": "XEM",
+      "kind": "crypto",
+      "englishName": "NEM"
+    },
+    {
+      "code": "XLM",
+      "kind": "crypto",
+      "englishName": "Stellar Lumen"
+    },
+    {
+      "code": "XMR",
+      "kind": "crypto",
+      "englishName": "Monero"
+    },
+    {
+      "code": "XOF",
+      "kind": "fiat",
+      "englishName": "West African CFA Franc"
+    },
+    {
+      "code": "XPD",
+      "kind": "metal",
+      "englishName": "Palladium Ounce"
+    },
+    {
+      "code": "XPF",
+      "kind": "fiat",
+      "englishName": "Pacific Franc"
+    },
+    {
+      "code": "XPT",
+      "kind": "metal",
+      "englishName": "Platinum Ounce"
+    },
+    {
+      "code": "XRP",
+      "kind": "crypto",
+      "englishName": "XRP"
+    },
+    {
+      "code": "XTZ",
+      "kind": "crypto",
+      "englishName": "Tezos"
+    },
+    {
+      "code": "YER",
+      "kind": "fiat",
+      "englishName": "Yemen Riyal"
+    },
+    {
+      "code": "ZAR",
+      "kind": "fiat",
+      "englishName": "South African Rand"
+    },
+    {
+      "code": "ZEC",
+      "kind": "crypto",
+      "englishName": "Zcash"
+    },
+    {
+      "code": "ZIL",
+      "kind": "crypto",
+      "englishName": "Zilliqa"
+    },
+    {
+      "code": "ZMW",
+      "kind": "fiat",
+      "englishName": "Zambian Kwacha"
+    },
+    {
+      "code": "ZWG",
+      "kind": "fiat",
+      "englishName": "Zimbabwe Gold (ZiG)"
+    }
+  ]
+}

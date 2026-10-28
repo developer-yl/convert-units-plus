@@ -20,3 +20,6 @@ caption{text-align:left;padding:16px;font-weight:650;color:var(--ink);background
 .article-body .review-excerpt p{margin:0}
 
 .review-rating{display:inline-block;white-space:nowrap;letter-spacing:.08em;color:var(--blue);margin-left:10px}.review-meta{display:block;margin-top:4px;font-size:13px;color:var(--muted)}
+
+/* Complete catalogs stay navigable on narrow screens. */
+.catalog-index{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:8px;margin:24px 0 32px;padding:20px;background:var(--wash);border-radius:16px}.catalog-index a{display:block;font-size:14px;line-height:1.45;padding:6px 0;overflow-wrap:anywhere}.catalog-index span{color:var(--muted)}.catalog section{scroll-margin-top:100px;margin-top:48px}.catalog h2 small{font-size:15px;font-weight:450;color:var(--muted)}.catalog table{min-width:0;width:100%}.catalog td,.catalog th{overflow-wrap:anywhere}.catalog th:first-child{width:54%}.catalog #fiat th:first-child,.catalog #crypto th:first-child,.catalog #metal th:first-child{width:18%}.catalog td{white-space:normal}

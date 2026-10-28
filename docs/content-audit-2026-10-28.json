@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "checkedOn": "2026-10-28",
+  "htmlPages": 26,
+  "articles": 19,
+  "competitors": 11,
+  "appsWithCriticalReviews": 6,
+  "selectedReviewExamples": 9,
+  "writtenReviewRecordsReturned": 500,
+  "currentVersionReviewsMatched": 151,
+  "reviewSourcesAndContextAgree": true,
+  "comparisonFormatsAgree": true,
+  "allCompetitorsHaveSourcesAndCaveats": true,
+  "keywordTokensCovered": 298,
+  "missingKeywords": [],
+  "coverageByLocale": {
+    "en-US": {
+      "covered": 24,
+      "total": 24
+    },
+    "ar-SA": {
+      "covered": 28,
+      "total": 28
+    },
+    "zh-Hans": {
+      "covered": 43,
+      "total": 43
+    },
+    "zh-Hant": {
+      "covered": 25,
+      "total": 25
+    },
+    "fr-FR": {
+      "covered": 32,
+      "total": 32
+    },
+    "ko": {
+      "covered": 33,
+      "total": 33
+    },
+    "pt-BR": {
+      "covered": 29,
+      "total": 29
+    },
+    "ru": {
+      "covered": 31,
+      "total": 31
+    },
+    "es-MX": {
+      "covered": 28,
+      "total": 28
+    },
+    "vi": {
+      "covered": 32,
+      "total": 32
+    }
+  },
+  "internalLinksValid": true,
+  "jsonLdValid": true,
+  "genuineAssetHashesValid": true,
+  "testimonials": 3,
+  "sitemapEntries": 26,
+  "privacyPolicyPreserved": true,
+  "comparisonFactsCheckedOn": "2026-10-26"
+}

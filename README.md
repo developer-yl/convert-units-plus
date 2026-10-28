@@ -249,3 +249,53 @@ preserve the wording separately from editorial paraphrases.
 The generated stylesheet URL includes a content fingerprint so returning browsers receive updated styling when quote formatting changes.
 
 Quoted reviews now show literal quotation marks, the source reviewer’s public display name and filled/empty stars corresponding to the source rating. Excerpt labels are omitted; title/body provenance remains in the structured record. Display names and ratings were matched to the same Apple review IDs.
+
+## Complete catalog and search coverage — 28 October 2026
+
+`content/app-catalog.json` is the full English package snapshot: 72 registry
+categories (71 measurement categories plus Currency), 685 measurement entries,
+and 289 selectable currency/crypto/metal codes. The grouping is 160 world
+currency and currency-like entries, 125 crypto assets/tokens, and four metals.
+SSP is excluded according to ConversionKit’s retired-selection policy. Token
+names and classification follow the package catalog; neither inclusion nor the
+fiat grouping establishes a currently circulating currency or a fresh market.
+The package working catalog contains label/classification corrections compared
+with older resolved copies; the selectable code set was checked against both
+White app resolutions. No package or app code was modified for this website.
+
+Refresh the snapshot with the exporter, then rebuild normally:
+
+```sh
+python3 scripts/export_app_catalog.py --conversion-kit /path/to/ConversionKit --currency-kit /path/to/CurrencyKit
+python3 scripts/build_site.py
+python3 scripts/validate_site.py
+```
+
+The exporter checks category registry parity, every declared currency code and
+retired selections, and records source hashes. Add `--check` to verify a snapshot
+against those same package sources without rewriting it. Ordinary website builds
+read the committed snapshot and need no access to private packages.
+
+`catalog_content.py` generates the measurement directory and replaces the partial
+currency lookup at its existing URL. Every entry is visible static HTML. Matching
+`data/app-catalog.json` and `reference/app-catalog.md` files are discoverable from
+the catalogs, Dataset metadata and llms.txt. Homepage, footer and guide-hub links
+lead to the complete directories. The validator checks each of the 685 unit rows
+and 289 currency rows, names, symbols, groups, text copies and category anchors.
+
+Five practical guides cover calculator/history/widgets, measurement conversions,
+kitchen units, travel currencies, and crypto/metals. Search coverage reviews all
+279 terms in the saved 25 October `aso-us-ads-expanded` report and its linked JSON,
+including the terms outside the 46 eligible title phrases. `content/search-term-coverage.json`
+records each inclusion or exclusion without campaign IDs or popularity scores.
+All 272 relevant phrases occur as exact phrases in visible explanatory HTML;
+conditional searches clarify limits for mixed feet/inches, geometric calculations,
+recipe conversions, forex, cash and price widgets. The seven excluded standalone
+intents are scale conversion calculator, countries conversion calculator,
+fractions conversion calculator, fraction calculator, scientific calculator,
+time calculator and satoshi calculator. None is represented as a supported feature.
+
+`docs/catalog-and-search-audit-2026-10-28.json` records every phrase’s matching
+pages and each exclusion’s reason. The existing metadata-token checks and
+competitor-source dates are preserved; this catalog update does not advance a
+competitor’s last-checked date. Public text avoids ad-research mechanics.

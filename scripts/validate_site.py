@@ -5,6 +5,7 @@ from pathlib import Path
 import hashlib,json,re,unicodedata,urllib.parse,xml.etree.ElementTree as ET
 from comparison_content import comparison_article, product_article, review_article
 from advertising_content import advertising_article, advertising_records
+from validate_catalog import validate_catalog
 ROOT=Path(__file__).resolve().parents[1]
 class Page(HTMLParser):
  def __init__(self):super().__init__();self.skip=0;self.words=[];self.links=[];self.ids=set();self.images=[];self.h1=0;self.script=False;self.jsonld=[];self.buffer=[];self.canonical=None;self.description=None;self.title=False;self.title_text=[]
@@ -61,6 +62,7 @@ for locale in inventory['localeRecords']:
  coverage[locale['locale']]={'covered':len(covered),'total':len(locale['uniqueTokens'])}
 assert not missing,missing
 home=files[(ROOT/'index.html').resolve()]
+catalog_report=validate_catalog(ROOT,files)
 assert {'what-is-the-app','how-it-works','main-features','audience-segments','testimonials','support'}.issubset(home.ids)
 reviews=json.loads((ROOT/'content/testimonials.json').read_text());assert all(r['rating']==5 and r['author'] and r['reviewId'] and r['sourceURL'] for r in reviews)
 assert sum(len(r['quote'].split()) for r in reviews)<=25
@@ -150,5 +152,8 @@ assert 'Review excerpt' not in ad_text and 'Review title excerpt' not in ad_text
 assert all('conclusion' in p.ids for p in (ad_page,review_page,comparison_page))
 assert 'Singapore' not in ad_text and 'Machine-readable' not in ad_text
 report={'passed':True,'checkedOn':comparison['checkedOn'],'htmlPages':len(files),'articles':len(articles),'competitors':11,'appsWithCriticalReviews':6,'selectedReviewExamples':selected,'writtenReviewRecordsReturned':500,'currentVersionReviewsMatched':151,'reviewSourcesAndContextAgree':True,'comparisonFormatsAgree':True,'allCompetitorsHaveSourcesAndCaveats':True,'keywordTokensCovered':len(inventory['uniqueTokenInventory']),'missingKeywords':missing,'coverageByLocale':coverage,'internalLinksValid':True,'jsonLdValid':True,'genuineAssetHashesValid':True,'testimonials':len(reviews),'sitemapEntries':len(urls),'privacyPolicyPreserved':True}
-(ROOT/('docs/content-audit-'+comparison['checkedOn']+'.json')).write_text(json.dumps(report,indent=2)+'\n')
+report['comparisonFactsCheckedOn']=comparison['checkedOn']
+report['checkedOn']=catalog_report['checkedOn']
+(ROOT/('docs/content-audit-'+report['checkedOn']+'.json')).write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps(report,indent=2))
+print(json.dumps(catalog_report,indent=2))
