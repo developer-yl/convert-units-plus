@@ -34,6 +34,7 @@ The app covers 72 categories and 685 non-currency units. It includes Simple and 
 - [Cooking and baking unit conversions](https://developer-yl.github.io/convert-units-plus/guides/kitchen-cooking-unit-conversions/)
 - [Travel currency converter: names, pairs and offline rates](https://developer-yl.github.io/convert-units-plus/guides/travel-currency-converter-guide/)
 - [Crypto and precious metals: compare codes, amounts and quotes](https://developer-yl.github.io/convert-units-plus/guides/crypto-and-precious-metals-guide/)
+- [How to use Siri and Shortcuts with Conversion Calculator Plus](https://developer-yl.github.io/convert-units-plus/guides/siri-shortcuts-conversion-calculator-plus/)
 
 ## Structured reference
 - [Complete app catalog as JSON](https://developer-yl.github.io/convert-units-plus/data/app-catalog.json)

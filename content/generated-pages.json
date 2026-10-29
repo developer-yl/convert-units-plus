@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28",
+  "generatedAt": "2026-10-29",
   "pages": [
     {
       "path": "index.html",
@@ -104,6 +104,11 @@
     {
       "path": "guides/crypto-and-precious-metals-guide/index.html",
       "url": "https://developer-yl.github.io/convert-units-plus/guides/crypto-and-precious-metals-guide/",
+      "language": "en"
+    },
+    {
+      "path": "guides/siri-shortcuts-conversion-calculator-plus/index.html",
+      "url": "https://developer-yl.github.io/convert-units-plus/guides/siri-shortcuts-conversion-calculator-plus/",
       "language": "en"
     },
     {
